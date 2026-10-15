@@ -1,0 +1,22 @@
+{
+ "kobo": {
+  "src": "readers/products/kobo.png",
+  "w": 1390,
+  "h": 1540
+ },
+ "colorsoft": {
+  "src": "readers/products/colorsoft.png",
+  "w": 1305,
+  "h": 1380
+ },
+ "paperwhite": {
+  "src": "readers/products/paperwhite.png",
+  "w": 1179,
+  "h": 1406
+ },
+ "hand": {
+  "src": "readers/products/hand.jpg",
+  "w": 1041,
+  "h": 1120
+ }
+}

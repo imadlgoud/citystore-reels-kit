@@ -1,0 +1,12 @@
+{
+ "id": "readers",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [5.27, 11.6, 18.6, 25.47, 29.32, 33.85],
+ "lead": 0.06,
+ "voEndBy": 999,
+ "maxPause": 0.14,
+ "sentPause": 0.24,
+ "maxSeconds": 60,
+ "note": "36.3 s take: does not fit 30 s even at 1.1x, so (pre-approved) full VO at natural speed with pauses trimmed. Three e-readers: Kobo Libra Colour, Kindle Colorsoft 16GB Black, Kindle Paperwhite (12th gen) 16GB Black. 9:16 + cover only."
+}

@@ -78,6 +78,10 @@ STYLES = {
     "tabs": dict(seed=152, dur=42.0, phase=1.0, drop=3.5, end_lift=38.5, stop=40.5,
                  chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                  final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # E-readers reel (36.5 s, over 30 s at natural speed): calm-bright G-major page-turner; drop when the e-readers land
+    "readers": dict(seed=196, dur=36.5, phase=1.0, drop=3.0, end_lift=33.0, stop=35.0,
+                    chords=[[55, 59, 62], [52, 55, 59], [48, 52, 55], [50, 54, 57]], roots=[43, 40, 36, 38],
+                    final=[55, 59, 62, 67], final_bass=43, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
 }
 ST = STYLES[REEL]
 SR = 48000

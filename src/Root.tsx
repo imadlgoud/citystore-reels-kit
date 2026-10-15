@@ -51,6 +51,9 @@ import { QTL } from "./reels/quest/timeline";
 import { DiscReel } from "./reels/disc/DiscReel";
 import { DiscCover } from "./reels/disc/DiscCover";
 import { DTL } from "./reels/disc/timeline";
+import { ReadersReel } from "./reels/readers/ReadersReel";
+import { ReadersCover } from "./reels/readers/ReadersCover";
+import { RTL_READERS } from "./reels/readers/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -110,6 +113,9 @@ export const RemotionRoot: React.FC = () => (
     {/* PlayStation Disc Drive: 30 s, 9:16 + cover only (the user asked for no 1:1) */}
     <Composition id="DiscReel9x16" component={DiscReel} durationInFrames={Math.min(DTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="DiscCover" component={DiscCover} width={1080} height={1920} />
+    {/* E-readers (Kobo Libra Colour, Kindle Colorsoft, Kindle Paperwhite): 36.5 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
+    <Composition id="ReadersReel9x16" component={ReadersReel} durationInFrames={RTL_READERS.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="ReadersCover" component={ReadersCover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

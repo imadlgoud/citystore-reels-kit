@@ -5,3 +5,7 @@ out/*/*_raw.mp4
 out/preview/
 tools/rhubarb/
 assets/logo_source.jpg
+__pycache__/
+assets/sfx/
+public/*/audio/
+out/*/*.mp4
