@@ -82,6 +82,10 @@ STYLES = {
     "readers": dict(seed=196, dur=36.5, phase=1.0, drop=3.0, end_lift=33.0, stop=35.0,
                     chords=[[55, 59, 62], [52, 55, 59], [48, 52, 55], [50, 54, 57]], roots=[43, 40, 36, 38],
                     final=[55, 59, 62, 67], final_bass=43, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
+    # Galaxy Watch9 reel (30 s): sleek A-minor tech groove; drop when the box pops open
+    "watch9": dict(seed=207, phase=1.0, drop=1.0, end_lift=27.75, stop=28.5,
+                   chords=[[57, 60, 64], [53, 57, 60], [55, 59, 62], [52, 55, 59]], roots=[45, 41, 43, 40],
+                   final=[57, 60, 64, 69], final_bass=33, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
 }
 ST = STYLES[REEL]
 SR = 48000

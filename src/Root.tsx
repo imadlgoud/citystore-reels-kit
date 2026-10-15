@@ -54,6 +54,9 @@ import { DTL } from "./reels/disc/timeline";
 import { ReadersReel } from "./reels/readers/ReadersReel";
 import { ReadersCover } from "./reels/readers/ReadersCover";
 import { RTL_READERS } from "./reels/readers/timeline";
+import { Watch9Reel } from "./reels/watch9/Watch9Reel";
+import { Watch9Cover } from "./reels/watch9/Watch9Cover";
+import { W9TL } from "./reels/watch9/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -116,6 +119,9 @@ export const RemotionRoot: React.FC = () => (
     {/* E-readers (Kobo Libra Colour, Kindle Colorsoft, Kindle Paperwhite): 36.5 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
     <Composition id="ReadersReel9x16" component={ReadersReel} durationInFrames={RTL_READERS.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="ReadersCover" component={ReadersCover} width={1080} height={1920} />
+    {/* Galaxy Watch9 40mm LTE Black: 30 s, 9:16 + cover only */}
+    <Composition id="Watch9Reel9x16" component={Watch9Reel} durationInFrames={Math.min(W9TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="Watch9Cover" component={Watch9Cover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

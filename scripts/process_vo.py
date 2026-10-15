@@ -143,7 +143,9 @@ SPOKEN = {"18": "dix-huit", "100": "cent pour cent", "%": "", "citystore.ma": "c
           "ps5": "pi es sank", "ps4": "pi es katr", "digital": "di ji tal", "pro": "pro", "cd": "si di", "playstation": "plei stei shen",
           "disc": "disk", "drive": "draiv", "blu-ray": "blu rei", "4k": "katr ka", "kobo": "ko bo", "libra": "li bra", "colour": "ko leur", "kindle": "kin del", "colorsoft": "ko lor soft",
           "paperwhite": "pei per wait", "liseuses": "li zeuz", "boutons": "bu ton", "stylet": "sti le", "16gb": "sez ji ga",
-          "12e": "du zyem", "génération": "je ne ra syon", "e": "i", "ink": "ink", "les": "le"}
+          "12e": "du zyem", "génération": "je ne ra syon", "e": "i", "ink": "ink", "les": "le",
+          "watch9": "watch neuf", "40mm": "ka rant mi li metr", "lte": "el te e", "snapdragon": "snap dra gon", "elite": "e lit",
+          "processeur": "pro se seur", "20%": "vin pour san", "gemini:": "dje mi ni"}
 ARABIC = "\\u0621-\\u063F\\u0641-\\u064A\\u0671-\\u06D3"  # Arabic letters (no punctuation, no tatweel)
 
 

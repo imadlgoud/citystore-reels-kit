@@ -1,0 +1,22 @@
+{
+ "angle": {
+  "src": "watch9/products/angle.png",
+  "w": 704,
+  "h": 821
+ },
+ "front": {
+  "src": "watch9/products/front.png",
+  "w": 965,
+  "h": 1602
+ },
+ "back": {
+  "src": "watch9/products/back.png",
+  "w": 938,
+  "h": 1083
+ },
+ "charger": {
+  "src": "watch9/products/charger.png",
+  "w": 577,
+  "h": 1348
+ }
+}

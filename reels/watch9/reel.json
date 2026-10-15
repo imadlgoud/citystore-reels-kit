@@ -1,0 +1,11 @@
+{
+ "id": "watch9",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [3.55, 7.66, 14.0, 18.49, 22.16, 25.37, 29.17],
+ "lead": 0.06,
+ "voEndBy": 28.9,
+ "maxPause": 0.14,
+ "sentPause": 0.35,
+ "note": "Galaxy Watch9 40mm LTE Black. Fits 30 s at natural speed with pause trimming (no speed-up). 9:16 + cover only."
+}

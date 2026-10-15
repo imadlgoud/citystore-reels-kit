@@ -86,7 +86,11 @@
     "readers:cutout": "python3 reels/readers/cutout.py",
     "readers:audio": "REEL=readers python3 scripts/process_vo_take.py && python3 reels/readers/build_timeline.py && REEL=readers python3 scripts/make_music.py && REEL=readers python3 scripts/mix_audio.py",
     "readers:render": "remotion render ReadersReel9x16 out/readers/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still ReadersCover out/readers/cover_1080x1920.png",
-    "readers:build": "npm run readers:cutout && npm run readers:audio && REEL=readers node scripts/make_srt.mjs && npm run readers:render && REEL=readers bash scripts/finalize.sh && REEL=readers bash scripts/verify.sh"
+    "readers:build": "npm run readers:cutout && npm run readers:audio && REEL=readers node scripts/make_srt.mjs && npm run readers:render && REEL=readers bash scripts/finalize.sh && REEL=readers bash scripts/verify.sh",
+    "watch9:cutout": "python3 reels/watch9/cutout.py",
+    "watch9:audio": "REEL=watch9 python3 scripts/process_vo_take.py && python3 reels/watch9/build_timeline.py && REEL=watch9 python3 scripts/make_music.py && REEL=watch9 python3 scripts/mix_audio.py",
+    "watch9:render": "remotion render Watch9Reel9x16 out/watch9/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Watch9Cover out/watch9/cover_1080x1920.png",
+    "watch9:build": "npm run watch9:cutout && npm run watch9:audio && REEL=watch9 node scripts/make_srt.mjs && npm run watch9:render && REEL=watch9 bash scripts/finalize.sh && REEL=watch9 bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",
