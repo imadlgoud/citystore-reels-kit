@@ -57,6 +57,9 @@ import { RTL_READERS } from "./reels/readers/timeline";
 import { Watch9Reel } from "./reels/watch9/Watch9Reel";
 import { Watch9Cover } from "./reels/watch9/Watch9Cover";
 import { W9TL } from "./reels/watch9/timeline";
+import { Hero10Reel } from "./reels/hero10/Hero10Reel";
+import { Hero10Cover } from "./reels/hero10/Hero10Cover";
+import { H10TL } from "./reels/hero10/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -122,6 +125,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Galaxy Watch9 40mm LTE Black: 30 s, 9:16 + cover only */}
     <Composition id="Watch9Reel9x16" component={Watch9Reel} durationInFrames={Math.min(W9TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Watch9Cover" component={Watch9Cover} width={1080} height={1920} />
+    {/* GoPro HERO10 Black (used unit): 30 s, 9:16 + cover only */}
+    <Composition id="Hero10Reel9x16" component={Hero10Reel} durationInFrames={Math.min(H10TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="Hero10Cover" component={Hero10Cover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

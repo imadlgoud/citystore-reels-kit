@@ -90,7 +90,11 @@
     "watch9:cutout": "python3 reels/watch9/cutout.py",
     "watch9:audio": "REEL=watch9 python3 scripts/process_vo_take.py && python3 reels/watch9/build_timeline.py && REEL=watch9 python3 scripts/make_music.py && REEL=watch9 python3 scripts/mix_audio.py",
     "watch9:render": "remotion render Watch9Reel9x16 out/watch9/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Watch9Cover out/watch9/cover_1080x1920.png",
-    "watch9:build": "npm run watch9:cutout && npm run watch9:audio && REEL=watch9 node scripts/make_srt.mjs && npm run watch9:render && REEL=watch9 bash scripts/finalize.sh && REEL=watch9 bash scripts/verify.sh"
+    "watch9:build": "npm run watch9:cutout && npm run watch9:audio && REEL=watch9 node scripts/make_srt.mjs && npm run watch9:render && REEL=watch9 bash scripts/finalize.sh && REEL=watch9 bash scripts/verify.sh",
+    "hero10:cutout": "python3 reels/hero10/cutout.py",
+    "hero10:audio": "REEL=hero10 python3 scripts/process_vo_take.py && python3 reels/hero10/build_timeline.py && REEL=hero10 python3 scripts/make_music.py && REEL=hero10 python3 scripts/mix_audio.py",
+    "hero10:render": "remotion render Hero10Reel9x16 out/hero10/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Hero10Cover out/hero10/cover_1080x1920.png",
+    "hero10:build": "npm run hero10:cutout && npm run hero10:audio && REEL=hero10 node scripts/make_srt.mjs && npm run hero10:render && REEL=hero10 bash scripts/finalize.sh && REEL=hero10 bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

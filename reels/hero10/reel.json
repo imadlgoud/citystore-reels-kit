@@ -1,0 +1,11 @@
+{
+ "id": "hero10",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [3.36, 7.32, 11.57, 15.88, 20.89, 25.3, 29.93],
+ "lead": 0.06,
+ "voEndBy": 28.9,
+ "maxPause": 0.12,
+ "sentPause": 0.2,
+ "note": "GoPro HERO10 Black, USED unit (d'occasion). Aim 30 s: pause trimming, then <=1.1x pitch-kept speed-up if needed. 9:16 + cover only."
+}

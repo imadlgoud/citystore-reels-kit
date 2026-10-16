@@ -1,0 +1,27 @@
+{
+ "front": {
+  "src": "hero10/products/front.png",
+  "w": 957,
+  "h": 768
+ },
+ "back": {
+  "src": "hero10/products/back.png",
+  "w": 928,
+  "h": 632
+ },
+ "battery": {
+  "src": "hero10/products/battery.png",
+  "w": 424,
+  "h": 452
+ },
+ "case": {
+  "src": "hero10/products/case.png",
+  "w": 786,
+  "h": 621
+ },
+ "kit": {
+  "src": "hero10/products/kit.png",
+  "w": 846,
+  "h": 634
+ }
+}

@@ -86,6 +86,10 @@ STYLES = {
     "watch9": dict(seed=207, phase=1.0, drop=1.0, end_lift=27.75, stop=28.5,
                    chords=[[57, 60, 64], [53, 57, 60], [55, 59, 62], [52, 55, 59]], roots=[45, 41, 43, 40],
                    final=[57, 60, 64, 69], final_bass=33, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
+    # GoPro HERO10 Black (used) reel (30 s): punchy E-minor action groove; drop when the camera slams in
+    "hero10": dict(seed=219, phase=1.0, drop=0.5, end_lift=28.25, stop=28.75,
+                   chords=[[64, 67, 71], [60, 64, 67], [62, 66, 69], [59, 62, 66]], roots=[40, 36, 38, 35],
+                   final=[64, 67, 71, 76], final_bass=40, arp=[0, 2, 1, 2, 0, 2, 1, 2]),
 }
 ST = STYLES[REEL]
 SR = 48000
