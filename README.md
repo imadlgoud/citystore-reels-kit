@@ -28,6 +28,13 @@ npm run studio                   # interactive preview
   Without them the phones are a stylised illustration and the categories are animated line-icons.
 - **Placeholders**: warranty / delivery / price in `src/config.ts` (off by default).
 
+## House rules
+- **"Premier arrivé, premier servi"**: whenever a reel's script says it, the cover gets the shared
+  `FirstServedStamp` (`src/components/FirstServedStamp.tsx`): orange stamp under the product, right of Citybot, above
+  the "متوفر عند CITY STORE" ribbon, exactly as on `Hero10Cover`. Keep the reel's trust scene stamp as well.
+- **Used products (d'occasion)**: the trust scene must not say "Boîte fermée / Jamais ouverts / Jamais activés";
+  use `ChecklistTrust` with what is true (e.g. "OCCASION TESTÉE": Produit d'occasion / Testé / Fonctionne bien).
+
 ## Reels
 | Reel | Compositions | Outputs | Build |
 |---|---|---|---|

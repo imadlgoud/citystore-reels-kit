@@ -4,6 +4,7 @@ import { COLORS, FONT } from "../../brand";
 import { BrandBackground } from "../../components/BrandBackground";
 import { Burst } from "../../components/SceneShell";
 import { Citybot } from "../../citybot/Citybot";
+import { FirstServedStamp } from "../../components/FirstServedStamp";
 import { ProductImage } from "../../components/ProductImage";
 import { OFFICIAL } from "./timeline";
 
@@ -24,10 +25,7 @@ export const Hero10Cover: React.FC = () => {
         <ProductImage src={cam.src} aspect={cam.aspect} width={700} sweep={0.45} />
       </div>
       <div style={{ position: "absolute", right: 90, top: 660, transform: "rotate(-8deg)", background: "linear-gradient(90deg,#FFB020,#FF7A1A)", color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 50, padding: "2px 26px 10px", borderRadius: 16, boxShadow: "0 14px 34px rgba(80,30,0,0.4)", letterSpacing: 2 }}>OCCASION</div>
-      {/* single used unit: "first come, first served" highlighted */}
-      <div style={{ position: "absolute", right: 60, top: 1300, transform: "rotate(-5deg)", background: "linear-gradient(90deg,#FFB020,#FF7A1A)", color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 58, lineHeight: 1.08, textAlign: "center", padding: "14px 34px 20px", borderRadius: 24, border: "6px solid #fff", boxShadow: "0 20px 50px rgba(80,30,0,0.45)", whiteSpace: "nowrap" }}>
-        PREMIER ARRIVÉ,<br />PREMIER SERVI !
-      </div>
+      <FirstServedStamp />
       <div style={{ position: "absolute", left: 20, top: 1150 }}>
         <Citybot id="h10cover" width={370} expression="excited" mouth="grin" tilt={-6} rightArm={{ rot: 72, hand: "thumb" }} leftArm={{ rot: 30, hand: "open" }} hover={12} />
       </div>
