@@ -1,0 +1,17 @@
+{
+ "pair": {
+  "src": "gtab/products/pair.png",
+  "w": 1200,
+  "h": 922
+ },
+ "front": {
+  "src": "gtab/products/front.png",
+  "w": 705,
+  "h": 1200
+ },
+ "back": {
+  "src": "gtab/products/back.png",
+  "w": 752,
+  "h": 1200
+ }
+}

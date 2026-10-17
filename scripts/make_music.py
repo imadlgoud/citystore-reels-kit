@@ -86,6 +86,10 @@ STYLES = {
     "watch9": dict(seed=207, phase=1.0, drop=1.0, end_lift=27.75, stop=28.5,
                    chords=[[57, 60, 64], [53, 57, 60], [55, 59, 62], [52, 55, 59]], roots=[45, 41, 43, 40],
                    final=[57, 60, 64, 69], final_bass=33, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
+    # G-Tab T13 reel (38.5 s, over 30 s at natural speed): friendly F-major pop groove; drop on the SIM card
+    "gtab": dict(seed=233, dur=38.5, phase=1.0, drop=1.5, end_lift=35.0, stop=37.0,
+                 chords=[[53, 57, 60], [50, 53, 57], [46, 50, 53], [48, 52, 55]], roots=[41, 38, 34, 36],
+                 final=[53, 57, 60, 65], final_bass=41, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
     # GoPro HERO10 Black (used) reel (30 s): punchy E-minor action groove; drop when the camera slams in
     "hero10": dict(seed=219, phase=1.0, drop=0.5, end_lift=28.25, stop=28.75,
                    chords=[[64, 67, 71], [60, 64, 67], [62, 66, 69], [59, 62, 66]], roots=[40, 36, 38, 35],

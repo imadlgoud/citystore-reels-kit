@@ -1,0 +1,12 @@
+{
+ "id": "gtab",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [7.74, 11.2, 15.98, 20.43, 26.49, 30.5, 35.13],
+ "lead": 0.06,
+ "voEndBy": 999,
+ "maxPause": 0.14,
+ "sentPause": 0.24,
+ "maxSeconds": 60,
+ "note": "37.8 s take: does not fit 30 s even at 1.1x, so (standing approval) full VO at natural speed, pauses trimmed. G-Tab T13 tablet (new, sealed). 9:16 + cover only."
+}

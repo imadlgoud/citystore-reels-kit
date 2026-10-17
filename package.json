@@ -94,7 +94,11 @@
     "hero10:cutout": "python3 reels/hero10/cutout.py",
     "hero10:audio": "REEL=hero10 python3 scripts/process_vo_take.py && python3 reels/hero10/build_timeline.py && REEL=hero10 python3 scripts/make_music.py && REEL=hero10 python3 scripts/mix_audio.py",
     "hero10:render": "remotion render Hero10Reel9x16 out/hero10/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Hero10Cover out/hero10/cover_1080x1920.png",
-    "hero10:build": "npm run hero10:cutout && npm run hero10:audio && REEL=hero10 node scripts/make_srt.mjs && npm run hero10:render && REEL=hero10 bash scripts/finalize.sh && REEL=hero10 bash scripts/verify.sh"
+    "hero10:build": "npm run hero10:cutout && npm run hero10:audio && REEL=hero10 node scripts/make_srt.mjs && npm run hero10:render && REEL=hero10 bash scripts/finalize.sh && REEL=hero10 bash scripts/verify.sh",
+    "gtab:cutout": "python3 reels/gtab/cutout.py",
+    "gtab:audio": "REEL=gtab python3 scripts/process_vo_take.py && python3 reels/gtab/build_timeline.py && REEL=gtab python3 scripts/make_music.py && REEL=gtab python3 scripts/mix_audio.py",
+    "gtab:render": "remotion render GtabReel9x16 out/gtab/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still GtabCover out/gtab/cover_1080x1920.png",
+    "gtab:build": "npm run gtab:cutout && npm run gtab:audio && REEL=gtab node scripts/make_srt.mjs && npm run gtab:render && REEL=gtab bash scripts/finalize.sh && REEL=gtab bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",
