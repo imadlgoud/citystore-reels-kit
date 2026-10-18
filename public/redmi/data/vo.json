@@ -1,0 +1,1799 @@
+[
+ {
+  "id": "line_01",
+  "subtitle": "Trois Redmi بالـ 5G… شكون فيهم غادي تختار؟ هاهوما disponibles دابا عندنا:",
+  "source": "human-take",
+  "start": 0.06,
+  "duration": 4.6,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Trois",
+    "start": 0.0,
+    "end": 0.16
+   },
+   {
+    "word": "Redmi",
+    "start": 0.16,
+    "end": 0.52
+   },
+   {
+    "word": "بالـ",
+    "start": 0.52,
+    "end": 0.68
+   },
+   {
+    "word": "5G…",
+    "start": 0.68,
+    "end": 1.04
+   },
+   {
+    "word": "شكون",
+    "start": 1.04,
+    "end": 1.5
+   },
+   {
+    "word": "فيهم",
+    "start": 1.5,
+    "end": 1.88
+   },
+   {
+    "word": "غادي",
+    "start": 1.88,
+    "end": 2.22
+   },
+   {
+    "word": "تختار؟",
+    "start": 2.22,
+    "end": 2.56
+   },
+   {
+    "word": "هاهوما",
+    "start": 2.56,
+    "end": 3.22
+   },
+   {
+    "word": "disponibles",
+    "start": 3.22,
+    "end": 3.76
+   },
+   {
+    "word": "دابا",
+    "start": 3.76,
+    "end": 4.1
+   },
+   {
+    "word": "عندنا:",
+    "start": 4.1,
+    "end": 4.46
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.07,
+    "value": "E"
+   },
+   {
+    "start": 0.07,
+    "end": 0.21,
+    "value": "F"
+   },
+   {
+    "start": 0.21,
+    "end": 0.28,
+    "value": "B"
+   },
+   {
+    "start": 0.28,
+    "end": 0.42,
+    "value": "C"
+   },
+   {
+    "start": 0.42,
+    "end": 0.51,
+    "value": "B"
+   },
+   {
+    "start": 0.51,
+    "end": 0.56,
+    "value": "A"
+   },
+   {
+    "start": 0.56,
+    "end": 0.64,
+    "value": "B"
+   },
+   {
+    "start": 0.64,
+    "end": 0.75,
+    "value": "A"
+   },
+   {
+    "start": 0.75,
+    "end": 0.97,
+    "value": "B"
+   },
+   {
+    "start": 0.97,
+    "end": 1.04,
+    "value": "E"
+   },
+   {
+    "start": 1.04,
+    "end": 1.11,
+    "value": "C"
+   },
+   {
+    "start": 1.11,
+    "end": 1.47,
+    "value": "F"
+   },
+   {
+    "start": 1.47,
+    "end": 1.61,
+    "value": "B"
+   },
+   {
+    "start": 1.61,
+    "end": 1.68,
+    "value": "F"
+   },
+   {
+    "start": 1.68,
+    "end": 1.82,
+    "value": "B"
+   },
+   {
+    "start": 1.82,
+    "end": 1.89,
+    "value": "G"
+   },
+   {
+    "start": 1.89,
+    "end": 2.1,
+    "value": "F"
+   },
+   {
+    "start": 2.1,
+    "end": 2.52,
+    "value": "B"
+   },
+   {
+    "start": 2.52,
+    "end": 2.59,
+    "value": "E"
+   },
+   {
+    "start": 2.59,
+    "end": 2.8,
+    "value": "B"
+   },
+   {
+    "start": 2.8,
+    "end": 2.94,
+    "value": "E"
+   },
+   {
+    "start": 2.94,
+    "end": 3.01,
+    "value": "F"
+   },
+   {
+    "start": 3.01,
+    "end": 3.09,
+    "value": "A"
+   },
+   {
+    "start": 3.09,
+    "end": 3.17,
+    "value": "D"
+   },
+   {
+    "start": 3.17,
+    "end": 3.25,
+    "value": "A"
+   },
+   {
+    "start": 3.25,
+    "end": 3.45,
+    "value": "F"
+   },
+   {
+    "start": 3.45,
+    "end": 3.52,
+    "value": "G"
+   },
+   {
+    "start": 3.52,
+    "end": 3.59,
+    "value": "F"
+   },
+   {
+    "start": 3.59,
+    "end": 3.8,
+    "value": "B"
+   },
+   {
+    "start": 3.8,
+    "end": 3.94,
+    "value": "C"
+   },
+   {
+    "start": 3.94,
+    "end": 4.02,
+    "value": "A"
+   },
+   {
+    "start": 4.02,
+    "end": 4.31,
+    "value": "C"
+   },
+   {
+    "start": 4.31,
+    "end": 4.52,
+    "value": "B"
+   },
+   {
+    "start": 4.52,
+    "end": 4.6,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_02",
+  "subtitle": "Redmi Note 15 5G، 8GB de RAM و 256GB: آخر وحدة خرجات، jamais ouverte، jamais activée، boîte fermée.",
+  "source": "human-take",
+  "start": 4.66,
+  "duration": 8.51,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Redmi",
+    "start": 0.12,
+    "end": 0.52
+   },
+   {
+    "word": "Note",
+    "start": 0.52,
+    "end": 0.74
+   },
+   {
+    "word": "15",
+    "start": 0.74,
+    "end": 1.04
+   },
+   {
+    "word": "5G،",
+    "start": 1.04,
+    "end": 1.46
+   },
+   {
+    "word": "8GB",
+    "start": 1.46,
+    "end": 2.2
+   },
+   {
+    "word": "de",
+    "start": 2.2,
+    "end": 2.42
+   },
+   {
+    "word": "RAM",
+    "start": 2.42,
+    "end": 2.62
+   },
+   {
+    "word": "و",
+    "start": 2.62,
+    "end": 2.82
+   },
+   {
+    "word": "256GB:",
+    "start": 2.82,
+    "end": 4.48
+   },
+   {
+    "word": "آخر",
+    "start": 4.48,
+    "end": 4.7
+   },
+   {
+    "word": "وحدة",
+    "start": 4.7,
+    "end": 5.1
+   },
+   {
+    "word": "خرجات،",
+    "start": 5.1,
+    "end": 5.66
+   },
+   {
+    "word": "jamais",
+    "start": 5.66,
+    "end": 6.12
+   },
+   {
+    "word": "ouverte،",
+    "start": 6.12,
+    "end": 6.72
+   },
+   {
+    "word": "jamais",
+    "start": 6.72,
+    "end": 7.16
+   },
+   {
+    "word": "activée،",
+    "start": 7.16,
+    "end": 7.72
+   },
+   {
+    "word": "boîte",
+    "start": 7.72,
+    "end": 7.94
+   },
+   {
+    "word": "fermée.",
+    "start": 7.94,
+    "end": 8.38
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.09,
+    "value": "X"
+   },
+   {
+    "start": 0.09,
+    "end": 0.23,
+    "value": "E"
+   },
+   {
+    "start": 0.23,
+    "end": 0.44,
+    "value": "B"
+   },
+   {
+    "start": 0.44,
+    "end": 0.53,
+    "value": "A"
+   },
+   {
+    "start": 0.53,
+    "end": 0.67,
+    "value": "B"
+   },
+   {
+    "start": 0.67,
+    "end": 0.74,
+    "value": "C"
+   },
+   {
+    "start": 0.74,
+    "end": 0.81,
+    "value": "E"
+   },
+   {
+    "start": 0.81,
+    "end": 0.88,
+    "value": "F"
+   },
+   {
+    "start": 0.88,
+    "end": 1.16,
+    "value": "C"
+   },
+   {
+    "start": 1.16,
+    "end": 1.44,
+    "value": "B"
+   },
+   {
+    "start": 1.44,
+    "end": 1.51,
+    "value": "C"
+   },
+   {
+    "start": 1.51,
+    "end": 1.79,
+    "value": "F"
+   },
+   {
+    "start": 1.79,
+    "end": 1.99,
+    "value": "B"
+   },
+   {
+    "start": 1.99,
+    "end": 2.1,
+    "value": "F"
+   },
+   {
+    "start": 2.1,
+    "end": 2.31,
+    "value": "B"
+   },
+   {
+    "start": 2.31,
+    "end": 2.45,
+    "value": "C"
+   },
+   {
+    "start": 2.45,
+    "end": 2.59,
+    "value": "B"
+   },
+   {
+    "start": 2.59,
+    "end": 2.66,
+    "value": "G"
+   },
+   {
+    "start": 2.66,
+    "end": 2.73,
+    "value": "D"
+   },
+   {
+    "start": 2.73,
+    "end": 2.81,
+    "value": "A"
+   },
+   {
+    "start": 2.81,
+    "end": 2.91,
+    "value": "E"
+   },
+   {
+    "start": 2.91,
+    "end": 3.12,
+    "value": "F"
+   },
+   {
+    "start": 3.12,
+    "end": 3.26,
+    "value": "B"
+   },
+   {
+    "start": 3.26,
+    "end": 3.4,
+    "value": "E"
+   },
+   {
+    "start": 3.4,
+    "end": 3.47,
+    "value": "B"
+   },
+   {
+    "start": 3.47,
+    "end": 3.68,
+    "value": "E"
+   },
+   {
+    "start": 3.68,
+    "end": 3.82,
+    "value": "B"
+   },
+   {
+    "start": 3.82,
+    "end": 4.1,
+    "value": "F"
+   },
+   {
+    "start": 4.1,
+    "end": 4.37,
+    "value": "B"
+   },
+   {
+    "start": 4.37,
+    "end": 4.49,
+    "value": "C"
+   },
+   {
+    "start": 4.49,
+    "end": 4.63,
+    "value": "G"
+   },
+   {
+    "start": 4.63,
+    "end": 4.7,
+    "value": "B"
+   },
+   {
+    "start": 4.7,
+    "end": 4.84,
+    "value": "F"
+   },
+   {
+    "start": 4.84,
+    "end": 4.91,
+    "value": "B"
+   },
+   {
+    "start": 4.91,
+    "end": 5.05,
+    "value": "C"
+   },
+   {
+    "start": 5.05,
+    "end": 5.19,
+    "value": "G"
+   },
+   {
+    "start": 5.19,
+    "end": 5.33,
+    "value": "B"
+   },
+   {
+    "start": 5.33,
+    "end": 5.47,
+    "value": "C"
+   },
+   {
+    "start": 5.47,
+    "end": 5.82,
+    "value": "B"
+   },
+   {
+    "start": 5.82,
+    "end": 5.89,
+    "value": "D"
+   },
+   {
+    "start": 5.89,
+    "end": 5.97,
+    "value": "A"
+   },
+   {
+    "start": 5.97,
+    "end": 6.02,
+    "value": "B"
+   },
+   {
+    "start": 6.02,
+    "end": 6.21,
+    "value": "E"
+   },
+   {
+    "start": 6.21,
+    "end": 6.28,
+    "value": "G"
+   },
+   {
+    "start": 6.28,
+    "end": 6.42,
+    "value": "C"
+   },
+   {
+    "start": 6.42,
+    "end": 6.63,
+    "value": "B"
+   },
+   {
+    "start": 6.63,
+    "end": 6.69,
+    "value": "A"
+   },
+   {
+    "start": 6.69,
+    "end": 6.79,
+    "value": "B"
+   },
+   {
+    "start": 6.79,
+    "end": 6.86,
+    "value": "D"
+   },
+   {
+    "start": 6.86,
+    "end": 6.94,
+    "value": "A"
+   },
+   {
+    "start": 6.94,
+    "end": 6.99,
+    "value": "B"
+   },
+   {
+    "start": 6.99,
+    "end": 7.11,
+    "value": "D"
+   },
+   {
+    "start": 7.11,
+    "end": 7.18,
+    "value": "C"
+   },
+   {
+    "start": 7.18,
+    "end": 7.39,
+    "value": "B"
+   },
+   {
+    "start": 7.39,
+    "end": 7.46,
+    "value": "G"
+   },
+   {
+    "start": 7.46,
+    "end": 7.62,
+    "value": "B"
+   },
+   {
+    "start": 7.62,
+    "end": 7.7,
+    "value": "A"
+   },
+   {
+    "start": 7.7,
+    "end": 7.89,
+    "value": "E"
+   },
+   {
+    "start": 7.89,
+    "end": 8.03,
+    "value": "B"
+   },
+   {
+    "start": 8.03,
+    "end": 8.17,
+    "value": "G"
+   },
+   {
+    "start": 8.17,
+    "end": 8.24,
+    "value": "C"
+   },
+   {
+    "start": 8.24,
+    "end": 8.32,
+    "value": "A"
+   },
+   {
+    "start": 8.32,
+    "end": 8.44,
+    "value": "B"
+   },
+   {
+    "start": 8.44,
+    "end": 8.51,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_03",
+  "subtitle": "Redmi Note 14 Pro+ 5G، 12GB de RAM و 512GB: كاميرا 200 mégapixels وشارج سريع بزاف. boîte ouverte، jamais activé.",
+  "source": "human-take",
+  "start": 13.17,
+  "duration": 10.235,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Redmi",
+    "start": 0.12,
+    "end": 0.54
+   },
+   {
+    "word": "Note",
+    "start": 0.54,
+    "end": 0.74
+   },
+   {
+    "word": "14",
+    "start": 0.74,
+    "end": 1.44
+   },
+   {
+    "word": "Pro+",
+    "start": 1.44,
+    "end": 1.98
+   },
+   {
+    "word": "5G،",
+    "start": 1.98,
+    "end": 2.48
+   },
+   {
+    "word": "12GB",
+    "start": 2.48,
+    "end": 3.26
+   },
+   {
+    "word": "de",
+    "start": 3.26,
+    "end": 3.46
+   },
+   {
+    "word": "RAM",
+    "start": 3.46,
+    "end": 3.68
+   },
+   {
+    "word": "و",
+    "start": 3.68,
+    "end": 4.0
+   },
+   {
+    "word": "512GB:",
+    "start": 4.0,
+    "end": 5.06
+   },
+   {
+    "word": "كاميرا",
+    "start": 5.06,
+    "end": 5.8
+   },
+   {
+    "word": "200",
+    "start": 5.8,
+    "end": 6.22
+   },
+   {
+    "word": "mégapixels",
+    "start": 6.22,
+    "end": 7.08
+   },
+   {
+    "word": "وشارج",
+    "start": 7.08,
+    "end": 7.5
+   },
+   {
+    "word": "سريع",
+    "start": 7.5,
+    "end": 7.92
+   },
+   {
+    "word": "بزاف.",
+    "start": 7.92,
+    "end": 8.48
+   },
+   {
+    "word": "boîte",
+    "start": 8.48,
+    "end": 8.68
+   },
+   {
+    "word": "ouverte،",
+    "start": 8.68,
+    "end": 9.34
+   },
+   {
+    "word": "jamais",
+    "start": 9.34,
+    "end": 9.76
+   },
+   {
+    "word": "activé.",
+    "start": 9.76,
+    "end": 10.22
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.1,
+    "value": "X"
+   },
+   {
+    "start": 0.1,
+    "end": 0.41,
+    "value": "B"
+   },
+   {
+    "start": 0.41,
+    "end": 0.49,
+    "value": "A"
+   },
+   {
+    "start": 0.49,
+    "end": 0.67,
+    "value": "F"
+   },
+   {
+    "start": 0.67,
+    "end": 0.75,
+    "value": "A"
+   },
+   {
+    "start": 0.75,
+    "end": 0.85,
+    "value": "D"
+   },
+   {
+    "start": 0.85,
+    "end": 0.89,
+    "value": "C"
+   },
+   {
+    "start": 0.89,
+    "end": 0.97,
+    "value": "A"
+   },
+   {
+    "start": 0.97,
+    "end": 1.17,
+    "value": "E"
+   },
+   {
+    "start": 1.17,
+    "end": 1.24,
+    "value": "F"
+   },
+   {
+    "start": 1.24,
+    "end": 1.32,
+    "value": "A"
+   },
+   {
+    "start": 1.32,
+    "end": 1.53,
+    "value": "E"
+   },
+   {
+    "start": 1.53,
+    "end": 1.6,
+    "value": "F"
+   },
+   {
+    "start": 1.6,
+    "end": 1.72,
+    "value": "A"
+   },
+   {
+    "start": 1.72,
+    "end": 1.8,
+    "value": "B"
+   },
+   {
+    "start": 1.8,
+    "end": 1.88,
+    "value": "A"
+   },
+   {
+    "start": 1.88,
+    "end": 2.12,
+    "value": "F"
+   },
+   {
+    "start": 2.12,
+    "end": 2.33,
+    "value": "B"
+   },
+   {
+    "start": 2.33,
+    "end": 2.4,
+    "value": "C"
+   },
+   {
+    "start": 2.4,
+    "end": 2.78,
+    "value": "B"
+   },
+   {
+    "start": 2.78,
+    "end": 2.86,
+    "value": "A"
+   },
+   {
+    "start": 2.86,
+    "end": 3.08,
+    "value": "F"
+   },
+   {
+    "start": 3.08,
+    "end": 3.29,
+    "value": "B"
+   },
+   {
+    "start": 3.29,
+    "end": 3.43,
+    "value": "C"
+   },
+   {
+    "start": 3.43,
+    "end": 3.64,
+    "value": "B"
+   },
+   {
+    "start": 3.64,
+    "end": 3.71,
+    "value": "C"
+   },
+   {
+    "start": 3.71,
+    "end": 3.78,
+    "value": "E"
+   },
+   {
+    "start": 3.78,
+    "end": 3.86,
+    "value": "A"
+   },
+   {
+    "start": 3.86,
+    "end": 3.96,
+    "value": "B"
+   },
+   {
+    "start": 3.96,
+    "end": 4.03,
+    "value": "F"
+   },
+   {
+    "start": 4.03,
+    "end": 4.17,
+    "value": "B"
+   },
+   {
+    "start": 4.17,
+    "end": 4.31,
+    "value": "C"
+   },
+   {
+    "start": 4.31,
+    "end": 4.38,
+    "value": "B"
+   },
+   {
+    "start": 4.38,
+    "end": 4.52,
+    "value": "E"
+   },
+   {
+    "start": 4.52,
+    "end": 4.8,
+    "value": "F"
+   },
+   {
+    "start": 4.8,
+    "end": 4.94,
+    "value": "B"
+   },
+   {
+    "start": 4.94,
+    "end": 5.21,
+    "value": "C"
+   },
+   {
+    "start": 5.21,
+    "end": 5.26,
+    "value": "B"
+   },
+   {
+    "start": 5.26,
+    "end": 5.37,
+    "value": "D"
+   },
+   {
+    "start": 5.37,
+    "end": 5.45,
+    "value": "A"
+   },
+   {
+    "start": 5.45,
+    "end": 5.54,
+    "value": "C"
+   },
+   {
+    "start": 5.54,
+    "end": 5.62,
+    "value": "A"
+   },
+   {
+    "start": 5.62,
+    "end": 5.88,
+    "value": "C"
+   },
+   {
+    "start": 5.88,
+    "end": 6.02,
+    "value": "B"
+   },
+   {
+    "start": 6.02,
+    "end": 6.09,
+    "value": "E"
+   },
+   {
+    "start": 6.09,
+    "end": 6.18,
+    "value": "A"
+   },
+   {
+    "start": 6.18,
+    "end": 6.33,
+    "value": "C"
+   },
+   {
+    "start": 6.33,
+    "end": 6.46,
+    "value": "A"
+   },
+   {
+    "start": 6.46,
+    "end": 6.66,
+    "value": "B"
+   },
+   {
+    "start": 6.66,
+    "end": 6.95,
+    "value": "C"
+   },
+   {
+    "start": 6.95,
+    "end": 6.99,
+    "value": "B"
+   },
+   {
+    "start": 6.99,
+    "end": 7.03,
+    "value": "F"
+   },
+   {
+    "start": 7.03,
+    "end": 7.17,
+    "value": "B"
+   },
+   {
+    "start": 7.17,
+    "end": 7.38,
+    "value": "D"
+   },
+   {
+    "start": 7.38,
+    "end": 7.52,
+    "value": "B"
+   },
+   {
+    "start": 7.52,
+    "end": 7.59,
+    "value": "C"
+   },
+   {
+    "start": 7.59,
+    "end": 8.08,
+    "value": "B"
+   },
+   {
+    "start": 8.08,
+    "end": 8.22,
+    "value": "C"
+   },
+   {
+    "start": 8.22,
+    "end": 8.29,
+    "value": "G"
+   },
+   {
+    "start": 8.29,
+    "end": 8.51,
+    "value": "A"
+   },
+   {
+    "start": 8.51,
+    "end": 8.61,
+    "value": "F"
+   },
+   {
+    "start": 8.61,
+    "end": 8.75,
+    "value": "B"
+   },
+   {
+    "start": 8.75,
+    "end": 8.89,
+    "value": "F"
+   },
+   {
+    "start": 8.89,
+    "end": 9.03,
+    "value": "G"
+   },
+   {
+    "start": 9.03,
+    "end": 9.17,
+    "value": "C"
+   },
+   {
+    "start": 9.17,
+    "end": 9.38,
+    "value": "A"
+   },
+   {
+    "start": 9.38,
+    "end": 9.54,
+    "value": "B"
+   },
+   {
+    "start": 9.54,
+    "end": 9.61,
+    "value": "D"
+   },
+   {
+    "start": 9.61,
+    "end": 9.69,
+    "value": "A"
+   },
+   {
+    "start": 9.69,
+    "end": 9.75,
+    "value": "C"
+   },
+   {
+    "start": 9.75,
+    "end": 9.8,
+    "value": "B"
+   },
+   {
+    "start": 9.8,
+    "end": 9.87,
+    "value": "C"
+   },
+   {
+    "start": 9.87,
+    "end": 10.08,
+    "value": "B"
+   },
+   {
+    "start": 10.08,
+    "end": 10.15,
+    "value": "G"
+   },
+   {
+    "start": 10.15,
+    "end": 10.22,
+    "value": "B"
+   },
+   {
+    "start": 10.22,
+    "end": 10.23,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_04",
+  "subtitle": "Redmi Note 14 5G، 8GB de RAM و 256GB: بلاصة كبيرة بثمن مناسب. boîte ouverte، jamais activé.",
+  "source": "human-take",
+  "start": 23.405,
+  "duration": 8.695,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Redmi",
+    "start": 0.0,
+    "end": 0.56
+   },
+   {
+    "word": "Note",
+    "start": 0.56,
+    "end": 0.76
+   },
+   {
+    "word": "14",
+    "start": 0.76,
+    "end": 1.36
+   },
+   {
+    "word": "5G،",
+    "start": 1.36,
+    "end": 1.78
+   },
+   {
+    "word": "8GB",
+    "start": 1.78,
+    "end": 2.54
+   },
+   {
+    "word": "de",
+    "start": 2.54,
+    "end": 2.74
+   },
+   {
+    "word": "RAM",
+    "start": 2.74,
+    "end": 2.96
+   },
+   {
+    "word": "و",
+    "start": 2.96,
+    "end": 3.3
+   },
+   {
+    "word": "256GB:",
+    "start": 3.3,
+    "end": 4.96
+   },
+   {
+    "word": "بلاصة",
+    "start": 4.96,
+    "end": 5.4
+   },
+   {
+    "word": "كبيرة",
+    "start": 5.4,
+    "end": 5.88
+   },
+   {
+    "word": "بثمن",
+    "start": 5.88,
+    "end": 6.3
+   },
+   {
+    "word": "مناسب.",
+    "start": 6.3,
+    "end": 6.84
+   },
+   {
+    "word": "boîte",
+    "start": 6.84,
+    "end": 7.08
+   },
+   {
+    "word": "ouverte،",
+    "start": 7.08,
+    "end": 7.68
+   },
+   {
+    "word": "jamais",
+    "start": 7.68,
+    "end": 8.1
+   },
+   {
+    "word": "activé.",
+    "start": 8.1,
+    "end": 8.56
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.13,
+    "value": "X"
+   },
+   {
+    "start": 0.13,
+    "end": 0.19,
+    "value": "B"
+   },
+   {
+    "start": 0.19,
+    "end": 0.32,
+    "value": "C"
+   },
+   {
+    "start": 0.32,
+    "end": 0.46,
+    "value": "B"
+   },
+   {
+    "start": 0.46,
+    "end": 0.54,
+    "value": "A"
+   },
+   {
+    "start": 0.54,
+    "end": 0.63,
+    "value": "B"
+   },
+   {
+    "start": 0.63,
+    "end": 0.77,
+    "value": "F"
+   },
+   {
+    "start": 0.77,
+    "end": 0.85,
+    "value": "A"
+   },
+   {
+    "start": 0.85,
+    "end": 1.03,
+    "value": "C"
+   },
+   {
+    "start": 1.03,
+    "end": 1.11,
+    "value": "A"
+   },
+   {
+    "start": 1.11,
+    "end": 1.27,
+    "value": "E"
+   },
+   {
+    "start": 1.27,
+    "end": 1.41,
+    "value": "F"
+   },
+   {
+    "start": 1.41,
+    "end": 1.62,
+    "value": "B"
+   },
+   {
+    "start": 1.62,
+    "end": 1.69,
+    "value": "C"
+   },
+   {
+    "start": 1.69,
+    "end": 1.76,
+    "value": "B"
+   },
+   {
+    "start": 1.76,
+    "end": 1.97,
+    "value": "F"
+   },
+   {
+    "start": 1.97,
+    "end": 2.17,
+    "value": "B"
+   },
+   {
+    "start": 2.17,
+    "end": 2.29,
+    "value": "F"
+   },
+   {
+    "start": 2.29,
+    "end": 2.43,
+    "value": "B"
+   },
+   {
+    "start": 2.43,
+    "end": 2.57,
+    "value": "C"
+   },
+   {
+    "start": 2.57,
+    "end": 2.66,
+    "value": "A"
+   },
+   {
+    "start": 2.66,
+    "end": 2.71,
+    "value": "B"
+   },
+   {
+    "start": 2.71,
+    "end": 2.84,
+    "value": "D"
+   },
+   {
+    "start": 2.84,
+    "end": 2.9,
+    "value": "C"
+   },
+   {
+    "start": 2.9,
+    "end": 2.98,
+    "value": "A"
+   },
+   {
+    "start": 2.98,
+    "end": 3.05,
+    "value": "B"
+   },
+   {
+    "start": 3.05,
+    "end": 3.18,
+    "value": "F"
+   },
+   {
+    "start": 3.18,
+    "end": 3.32,
+    "value": "E"
+   },
+   {
+    "start": 3.32,
+    "end": 3.39,
+    "value": "F"
+   },
+   {
+    "start": 3.39,
+    "end": 3.53,
+    "value": "B"
+   },
+   {
+    "start": 3.53,
+    "end": 3.6,
+    "value": "E"
+   },
+   {
+    "start": 3.6,
+    "end": 3.74,
+    "value": "B"
+   },
+   {
+    "start": 3.74,
+    "end": 3.95,
+    "value": "E"
+   },
+   {
+    "start": 3.95,
+    "end": 4.37,
+    "value": "B"
+   },
+   {
+    "start": 4.37,
+    "end": 4.67,
+    "value": "E"
+   },
+   {
+    "start": 4.67,
+    "end": 4.75,
+    "value": "A"
+   },
+   {
+    "start": 4.75,
+    "end": 4.93,
+    "value": "E"
+   },
+   {
+    "start": 4.93,
+    "end": 5.07,
+    "value": "B"
+   },
+   {
+    "start": 5.07,
+    "end": 5.14,
+    "value": "C"
+   },
+   {
+    "start": 5.14,
+    "end": 5.22,
+    "value": "A"
+   },
+   {
+    "start": 5.22,
+    "end": 5.44,
+    "value": "B"
+   },
+   {
+    "start": 5.44,
+    "end": 5.51,
+    "value": "C"
+   },
+   {
+    "start": 5.51,
+    "end": 5.59,
+    "value": "A"
+   },
+   {
+    "start": 5.59,
+    "end": 5.64,
+    "value": "B"
+   },
+   {
+    "start": 5.64,
+    "end": 5.82,
+    "value": "C"
+   },
+   {
+    "start": 5.82,
+    "end": 5.9,
+    "value": "A"
+   },
+   {
+    "start": 5.9,
+    "end": 5.97,
+    "value": "C"
+   },
+   {
+    "start": 5.97,
+    "end": 6.03,
+    "value": "F"
+   },
+   {
+    "start": 6.03,
+    "end": 6.12,
+    "value": "A"
+   },
+   {
+    "start": 6.12,
+    "end": 6.18,
+    "value": "F"
+   },
+   {
+    "start": 6.18,
+    "end": 6.38,
+    "value": "C"
+   },
+   {
+    "start": 6.38,
+    "end": 6.56,
+    "value": "B"
+   },
+   {
+    "start": 6.56,
+    "end": 6.59,
+    "value": "A"
+   },
+   {
+    "start": 6.59,
+    "end": 6.67,
+    "value": "B"
+   },
+   {
+    "start": 6.67,
+    "end": 6.85,
+    "value": "A"
+   },
+   {
+    "start": 6.85,
+    "end": 6.92,
+    "value": "F"
+   },
+   {
+    "start": 6.92,
+    "end": 6.99,
+    "value": "D"
+   },
+   {
+    "start": 6.99,
+    "end": 7.27,
+    "value": "E"
+   },
+   {
+    "start": 7.27,
+    "end": 7.34,
+    "value": "G"
+   },
+   {
+    "start": 7.34,
+    "end": 7.48,
+    "value": "C"
+   },
+   {
+    "start": 7.48,
+    "end": 7.83,
+    "value": "B"
+   },
+   {
+    "start": 7.83,
+    "end": 7.9,
+    "value": "D"
+   },
+   {
+    "start": 7.9,
+    "end": 7.98,
+    "value": "A"
+   },
+   {
+    "start": 7.98,
+    "end": 8.05,
+    "value": "B"
+   },
+   {
+    "start": 8.05,
+    "end": 8.19,
+    "value": "C"
+   },
+   {
+    "start": 8.19,
+    "end": 8.4,
+    "value": "B"
+   },
+   {
+    "start": 8.4,
+    "end": 8.47,
+    "value": "G"
+   },
+   {
+    "start": 8.47,
+    "end": 8.61,
+    "value": "B"
+   },
+   {
+    "start": 8.61,
+    "end": 8.69,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_05",
+  "subtitle": "Produits originaux.",
+  "source": "human-take",
+  "start": 32.1,
+  "duration": 1.39,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Produits",
+    "start": 0.12,
+    "end": 0.46
+   },
+   {
+    "word": "originaux.",
+    "start": 0.46,
+    "end": 1.26
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.07,
+    "value": "X"
+   },
+   {
+    "start": 0.07,
+    "end": 0.22,
+    "value": "F"
+   },
+   {
+    "start": 0.22,
+    "end": 0.69,
+    "value": "B"
+   },
+   {
+    "start": 0.69,
+    "end": 0.74,
+    "value": "E"
+   },
+   {
+    "start": 0.74,
+    "end": 1.09,
+    "value": "B"
+   },
+   {
+    "start": 1.09,
+    "end": 1.16,
+    "value": "C"
+   },
+   {
+    "start": 1.16,
+    "end": 1.37,
+    "value": "B"
+   },
+   {
+    "start": 1.37,
+    "end": 1.39,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_06",
+  "subtitle": "إلا بغيتي تكوموندي، صيفط لينا ميساج.",
+  "source": "human-take",
+  "start": 33.49,
+  "duration": 2.19,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "إلا",
+    "start": 0.12,
+    "end": 0.26
+   },
+   {
+    "word": "بغيتي",
+    "start": 0.26,
+    "end": 0.54
+   },
+   {
+    "word": "تكوموندي،",
+    "start": 0.54,
+    "end": 1.28
+   },
+   {
+    "word": "صيفط",
+    "start": 1.28,
+    "end": 1.58
+   },
+   {
+    "word": "لينا",
+    "start": 1.58,
+    "end": 1.86
+   },
+   {
+    "word": "ميساج.",
+    "start": 1.86,
+    "end": 2.18
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.09,
+    "value": "X"
+   },
+   {
+    "start": 0.09,
+    "end": 0.18,
+    "value": "B"
+   },
+   {
+    "start": 0.18,
+    "end": 0.25,
+    "value": "C"
+   },
+   {
+    "start": 0.25,
+    "end": 0.33,
+    "value": "A"
+   },
+   {
+    "start": 0.33,
+    "end": 0.48,
+    "value": "B"
+   },
+   {
+    "start": 0.48,
+    "end": 0.62,
+    "value": "F"
+   },
+   {
+    "start": 0.62,
+    "end": 0.76,
+    "value": "E"
+   },
+   {
+    "start": 0.76,
+    "end": 0.83,
+    "value": "A"
+   },
+   {
+    "start": 0.83,
+    "end": 0.89,
+    "value": "E"
+   },
+   {
+    "start": 0.89,
+    "end": 0.97,
+    "value": "A"
+   },
+   {
+    "start": 0.97,
+    "end": 1.05,
+    "value": "C"
+   },
+   {
+    "start": 1.05,
+    "end": 1.26,
+    "value": "B"
+   },
+   {
+    "start": 1.26,
+    "end": 1.47,
+    "value": "F"
+   },
+   {
+    "start": 1.47,
+    "end": 1.75,
+    "value": "B"
+   },
+   {
+    "start": 1.75,
+    "end": 1.83,
+    "value": "A"
+   },
+   {
+    "start": 1.83,
+    "end": 1.97,
+    "value": "B"
+   },
+   {
+    "start": 1.97,
+    "end": 2.04,
+    "value": "C"
+   },
+   {
+    "start": 2.04,
+    "end": 2.18,
+    "value": "B"
+   },
+   {
+    "start": 2.18,
+    "end": 2.19,
+    "value": "X"
+   }
+  ]
+ }
+]

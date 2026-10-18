@@ -1,0 +1,17 @@
+{
+ "note15": {
+  "src": "redmi/products/note15.png",
+  "w": 816,
+  "h": 969
+ },
+ "proplus": {
+  "src": "redmi/products/proplus.png",
+  "w": 818,
+  "h": 972
+ },
+ "note14": {
+  "src": "redmi/products/note14.png",
+  "w": 834,
+  "h": 1023
+ }
+}

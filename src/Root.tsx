@@ -63,6 +63,9 @@ import { H10TL } from "./reels/hero10/timeline";
 import { GtabReel } from "./reels/gtab/GtabReel";
 import { GtabCover } from "./reels/gtab/GtabCover";
 import { GTTL } from "./reels/gtab/timeline";
+import { RedmiReel } from "./reels/redmi/RedmiReel";
+import { RedmiCover } from "./reels/redmi/RedmiCover";
+import { RSTL } from "./reels/redmi/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -134,6 +137,9 @@ export const RemotionRoot: React.FC = () => (
     {/* G-Tab T13 tablet: 38.5 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
     <Composition id="GtabReel9x16" component={GtabReel} durationInFrames={GTTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="GtabCover" component={GtabCover} width={1080} height={1920} />
+    {/* Redmi 5G comparison (Note 15 / Note 14 Pro+ / Note 14): 39.5 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
+    <Composition id="RedmiReel9x16" component={RedmiReel} durationInFrames={RSTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="RedmiCover" component={RedmiCover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

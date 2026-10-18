@@ -86,6 +86,10 @@ STYLES = {
     "watch9": dict(seed=207, phase=1.0, drop=1.0, end_lift=27.75, stop=28.5,
                    chords=[[57, 60, 64], [53, 57, 60], [55, 59, 62], [52, 55, 59]], roots=[45, 41, 43, 40],
                    final=[57, 60, 64, 69], final_bass=33, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
+    # Redmi 5G comparison reel (39.5 s, over 30 s at natural speed): bright C-minor tech pulse; drop when the fan lands
+    "redmi": dict(seed=241, dur=39.5, phase=1.0, drop=2.5, end_lift=35.75, stop=38.0,
+                  chords=[[60, 63, 67], [56, 60, 63], [58, 62, 65], [55, 58, 62]], roots=[48, 44, 46, 43],
+                  final=[60, 63, 67, 72], final_bass=36, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
     # G-Tab T13 reel (38.5 s, over 30 s at natural speed): friendly F-major pop groove; drop on the SIM card
     "gtab": dict(seed=233, dur=38.5, phase=1.0, drop=1.5, end_lift=35.0, stop=37.0,
                  chords=[[53, 57, 60], [50, 53, 57], [46, 50, 53], [48, 52, 55]], roots=[41, 38, 34, 36],

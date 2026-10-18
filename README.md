@@ -50,6 +50,7 @@ npm run studio                   # interactive preview
 | Galaxy Watch9 40mm LTE Black (Darija, 30 s; 9:16 only) | `Watch9Reel9x16`, `Watch9Cover` | `out/watch9/` | `npm run watch9:build` |
 | GoPro HERO10 Black, used unit (Darija, 30 s; 9:16 only; needs `opencv-python-headless` for the cut-outs) | `Hero10Reel9x16`, `Hero10Cover` | `out/hero10/` | `npm run hero10:build` |
 | G-Tab T13 tablet (Darija, **38.5 s**, over 30 s at natural speed; 9:16 only) | `GtabReel9x16`, `GtabCover` | `out/gtab/` | `npm run gtab:build` |
+| Redmi 5G: Note 15 5G, Note 14 Pro+ 5G, Note 14 5G (Darija, **39.5 s**, over 30 s at natural speed; 9:16 only) | `RedmiReel9x16`, `RedmiCover` | `out/redmi/` | `npm run redmi:build` |
 | Apple Watch Ultra 4 (Darija) | `WatchReel9x16`, `WatchReel1x1`, `WatchCover` | `out/watch/` | `npm run watch:build` |
 | Galaxy Watch8 Classic + Ultra2 (Darija) | `GalaxyReel9x16`, `GalaxyReel1x1`, `GalaxyCover` | `out/galaxy/` | `npm run galaxy:build` |
 | Sony WH-1000XM6 + XM5 (Darija) | `SonyReel9x16`, `SonyReel1x1`, `SonyCover` | `out/sony/` | `npm run sony:build` |

@@ -150,7 +150,10 @@ SPOKEN = {"18": "dix-huit", "100": "cent pour cent", "%": "", "citystore.ma": "c
           "arrivé,": "a ri ve", "servi!": "ser vi", "hypersmooth:": "hai per smouth",
           "12gb": "duz ji ga", "de": "de", "g-tab": "dji tab", "t13،": "te treiz", "10.1": "dis vir gul un", "pouces،": "pus",
           "4g،": "katr dji", "connecté": "ko nek te", "android": "an droid", "15،": "kenz", "enfant": "an fan", "partagé": "par ta je",
-          "mah،": "mi li am per", "mémoire.": "me mwar"}
+          "mah،": "mi li am per", "mémoire.": "me mwar",
+          "redmi": "red mi", "note": "not", "5g": "sank dji", "256gb": "du san sin kant sis gi ga", "512gb": "sank san duz gi ga",
+          "pro+": "pro plus", "14": "ka torz", "200": "du san", "trois": "trwa", "disponibles": "dis po nibl", "ouverte": "u vert",
+          "activée": "ak ti ve", "activé": "ak ti ve", "ouverte،": "u vert", "originaux": "o ri ji no"}
 ARABIC = "\\u0621-\\u063F\\u0641-\\u064A\\u0671-\\u06D3"  # Arabic letters (no punctuation, no tatweel)
 
 

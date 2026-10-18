@@ -98,7 +98,11 @@
     "gtab:cutout": "python3 reels/gtab/cutout.py",
     "gtab:audio": "REEL=gtab python3 scripts/process_vo_take.py && python3 reels/gtab/build_timeline.py && REEL=gtab python3 scripts/make_music.py && REEL=gtab python3 scripts/mix_audio.py",
     "gtab:render": "remotion render GtabReel9x16 out/gtab/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still GtabCover out/gtab/cover_1080x1920.png",
-    "gtab:build": "npm run gtab:cutout && npm run gtab:audio && REEL=gtab node scripts/make_srt.mjs && npm run gtab:render && REEL=gtab bash scripts/finalize.sh && REEL=gtab bash scripts/verify.sh"
+    "gtab:build": "npm run gtab:cutout && npm run gtab:audio && REEL=gtab node scripts/make_srt.mjs && npm run gtab:render && REEL=gtab bash scripts/finalize.sh && REEL=gtab bash scripts/verify.sh",
+    "redmi:cutout": "python3 reels/redmi/cutout.py",
+    "redmi:audio": "REEL=redmi python3 scripts/process_vo_take.py && python3 reels/redmi/build_timeline.py && REEL=redmi python3 scripts/make_music.py && REEL=redmi python3 scripts/mix_audio.py",
+    "redmi:render": "remotion render RedmiReel9x16 out/redmi/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still RedmiCover out/redmi/cover_1080x1920.png",
+    "redmi:build": "npm run redmi:cutout && npm run redmi:audio && REEL=redmi node scripts/make_srt.mjs && npm run redmi:render && REEL=redmi bash scripts/finalize.sh && REEL=redmi bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",
