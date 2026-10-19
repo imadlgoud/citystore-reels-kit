@@ -1,0 +1,11 @@
+{
+ "id": "kindle11",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [2.03, 6.77, 12.38, 17.27, 21.9, 26.13, 30.58],
+ "lead": 0.06,
+ "voEndBy": 28.9,
+ "maxPause": 0.12,
+ "sentPause": 0.2,
+ "note": "Amazon Kindle 11th gen (basic, 6\", 16GB) Black. Aim 30 s: pause trimming, then <=1.1x pitch-kept speed-up if needed. 9:16 + cover only."
+}

@@ -66,6 +66,9 @@ import { GTTL } from "./reels/gtab/timeline";
 import { RedmiReel } from "./reels/redmi/RedmiReel";
 import { RedmiCover } from "./reels/redmi/RedmiCover";
 import { RSTL } from "./reels/redmi/timeline";
+import { Kindle11Reel } from "./reels/kindle11/Kindle11Reel";
+import { Kindle11Cover } from "./reels/kindle11/Kindle11Cover";
+import { K11TL } from "./reels/kindle11/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -140,6 +143,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Redmi 5G comparison (Note 15 / Note 14 Pro+ / Note 14): 39.5 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
     <Composition id="RedmiReel9x16" component={RedmiReel} durationInFrames={RSTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="RedmiCover" component={RedmiCover} width={1080} height={1920} />
+    {/* Amazon Kindle 11th gen 16GB Black: 30 s, 9:16 + cover only */}
+    <Composition id="Kindle11Reel9x16" component={Kindle11Reel} durationInFrames={Math.min(K11TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="Kindle11Cover" component={Kindle11Cover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );
