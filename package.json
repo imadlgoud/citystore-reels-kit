@@ -106,7 +106,11 @@
     "kindle11:cutout": "python3 reels/kindle11/cutout.py",
     "kindle11:audio": "REEL=kindle11 python3 scripts/process_vo_take.py && python3 reels/kindle11/build_timeline.py && REEL=kindle11 python3 scripts/make_music.py && REEL=kindle11 python3 scripts/mix_audio.py",
     "kindle11:render": "remotion render Kindle11Reel9x16 out/kindle11/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Kindle11Cover out/kindle11/cover_1080x1920.png",
-    "kindle11:build": "npm run kindle11:cutout && npm run kindle11:audio && REEL=kindle11 node scripts/make_srt.mjs && npm run kindle11:render && REEL=kindle11 bash scripts/finalize.sh && REEL=kindle11 bash scripts/verify.sh"
+    "kindle11:build": "npm run kindle11:cutout && npm run kindle11:audio && REEL=kindle11 node scripts/make_srt.mjs && npm run kindle11:render && REEL=kindle11 bash scripts/finalize.sh && REEL=kindle11 bash scripts/verify.sh",
+    "a07:cutout": "python3 reels/a07/cutout.py",
+    "a07:audio": "REEL=a07 python3 scripts/process_vo_take.py && python3 reels/a07/build_timeline.py && REEL=a07 python3 scripts/make_music.py && REEL=a07 python3 scripts/mix_audio.py",
+    "a07:render": "remotion render A07Reel9x16 out/a07/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still A07Cover out/a07/cover_1080x1920.png",
+    "a07:build": "npm run a07:cutout && npm run a07:audio && REEL=a07 node scripts/make_srt.mjs && npm run a07:render && REEL=a07 bash scripts/finalize.sh && REEL=a07 bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

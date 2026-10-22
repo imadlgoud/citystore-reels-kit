@@ -69,6 +69,9 @@ import { RSTL } from "./reels/redmi/timeline";
 import { Kindle11Reel } from "./reels/kindle11/Kindle11Reel";
 import { Kindle11Cover } from "./reels/kindle11/Kindle11Cover";
 import { K11TL } from "./reels/kindle11/timeline";
+import { A07Reel } from "./reels/a07/A07Reel";
+import { A07Cover } from "./reels/a07/A07Cover";
+import { A7TL } from "./reels/a07/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -146,6 +149,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Amazon Kindle 11th gen 16GB Black: 30 s, 9:16 + cover only */}
     <Composition id="Kindle11Reel9x16" component={Kindle11Reel} durationInFrames={Math.min(K11TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Kindle11Cover" component={Kindle11Cover} width={1080} height={1920} />
+    {/* Samsung Galaxy A07 4GB/64GB: 30 s, 9:16 + cover only */}
+    <Composition id="A07Reel9x16" component={A07Reel} durationInFrames={Math.min(A7TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="A07Cover" component={A07Cover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

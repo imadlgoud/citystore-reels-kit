@@ -1,0 +1,11 @@
+{
+ "id": "a07",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [2.86, 9.16, 13.8, 18.82, 23.18, 27.3, 31.6],
+ "lead": 0.06,
+ "voEndBy": 28.9,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "note": "Samsung Galaxy A07 4GB/64GB. Aim 30 s: pause trimming, then <=1.1x pitch-kept speed-up. 9:16 + cover only."
+}

@@ -1,0 +1,12 @@
+{
+ "black": {
+  "src": "a07/products/black.png",
+  "w": 798,
+  "h": 986
+ },
+ "green": {
+  "src": "a07/products/green.png",
+  "w": 838,
+  "h": 1035
+ }
+}

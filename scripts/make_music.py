@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # Galaxy A07 reel (30 s): upbeat G-major pop; drop when the phone pops out on "هاهوا"
+    "a07": dict(seed=263, phase=1.0, drop=2.0, end_lift=28.25, stop=28.75,
+                chords=[[55, 59, 62], [52, 55, 59], [48, 52, 55], [50, 54, 57]], roots=[43, 40, 36, 38],
+                final=[55, 59, 62, 67], final_bass=43, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
     # Redmi 5G comparison reel (39.5 s, over 30 s at natural speed): bright C-minor tech pulse; drop when the fan lands
     "redmi": dict(seed=241, dur=39.5, phase=1.0, drop=2.5, end_lift=35.75, stop=38.0,
                   chords=[[60, 63, 67], [56, 60, 63], [58, 62, 65], [55, 58, 62]], roots=[48, 44, 46, 43],
