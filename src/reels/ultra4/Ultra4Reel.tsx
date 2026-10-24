@@ -8,7 +8,7 @@ import { ultra4Direction } from "./direction";
 import { U4TL } from "./timeline";
 import { U4Battery, U4Gps, U4Health, U4Hook, U4Intro, U4Titan } from "./U4Scenes";
 
-const U4Trust: React.FC = () => <ChecklistTrust title="PRODUITS ORIGINAUX" items={["Boîte fermée", "Jamais ouverts", "Jamais activés"]} />;
+const U4Trust: React.FC = () => <ChecklistTrust title="PRODUIT ORIGINAL" items={["Boîte fermée", "Jamais ouvert", "Jamais activé"]} />;
 const U4Cta: React.FC = () => <ChatCta message="Salam ! Je veux commander l'Apple Watch Ultra 4 49mm Titanium." />;
 const U4End: React.FC = () => <EndCard tagline="الأصلي ديما!" />;
 

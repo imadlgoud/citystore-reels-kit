@@ -83,8 +83,8 @@
   "trust.thumb": 802,
   "trust.checks": [
    840,
-   862,
-   900
+   870,
+   908
   ],
   "cta.url": 940,
   "cta.message": 960,
@@ -130,8 +130,8 @@
   "trust.thumb": 26.75,
   "trust.checks": [
    28.0,
-   28.75,
-   30.0
+   29.0,
+   30.25
   ],
   "cta.url": 31.35,
   "cta.message": 32.0,
@@ -349,12 +349,12 @@
   },
   {
    "name": "ding",
-   "t": 28.9,
+   "t": 29.15,
    "gainDb": -12
   },
   {
    "name": "ding",
-   "t": 30.15,
+   "t": 30.4,
    "gainDb": -12
   },
   {
@@ -957,7 +957,7 @@
   {
    "text": "Produit original, boîte fermée,",
    "start": 26.125,
-   "end": 28.845,
+   "end": 29.005,
    "words": [
     {
      "word": "Produit",
@@ -966,52 +966,52 @@
     },
     {
      "word": "original,",
-     "start": 26.725,
-     "frame": 802
+     "start": 26.865,
+     "frame": 806
     },
     {
      "word": "boîte",
-     "start": 28.045,
-     "frame": 841
+     "start": 28.125,
+     "frame": 844
     },
     {
      "word": "fermée,",
-     "start": 28.285,
-     "frame": 849
+     "start": 28.385,
+     "frame": 852
     }
    ],
    "line": 6,
    "from": 784,
-   "to": 865
+   "to": 870
   },
   {
-   "text": "jamais ouverts, jamais activés.",
-   "start": 28.845,
+   "text": "jamais ouvert, jamais activé.",
+   "start": 29.005,
    "end": 31.37,
    "words": [
     {
      "word": "jamais",
-     "start": 28.845,
-     "frame": 865
+     "start": 29.005,
+     "frame": 870
     },
     {
-     "word": "ouverts,",
-     "start": 29.365,
-     "frame": 881
+     "word": "ouvert,",
+     "start": 29.625,
+     "frame": 889
     },
     {
      "word": "jamais",
-     "start": 29.945,
-     "frame": 898
+     "start": 30.145,
+     "frame": 904
     },
     {
-     "word": "activés.",
-     "start": 30.485,
-     "frame": 915
+     "word": "activé.",
+     "start": 30.705,
+     "frame": 921
     }
    ],
    "line": 6,
-   "from": 865,
+   "from": 870,
    "to": 941
   },
   {
