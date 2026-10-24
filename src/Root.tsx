@@ -72,6 +72,9 @@ import { K11TL } from "./reels/kindle11/timeline";
 import { A07Reel } from "./reels/a07/A07Reel";
 import { A07Cover } from "./reels/a07/A07Cover";
 import { A7TL } from "./reels/a07/timeline";
+import { Ultra4Reel } from "./reels/ultra4/Ultra4Reel";
+import { Ultra4Cover } from "./reels/ultra4/Ultra4Cover";
+import { U4TL } from "./reels/ultra4/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -152,6 +155,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Samsung Galaxy A07 4GB/64GB: 30 s, 9:16 + cover only */}
     <Composition id="A07Reel9x16" component={A07Reel} durationInFrames={Math.min(A7TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="A07Cover" component={A07Cover} width={1080} height={1920} />
+    {/* Apple Watch Ultra 4 49mm Titanium: 37 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
+    <Composition id="Ultra4Reel9x16" component={Ultra4Reel} durationInFrames={U4TL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="Ultra4Cover" component={Ultra4Cover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

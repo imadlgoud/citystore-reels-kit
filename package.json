@@ -110,7 +110,11 @@
     "a07:cutout": "python3 reels/a07/cutout.py",
     "a07:audio": "REEL=a07 python3 scripts/process_vo_take.py && python3 reels/a07/build_timeline.py && REEL=a07 python3 scripts/make_music.py && REEL=a07 python3 scripts/mix_audio.py",
     "a07:render": "remotion render A07Reel9x16 out/a07/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still A07Cover out/a07/cover_1080x1920.png",
-    "a07:build": "npm run a07:cutout && npm run a07:audio && REEL=a07 node scripts/make_srt.mjs && npm run a07:render && REEL=a07 bash scripts/finalize.sh && REEL=a07 bash scripts/verify.sh"
+    "a07:build": "npm run a07:cutout && npm run a07:audio && REEL=a07 node scripts/make_srt.mjs && npm run a07:render && REEL=a07 bash scripts/finalize.sh && REEL=a07 bash scripts/verify.sh",
+    "ultra4:cutout": "python3 reels/ultra4/cutout.py",
+    "ultra4:audio": "REEL=ultra4 python3 scripts/process_vo_take.py && python3 reels/ultra4/build_timeline.py && REEL=ultra4 python3 scripts/make_music.py && REEL=ultra4 python3 scripts/mix_audio.py",
+    "ultra4:render": "remotion render Ultra4Reel9x16 out/ultra4/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Ultra4Cover out/ultra4/cover_1080x1920.png",
+    "ultra4:build": "npm run ultra4:cutout && npm run ultra4:audio && REEL=ultra4 node scripts/make_srt.mjs && npm run ultra4:render && REEL=ultra4 bash scripts/finalize.sh && REEL=ultra4 bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

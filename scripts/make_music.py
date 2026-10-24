@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # Apple Watch Ultra 4 reel (37 s, over 30 s at natural speed): adventurous D-minor drive; drop on the satellite
+    "ultra4": dict(seed=271, dur=37.0, phase=1.0, drop=4.5, end_lift=33.75, stop=35.5,
+                   chords=[[62, 65, 69], [58, 62, 65], [60, 64, 67], [57, 60, 64]], roots=[38, 34, 36, 33],
+                   final=[62, 65, 69, 74], final_bass=38, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
     # Galaxy A07 reel (30 s): upbeat G-major pop; drop when the phone pops out on "هاهوا"
     "a07": dict(seed=263, phase=1.0, drop=2.0, end_lift=28.25, stop=28.75,
                 chords=[[55, 59, 62], [52, 55, 59], [48, 52, 55], [50, 54, 57]], roots=[43, 40, 36, 38],

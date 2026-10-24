@@ -53,6 +53,7 @@ npm run studio                   # interactive preview
 | Redmi 5G: Note 15 5G, Note 14 Pro+ 5G, Note 14 5G (Darija, **39.5 s**, over 30 s at natural speed; 9:16 only) | `RedmiReel9x16`, `RedmiCover` | `out/redmi/` | `npm run redmi:build` |
 | Amazon Kindle 11th gen 16GB Black (Darija, 30 s; 9:16 only) | `Kindle11Reel9x16`, `Kindle11Cover` | `out/kindle11/` | `npm run kindle11:build` |
 | Samsung Galaxy A07 4GB/64GB (Darija, 30 s; 9:16 only) | `A07Reel9x16`, `A07Cover` | `out/a07/` | `npm run a07:build` |
+| Apple Watch Ultra 4 49mm Natural Titanium (Darija, **37 s**, over 30 s at natural speed; 9:16 only) | `Ultra4Reel9x16`, `Ultra4Cover` | `out/ultra4/` | `npm run ultra4:build` |
 | Apple Watch Ultra 4 (Darija) | `WatchReel9x16`, `WatchReel1x1`, `WatchCover` | `out/watch/` | `npm run watch:build` |
 | Galaxy Watch8 Classic + Ultra2 (Darija) | `GalaxyReel9x16`, `GalaxyReel1x1`, `GalaxyCover` | `out/galaxy/` | `npm run galaxy:build` |
 | Sony WH-1000XM6 + XM5 (Darija) | `SonyReel9x16`, `SonyReel1x1`, `SonyCover` | `out/sony/` | `npm run sony:build` |

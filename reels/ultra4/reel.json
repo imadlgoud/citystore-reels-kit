@@ -1,0 +1,12 @@
+{
+ "id": "ultra4",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [5.23, 9.85, 14.97, 19.55, 25.47, 28.39, 34.48],
+ "lead": 0.06,
+ "voEndBy": 999,
+ "maxPause": 0.14,
+ "sentPause": 0.24,
+ "maxSeconds": 60,
+ "note": "Apple Watch Ultra 4 49mm Natural Titanium (Ocean Band in the images). 37 s take: over 30 s at natural speed under the standing approval. 9:16 + cover only."
+}
