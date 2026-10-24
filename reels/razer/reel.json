@@ -1,0 +1,12 @@
+{
+ "id": "razer",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [4.12, 8.6, 13.09, 18.32, 22.74, 26.95, 30.99],
+ "lead": 0.06,
+ "voEndBy": 28.9,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "silenceDb": -32,
+ "note": "Razer Hammerhead USB-C ANC (wired in-ear). Aim 30 s: pause trimming, then <=1.1x pitch-kept speed-up. Take has a higher noise floor -> silenceDb -32. 9:16 + cover only."
+}

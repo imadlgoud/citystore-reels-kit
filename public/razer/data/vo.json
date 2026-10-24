@@ -1,0 +1,1583 @@
+[
+ {
+  "id": "line_01",
+  "subtitle": "كتسمع الرصاصة من بعد ما تموت؟ المشكل ماشي فيك، فالكيت!",
+  "source": "human-take",
+  "start": 0.06,
+  "duration": 3.264,
+  "speed": 1.0447,
+  "words": [
+   {
+    "word": "كتسمع",
+    "start": 0.0,
+    "end": 0.32
+   },
+   {
+    "word": "الرصاصة",
+    "start": 0.32,
+    "end": 0.8
+   },
+   {
+    "word": "من",
+    "start": 0.8,
+    "end": 0.96
+   },
+   {
+    "word": "بعد",
+    "start": 0.96,
+    "end": 1.12
+   },
+   {
+    "word": "ما",
+    "start": 1.12,
+    "end": 1.28
+   },
+   {
+    "word": "تموت؟",
+    "start": 1.28,
+    "end": 1.62
+   },
+   {
+    "word": "المشكل",
+    "start": 1.62,
+    "end": 2.2
+   },
+   {
+    "word": "ماشي",
+    "start": 2.2,
+    "end": 2.52
+   },
+   {
+    "word": "فيك،",
+    "start": 2.52,
+    "end": 2.68
+   },
+   {
+    "word": "فالكيت!",
+    "start": 2.68,
+    "end": 3.22
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.22,
+    "value": "B"
+   },
+   {
+    "start": 0.22,
+    "end": 0.32,
+    "value": "A"
+   },
+   {
+    "start": 0.32,
+    "end": 0.39,
+    "value": "C"
+   },
+   {
+    "start": 0.39,
+    "end": 0.45,
+    "value": "E"
+   },
+   {
+    "start": 0.45,
+    "end": 0.59,
+    "value": "B"
+   },
+   {
+    "start": 0.59,
+    "end": 0.66,
+    "value": "E"
+   },
+   {
+    "start": 0.66,
+    "end": 0.73,
+    "value": "F"
+   },
+   {
+    "start": 0.73,
+    "end": 0.8,
+    "value": "H"
+   },
+   {
+    "start": 0.8,
+    "end": 0.88,
+    "value": "A"
+   },
+   {
+    "start": 0.88,
+    "end": 0.98,
+    "value": "F"
+   },
+   {
+    "start": 0.98,
+    "end": 1.06,
+    "value": "A"
+   },
+   {
+    "start": 1.06,
+    "end": 1.12,
+    "value": "C"
+   },
+   {
+    "start": 1.12,
+    "end": 1.25,
+    "value": "B"
+   },
+   {
+    "start": 1.25,
+    "end": 1.33,
+    "value": "A"
+   },
+   {
+    "start": 1.33,
+    "end": 1.44,
+    "value": "B"
+   },
+   {
+    "start": 1.44,
+    "end": 1.51,
+    "value": "C"
+   },
+   {
+    "start": 1.51,
+    "end": 1.58,
+    "value": "E"
+   },
+   {
+    "start": 1.58,
+    "end": 1.72,
+    "value": "B"
+   },
+   {
+    "start": 1.72,
+    "end": 1.93,
+    "value": "A"
+   },
+   {
+    "start": 1.93,
+    "end": 1.99,
+    "value": "F"
+   },
+   {
+    "start": 1.99,
+    "end": 2.26,
+    "value": "B"
+   },
+   {
+    "start": 2.26,
+    "end": 2.34,
+    "value": "A"
+   },
+   {
+    "start": 2.34,
+    "end": 2.55,
+    "value": "B"
+   },
+   {
+    "start": 2.55,
+    "end": 2.62,
+    "value": "G"
+   },
+   {
+    "start": 2.62,
+    "end": 3.25,
+    "value": "B"
+   },
+   {
+    "start": 3.25,
+    "end": 3.26,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_02",
+  "subtitle": "Razer Hammerhead USB-C ANC، disponible دابا عندنا.",
+  "source": "human-take",
+  "start": 3.324,
+  "duration": 3.987,
+  "speed": 1.0447,
+  "words": [
+   {
+    "word": "Razer",
+    "start": 0.02,
+    "end": 0.34
+   },
+   {
+    "word": "Hammerhead",
+    "start": 0.34,
+    "end": 1.12
+   },
+   {
+    "word": "USB-C",
+    "start": 1.12,
+    "end": 1.74
+   },
+   {
+    "word": "ANC،",
+    "start": 1.74,
+    "end": 2.0
+   },
+   {
+    "word": "disponible",
+    "start": 2.0,
+    "end": 2.9
+   },
+   {
+    "word": "دابا",
+    "start": 2.9,
+    "end": 3.46
+   },
+   {
+    "word": "عندنا.",
+    "start": 3.46,
+    "end": 3.98
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.06,
+    "value": "B"
+   },
+   {
+    "start": 0.06,
+    "end": 0.11,
+    "value": "A"
+   },
+   {
+    "start": 0.11,
+    "end": 0.3,
+    "value": "E"
+   },
+   {
+    "start": 0.3,
+    "end": 0.51,
+    "value": "B"
+   },
+   {
+    "start": 0.51,
+    "end": 0.79,
+    "value": "E"
+   },
+   {
+    "start": 0.79,
+    "end": 0.87,
+    "value": "A"
+   },
+   {
+    "start": 0.87,
+    "end": 0.94,
+    "value": "B"
+   },
+   {
+    "start": 0.94,
+    "end": 1.01,
+    "value": "C"
+   },
+   {
+    "start": 1.01,
+    "end": 1.29,
+    "value": "B"
+   },
+   {
+    "start": 1.29,
+    "end": 1.43,
+    "value": "C"
+   },
+   {
+    "start": 1.43,
+    "end": 1.57,
+    "value": "B"
+   },
+   {
+    "start": 1.57,
+    "end": 1.65,
+    "value": "A"
+   },
+   {
+    "start": 1.65,
+    "end": 2.07,
+    "value": "B"
+   },
+   {
+    "start": 2.07,
+    "end": 2.17,
+    "value": "D"
+   },
+   {
+    "start": 2.17,
+    "end": 2.21,
+    "value": "C"
+   },
+   {
+    "start": 2.21,
+    "end": 2.29,
+    "value": "A"
+   },
+   {
+    "start": 2.29,
+    "end": 3.0,
+    "value": "B"
+   },
+   {
+    "start": 3.0,
+    "end": 3.12,
+    "value": "A"
+   },
+   {
+    "start": 3.12,
+    "end": 3.22,
+    "value": "F"
+   },
+   {
+    "start": 3.22,
+    "end": 3.29,
+    "value": "B"
+   },
+   {
+    "start": 3.29,
+    "end": 3.39,
+    "value": "A"
+   },
+   {
+    "start": 3.39,
+    "end": 3.44,
+    "value": "B"
+   },
+   {
+    "start": 3.44,
+    "end": 3.55,
+    "value": "C"
+   },
+   {
+    "start": 3.55,
+    "end": 3.63,
+    "value": "A"
+   },
+   {
+    "start": 3.63,
+    "end": 3.97,
+    "value": "C"
+   },
+   {
+    "start": 3.97,
+    "end": 3.98,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_03",
+  "subtitle": "بالسلك USB-C، يعني الصوت كيوصلك فالوقت، وما تسمعوش معطّل.",
+  "source": "human-take",
+  "start": 7.311,
+  "duration": 3.752,
+  "speed": 1.0447,
+  "words": [
+   {
+    "word": "بالسلك",
+    "start": 0.0,
+    "end": 0.52
+   },
+   {
+    "word": "USB-C،",
+    "start": 0.52,
+    "end": 0.92
+   },
+   {
+    "word": "يعني",
+    "start": 0.92,
+    "end": 1.24
+   },
+   {
+    "word": "الصوت",
+    "start": 1.24,
+    "end": 1.62
+   },
+   {
+    "word": "كيوصلك",
+    "start": 1.62,
+    "end": 2.1
+   },
+   {
+    "word": "فالوقت،",
+    "start": 2.1,
+    "end": 2.62
+   },
+   {
+    "word": "وما",
+    "start": 2.62,
+    "end": 2.8
+   },
+   {
+    "word": "تسمعوش",
+    "start": 2.8,
+    "end": 3.36
+   },
+   {
+    "word": "معطّل.",
+    "start": 3.36,
+    "end": 3.68
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.06,
+    "value": "B"
+   },
+   {
+    "start": 0.06,
+    "end": 0.11,
+    "value": "A"
+   },
+   {
+    "start": 0.11,
+    "end": 0.28,
+    "value": "B"
+   },
+   {
+    "start": 0.28,
+    "end": 0.49,
+    "value": "F"
+   },
+   {
+    "start": 0.49,
+    "end": 0.56,
+    "value": "B"
+   },
+   {
+    "start": 0.56,
+    "end": 0.64,
+    "value": "A"
+   },
+   {
+    "start": 0.64,
+    "end": 0.83,
+    "value": "B"
+   },
+   {
+    "start": 0.83,
+    "end": 0.91,
+    "value": "A"
+   },
+   {
+    "start": 0.91,
+    "end": 1.21,
+    "value": "B"
+   },
+   {
+    "start": 1.21,
+    "end": 1.29,
+    "value": "A"
+   },
+   {
+    "start": 1.29,
+    "end": 1.77,
+    "value": "B"
+   },
+   {
+    "start": 1.77,
+    "end": 1.84,
+    "value": "E"
+   },
+   {
+    "start": 1.84,
+    "end": 2.33,
+    "value": "F"
+   },
+   {
+    "start": 2.33,
+    "end": 2.4,
+    "value": "B"
+   },
+   {
+    "start": 2.4,
+    "end": 2.47,
+    "value": "G"
+   },
+   {
+    "start": 2.47,
+    "end": 2.55,
+    "value": "A"
+   },
+   {
+    "start": 2.55,
+    "end": 2.59,
+    "value": "F"
+   },
+   {
+    "start": 2.59,
+    "end": 2.84,
+    "value": "B"
+   },
+   {
+    "start": 2.84,
+    "end": 3.12,
+    "value": "F"
+   },
+   {
+    "start": 3.12,
+    "end": 3.19,
+    "value": "B"
+   },
+   {
+    "start": 3.19,
+    "end": 3.27,
+    "value": "A"
+   },
+   {
+    "start": 3.27,
+    "end": 3.34,
+    "value": "E"
+   },
+   {
+    "start": 3.34,
+    "end": 3.47,
+    "value": "F"
+   },
+   {
+    "start": 3.47,
+    "end": 3.55,
+    "value": "A"
+   },
+   {
+    "start": 3.55,
+    "end": 3.63,
+    "value": "D"
+   },
+   {
+    "start": 3.63,
+    "end": 3.74,
+    "value": "A"
+   },
+   {
+    "start": 3.74,
+    "end": 3.75,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_04",
+  "subtitle": "réduction de bruit active، كتسد على الصداع اللي داير بيك وكتبقى مركّز فاللعبة.",
+  "source": "human-take",
+  "start": 11.063,
+  "duration": 4.547,
+  "speed": 1.0447,
+  "words": [
+   {
+    "word": "réduction",
+    "start": 0.04,
+    "end": 0.4
+   },
+   {
+    "word": "de",
+    "start": 0.4,
+    "end": 0.56
+   },
+   {
+    "word": "bruit",
+    "start": 0.56,
+    "end": 0.72
+   },
+   {
+    "word": "active،",
+    "start": 0.72,
+    "end": 1.04
+   },
+   {
+    "word": "كتسد",
+    "start": 1.04,
+    "end": 1.48
+   },
+   {
+    "word": "على",
+    "start": 1.48,
+    "end": 1.64
+   },
+   {
+    "word": "الصداع",
+    "start": 1.64,
+    "end": 2.2
+   },
+   {
+    "word": "اللي",
+    "start": 2.2,
+    "end": 2.54
+   },
+   {
+    "word": "داير",
+    "start": 2.54,
+    "end": 2.86
+   },
+   {
+    "word": "بيك",
+    "start": 2.86,
+    "end": 3.02
+   },
+   {
+    "word": "وكتبقى",
+    "start": 3.02,
+    "end": 3.62
+   },
+   {
+    "word": "مركّز",
+    "start": 3.62,
+    "end": 3.98
+   },
+   {
+    "word": "فاللعبة.",
+    "start": 3.98,
+    "end": 4.54
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.02,
+    "value": "X"
+   },
+   {
+    "start": 0.02,
+    "end": 0.06,
+    "value": "B"
+   },
+   {
+    "start": 0.06,
+    "end": 0.1,
+    "value": "E"
+   },
+   {
+    "start": 0.1,
+    "end": 0.17,
+    "value": "F"
+   },
+   {
+    "start": 0.17,
+    "end": 0.45,
+    "value": "B"
+   },
+   {
+    "start": 0.45,
+    "end": 0.8,
+    "value": "F"
+   },
+   {
+    "start": 0.8,
+    "end": 0.88,
+    "value": "A"
+   },
+   {
+    "start": 0.88,
+    "end": 0.99,
+    "value": "E"
+   },
+   {
+    "start": 0.99,
+    "end": 1.13,
+    "value": "F"
+   },
+   {
+    "start": 1.13,
+    "end": 1.2,
+    "value": "B"
+   },
+   {
+    "start": 1.2,
+    "end": 1.34,
+    "value": "C"
+   },
+   {
+    "start": 1.34,
+    "end": 1.62,
+    "value": "B"
+   },
+   {
+    "start": 1.62,
+    "end": 1.69,
+    "value": "G"
+   },
+   {
+    "start": 1.69,
+    "end": 2.04,
+    "value": "B"
+   },
+   {
+    "start": 2.04,
+    "end": 2.12,
+    "value": "A"
+   },
+   {
+    "start": 2.12,
+    "end": 2.24,
+    "value": "C"
+   },
+   {
+    "start": 2.24,
+    "end": 2.31,
+    "value": "H"
+   },
+   {
+    "start": 2.31,
+    "end": 2.45,
+    "value": "B"
+   },
+   {
+    "start": 2.45,
+    "end": 2.53,
+    "value": "A"
+   },
+   {
+    "start": 2.53,
+    "end": 2.73,
+    "value": "C"
+   },
+   {
+    "start": 2.73,
+    "end": 2.87,
+    "value": "F"
+   },
+   {
+    "start": 2.87,
+    "end": 3.01,
+    "value": "B"
+   },
+   {
+    "start": 3.01,
+    "end": 3.09,
+    "value": "A"
+   },
+   {
+    "start": 3.09,
+    "end": 3.17,
+    "value": "B"
+   },
+   {
+    "start": 3.17,
+    "end": 3.38,
+    "value": "E"
+   },
+   {
+    "start": 3.38,
+    "end": 3.52,
+    "value": "C"
+   },
+   {
+    "start": 3.52,
+    "end": 3.59,
+    "value": "B"
+   },
+   {
+    "start": 3.59,
+    "end": 3.73,
+    "value": "D"
+   },
+   {
+    "start": 3.73,
+    "end": 3.8,
+    "value": "C"
+   },
+   {
+    "start": 3.8,
+    "end": 3.88,
+    "value": "A"
+   },
+   {
+    "start": 3.88,
+    "end": 4.25,
+    "value": "B"
+   },
+   {
+    "start": 4.25,
+    "end": 4.32,
+    "value": "G"
+   },
+   {
+    "start": 4.32,
+    "end": 4.46,
+    "value": "H"
+   },
+   {
+    "start": 4.46,
+    "end": 4.53,
+    "value": "C"
+   },
+   {
+    "start": 4.53,
+    "end": 4.54,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_05",
+  "subtitle": "embouts Comply en mousse، مريحين فالودن وكيعزلو الصوت مزيان.",
+  "source": "human-take",
+  "start": 15.609,
+  "duration": 3.901,
+  "speed": 1.0447,
+  "words": [
+   {
+    "word": "embouts",
+    "start": 0.0,
+    "end": 0.42
+   },
+   {
+    "word": "Comply",
+    "start": 0.42,
+    "end": 0.86
+   },
+   {
+    "word": "en",
+    "start": 0.86,
+    "end": 1.04
+   },
+   {
+    "word": "mousse،",
+    "start": 1.04,
+    "end": 1.26
+   },
+   {
+    "word": "مريحين",
+    "start": 1.26,
+    "end": 1.9
+   },
+   {
+    "word": "فالودن",
+    "start": 1.9,
+    "end": 2.46
+   },
+   {
+    "word": "وكيعزلو",
+    "start": 2.46,
+    "end": 3.08
+   },
+   {
+    "word": "الصوت",
+    "start": 3.08,
+    "end": 3.48
+   },
+   {
+    "word": "مزيان.",
+    "start": 3.48,
+    "end": 3.86
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.06,
+    "value": "B"
+   },
+   {
+    "start": 0.06,
+    "end": 0.26,
+    "value": "E"
+   },
+   {
+    "start": 0.26,
+    "end": 0.34,
+    "value": "A"
+   },
+   {
+    "start": 0.34,
+    "end": 0.5,
+    "value": "E"
+   },
+   {
+    "start": 0.5,
+    "end": 0.64,
+    "value": "C"
+   },
+   {
+    "start": 0.64,
+    "end": 0.71,
+    "value": "F"
+   },
+   {
+    "start": 0.71,
+    "end": 0.92,
+    "value": "H"
+   },
+   {
+    "start": 0.92,
+    "end": 0.99,
+    "value": "C"
+   },
+   {
+    "start": 0.99,
+    "end": 1.27,
+    "value": "E"
+   },
+   {
+    "start": 1.27,
+    "end": 1.34,
+    "value": "C"
+   },
+   {
+    "start": 1.34,
+    "end": 1.41,
+    "value": "F"
+   },
+   {
+    "start": 1.41,
+    "end": 1.62,
+    "value": "B"
+   },
+   {
+    "start": 1.62,
+    "end": 1.77,
+    "value": "A"
+   },
+   {
+    "start": 1.77,
+    "end": 1.84,
+    "value": "F"
+   },
+   {
+    "start": 1.84,
+    "end": 2.18,
+    "value": "B"
+   },
+   {
+    "start": 2.18,
+    "end": 2.25,
+    "value": "G"
+   },
+   {
+    "start": 2.25,
+    "end": 2.32,
+    "value": "F"
+   },
+   {
+    "start": 2.32,
+    "end": 2.4,
+    "value": "A"
+   },
+   {
+    "start": 2.4,
+    "end": 2.48,
+    "value": "C"
+   },
+   {
+    "start": 2.48,
+    "end": 2.56,
+    "value": "A"
+   },
+   {
+    "start": 2.56,
+    "end": 2.63,
+    "value": "B"
+   },
+   {
+    "start": 2.63,
+    "end": 2.69,
+    "value": "F"
+   },
+   {
+    "start": 2.69,
+    "end": 3.04,
+    "value": "B"
+   },
+   {
+    "start": 3.04,
+    "end": 3.12,
+    "value": "A"
+   },
+   {
+    "start": 3.12,
+    "end": 3.17,
+    "value": "E"
+   },
+   {
+    "start": 3.17,
+    "end": 3.35,
+    "value": "B"
+   },
+   {
+    "start": 3.35,
+    "end": 3.42,
+    "value": "E"
+   },
+   {
+    "start": 3.42,
+    "end": 3.49,
+    "value": "B"
+   },
+   {
+    "start": 3.49,
+    "end": 3.57,
+    "value": "A"
+   },
+   {
+    "start": 3.57,
+    "end": 3.68,
+    "value": "B"
+   },
+   {
+    "start": 3.68,
+    "end": 3.82,
+    "value": "C"
+   },
+   {
+    "start": 3.82,
+    "end": 3.89,
+    "value": "B"
+   },
+   {
+    "start": 3.89,
+    "end": 3.9,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_06",
+  "subtitle": "télécommande فالسلك مع micro، باش تهضر مع صحابك وتجاوب على les appels.",
+  "source": "human-take",
+  "start": 19.51,
+  "duration": 3.781,
+  "speed": 1.0447,
+  "words": [
+   {
+    "word": "télécommande",
+    "start": 0.06,
+    "end": 0.4
+   },
+   {
+    "word": "فالسلك",
+    "start": 0.4,
+    "end": 0.88
+   },
+   {
+    "word": "مع",
+    "start": 0.88,
+    "end": 1.06
+   },
+   {
+    "word": "micro،",
+    "start": 1.06,
+    "end": 1.4
+   },
+   {
+    "word": "باش",
+    "start": 1.4,
+    "end": 1.56
+   },
+   {
+    "word": "تهضر",
+    "start": 1.56,
+    "end": 1.96
+   },
+   {
+    "word": "مع",
+    "start": 1.96,
+    "end": 2.12
+   },
+   {
+    "word": "صحابك",
+    "start": 2.12,
+    "end": 2.44
+   },
+   {
+    "word": "وتجاوب",
+    "start": 2.44,
+    "end": 3.04
+   },
+   {
+    "word": "على",
+    "start": 3.04,
+    "end": 3.2
+   },
+   {
+    "word": "les",
+    "start": 3.2,
+    "end": 3.36
+   },
+   {
+    "word": "appels.",
+    "start": 3.36,
+    "end": 3.76
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.03,
+    "value": "X"
+   },
+   {
+    "start": 0.03,
+    "end": 0.23,
+    "value": "B"
+   },
+   {
+    "start": 0.23,
+    "end": 0.37,
+    "value": "F"
+   },
+   {
+    "start": 0.37,
+    "end": 0.51,
+    "value": "E"
+   },
+   {
+    "start": 0.51,
+    "end": 1.0,
+    "value": "B"
+   },
+   {
+    "start": 1.0,
+    "end": 1.08,
+    "value": "A"
+   },
+   {
+    "start": 1.08,
+    "end": 1.14,
+    "value": "C"
+   },
+   {
+    "start": 1.14,
+    "end": 1.27,
+    "value": "B"
+   },
+   {
+    "start": 1.27,
+    "end": 1.62,
+    "value": "E"
+   },
+   {
+    "start": 1.62,
+    "end": 1.83,
+    "value": "B"
+   },
+   {
+    "start": 1.83,
+    "end": 1.9,
+    "value": "C"
+   },
+   {
+    "start": 1.9,
+    "end": 1.96,
+    "value": "A"
+   },
+   {
+    "start": 1.96,
+    "end": 2.02,
+    "value": "C"
+   },
+   {
+    "start": 2.02,
+    "end": 2.1,
+    "value": "A"
+   },
+   {
+    "start": 2.1,
+    "end": 2.24,
+    "value": "C"
+   },
+   {
+    "start": 2.24,
+    "end": 2.31,
+    "value": "B"
+   },
+   {
+    "start": 2.31,
+    "end": 2.45,
+    "value": "C"
+   },
+   {
+    "start": 2.45,
+    "end": 2.55,
+    "value": "A"
+   },
+   {
+    "start": 2.55,
+    "end": 2.66,
+    "value": "B"
+   },
+   {
+    "start": 2.66,
+    "end": 2.87,
+    "value": "F"
+   },
+   {
+    "start": 2.87,
+    "end": 3.01,
+    "value": "B"
+   },
+   {
+    "start": 3.01,
+    "end": 3.09,
+    "value": "A"
+   },
+   {
+    "start": 3.09,
+    "end": 3.32,
+    "value": "C"
+   },
+   {
+    "start": 3.32,
+    "end": 3.39,
+    "value": "F"
+   },
+   {
+    "start": 3.39,
+    "end": 3.46,
+    "value": "B"
+   },
+   {
+    "start": 3.46,
+    "end": 3.54,
+    "value": "A"
+   },
+   {
+    "start": 3.54,
+    "end": 3.63,
+    "value": "C"
+   },
+   {
+    "start": 3.63,
+    "end": 3.77,
+    "value": "B"
+   },
+   {
+    "start": 3.77,
+    "end": 3.78,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_07",
+  "subtitle": "Produit original, boîte fermée, jamais ouvert, jamais activé.",
+  "source": "human-take",
+  "start": 23.291,
+  "duration": 3.513,
+  "speed": 1.0447,
+  "words": [
+   {
+    "word": "Produit",
+    "start": 0.0,
+    "end": 0.44
+   },
+   {
+    "word": "original,",
+    "start": 0.44,
+    "end": 1.26
+   },
+   {
+    "word": "boîte",
+    "start": 1.26,
+    "end": 1.46
+   },
+   {
+    "word": "fermée,",
+    "start": 1.46,
+    "end": 1.84
+   },
+   {
+    "word": "jamais",
+    "start": 1.84,
+    "end": 2.26
+   },
+   {
+    "word": "ouvert,",
+    "start": 2.26,
+    "end": 2.64
+   },
+   {
+    "word": "jamais",
+    "start": 2.64,
+    "end": 3.06
+   },
+   {
+    "word": "activé.",
+    "start": 3.06,
+    "end": 3.5
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.04,
+    "value": "A"
+   },
+   {
+    "start": 0.04,
+    "end": 0.15,
+    "value": "E"
+   },
+   {
+    "start": 0.15,
+    "end": 0.22,
+    "value": "F"
+   },
+   {
+    "start": 0.22,
+    "end": 0.29,
+    "value": "C"
+   },
+   {
+    "start": 0.29,
+    "end": 0.43,
+    "value": "B"
+   },
+   {
+    "start": 0.43,
+    "end": 0.57,
+    "value": "E"
+   },
+   {
+    "start": 0.57,
+    "end": 0.71,
+    "value": "F"
+   },
+   {
+    "start": 0.71,
+    "end": 0.92,
+    "value": "B"
+   },
+   {
+    "start": 0.92,
+    "end": 0.99,
+    "value": "C"
+   },
+   {
+    "start": 0.99,
+    "end": 1.13,
+    "value": "B"
+   },
+   {
+    "start": 1.13,
+    "end": 1.21,
+    "value": "A"
+   },
+   {
+    "start": 1.21,
+    "end": 1.42,
+    "value": "E"
+   },
+   {
+    "start": 1.42,
+    "end": 1.49,
+    "value": "B"
+   },
+   {
+    "start": 1.49,
+    "end": 1.63,
+    "value": "G"
+   },
+   {
+    "start": 1.63,
+    "end": 1.7,
+    "value": "C"
+   },
+   {
+    "start": 1.7,
+    "end": 1.78,
+    "value": "A"
+   },
+   {
+    "start": 1.78,
+    "end": 2.14,
+    "value": "B"
+   },
+   {
+    "start": 2.14,
+    "end": 2.21,
+    "value": "D"
+   },
+   {
+    "start": 2.21,
+    "end": 2.29,
+    "value": "A"
+   },
+   {
+    "start": 2.29,
+    "end": 2.35,
+    "value": "B"
+   },
+   {
+    "start": 2.35,
+    "end": 2.47,
+    "value": "E"
+   },
+   {
+    "start": 2.47,
+    "end": 2.61,
+    "value": "G"
+   },
+   {
+    "start": 2.61,
+    "end": 2.96,
+    "value": "B"
+   },
+   {
+    "start": 2.96,
+    "end": 3.03,
+    "value": "D"
+   },
+   {
+    "start": 3.03,
+    "end": 3.13,
+    "value": "A"
+   },
+   {
+    "start": 3.13,
+    "end": 3.18,
+    "value": "B"
+   },
+   {
+    "start": 3.18,
+    "end": 3.29,
+    "value": "C"
+   },
+   {
+    "start": 3.29,
+    "end": 3.5,
+    "value": "B"
+   },
+   {
+    "start": 3.5,
+    "end": 3.51,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_08",
+  "subtitle": "إلا بغيتي تكوموندي، صيفط لينا ميساج.",
+  "source": "human-take",
+  "start": 26.804,
+  "duration": 2.096,
+  "speed": 1.0447,
+  "words": [
+   {
+    "word": "إلا",
+    "start": 0.0,
+    "end": 0.18
+   },
+   {
+    "word": "بغيتي",
+    "start": 0.18,
+    "end": 0.48
+   },
+   {
+    "word": "تكوموندي،",
+    "start": 0.48,
+    "end": 1.08
+   },
+   {
+    "word": "صيفط",
+    "start": 1.08,
+    "end": 1.46
+   },
+   {
+    "word": "لينا",
+    "start": 1.46,
+    "end": 1.76
+   },
+   {
+    "word": "ميساج.",
+    "start": 1.76,
+    "end": 2.08
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.16,
+    "value": "X"
+   },
+   {
+    "start": 0.16,
+    "end": 0.27,
+    "value": "B"
+   },
+   {
+    "start": 0.27,
+    "end": 0.34,
+    "value": "C"
+   },
+   {
+    "start": 0.34,
+    "end": 0.48,
+    "value": "F"
+   },
+   {
+    "start": 0.48,
+    "end": 0.62,
+    "value": "B"
+   },
+   {
+    "start": 0.62,
+    "end": 0.76,
+    "value": "E"
+   },
+   {
+    "start": 0.76,
+    "end": 0.82,
+    "value": "A"
+   },
+   {
+    "start": 0.82,
+    "end": 0.88,
+    "value": "E"
+   },
+   {
+    "start": 0.88,
+    "end": 0.96,
+    "value": "A"
+   },
+   {
+    "start": 0.96,
+    "end": 1.18,
+    "value": "B"
+   },
+   {
+    "start": 1.18,
+    "end": 1.39,
+    "value": "F"
+   },
+   {
+    "start": 1.39,
+    "end": 1.53,
+    "value": "B"
+   },
+   {
+    "start": 1.53,
+    "end": 1.6,
+    "value": "C"
+   },
+   {
+    "start": 1.6,
+    "end": 1.68,
+    "value": "A"
+   },
+   {
+    "start": 1.68,
+    "end": 1.94,
+    "value": "B"
+   },
+   {
+    "start": 1.94,
+    "end": 2.01,
+    "value": "E"
+   },
+   {
+    "start": 2.01,
+    "end": 2.08,
+    "value": "B"
+   },
+   {
+    "start": 2.08,
+    "end": 2.09,
+    "value": "X"
+   }
+  ]
+ }
+]

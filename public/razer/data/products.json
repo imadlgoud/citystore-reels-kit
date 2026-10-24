@@ -1,0 +1,12 @@
+{
+ "front": {
+  "src": "razer/products/front.png",
+  "w": 616,
+  "h": 1008
+ },
+ "kit": {
+  "src": "razer/products/kit.png",
+  "w": 992,
+  "h": 471
+ }
+}
