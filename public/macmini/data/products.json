@@ -1,0 +1,17 @@
+{
+ "back": {
+  "src": "macmini/products/back.png",
+  "w": 926,
+  "h": 369
+ },
+ "front": {
+  "src": "macmini/products/front.png",
+  "w": 1199,
+  "h": 476
+ },
+ "top": {
+  "src": "macmini/products/top.png",
+  "w": 888,
+  "h": 885
+ }
+}

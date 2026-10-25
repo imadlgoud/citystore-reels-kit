@@ -118,7 +118,11 @@
     "razer:cutout": "python3 reels/razer/cutout.py",
     "razer:audio": "REEL=razer python3 scripts/process_vo_take.py && python3 reels/razer/build_timeline.py && REEL=razer python3 scripts/make_music.py && REEL=razer python3 scripts/mix_audio.py",
     "razer:render": "remotion render RazerReel9x16 out/razer/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still RazerCover out/razer/cover_1080x1920.png",
-    "razer:build": "npm run razer:cutout && npm run razer:audio && REEL=razer node scripts/make_srt.mjs && npm run razer:render && REEL=razer bash scripts/finalize.sh && REEL=razer bash scripts/verify.sh"
+    "razer:build": "npm run razer:cutout && npm run razer:audio && REEL=razer node scripts/make_srt.mjs && npm run razer:render && REEL=razer bash scripts/finalize.sh && REEL=razer bash scripts/verify.sh",
+    "macmini:cutout": "python3 reels/macmini/cutout.py",
+    "macmini:audio": "REEL=macmini python3 scripts/process_vo_take.py && python3 reels/macmini/build_timeline.py && REEL=macmini python3 scripts/make_music.py && REEL=macmini python3 scripts/mix_audio.py",
+    "macmini:render": "remotion render MacminiReel9x16 out/macmini/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still MacminiCover out/macmini/cover_1080x1920.png",
+    "macmini:build": "npm run macmini:cutout && npm run macmini:audio && REEL=macmini node scripts/make_srt.mjs && npm run macmini:render && REEL=macmini bash scripts/finalize.sh && REEL=macmini bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

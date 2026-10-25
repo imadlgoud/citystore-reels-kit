@@ -78,6 +78,9 @@ import { U4TL } from "./reels/ultra4/timeline";
 import { RazerReel } from "./reels/razer/RazerReel";
 import { RazerCover } from "./reels/razer/RazerCover";
 import { RZTL } from "./reels/razer/timeline";
+import { MacminiReel } from "./reels/macmini/MacminiReel";
+import { MacminiCover } from "./reels/macmini/MacminiCover";
+import { MMTL } from "./reels/macmini/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -164,6 +167,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Razer Hammerhead USB-C ANC: 30 s, 9:16 + cover only */}
     <Composition id="RazerReel9x16" component={RazerReel} durationInFrames={Math.min(RZTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="RazerCover" component={RazerCover} width={1080} height={1920} />
+    {/* Mac mini M6 16GB/256GB: 30 s, 9:16 + cover only */}
+    <Composition id="MacminiReel9x16" component={MacminiReel} durationInFrames={Math.min(MMTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="MacminiCover" component={MacminiCover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

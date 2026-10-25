@@ -162,7 +162,10 @@ SPOKEN = {"18": "dix-huit", "100": "cent pour cent", "%": "", "citystore.ma": "c
           "saphir،": "sa fir", "50": "sin kant", "heures،": "eur", "heures": "eur", "84": "ka tre vin katr", "économie.": "e ko no mi",
           "satellite": "sa te lit", "razer": "re zer", "hammerhead": "ha mer hed", "usb-c": "u es be se", "anc،": "a en se",
           "réduction": "re duk syon", "bruit": "brwi", "active،": "ak tiv", "embouts": "an bu", "comply": "kom plai", "mousse،": "mus",
-          "télécommande": "te le ko mand", "micro،": "mi kro", "appels.": "a pel", "usb-c،": "u es be se"}
+          "télécommande": "te le ko mand", "micro،": "mi kro", "appels.": "a pel", "usb-c،": "u es be se",
+          "mac": "mak", "m6،": "em sis", "m6": "em sis", "puce": "pus", "nm": "na no metr", "cœurs": "keur", "cpu": "se pe u",
+          "gpu": "je pe u", "fois": "fwa", "ia": "i a", "m4،": "em katr", "ports": "por", "thunderbolt،": "ton der bolt", "hdmi": "ach de em i",
+          "cm": "san ti metr", "pc": "pe se"}
 ARABIC = "\\u0621-\\u063F\\u0641-\\u064A\\u0671-\\u06D3"  # Arabic letters (no punctuation, no tatweel)
 
 
