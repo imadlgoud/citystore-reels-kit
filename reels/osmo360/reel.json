@@ -1,0 +1,12 @@
+{
+ "id": "osmo360",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [3.68, 8.82, 15.77, 20.35, 24.92, 30.44, 34.88],
+ "lead": 0.06,
+ "voEndBy": 999,
+ "maxPause": 0.14,
+ "sentPause": 0.24,
+ "maxSeconds": 60,
+ "note": "DJI Osmo 360 Standard Combo. 37.6 s take: over 30 s at natural speed (standing approval). 9:16 + cover only."
+}

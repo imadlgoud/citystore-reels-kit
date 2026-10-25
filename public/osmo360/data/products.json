@@ -1,0 +1,12 @@
+{
+ "screen": {
+  "src": "osmo360/products/screen.png",
+  "w": 504,
+  "h": 672
+ },
+ "logo": {
+  "src": "osmo360/products/logo.png",
+  "w": 746,
+  "h": 998
+ }
+}

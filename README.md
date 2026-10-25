@@ -56,6 +56,7 @@ npm run studio                   # interactive preview
 | Apple Watch Ultra 4 49mm Natural Titanium (Darija, **37 s**, over 30 s at natural speed; 9:16 only) | `Ultra4Reel9x16`, `Ultra4Cover` | `out/ultra4/` | `npm run ultra4:build` |
 | Razer Hammerhead USB-C ANC (Darija, 30 s; 9:16 only) | `RazerReel9x16`, `RazerCover` | `out/razer/` | `npm run razer:build` |
 | Mac mini M6 16GB/256GB (Darija, 30 s; 9:16 only) | `MacminiReel9x16`, `MacminiCover` | `out/macmini/` | `npm run macmini:build` |
+| DJI Osmo 360 Standard Combo (Darija, **38.5 s**, over 30 s at natural speed; 9:16 only) | `Osmo360Reel9x16`, `Osmo360Cover` | `out/osmo360/` | `npm run osmo360:build` |
 | Apple Watch Ultra 4 (Darija) | `WatchReel9x16`, `WatchReel1x1`, `WatchCover` | `out/watch/` | `npm run watch:build` |
 | Galaxy Watch8 Classic + Ultra2 (Darija) | `GalaxyReel9x16`, `GalaxyReel1x1`, `GalaxyCover` | `out/galaxy/` | `npm run galaxy:build` |
 | Sony WH-1000XM6 + XM5 (Darija) | `SonyReel9x16`, `SonyReel1x1`, `SonyCover` | `out/sony/` | `npm run sony:build` |

@@ -81,6 +81,9 @@ import { RZTL } from "./reels/razer/timeline";
 import { MacminiReel } from "./reels/macmini/MacminiReel";
 import { MacminiCover } from "./reels/macmini/MacminiCover";
 import { MMTL } from "./reels/macmini/timeline";
+import { Osmo360Reel } from "./reels/osmo360/Osmo360Reel";
+import { Osmo360Cover } from "./reels/osmo360/Osmo360Cover";
+import { O3TL } from "./reels/osmo360/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -170,6 +173,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Mac mini M6 16GB/256GB: 30 s, 9:16 + cover only */}
     <Composition id="MacminiReel9x16" component={MacminiReel} durationInFrames={Math.min(MMTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="MacminiCover" component={MacminiCover} width={1080} height={1920} />
+    {/* DJI Osmo 360 Standard Combo: 38.5 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
+    <Composition id="Osmo360Reel9x16" component={Osmo360Reel} durationInFrames={O3TL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="Osmo360Cover" component={Osmo360Cover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

@@ -1,0 +1,2343 @@
+{
+ "fps": 30,
+ "bpm": 120,
+ "beatFrames": 15.0,
+ "totalFrames": 1155,
+ "holdFrom": 1125,
+ "musicFirstDownbeat": 1.5,
+ "scenes": [
+  {
+   "id": "hook",
+   "from": 0,
+   "to": 98
+  },
+  {
+   "id": "intro",
+   "from": 98,
+   "to": 248
+  },
+  {
+   "id": "sphere",
+   "from": 248,
+   "to": 442
+  },
+  {
+   "id": "sensor",
+   "from": 442,
+   "to": 562
+  },
+  {
+   "id": "storage",
+   "from": 562,
+   "to": 690
+  },
+  {
+   "id": "stick",
+   "from": 690,
+   "to": 840
+  },
+  {
+   "id": "trust",
+   "from": 840,
+   "to": 975
+  },
+  {
+   "id": "cta",
+   "from": 975,
+   "to": 1050
+  },
+  {
+   "id": "end",
+   "from": 1050,
+   "to": 1155
+  }
+ ],
+ "events": {
+  "hook.slam": 0,
+  "hook.botLand": 9,
+  "hook.all": 8,
+  "hook.pick": 45,
+  "hook.angle": 68,
+  "intro.name": 98,
+  "intro.combo": 158,
+  "intro.dispo": 195,
+  "sp.360": 262,
+  "sp.around": 330,
+  "sp.video": 375,
+  "sp.angle": 398,
+  "se.inch": 458,
+  "se.8k": 495,
+  "se.clear": 525,
+  "se.night": 540,
+  "st.gb": 615,
+  "st.water": 630,
+  "st.m": 682,
+  "sk.stick": 705,
+  "sk.vanish": 735,
+  "sk.drone": 818,
+  "trust.badge": 840,
+  "trust.original": 862,
+  "trust.thumb": 862,
+  "trust.checks": [
+   892,
+   915,
+   945
+  ],
+  "cta.url": 978,
+  "cta.message": 990,
+  "cta.socials": 993,
+  "cta.wave": 998,
+  "end.city": 1050,
+  "end.typeStart": 1058,
+  "end.typeStep": 0.0625,
+  "end.icons": 1076,
+  "end.iconStep": 0.06,
+  "end.tagline": 1088,
+  "end.wink": 1095,
+  "end.hold": 1125
+ },
+ "eventsSec": {
+  "hook.slam": 0.0,
+  "hook.botLand": 0.3,
+  "hook.all": 0.25,
+  "hook.pick": 1.5,
+  "hook.angle": 2.25,
+  "intro.name": 3.25,
+  "intro.combo": 5.25,
+  "intro.dispo": 6.5,
+  "sp.360": 8.75,
+  "sp.around": 11.0,
+  "sp.video": 12.5,
+  "sp.angle": 13.25,
+  "se.inch": 15.25,
+  "se.8k": 16.5,
+  "se.clear": 17.5,
+  "se.night": 18.0,
+  "st.gb": 20.5,
+  "st.water": 21.0,
+  "st.m": 22.75,
+  "sk.stick": 23.5,
+  "sk.vanish": 24.5,
+  "sk.drone": 27.25,
+  "trust.badge": 28.0,
+  "trust.original": 28.75,
+  "trust.thumb": 28.75,
+  "trust.checks": [
+   29.75,
+   30.5,
+   31.5
+  ],
+  "cta.url": 32.6,
+  "cta.message": 33.0,
+  "cta.socials": 33.1,
+  "cta.wave": 33.25,
+  "end.city": 35.0,
+  "end.typeStart": 35.25,
+  "end.typeStep": 0.0625,
+  "end.icons": 35.85,
+  "end.iconStep": 0.06,
+  "end.tagline": 36.25,
+  "end.wink": 36.5,
+  "end.hold": 37.5
+ },
+ "sfx": [
+  {
+   "name": "impact",
+   "t": 0.1,
+   "gainDb": -8
+  },
+  {
+   "name": "whoosh",
+   "t": 0.25,
+   "gainDb": -11
+  },
+  {
+   "name": "blip_jump",
+   "t": 0.3,
+   "gainDb": -14
+  },
+  {
+   "name": "whoosh",
+   "t": 0.55,
+   "gainDb": -13
+  },
+  {
+   "name": "pop_big",
+   "t": 1.5,
+   "gainDb": -11
+  },
+  {
+   "name": "shutter",
+   "t": 2.25,
+   "gainDb": -10
+  },
+  {
+   "name": "whoosh",
+   "t": 2.95,
+   "gainDb": -9
+  },
+  {
+   "name": "impact",
+   "t": 3.25,
+   "gainDb": -7
+  },
+  {
+   "name": "shine",
+   "t": 3.45,
+   "gainDb": -14
+  },
+  {
+   "name": "pop_big",
+   "t": 5.25,
+   "gainDb": -11
+  },
+  {
+   "name": "pop_big",
+   "t": 6.5,
+   "gainDb": -11
+  },
+  {
+   "name": "whoosh",
+   "t": 7.95,
+   "gainDb": -9
+  },
+  {
+   "name": "stamp",
+   "t": 8.75,
+   "gainDb": -10
+  },
+  {
+   "name": "whoosh",
+   "t": 11.0,
+   "gainDb": -12
+  },
+  {
+   "name": "pop",
+   "t": 12.5,
+   "gainDb": -12
+  },
+  {
+   "name": "shutter",
+   "t": 13.25,
+   "gainDb": -11
+  },
+  {
+   "name": "whoosh",
+   "t": 14.45,
+   "gainDb": -9
+  },
+  {
+   "name": "pop_big",
+   "t": 15.25,
+   "gainDb": -10
+  },
+  {
+   "name": "hit",
+   "t": 16.5,
+   "gainDb": -9
+  },
+  {
+   "name": "shine",
+   "t": 17.5,
+   "gainDb": -12
+  },
+  {
+   "name": "blip_up",
+   "t": 18.0,
+   "gainDb": -12
+  },
+  {
+   "name": "whoosh",
+   "t": 18.45,
+   "gainDb": -9
+  },
+  {
+   "name": "pop_big",
+   "t": 20.5,
+   "gainDb": -10
+  },
+  {
+   "name": "pop_big",
+   "t": 21.0,
+   "gainDb": -11
+  },
+  {
+   "name": "whoosh",
+   "t": 22.7,
+   "gainDb": -9
+  },
+  {
+   "name": "pop",
+   "t": 22.75,
+   "gainDb": -12
+  },
+  {
+   "name": "pop_big",
+   "t": 23.5,
+   "gainDb": -11
+  },
+  {
+   "name": "riser_short",
+   "t": 24.4,
+   "gainDb": -14
+  },
+  {
+   "name": "shine",
+   "t": 24.7,
+   "gainDb": -12
+  },
+  {
+   "name": "blip_up",
+   "t": 27.25,
+   "gainDb": -12
+  },
+  {
+   "name": "whoosh",
+   "t": 27.7,
+   "gainDb": -9
+  },
+  {
+   "name": "hit",
+   "t": 28.0,
+   "gainDb": -8
+  },
+  {
+   "name": "blip_up",
+   "t": 28.75,
+   "gainDb": -12
+  },
+  {
+   "name": "ding",
+   "t": 29.9,
+   "gainDb": -12
+  },
+  {
+   "name": "ding",
+   "t": 30.65,
+   "gainDb": -12
+  },
+  {
+   "name": "ding",
+   "t": 31.65,
+   "gainDb": -12
+  },
+  {
+   "name": "whoosh",
+   "t": 32.2,
+   "gainDb": -10
+  },
+  {
+   "name": "pop_big",
+   "t": 32.6,
+   "gainDb": -11
+  },
+  {
+   "name": "pop_big",
+   "t": 33.0,
+   "gainDb": -11
+  },
+  {
+   "name": "blip",
+   "t": 33.25,
+   "gainDb": -13
+  },
+  {
+   "name": "pop",
+   "t": 33.3,
+   "gainDb": -13
+  },
+  {
+   "name": "whoosh",
+   "t": 34.7,
+   "gainDb": -9
+  },
+  {
+   "name": "impact",
+   "t": 35.0,
+   "gainDb": -5
+  },
+  {
+   "name": "tick",
+   "t": 35.25,
+   "gainDb": -12
+  },
+  {
+   "name": "tick",
+   "t": 35.312,
+   "gainDb": -12
+  },
+  {
+   "name": "tick",
+   "t": 35.375,
+   "gainDb": -12
+  },
+  {
+   "name": "tick",
+   "t": 35.438,
+   "gainDb": -12
+  },
+  {
+   "name": "tick",
+   "t": 35.5,
+   "gainDb": -12
+  },
+  {
+   "name": "tick",
+   "t": 35.562,
+   "gainDb": -12
+  },
+  {
+   "name": "tick",
+   "t": 35.625,
+   "gainDb": -12
+  },
+  {
+   "name": "tick",
+   "t": 35.688,
+   "gainDb": -12
+  },
+  {
+   "name": "pop",
+   "t": 35.85,
+   "gainDb": -15
+  },
+  {
+   "name": "pop",
+   "t": 35.91,
+   "gainDb": -15
+  },
+  {
+   "name": "pop",
+   "t": 35.97,
+   "gainDb": -15
+  },
+  {
+   "name": "pop",
+   "t": 36.03,
+   "gainDb": -15
+  },
+  {
+   "name": "pop",
+   "t": 36.09,
+   "gainDb": -15
+  },
+  {
+   "name": "pop",
+   "t": 36.15,
+   "gainDb": -15
+  },
+  {
+   "name": "shine",
+   "t": 36.25,
+   "gainDb": -14
+  },
+  {
+   "name": "blip_wink",
+   "t": 36.5,
+   "gainDb": -11
+  }
+ ],
+ "subtitles": [
+  {
+   "text": "صوّر كلشي فمرة وحدة…",
+   "start": 0.08,
+   "end": 1.46,
+   "words": [
+    {
+     "word": "صوّر",
+     "start": 0.08,
+     "frame": 2
+    },
+    {
+     "word": "كلشي",
+     "start": 0.26,
+     "frame": 8
+    },
+    {
+     "word": "فمرة",
+     "start": 0.72,
+     "frame": 22
+    },
+    {
+     "word": "وحدة…",
+     "start": 1.08,
+     "frame": 32
+    }
+   ],
+   "line": 0,
+   "from": 2,
+   "to": 44
+  },
+  {
+   "text": "واختار الزاوية من بعد!",
+   "start": 1.46,
+   "end": 3.19,
+   "words": [
+    {
+     "word": "واختار",
+     "start": 1.46,
+     "frame": 44
+    },
+    {
+     "word": "الزاوية",
+     "start": 2.18,
+     "frame": 65
+    },
+    {
+     "word": "من",
+     "start": 2.74,
+     "frame": 82
+    },
+    {
+     "word": "بعد!",
+     "start": 2.92,
+     "frame": 88
+    }
+   ],
+   "line": 0,
+   "from": 44,
+   "to": 96
+  },
+  {
+   "text": "DJI Osmo 360،",
+   "start": 3.23,
+   "end": 5.37,
+   "words": [
+    {
+     "word": "DJI",
+     "start": 3.23,
+     "frame": 97
+    },
+    {
+     "word": "Osmo",
+     "start": 3.99,
+     "frame": 120
+    },
+    {
+     "word": "360،",
+     "start": 4.51,
+     "frame": 135
+    }
+   ],
+   "line": 1,
+   "from": 97,
+   "to": 161
+  },
+  {
+   "text": "Standard Combo،",
+   "start": 5.37,
+   "end": 6.45,
+   "words": [
+    {
+     "word": "Standard",
+     "start": 5.37,
+     "frame": 161
+    },
+    {
+     "word": "Combo،",
+     "start": 6.01,
+     "frame": 180
+    }
+   ],
+   "line": 1,
+   "from": 161,
+   "to": 194
+  },
+  {
+   "text": "disponible دابا عندنا.",
+   "start": 6.45,
+   "end": 8.13,
+   "words": [
+    {
+     "word": "disponible",
+     "start": 6.45,
+     "frame": 194
+    },
+    {
+     "word": "دابا",
+     "start": 7.17,
+     "frame": 215
+    },
+    {
+     "word": "عندنا.",
+     "start": 7.59,
+     "frame": 228
+    }
+   ],
+   "line": 1,
+   "from": 194,
+   "to": 244
+  },
+  {
+   "text": "caméra 360 degrés:",
+   "start": 8.27,
+   "end": 9.89,
+   "words": [
+    {
+     "word": "caméra",
+     "start": 8.27,
+     "frame": 248
+    },
+    {
+     "word": "360",
+     "start": 8.79,
+     "frame": 264
+    },
+    {
+     "word": "degrés:",
+     "start": 9.47,
+     "frame": 284
+    }
+   ],
+   "line": 2,
+   "from": 248,
+   "to": 297
+  },
+  {
+   "text": "كتصوّر كلشي اللي داير بيك،",
+   "start": 9.89,
+   "end": 11.73,
+   "words": [
+    {
+     "word": "كتصوّر",
+     "start": 9.89,
+     "frame": 297
+    },
+    {
+     "word": "كلشي",
+     "start": 10.27,
+     "frame": 308
+    },
+    {
+     "word": "اللي",
+     "start": 10.69,
+     "frame": 321
+    },
+    {
+     "word": "داير",
+     "start": 11.01,
+     "frame": 330
+    },
+    {
+     "word": "بيك،",
+     "start": 11.41,
+     "frame": 342
+    }
+   ],
+   "line": 2,
+   "from": 297,
+   "to": 352
+  },
+  {
+   "text": "وتقدر تخرّج منو فيديو عادي",
+   "start": 11.73,
+   "end": 13.27,
+   "words": [
+    {
+     "word": "وتقدر",
+     "start": 11.73,
+     "frame": 352
+    },
+    {
+     "word": "تخرّج",
+     "start": 12.11,
+     "frame": 363
+    },
+    {
+     "word": "منو",
+     "start": 12.43,
+     "frame": 373
+    },
+    {
+     "word": "فيديو",
+     "start": 12.61,
+     "frame": 378
+    },
+    {
+     "word": "عادي",
+     "start": 12.93,
+     "frame": 388
+    }
+   ],
+   "line": 2,
+   "from": 352,
+   "to": 398
+  },
+  {
+   "text": "بالزاوية اللي بغيتي.",
+   "start": 13.27,
+   "end": 14.74,
+   "words": [
+    {
+     "word": "بالزاوية",
+     "start": 13.27,
+     "frame": 398
+    },
+    {
+     "word": "اللي",
+     "start": 13.93,
+     "frame": 418
+    },
+    {
+     "word": "بغيتي.",
+     "start": 14.27,
+     "frame": 428
+    }
+   ],
+   "line": 2,
+   "from": 398,
+   "to": 442
+  },
+  {
+   "text": "capteur 1 pouce وفيديو 8K،",
+   "start": 14.88,
+   "end": 16.74,
+   "words": [
+    {
+     "word": "capteur",
+     "start": 14.88,
+     "frame": 446
+    },
+    {
+     "word": "1",
+     "start": 15.32,
+     "frame": 460
+    },
+    {
+     "word": "pouce",
+     "start": 15.6,
+     "frame": 468
+    },
+    {
+     "word": "وفيديو",
+     "start": 15.84,
+     "frame": 475
+    },
+    {
+     "word": "8K،",
+     "start": 16.54,
+     "frame": 496
+    }
+   ],
+   "line": 3,
+   "from": 446,
+   "to": 502
+  },
+  {
+   "text": "الصورة واضحة حتى فالليل.",
+   "start": 16.74,
+   "end": 18.785,
+   "words": [
+    {
+     "word": "الصورة",
+     "start": 16.74,
+     "frame": 502
+    },
+    {
+     "word": "واضحة",
+     "start": 17.54,
+     "frame": 526
+    },
+    {
+     "word": "حتى",
+     "start": 17.92,
+     "frame": 538
+    },
+    {
+     "word": "فالليل.",
+     "start": 18.12,
+     "frame": 544
+    }
+   ],
+   "line": 3,
+   "from": 502,
+   "to": 564
+  },
+  {
+   "text": "stockage intégré ديال 105GB،",
+   "start": 18.805,
+   "end": 20.745,
+   "words": [
+    {
+     "word": "stockage",
+     "start": 18.805,
+     "frame": 564
+    },
+    {
+     "word": "intégré",
+     "start": 19.625,
+     "frame": 589
+    },
+    {
+     "word": "ديال",
+     "start": 19.925,
+     "frame": 598
+    },
+    {
+     "word": "105GB،",
+     "start": 20.465,
+     "frame": 614
+    }
+   ],
+   "line": 4,
+   "from": 564,
+   "to": 622
+  },
+  {
+   "text": "و étanche حتى لـ 10 mètres.",
+   "start": 20.745,
+   "end": 23.06,
+   "words": [
+    {
+     "word": "و",
+     "start": 20.745,
+     "frame": 622
+    },
+    {
+     "word": "étanche",
+     "start": 21.005,
+     "frame": 630
+    },
+    {
+     "word": "حتى",
+     "start": 21.425,
+     "frame": 643
+    },
+    {
+     "word": "لـ",
+     "start": 21.805,
+     "frame": 654
+    },
+    {
+     "word": "10",
+     "start": 22.105,
+     "frame": 663
+    },
+    {
+     "word": "mètres.",
+     "start": 22.645,
+     "frame": 679
+    }
+   ],
+   "line": 4,
+   "from": 622,
+   "to": 692
+  },
+  {
+   "text": "مع عصا selfie،",
+   "start": 23.2,
+   "end": 23.92,
+   "words": [
+    {
+     "word": "مع",
+     "start": 23.2,
+     "frame": 696
+    },
+    {
+     "word": "عصا",
+     "start": 23.36,
+     "frame": 701
+    },
+    {
+     "word": "selfie،",
+     "start": 23.54,
+     "frame": 706
+    }
+   ],
+   "line": 5,
+   "from": 696,
+   "to": 718
+  },
+  {
+   "text": "العصا كتختفي من الفيديو",
+   "start": 23.92,
+   "end": 25.72,
+   "words": [
+    {
+     "word": "العصا",
+     "start": 23.92,
+     "frame": 718
+    },
+    {
+     "word": "كتختفي",
+     "start": 24.4,
+     "frame": 732
+    },
+    {
+     "word": "من",
+     "start": 25.02,
+     "frame": 751
+    },
+    {
+     "word": "الفيديو",
+     "start": 25.2,
+     "frame": 756
+    }
+   ],
+   "line": 5,
+   "from": 718,
+   "to": 772
+  },
+  {
+   "text": "وكيبان بحال إلا شي درون كيصوّرك.",
+   "start": 25.72,
+   "end": 28.13,
+   "words": [
+    {
+     "word": "وكيبان",
+     "start": 25.72,
+     "frame": 772
+    },
+    {
+     "word": "بحال",
+     "start": 26.46,
+     "frame": 794
+    },
+    {
+     "word": "إلا",
+     "start": 26.82,
+     "frame": 805
+    },
+    {
+     "word": "شي",
+     "start": 27.0,
+     "frame": 810
+    },
+    {
+     "word": "درون",
+     "start": 27.18,
+     "frame": 815
+    },
+    {
+     "word": "كيصوّرك.",
+     "start": 27.52,
+     "frame": 826
+    }
+   ],
+   "line": 5,
+   "from": 772,
+   "to": 844
+  },
+  {
+   "text": "Produit original, boîte fermée,",
+   "start": 28.19,
+   "end": 30.53,
+   "words": [
+    {
+     "word": "Produit",
+     "start": 28.19,
+     "frame": 846
+    },
+    {
+     "word": "original,",
+     "start": 28.79,
+     "frame": 864
+    },
+    {
+     "word": "boîte",
+     "start": 29.83,
+     "frame": 895
+    },
+    {
+     "word": "fermée,",
+     "start": 30.07,
+     "frame": 902
+    }
+   ],
+   "line": 6,
+   "from": 846,
+   "to": 916
+  },
+  {
+   "text": "jamais ouvert, jamais activé.",
+   "start": 30.53,
+   "end": 32.459999999999994,
+   "words": [
+    {
+     "word": "jamais",
+     "start": 30.53,
+     "frame": 916
+    },
+    {
+     "word": "ouvert,",
+     "start": 30.95,
+     "frame": 928
+    },
+    {
+     "word": "jamais",
+     "start": 31.47,
+     "frame": 944
+    },
+    {
+     "word": "activé.",
+     "start": 31.89,
+     "frame": 957
+    }
+   ],
+   "line": 6,
+   "from": 916,
+   "to": 974
+  },
+  {
+   "text": "إلا بغيتي تكوموندي،",
+   "start": 32.6,
+   "end": 33.84,
+   "words": [
+    {
+     "word": "إلا",
+     "start": 32.6,
+     "frame": 978
+    },
+    {
+     "word": "بغيتي",
+     "start": 32.74,
+     "frame": 982
+    },
+    {
+     "word": "تكوموندي،",
+     "start": 33.04,
+     "frame": 991
+    }
+   ],
+   "line": 7,
+   "from": 978,
+   "to": 1015
+  },
+  {
+   "text": "صيفط لينا ميساج.",
+   "start": 33.84,
+   "end": 35.13,
+   "words": [
+    {
+     "word": "صيفط",
+     "start": 33.84,
+     "frame": 1015
+    },
+    {
+     "word": "لينا",
+     "start": 34.16,
+     "frame": 1025
+    },
+    {
+     "word": "ميساج.",
+     "start": 34.46,
+     "frame": 1034
+    }
+   ],
+   "line": 7,
+   "from": 1015,
+   "to": 1054
+  }
+ ],
+ "vo": [
+  {
+   "id": "line_01",
+   "from": 2,
+   "start": 0.06,
+   "duration": 3.15,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.15,
+     "value": "B"
+    },
+    {
+     "start": 0.15,
+     "end": 0.22,
+     "value": "E"
+    },
+    {
+     "start": 0.22,
+     "end": 0.36,
+     "value": "F"
+    },
+    {
+     "start": 0.36,
+     "end": 0.43,
+     "value": "C"
+    },
+    {
+     "start": 0.43,
+     "end": 0.64,
+     "value": "F"
+    },
+    {
+     "start": 0.64,
+     "end": 0.85,
+     "value": "B"
+    },
+    {
+     "start": 0.85,
+     "end": 0.92,
+     "value": "G"
+    },
+    {
+     "start": 0.92,
+     "end": 1.01,
+     "value": "A"
+    },
+    {
+     "start": 1.01,
+     "end": 1.1,
+     "value": "B"
+    },
+    {
+     "start": 1.1,
+     "end": 1.17,
+     "value": "E"
+    },
+    {
+     "start": 1.17,
+     "end": 1.24,
+     "value": "F"
+    },
+    {
+     "start": 1.24,
+     "end": 1.31,
+     "value": "C"
+    },
+    {
+     "start": 1.31,
+     "end": 1.42,
+     "value": "A"
+    },
+    {
+     "start": 1.42,
+     "end": 1.51,
+     "value": "B"
+    },
+    {
+     "start": 1.51,
+     "end": 1.71,
+     "value": "A"
+    },
+    {
+     "start": 1.71,
+     "end": 1.98,
+     "value": "B"
+    },
+    {
+     "start": 1.98,
+     "end": 2.05,
+     "value": "C"
+    },
+    {
+     "start": 2.05,
+     "end": 2.12,
+     "value": "E"
+    },
+    {
+     "start": 2.12,
+     "end": 2.4,
+     "value": "B"
+    },
+    {
+     "start": 2.4,
+     "end": 2.54,
+     "value": "F"
+    },
+    {
+     "start": 2.54,
+     "end": 2.61,
+     "value": "C"
+    },
+    {
+     "start": 2.61,
+     "end": 2.69,
+     "value": "A"
+    },
+    {
+     "start": 2.69,
+     "end": 2.76,
+     "value": "F"
+    },
+    {
+     "start": 2.76,
+     "end": 2.83,
+     "value": "A"
+    },
+    {
+     "start": 2.83,
+     "end": 3.0,
+     "value": "C"
+    },
+    {
+     "start": 3.0,
+     "end": 3.14,
+     "value": "B"
+    },
+    {
+     "start": 3.14,
+     "end": 3.15,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_02",
+   "from": 96,
+   "start": 3.21,
+   "duration": 4.94,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.17,
+     "value": "X"
+    },
+    {
+     "start": 0.17,
+     "end": 0.68,
+     "value": "B"
+    },
+    {
+     "start": 0.68,
+     "end": 0.82,
+     "value": "D"
+    },
+    {
+     "start": 0.82,
+     "end": 1.03,
+     "value": "B"
+    },
+    {
+     "start": 1.03,
+     "end": 1.1,
+     "value": "E"
+    },
+    {
+     "start": 1.1,
+     "end": 1.24,
+     "value": "B"
+    },
+    {
+     "start": 1.24,
+     "end": 1.32,
+     "value": "A"
+    },
+    {
+     "start": 1.32,
+     "end": 1.36,
+     "value": "E"
+    },
+    {
+     "start": 1.36,
+     "end": 1.4,
+     "value": "F"
+    },
+    {
+     "start": 1.4,
+     "end": 1.54,
+     "value": "B"
+    },
+    {
+     "start": 1.54,
+     "end": 1.61,
+     "value": "F"
+    },
+    {
+     "start": 1.61,
+     "end": 1.75,
+     "value": "B"
+    },
+    {
+     "start": 1.75,
+     "end": 1.82,
+     "value": "C"
+    },
+    {
+     "start": 1.82,
+     "end": 1.89,
+     "value": "B"
+    },
+    {
+     "start": 1.89,
+     "end": 1.96,
+     "value": "F"
+    },
+    {
+     "start": 1.96,
+     "end": 2.1,
+     "value": "B"
+    },
+    {
+     "start": 2.1,
+     "end": 2.24,
+     "value": "E"
+    },
+    {
+     "start": 2.24,
+     "end": 2.31,
+     "value": "C"
+    },
+    {
+     "start": 2.31,
+     "end": 2.52,
+     "value": "B"
+    },
+    {
+     "start": 2.52,
+     "end": 2.6,
+     "value": "A"
+    },
+    {
+     "start": 2.6,
+     "end": 2.68,
+     "value": "D"
+    },
+    {
+     "start": 2.68,
+     "end": 2.72,
+     "value": "C"
+    },
+    {
+     "start": 2.72,
+     "end": 2.8,
+     "value": "A"
+    },
+    {
+     "start": 2.8,
+     "end": 2.89,
+     "value": "C"
+    },
+    {
+     "start": 2.89,
+     "end": 3.1,
+     "value": "E"
+    },
+    {
+     "start": 3.1,
+     "end": 3.18,
+     "value": "A"
+    },
+    {
+     "start": 3.18,
+     "end": 3.34,
+     "value": "E"
+    },
+    {
+     "start": 3.34,
+     "end": 3.42,
+     "value": "A"
+    },
+    {
+     "start": 3.42,
+     "end": 3.69,
+     "value": "B"
+    },
+    {
+     "start": 3.69,
+     "end": 3.8,
+     "value": "A"
+    },
+    {
+     "start": 3.8,
+     "end": 3.86,
+     "value": "F"
+    },
+    {
+     "start": 3.86,
+     "end": 3.91,
+     "value": "B"
+    },
+    {
+     "start": 3.91,
+     "end": 3.98,
+     "value": "A"
+    },
+    {
+     "start": 3.98,
+     "end": 4.05,
+     "value": "B"
+    },
+    {
+     "start": 4.05,
+     "end": 4.12,
+     "value": "A"
+    },
+    {
+     "start": 4.12,
+     "end": 4.18,
+     "value": "B"
+    },
+    {
+     "start": 4.18,
+     "end": 4.3,
+     "value": "C"
+    },
+    {
+     "start": 4.3,
+     "end": 4.38,
+     "value": "A"
+    },
+    {
+     "start": 4.38,
+     "end": 4.54,
+     "value": "C"
+    },
+    {
+     "start": 4.54,
+     "end": 4.89,
+     "value": "B"
+    },
+    {
+     "start": 4.89,
+     "end": 4.94,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_03",
+   "from": 244,
+   "start": 8.15,
+   "duration": 6.61,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.08,
+     "value": "X"
+    },
+    {
+     "start": 0.08,
+     "end": 0.16,
+     "value": "C"
+    },
+    {
+     "start": 0.16,
+     "end": 0.24,
+     "value": "A"
+    },
+    {
+     "start": 0.24,
+     "end": 0.39,
+     "value": "C"
+    },
+    {
+     "start": 0.39,
+     "end": 0.48,
+     "value": "A"
+    },
+    {
+     "start": 0.48,
+     "end": 0.61,
+     "value": "D"
+    },
+    {
+     "start": 0.61,
+     "end": 0.68,
+     "value": "F"
+    },
+    {
+     "start": 0.68,
+     "end": 0.96,
+     "value": "B"
+    },
+    {
+     "start": 0.96,
+     "end": 1.03,
+     "value": "F"
+    },
+    {
+     "start": 1.03,
+     "end": 1.17,
+     "value": "B"
+    },
+    {
+     "start": 1.17,
+     "end": 1.25,
+     "value": "A"
+    },
+    {
+     "start": 1.25,
+     "end": 1.4,
+     "value": "F"
+    },
+    {
+     "start": 1.4,
+     "end": 1.47,
+     "value": "B"
+    },
+    {
+     "start": 1.47,
+     "end": 1.68,
+     "value": "C"
+    },
+    {
+     "start": 1.68,
+     "end": 2.03,
+     "value": "B"
+    },
+    {
+     "start": 2.03,
+     "end": 2.17,
+     "value": "F"
+    },
+    {
+     "start": 2.17,
+     "end": 2.45,
+     "value": "E"
+    },
+    {
+     "start": 2.45,
+     "end": 2.59,
+     "value": "B"
+    },
+    {
+     "start": 2.59,
+     "end": 2.67,
+     "value": "A"
+    },
+    {
+     "start": 2.67,
+     "end": 2.93,
+     "value": "B"
+    },
+    {
+     "start": 2.93,
+     "end": 3.01,
+     "value": "A"
+    },
+    {
+     "start": 3.01,
+     "end": 3.34,
+     "value": "B"
+    },
+    {
+     "start": 3.34,
+     "end": 3.41,
+     "value": "F"
+    },
+    {
+     "start": 3.41,
+     "end": 3.76,
+     "value": "B"
+    },
+    {
+     "start": 3.76,
+     "end": 4.04,
+     "value": "F"
+    },
+    {
+     "start": 4.04,
+     "end": 4.11,
+     "value": "G"
+    },
+    {
+     "start": 4.11,
+     "end": 4.18,
+     "value": "B"
+    },
+    {
+     "start": 4.18,
+     "end": 4.27,
+     "value": "A"
+    },
+    {
+     "start": 4.27,
+     "end": 4.44,
+     "value": "B"
+    },
+    {
+     "start": 4.44,
+     "end": 4.58,
+     "value": "G"
+    },
+    {
+     "start": 4.58,
+     "end": 4.66,
+     "value": "A"
+    },
+    {
+     "start": 4.66,
+     "end": 4.83,
+     "value": "B"
+    },
+    {
+     "start": 4.83,
+     "end": 4.97,
+     "value": "F"
+    },
+    {
+     "start": 4.97,
+     "end": 5.11,
+     "value": "C"
+    },
+    {
+     "start": 5.11,
+     "end": 5.53,
+     "value": "B"
+    },
+    {
+     "start": 5.53,
+     "end": 6.02,
+     "value": "F"
+    },
+    {
+     "start": 6.02,
+     "end": 6.1,
+     "value": "A"
+    },
+    {
+     "start": 6.1,
+     "end": 6.55,
+     "value": "B"
+    },
+    {
+     "start": 6.55,
+     "end": 6.61,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_04",
+   "from": 443,
+   "start": 14.76,
+   "duration": 4.045,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.09,
+     "value": "X"
+    },
+    {
+     "start": 0.09,
+     "end": 0.16,
+     "value": "B"
+    },
+    {
+     "start": 0.16,
+     "end": 0.3,
+     "value": "C"
+    },
+    {
+     "start": 0.3,
+     "end": 0.37,
+     "value": "G"
+    },
+    {
+     "start": 0.37,
+     "end": 0.79,
+     "value": "C"
+    },
+    {
+     "start": 0.79,
+     "end": 0.94,
+     "value": "A"
+    },
+    {
+     "start": 0.94,
+     "end": 1.05,
+     "value": "F"
+    },
+    {
+     "start": 1.05,
+     "end": 1.26,
+     "value": "B"
+    },
+    {
+     "start": 1.26,
+     "end": 1.33,
+     "value": "F"
+    },
+    {
+     "start": 1.33,
+     "end": 1.4,
+     "value": "B"
+    },
+    {
+     "start": 1.4,
+     "end": 1.48,
+     "value": "A"
+    },
+    {
+     "start": 1.48,
+     "end": 1.76,
+     "value": "B"
+    },
+    {
+     "start": 1.76,
+     "end": 2.04,
+     "value": "F"
+    },
+    {
+     "start": 2.04,
+     "end": 2.18,
+     "value": "D"
+    },
+    {
+     "start": 2.18,
+     "end": 2.25,
+     "value": "C"
+    },
+    {
+     "start": 2.25,
+     "end": 2.46,
+     "value": "A"
+    },
+    {
+     "start": 2.46,
+     "end": 2.6,
+     "value": "B"
+    },
+    {
+     "start": 2.6,
+     "end": 2.74,
+     "value": "E"
+    },
+    {
+     "start": 2.74,
+     "end": 2.81,
+     "value": "B"
+    },
+    {
+     "start": 2.81,
+     "end": 2.95,
+     "value": "H"
+    },
+    {
+     "start": 2.95,
+     "end": 3.02,
+     "value": "F"
+    },
+    {
+     "start": 3.02,
+     "end": 3.1,
+     "value": "A"
+    },
+    {
+     "start": 3.1,
+     "end": 3.4,
+     "value": "C"
+    },
+    {
+     "start": 3.4,
+     "end": 3.61,
+     "value": "B"
+    },
+    {
+     "start": 3.61,
+     "end": 3.75,
+     "value": "G"
+    },
+    {
+     "start": 3.75,
+     "end": 4.03,
+     "value": "B"
+    },
+    {
+     "start": 4.03,
+     "end": 4.04,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_05",
+   "from": 564,
+   "start": 18.805,
+   "duration": 4.275,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.12,
+     "value": "X"
+    },
+    {
+     "start": 0.12,
+     "end": 0.17,
+     "value": "B"
+    },
+    {
+     "start": 0.17,
+     "end": 0.33,
+     "value": "F"
+    },
+    {
+     "start": 0.33,
+     "end": 0.37,
+     "value": "E"
+    },
+    {
+     "start": 0.37,
+     "end": 0.56,
+     "value": "C"
+    },
+    {
+     "start": 0.56,
+     "end": 0.63,
+     "value": "B"
+    },
+    {
+     "start": 0.63,
+     "end": 0.84,
+     "value": "C"
+    },
+    {
+     "start": 0.84,
+     "end": 1.47,
+     "value": "B"
+    },
+    {
+     "start": 1.47,
+     "end": 1.55,
+     "value": "A"
+    },
+    {
+     "start": 1.55,
+     "end": 1.72,
+     "value": "F"
+    },
+    {
+     "start": 1.72,
+     "end": 1.79,
+     "value": "B"
+    },
+    {
+     "start": 1.79,
+     "end": 1.87,
+     "value": "A"
+    },
+    {
+     "start": 1.87,
+     "end": 2.17,
+     "value": "B"
+    },
+    {
+     "start": 2.17,
+     "end": 2.31,
+     "value": "E"
+    },
+    {
+     "start": 2.31,
+     "end": 2.46,
+     "value": "A"
+    },
+    {
+     "start": 2.46,
+     "end": 2.59,
+     "value": "F"
+    },
+    {
+     "start": 2.59,
+     "end": 2.94,
+     "value": "B"
+    },
+    {
+     "start": 2.94,
+     "end": 3.01,
+     "value": "E"
+    },
+    {
+     "start": 3.01,
+     "end": 3.08,
+     "value": "F"
+    },
+    {
+     "start": 3.08,
+     "end": 3.22,
+     "value": "B"
+    },
+    {
+     "start": 3.22,
+     "end": 3.57,
+     "value": "C"
+    },
+    {
+     "start": 3.57,
+     "end": 3.78,
+     "value": "B"
+    },
+    {
+     "start": 3.78,
+     "end": 3.86,
+     "value": "A"
+    },
+    {
+     "start": 3.86,
+     "end": 4.21,
+     "value": "B"
+    },
+    {
+     "start": 4.21,
+     "end": 4.27,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_06",
+   "from": 692,
+   "start": 23.08,
+   "duration": 5.07,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.09,
+     "value": "B"
+    },
+    {
+     "start": 0.09,
+     "end": 0.2,
+     "value": "A"
+    },
+    {
+     "start": 0.2,
+     "end": 0.37,
+     "value": "D"
+    },
+    {
+     "start": 0.37,
+     "end": 0.51,
+     "value": "B"
+    },
+    {
+     "start": 0.51,
+     "end": 0.58,
+     "value": "C"
+    },
+    {
+     "start": 0.58,
+     "end": 0.86,
+     "value": "B"
+    },
+    {
+     "start": 0.86,
+     "end": 0.93,
+     "value": "G"
+    },
+    {
+     "start": 0.93,
+     "end": 1.21,
+     "value": "B"
+    },
+    {
+     "start": 1.21,
+     "end": 1.29,
+     "value": "A"
+    },
+    {
+     "start": 1.29,
+     "end": 1.36,
+     "value": "C"
+    },
+    {
+     "start": 1.36,
+     "end": 1.5,
+     "value": "F"
+    },
+    {
+     "start": 1.5,
+     "end": 1.71,
+     "value": "C"
+    },
+    {
+     "start": 1.71,
+     "end": 2.06,
+     "value": "B"
+    },
+    {
+     "start": 2.06,
+     "end": 2.13,
+     "value": "G"
+    },
+    {
+     "start": 2.13,
+     "end": 2.21,
+     "value": "A"
+    },
+    {
+     "start": 2.21,
+     "end": 2.33,
+     "value": "B"
+    },
+    {
+     "start": 2.33,
+     "end": 2.39,
+     "value": "A"
+    },
+    {
+     "start": 2.39,
+     "end": 2.45,
+     "value": "B"
+    },
+    {
+     "start": 2.45,
+     "end": 2.53,
+     "value": "A"
+    },
+    {
+     "start": 2.53,
+     "end": 2.68,
+     "value": "B"
+    },
+    {
+     "start": 2.68,
+     "end": 2.75,
+     "value": "F"
+    },
+    {
+     "start": 2.75,
+     "end": 2.96,
+     "value": "B"
+    },
+    {
+     "start": 2.96,
+     "end": 3.03,
+     "value": "F"
+    },
+    {
+     "start": 3.03,
+     "end": 3.24,
+     "value": "B"
+    },
+    {
+     "start": 3.24,
+     "end": 3.32,
+     "value": "A"
+    },
+    {
+     "start": 3.32,
+     "end": 3.42,
+     "value": "C"
+    },
+    {
+     "start": 3.42,
+     "end": 3.49,
+     "value": "B"
+    },
+    {
+     "start": 3.49,
+     "end": 3.57,
+     "value": "A"
+    },
+    {
+     "start": 3.57,
+     "end": 3.72,
+     "value": "C"
+    },
+    {
+     "start": 3.72,
+     "end": 3.79,
+     "value": "B"
+    },
+    {
+     "start": 3.79,
+     "end": 3.86,
+     "value": "C"
+    },
+    {
+     "start": 3.86,
+     "end": 3.93,
+     "value": "G"
+    },
+    {
+     "start": 3.93,
+     "end": 4.28,
+     "value": "B"
+    },
+    {
+     "start": 4.28,
+     "end": 4.35,
+     "value": "E"
+    },
+    {
+     "start": 4.35,
+     "end": 4.42,
+     "value": "F"
+    },
+    {
+     "start": 4.42,
+     "end": 4.77,
+     "value": "B"
+    },
+    {
+     "start": 4.77,
+     "end": 4.84,
+     "value": "E"
+    },
+    {
+     "start": 4.84,
+     "end": 4.91,
+     "value": "F"
+    },
+    {
+     "start": 4.91,
+     "end": 5.05,
+     "value": "B"
+    },
+    {
+     "start": 5.05,
+     "end": 5.07,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_07",
+   "from": 844,
+   "start": 28.15,
+   "duration": 4.33,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.01,
+     "value": "X"
+    },
+    {
+     "start": 0.01,
+     "end": 0.13,
+     "value": "B"
+    },
+    {
+     "start": 0.13,
+     "end": 0.28,
+     "value": "X"
+    },
+    {
+     "start": 0.28,
+     "end": 0.37,
+     "value": "B"
+    },
+    {
+     "start": 0.37,
+     "end": 0.44,
+     "value": "F"
+    },
+    {
+     "start": 0.44,
+     "end": 0.54,
+     "value": "A"
+    },
+    {
+     "start": 0.54,
+     "end": 0.6,
+     "value": "F"
+    },
+    {
+     "start": 0.6,
+     "end": 0.73,
+     "value": "B"
+    },
+    {
+     "start": 0.73,
+     "end": 0.87,
+     "value": "E"
+    },
+    {
+     "start": 0.87,
+     "end": 1.15,
+     "value": "B"
+    },
+    {
+     "start": 1.15,
+     "end": 1.29,
+     "value": "C"
+    },
+    {
+     "start": 1.29,
+     "end": 1.5,
+     "value": "B"
+    },
+    {
+     "start": 1.5,
+     "end": 1.71,
+     "value": "F"
+    },
+    {
+     "start": 1.71,
+     "end": 1.85,
+     "value": "B"
+    },
+    {
+     "start": 1.85,
+     "end": 1.92,
+     "value": "G"
+    },
+    {
+     "start": 1.92,
+     "end": 2.06,
+     "value": "B"
+    },
+    {
+     "start": 2.06,
+     "end": 2.14,
+     "value": "A"
+    },
+    {
+     "start": 2.14,
+     "end": 2.25,
+     "value": "C"
+    },
+    {
+     "start": 2.25,
+     "end": 2.53,
+     "value": "B"
+    },
+    {
+     "start": 2.53,
+     "end": 2.6,
+     "value": "C"
+    },
+    {
+     "start": 2.6,
+     "end": 2.68,
+     "value": "A"
+    },
+    {
+     "start": 2.68,
+     "end": 2.72,
+     "value": "B"
+    },
+    {
+     "start": 2.72,
+     "end": 2.97,
+     "value": "F"
+    },
+    {
+     "start": 2.97,
+     "end": 3.04,
+     "value": "C"
+    },
+    {
+     "start": 3.04,
+     "end": 3.46,
+     "value": "B"
+    },
+    {
+     "start": 3.46,
+     "end": 3.53,
+     "value": "C"
+    },
+    {
+     "start": 3.53,
+     "end": 3.61,
+     "value": "A"
+    },
+    {
+     "start": 3.61,
+     "end": 4.03,
+     "value": "B"
+    },
+    {
+     "start": 4.03,
+     "end": 4.1,
+     "value": "G"
+    },
+    {
+     "start": 4.1,
+     "end": 4.17,
+     "value": "C"
+    },
+    {
+     "start": 4.17,
+     "end": 4.24,
+     "value": "B"
+    },
+    {
+     "start": 4.24,
+     "end": 4.33,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_08",
+   "from": 974,
+   "start": 32.48,
+   "duration": 2.32,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.08,
+     "value": "X"
+    },
+    {
+     "start": 0.08,
+     "end": 0.29,
+     "value": "B"
+    },
+    {
+     "start": 0.29,
+     "end": 0.39,
+     "value": "A"
+    },
+    {
+     "start": 0.39,
+     "end": 0.43,
+     "value": "F"
+    },
+    {
+     "start": 0.43,
+     "end": 0.61,
+     "value": "B"
+    },
+    {
+     "start": 0.61,
+     "end": 0.82,
+     "value": "E"
+    },
+    {
+     "start": 0.82,
+     "end": 0.88,
+     "value": "A"
+    },
+    {
+     "start": 0.88,
+     "end": 0.94,
+     "value": "E"
+    },
+    {
+     "start": 0.94,
+     "end": 1.02,
+     "value": "A"
+    },
+    {
+     "start": 1.02,
+     "end": 1.46,
+     "value": "B"
+    },
+    {
+     "start": 1.46,
+     "end": 1.53,
+     "value": "C"
+    },
+    {
+     "start": 1.53,
+     "end": 1.74,
+     "value": "B"
+    },
+    {
+     "start": 1.74,
+     "end": 1.81,
+     "value": "C"
+    },
+    {
+     "start": 1.81,
+     "end": 1.89,
+     "value": "A"
+    },
+    {
+     "start": 1.89,
+     "end": 2.03,
+     "value": "B"
+    },
+    {
+     "start": 2.03,
+     "end": 2.1,
+     "value": "C"
+    },
+    {
+     "start": 2.1,
+     "end": 2.31,
+     "value": "B"
+    },
+    {
+     "start": 2.31,
+     "end": 2.32,
+     "value": "X"
+    }
+   ]
+  }
+ ]
+}

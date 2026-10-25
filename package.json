@@ -122,7 +122,11 @@
     "macmini:cutout": "python3 reels/macmini/cutout.py",
     "macmini:audio": "REEL=macmini python3 scripts/process_vo_take.py && python3 reels/macmini/build_timeline.py && REEL=macmini python3 scripts/make_music.py && REEL=macmini python3 scripts/mix_audio.py",
     "macmini:render": "remotion render MacminiReel9x16 out/macmini/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still MacminiCover out/macmini/cover_1080x1920.png",
-    "macmini:build": "npm run macmini:cutout && npm run macmini:audio && REEL=macmini node scripts/make_srt.mjs && npm run macmini:render && REEL=macmini bash scripts/finalize.sh && REEL=macmini bash scripts/verify.sh"
+    "macmini:build": "npm run macmini:cutout && npm run macmini:audio && REEL=macmini node scripts/make_srt.mjs && npm run macmini:render && REEL=macmini bash scripts/finalize.sh && REEL=macmini bash scripts/verify.sh",
+    "osmo360:cutout": "python3 reels/osmo360/cutout.py",
+    "osmo360:audio": "REEL=osmo360 python3 scripts/process_vo_take.py && python3 reels/osmo360/build_timeline.py && REEL=osmo360 python3 scripts/make_music.py && REEL=osmo360 python3 scripts/mix_audio.py",
+    "osmo360:render": "remotion render Osmo360Reel9x16 out/osmo360/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Osmo360Cover out/osmo360/cover_1080x1920.png",
+    "osmo360:build": "npm run osmo360:cutout && npm run osmo360:audio && REEL=osmo360 node scripts/make_srt.mjs && npm run osmo360:render && REEL=osmo360 bash scripts/finalize.sh && REEL=osmo360 bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",
