@@ -1,0 +1,13 @@
+{
+ "id": "goultra",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [3.63, 10.12, 16.43, 21.38, 27.34, 32.65, 36.86],
+ "lead": 0.06,
+ "voEndBy": 30.56,
+ "maxPause": 0.06,
+ "sentPause": 0.12,
+ "silenceDb": -30,
+ "maxSeconds": 60,
+ "note": "Insta360 GO Ultra Creator Bundle. User asked: cut the empty air and speed up -> tightest pauses + 1.10x pitch-kept (max allowed). Over 30 s under the standing approval. 9:16 + cover only."
+}

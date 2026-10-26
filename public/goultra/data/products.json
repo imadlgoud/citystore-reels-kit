@@ -1,0 +1,22 @@
+{
+ "kit": {
+  "src": "goultra/products/kit.png",
+  "w": 850,
+  "h": 1000
+ },
+ "pod": {
+  "src": "goultra/products/pod.png",
+  "w": 837,
+  "h": 699
+ },
+ "camera": {
+  "src": "goultra/products/camera.png",
+  "w": 686,
+  "h": 767
+ },
+ "tripod": {
+  "src": "goultra/products/tripod.png",
+  "w": 512,
+  "h": 766
+ }
+}

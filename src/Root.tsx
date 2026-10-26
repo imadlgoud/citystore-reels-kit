@@ -84,6 +84,9 @@ import { MMTL } from "./reels/macmini/timeline";
 import { Osmo360Reel } from "./reels/osmo360/Osmo360Reel";
 import { Osmo360Cover } from "./reels/osmo360/Osmo360Cover";
 import { O3TL } from "./reels/osmo360/timeline";
+import { GoUltraReel } from "./reels/goultra/GoUltraReel";
+import { GoUltraCover } from "./reels/goultra/GoUltraCover";
+import { GUTL } from "./reels/goultra/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -176,6 +179,9 @@ export const RemotionRoot: React.FC = () => (
     {/* DJI Osmo 360 Standard Combo: 38.5 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
     <Composition id="Osmo360Reel9x16" component={Osmo360Reel} durationInFrames={O3TL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Osmo360Cover" component={Osmo360Cover} width={1080} height={1920} />
+    {/* Insta360 GO Ultra Creator Bundle: 34 s, over 30 s (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
+    <Composition id="GoUltraReel9x16" component={GoUltraReel} durationInFrames={GUTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="GoUltraCover" component={GoUltraCover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );
