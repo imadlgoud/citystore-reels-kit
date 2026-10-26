@@ -172,7 +172,10 @@ SPOKEN = {"18": "dix-huit", "100": "cent pour cent", "%": "", "citystore.ma": "c
           "mini": "mi ni", "tripod": "trai pod", "tripod:": "trai pod", "en": "an", "1،": "un", "magnétique": "ma nye tik", "vidéo": "vi de o",
           "4k،": "katr ka", "stabilisation": "sta bi li za syon", "pod": "pod", "trépied": "tre pye", "télécommande": "te le ko mand",
           "whoop": "wup", "5.0": "sank pwan ze ro", "abonnement": "a bon man", "peak": "pik", "bracelet": "bras le",
-          "récupération": "re ku pe ra syon", "14": "ka torz", "jours": "jur", "healthspan": "hels pan", "age": "eij"}
+          "récupération": "re ku pe ra syon", "14": "ka torz", "jours": "jur", "healthspan": "hels pan", "age": "eij",
+          "iphone": "ai fon", "duo": "du o", "256gb": "du san sin kant sis gi ga", "star": "star", "white": "wait", "écran": "e kran",
+          "5.4": "sank vir gul katr", "7.6": "set vir gul sis", "a20": "a vin", "48": "ka rant uit", "mégapixels": "me ga pik sel",
+          "design": "di zain", "titane": "ti tan", "esim": "i sim", "touch": "toch", "id": "ai di"}
 ARABIC = "\\u0621-\\u063F\\u0641-\\u064A\\u0671-\\u06D3"  # Arabic letters (no punctuation, no tatweel)
 
 

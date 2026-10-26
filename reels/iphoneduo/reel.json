@@ -1,0 +1,11 @@
+{
+ "id": "iphoneduo",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [3.45, 6.7, 10.9, 17.87, 22.92, 25.94, 30.05],
+ "lead": 0.06,
+ "voEndBy": 26.6,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "note": "iPhone Duo 256GB Star White. Aim 30 s: pause trimming, then <=1.1x pitch-kept speed-up. 9:16 + cover only."
+}

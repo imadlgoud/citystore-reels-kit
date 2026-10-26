@@ -1,0 +1,27 @@
+{
+ "open": {
+  "src": "iphoneduo/products/open.png",
+  "w": 1100,
+  "h": 715
+ },
+ "flat": {
+  "src": "iphoneduo/products/flat.png",
+  "w": 856,
+  "h": 614
+ },
+ "back": {
+  "src": "iphoneduo/products/back.png",
+  "w": 619,
+  "h": 861
+ },
+ "front": {
+  "src": "iphoneduo/products/front.png",
+  "w": 377,
+  "h": 1079
+ },
+ "side": {
+  "src": "iphoneduo/products/side.png",
+  "w": 136,
+  "h": 943
+ }
+}

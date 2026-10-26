@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # iPhone Duo reel (30 s): airy G-major premium pop; drop when the phone unfolds in the hook
+    "iphoneduo": dict(seed=331, phase=1.0, drop=1.0, end_lift=27.0, stop=27.5,
+                      chords=[[67, 71, 74], [64, 67, 71], [60, 64, 67], [62, 66, 69]], roots=[43, 40, 36, 38],
+                      final=[67, 71, 74, 79], final_bass=43, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
     # WHOOP 5.0 reel (31 s, over 30 s): bright F-major fitness pulse; drop when the band lands ("knows your health")
     "whoop": dict(seed=317, dur=31.0, phase=1.0, drop=2.0, end_lift=28.0, stop=29.75,
                   chords=[[65, 69, 72], [62, 65, 69], [58, 62, 65], [60, 64, 67]], roots=[41, 38, 34, 36],

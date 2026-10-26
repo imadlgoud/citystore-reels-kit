@@ -134,7 +134,11 @@
     "whoop:cutout": "python3 reels/whoop/cutout.py",
     "whoop:audio": "REEL=whoop python3 scripts/process_vo_take.py && python3 reels/whoop/build_timeline.py && REEL=whoop python3 scripts/make_music.py && REEL=whoop python3 scripts/mix_audio.py",
     "whoop:render": "remotion render WhoopReel9x16 out/whoop/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still WhoopCover out/whoop/cover_1080x1920.png",
-    "whoop:build": "npm run whoop:cutout && npm run whoop:audio && REEL=whoop node scripts/make_srt.mjs && npm run whoop:render && REEL=whoop bash scripts/finalize.sh && REEL=whoop bash scripts/verify.sh"
+    "whoop:build": "npm run whoop:cutout && npm run whoop:audio && REEL=whoop node scripts/make_srt.mjs && npm run whoop:render && REEL=whoop bash scripts/finalize.sh && REEL=whoop bash scripts/verify.sh",
+    "iphoneduo:cutout": "python3 reels/iphoneduo/cutout.py",
+    "iphoneduo:audio": "REEL=iphoneduo python3 scripts/process_vo_take.py && python3 reels/iphoneduo/build_timeline.py && REEL=iphoneduo python3 scripts/make_music.py && REEL=iphoneduo python3 scripts/mix_audio.py",
+    "iphoneduo:render": "remotion render IphoneDuoReel9x16 out/iphoneduo/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still IphoneDuoCover out/iphoneduo/cover_1080x1920.png",
+    "iphoneduo:build": "npm run iphoneduo:cutout && npm run iphoneduo:audio && REEL=iphoneduo node scripts/make_srt.mjs && npm run iphoneduo:render && REEL=iphoneduo bash scripts/finalize.sh && REEL=iphoneduo bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

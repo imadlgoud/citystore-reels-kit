@@ -90,6 +90,9 @@ import { GUTL } from "./reels/goultra/timeline";
 import { WhoopReel } from "./reels/whoop/WhoopReel";
 import { WhoopCover } from "./reels/whoop/WhoopCover";
 import { WHTL } from "./reels/whoop/timeline";
+import { IphoneDuoReel } from "./reels/iphoneduo/IphoneDuoReel";
+import { IphoneDuoCover } from "./reels/iphoneduo/IphoneDuoCover";
+import { DUTL } from "./reels/iphoneduo/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -188,6 +191,9 @@ export const RemotionRoot: React.FC = () => (
     {/* WHOOP 5.0 (abonnement Peak): 31 s, over 30 s (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
     <Composition id="WhoopReel9x16" component={WhoopReel} durationInFrames={WHTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="WhoopCover" component={WhoopCover} width={1080} height={1920} />
+    {/* iPhone Duo 256GB Star White: 30 s (pause trimming + 1.09x); 9:16 + cover only */}
+    <Composition id="IphoneDuoReel9x16" component={IphoneDuoReel} durationInFrames={Math.min(DUTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="IphoneDuoCover" component={IphoneDuoCover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );
