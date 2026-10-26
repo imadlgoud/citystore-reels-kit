@@ -1,0 +1,13 @@
+{
+ "id": "whoop",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [4.37, 8.5, 14.52, 18.67, 22.59, 28.73, 33.18],
+ "lead": 0.06,
+ "voEndBy": 27.91,
+ "maxPause": 0.06,
+ "sentPause": 0.12,
+ "silenceDb": -30,
+ "maxSeconds": 60,
+ "note": "WHOOP 5.0 (abonnement Peak). User asked: same as the GO Ultra -> tightest pauses + 1.10x pitch-kept (max allowed). Over 30 s under the standing approval. 9:16 + cover only."
+}

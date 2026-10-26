@@ -170,7 +170,9 @@ SPOKEN = {"18": "dix-huit", "100": "cent pour cent", "%": "", "citystore.ma": "c
           "105gb،": "san sank gi ga", "mètres.": "metr", "selfie،": "sel fi",
           "insta360": "ins ta trwa san swa sant", "go": "go", "ultra،": "ul tra", "creator": "kri ei tor", "bundle،": "bun del",
           "mini": "mi ni", "tripod": "trai pod", "tripod:": "trai pod", "en": "an", "1،": "un", "magnétique": "ma nye tik", "vidéo": "vi de o",
-          "4k،": "katr ka", "stabilisation": "sta bi li za syon", "pod": "pod", "trépied": "tre pye", "télécommande": "te le ko mand"}
+          "4k،": "katr ka", "stabilisation": "sta bi li za syon", "pod": "pod", "trépied": "tre pye", "télécommande": "te le ko mand",
+          "whoop": "wup", "5.0": "sank pwan ze ro", "abonnement": "a bon man", "peak": "pik", "bracelet": "bras le",
+          "récupération": "re ku pe ra syon", "14": "ka torz", "jours": "jur", "healthspan": "hels pan", "age": "eij"}
 ARABIC = "\\u0621-\\u063F\\u0641-\\u064A\\u0671-\\u06D3"  # Arabic letters (no punctuation, no tatweel)
 
 

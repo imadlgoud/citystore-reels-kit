@@ -1,0 +1,17 @@
+{
+ "duo": {
+  "src": "whoop/products/duo.png",
+  "w": 1000,
+  "h": 642
+ },
+ "band": {
+  "src": "whoop/products/band.png",
+  "w": 810,
+  "h": 918
+ },
+ "battery": {
+  "src": "whoop/products/battery.png",
+  "w": 606,
+  "h": 465
+ }
+}

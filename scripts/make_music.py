@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # WHOOP 5.0 reel (31 s, over 30 s): bright F-major fitness pulse; drop when the band lands ("knows your health")
+    "whoop": dict(seed=317, dur=31.0, phase=1.0, drop=2.0, end_lift=28.0, stop=29.75,
+                  chords=[[65, 69, 72], [62, 65, 69], [58, 62, 65], [60, 64, 67]], roots=[41, 38, 34, 36],
+                  final=[65, 69, 72, 77], final_bass=41, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
     # Insta360 GO Ultra reel (34 s, over 30 s): upbeat E-major lifestyle pop
     "goultra": dict(seed=313, dur=34.0, phase=1.0, drop=2.5, end_lift=31.0, stop=32.75,
                     chords=[[64, 68, 71], [61, 64, 68], [57, 61, 64], [59, 63, 66]], roots=[52, 49, 45, 47],

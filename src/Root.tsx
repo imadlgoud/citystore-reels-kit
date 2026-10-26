@@ -87,6 +87,9 @@ import { O3TL } from "./reels/osmo360/timeline";
 import { GoUltraReel } from "./reels/goultra/GoUltraReel";
 import { GoUltraCover } from "./reels/goultra/GoUltraCover";
 import { GUTL } from "./reels/goultra/timeline";
+import { WhoopReel } from "./reels/whoop/WhoopReel";
+import { WhoopCover } from "./reels/whoop/WhoopCover";
+import { WHTL } from "./reels/whoop/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -182,6 +185,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Insta360 GO Ultra Creator Bundle: 34 s, over 30 s (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
     <Composition id="GoUltraReel9x16" component={GoUltraReel} durationInFrames={GUTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="GoUltraCover" component={GoUltraCover} width={1080} height={1920} />
+    {/* WHOOP 5.0 (abonnement Peak): 31 s, over 30 s (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
+    <Composition id="WhoopReel9x16" component={WhoopReel} durationInFrames={WHTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="WhoopCover" component={WhoopCover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );
