@@ -4,7 +4,7 @@
 - Music: assets/music/<first file> if present, else the generated public/audio/music.wav.
   Sits at MUSIC_LUFS and is ducked DUCK_DB under the VO with RAMP_MS ramps.
 - SFX: cues from public/data/timeline.json, files from assets/sfx/
-- Peak limiter at -1 dBFS (sample peak, 4x oversampled check)
+- Peak limiter at -1.2 dBFS (sample peak, 4x oversampled check), so the AAC file stays <= -1 dBTP
 """
 import json
 import pathlib
@@ -28,7 +28,7 @@ MUSIC_LUFS = -19.0
 DUCK_DB = -10.0
 RAMP_MS = 150
 SFX_BUS_DB = -1.0
-CEILING = 10 ** (-1.0 / 20)
+CEILING = 10 ** (-1.2 / 20)  # 0.2 dB below -1 dBTP: AAC encoding can overshoot the PCM true peak by ~0.1 dB
 meter = pyln.Meter(SR)
 
 

@@ -93,6 +93,9 @@ import { WHTL } from "./reels/whoop/timeline";
 import { IphoneDuoReel } from "./reels/iphoneduo/IphoneDuoReel";
 import { IphoneDuoCover } from "./reels/iphoneduo/IphoneDuoCover";
 import { DUTL } from "./reels/iphoneduo/timeline";
+import { A16Reel } from "./reels/a16/A16Reel";
+import { A16Cover } from "./reels/a16/A16Cover";
+import { A6TL } from "./reels/a16/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -194,6 +197,9 @@ export const RemotionRoot: React.FC = () => (
     {/* iPhone Duo 256GB Star White: 30 s (pause trimming + 1.09x); 9:16 + cover only */}
     <Composition id="IphoneDuoReel9x16" component={IphoneDuoReel} durationInFrames={Math.min(DUTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="IphoneDuoCover" component={IphoneDuoCover} width={1080} height={1920} />
+    {/* Samsung Galaxy A16 4GB/128GB Noir: 30 s (pause trimming + 1.10x); 9:16 + cover only */}
+    <Composition id="A16Reel9x16" component={A16Reel} durationInFrames={Math.min(A6TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="A16Cover" component={A16Cover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

@@ -175,7 +175,8 @@ SPOKEN = {"18": "dix-huit", "100": "cent pour cent", "%": "", "citystore.ma": "c
           "récupération": "re ku pe ra syon", "14": "ka torz", "jours": "jur", "healthspan": "hels pan", "age": "eij",
           "iphone": "ai fon", "duo": "du o", "256gb": "du san sin kant sis gi ga", "star": "star", "white": "wait", "écran": "e kran",
           "5.4": "sank vir gul katr", "7.6": "set vir gul sis", "a20": "a vin", "48": "ka rant uit", "mégapixels": "me ga pik sel",
-          "design": "di zain", "titane": "ti tan", "esim": "i sim", "touch": "toch", "id": "ai di"}
+          "design": "di zain", "titane": "ti tan", "esim": "i sim", "touch": "toch", "id": "ai di",
+          "a16": "a sez", "128gb": "san vint uit gi ga", "4gb": "katr gi ga", "ans": "an", "super": "su per", "amoled": "a mo led", "android": "an droid"}
 ARABIC = "\\u0621-\\u063F\\u0641-\\u064A\\u0671-\\u06D3"  # Arabic letters (no punctuation, no tatweel)
 
 

@@ -1,0 +1,11 @@
+{
+ "id": "a16",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [3.29, 10.57, 14.5, 19.75, 26.66, 31.18],
+ "lead": 0.06,
+ "voEndBy": 27.6,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "note": "Samsung Galaxy A16 4GB/128GB Noir. Aim 30 s: pause trimming, then <=1.1x pitch-kept speed-up. 9:16 + cover only."
+}

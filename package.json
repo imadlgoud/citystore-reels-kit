@@ -138,7 +138,11 @@
     "iphoneduo:cutout": "python3 reels/iphoneduo/cutout.py",
     "iphoneduo:audio": "REEL=iphoneduo python3 scripts/process_vo_take.py && python3 reels/iphoneduo/build_timeline.py && REEL=iphoneduo python3 scripts/make_music.py && REEL=iphoneduo python3 scripts/mix_audio.py",
     "iphoneduo:render": "remotion render IphoneDuoReel9x16 out/iphoneduo/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still IphoneDuoCover out/iphoneduo/cover_1080x1920.png",
-    "iphoneduo:build": "npm run iphoneduo:cutout && npm run iphoneduo:audio && REEL=iphoneduo node scripts/make_srt.mjs && npm run iphoneduo:render && REEL=iphoneduo bash scripts/finalize.sh && REEL=iphoneduo bash scripts/verify.sh"
+    "iphoneduo:build": "npm run iphoneduo:cutout && npm run iphoneduo:audio && REEL=iphoneduo node scripts/make_srt.mjs && npm run iphoneduo:render && REEL=iphoneduo bash scripts/finalize.sh && REEL=iphoneduo bash scripts/verify.sh",
+    "a16:cutout": "python3 reels/a16/cutout.py",
+    "a16:audio": "REEL=a16 python3 scripts/process_vo_take.py && python3 reels/a16/build_timeline.py && REEL=a16 python3 scripts/make_music.py && REEL=a16 python3 scripts/mix_audio.py",
+    "a16:render": "remotion render A16Reel9x16 out/a16/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still A16Cover out/a16/cover_1080x1920.png",
+    "a16:build": "npm run a16:cutout && npm run a16:audio && REEL=a16 node scripts/make_srt.mjs && npm run a16:render && REEL=a16 bash scripts/finalize.sh && REEL=a16 bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

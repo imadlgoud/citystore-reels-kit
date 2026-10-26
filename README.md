@@ -60,6 +60,7 @@ npm run studio                   # interactive preview
 | Insta360 GO Ultra Creator Bundle (Darija, **34 s**, VO tightened + 1.10x on request; 9:16 only) | `GoUltraReel9x16`, `GoUltraCover` | `out/goultra/` | `npm run goultra:build` |
 | WHOOP 5.0, abonnement Peak (Darija, **31 s**, VO tightened + 1.10x on request; 9:16 only) | `WhoopReel9x16`, `WhoopCover` | `out/whoop/` | `npm run whoop:build` |
 | iPhone Duo 256GB Star White (Darija, 30 s, pause trimming + 1.09x; 9:16 only) | `IphoneDuoReel9x16`, `IphoneDuoCover` | `out/iphoneduo/` | `npm run iphoneduo:build` |
+| Samsung Galaxy A16 4GB/128GB Noir (Darija, 30 s, pause trimming + 1.10x; 9:16 only) | `A16Reel9x16`, `A16Cover` | `out/a16/` | `npm run a16:build` |
 | Apple Watch Ultra 4 (Darija) | `WatchReel9x16`, `WatchReel1x1`, `WatchCover` | `out/watch/` | `npm run watch:build` |
 | Galaxy Watch8 Classic + Ultra2 (Darija) | `GalaxyReel9x16`, `GalaxyReel1x1`, `GalaxyCover` | `out/galaxy/` | `npm run galaxy:build` |
 | Sony WH-1000XM6 + XM5 (Darija) | `SonyReel9x16`, `SonyReel1x1`, `SonyCover` | `out/sony/` | `npm run sony:build` |

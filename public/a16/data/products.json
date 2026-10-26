@@ -1,0 +1,12 @@
+{
+ "pair": {
+  "src": "a16/products/pair.png",
+  "w": 651,
+  "h": 834
+ },
+ "back": {
+  "src": "a16/products/back.png",
+  "w": 408,
+  "h": 846
+ }
+}
