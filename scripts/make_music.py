@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # Apple Watch Series 11 reel (30 s): warm B-flat lifestyle pop; drop when the watches land in the hook
+    "watch11": dict(seed=347, phase=1.0, drop=2.5, end_lift=27.0, stop=27.5,
+                    chords=[[58, 62, 65], [55, 58, 62], [51, 55, 58], [53, 57, 60]], roots=[46, 43, 39, 41],
+                    final=[58, 62, 65, 70], final_bass=46, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
     # Samsung Galaxy A16 reel (30 s): punchy D-major pop; drop on "6 ans" in the hook
     "a16": dict(seed=337, phase=1.0, drop=2.0, end_lift=27.75, stop=28.25,
                 chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],

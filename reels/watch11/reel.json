@@ -1,0 +1,11 @@
+{
+ "id": "watch11",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [3.85, 8.6, 12.2, 18.7, 23.4, 26.65],
+ "lead": 0.06,
+ "voEndBy": 999,
+ "maxPause": 0.12,
+ "sentPause": 0.25,
+ "note": "Apple Watch Series 11 46mm (new, never used). Aim 30 s: pause trimming with 0.25 s sentence breaks (no speed-up needed). 9:16 + cover only."
+}

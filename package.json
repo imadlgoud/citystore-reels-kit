@@ -142,7 +142,11 @@
     "a16:cutout": "python3 reels/a16/cutout.py",
     "a16:audio": "REEL=a16 python3 scripts/process_vo_take.py && python3 reels/a16/build_timeline.py && REEL=a16 python3 scripts/make_music.py && REEL=a16 python3 scripts/mix_audio.py",
     "a16:render": "remotion render A16Reel9x16 out/a16/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still A16Cover out/a16/cover_1080x1920.png",
-    "a16:build": "npm run a16:cutout && npm run a16:audio && REEL=a16 node scripts/make_srt.mjs && npm run a16:render && REEL=a16 bash scripts/finalize.sh && REEL=a16 bash scripts/verify.sh"
+    "a16:build": "npm run a16:cutout && npm run a16:audio && REEL=a16 node scripts/make_srt.mjs && npm run a16:render && REEL=a16 bash scripts/finalize.sh && REEL=a16 bash scripts/verify.sh",
+    "watch11:cutout": "python3 reels/watch11/cutout.py",
+    "watch11:audio": "REEL=watch11 python3 scripts/process_vo_take.py && python3 reels/watch11/build_timeline.py && REEL=watch11 python3 scripts/make_music.py && REEL=watch11 python3 scripts/mix_audio.py",
+    "watch11:render": "remotion render Watch11Reel9x16 out/watch11/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Watch11Cover out/watch11/cover_1080x1920.png",
+    "watch11:build": "npm run watch11:cutout && npm run watch11:audio && REEL=watch11 node scripts/make_srt.mjs && npm run watch11:render && REEL=watch11 bash scripts/finalize.sh && REEL=watch11 bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",
