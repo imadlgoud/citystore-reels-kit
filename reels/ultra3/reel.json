@@ -1,0 +1,11 @@
+{
+ "id": "ultra3",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [3.68, 7.25, 9.53, 12.69, 17.85, 22.16, 25.51],
+ "lead": 0.06,
+ "voEndBy": 999,
+ "maxPause": 0.12,
+ "sentPause": 0.25,
+ "note": "Apple Watch Ultra 3 49mm Noir (black titanium, Black Ocean Band). 27.6 s take: pause trimming, natural speed. Boundaries picked from the pause pattern + syllable estimate (the TTS barely pauses). 9:16 + cover only."
+}

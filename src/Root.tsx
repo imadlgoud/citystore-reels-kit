@@ -99,6 +99,9 @@ import { A6TL } from "./reels/a16/timeline";
 import { Watch11Reel } from "./reels/watch11/Watch11Reel";
 import { Watch11Cover } from "./reels/watch11/Watch11Cover";
 import { WBTL } from "./reels/watch11/timeline";
+import { Ultra3Reel } from "./reels/ultra3/Ultra3Reel";
+import { Ultra3Cover } from "./reels/ultra3/Ultra3Cover";
+import { U3TL } from "./reels/ultra3/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -206,6 +209,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Apple Watch Series 11 46mm (new, never used): 30 s (pause trimming, natural speed); 9:16 + cover only */}
     <Composition id="Watch11Reel9x16" component={Watch11Reel} durationInFrames={Math.min(WBTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Watch11Cover" component={Watch11Cover} width={1080} height={1920} />
+    {/* Apple Watch Ultra 3 49mm Noir: 30 s (pause trimming, natural speed); 9:16 + cover only */}
+    <Composition id="Ultra3Reel9x16" component={Ultra3Reel} durationInFrames={Math.min(U3TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="Ultra3Cover" component={Ultra3Cover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

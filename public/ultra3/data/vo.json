@@ -1,0 +1,1618 @@
+[
+ {
+  "id": "line_01",
+  "subtitle": "مصاوبة للجبل، البحر والصحرا… وكتبان classe حتى فالخدمة!",
+  "source": "human-take",
+  "start": 0.06,
+  "duration": 3.46,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "مصاوبة",
+    "start": 0.0,
+    "end": 0.5
+   },
+   {
+    "word": "للجبل،",
+    "start": 0.5,
+    "end": 0.86
+   },
+   {
+    "word": "البحر",
+    "start": 0.86,
+    "end": 1.2
+   },
+   {
+    "word": "والصحرا…",
+    "start": 1.2,
+    "end": 1.84
+   },
+   {
+    "word": "وكتبان",
+    "start": 1.84,
+    "end": 2.38
+   },
+   {
+    "word": "classe",
+    "start": 2.38,
+    "end": 2.56
+   },
+   {
+    "word": "حتى",
+    "start": 2.56,
+    "end": 2.74
+   },
+   {
+    "word": "فالخدمة!",
+    "start": 2.74,
+    "end": 3.42
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.13,
+    "value": "B"
+   },
+   {
+    "start": 0.13,
+    "end": 0.2,
+    "value": "E"
+   },
+   {
+    "start": 0.2,
+    "end": 0.28,
+    "value": "A"
+   },
+   {
+    "start": 0.28,
+    "end": 0.56,
+    "value": "F"
+   },
+   {
+    "start": 0.56,
+    "end": 0.64,
+    "value": "A"
+   },
+   {
+    "start": 0.64,
+    "end": 0.81,
+    "value": "F"
+   },
+   {
+    "start": 0.81,
+    "end": 1.08,
+    "value": "A"
+   },
+   {
+    "start": 1.08,
+    "end": 1.13,
+    "value": "B"
+   },
+   {
+    "start": 1.13,
+    "end": 1.25,
+    "value": "F"
+   },
+   {
+    "start": 1.25,
+    "end": 1.39,
+    "value": "B"
+   },
+   {
+    "start": 1.39,
+    "end": 1.6,
+    "value": "C"
+   },
+   {
+    "start": 1.6,
+    "end": 1.67,
+    "value": "E"
+   },
+   {
+    "start": 1.67,
+    "end": 1.88,
+    "value": "F"
+   },
+   {
+    "start": 1.88,
+    "end": 1.95,
+    "value": "B"
+   },
+   {
+    "start": 1.95,
+    "end": 2.02,
+    "value": "E"
+   },
+   {
+    "start": 2.02,
+    "end": 2.16,
+    "value": "F"
+   },
+   {
+    "start": 2.16,
+    "end": 2.44,
+    "value": "B"
+   },
+   {
+    "start": 2.44,
+    "end": 2.51,
+    "value": "G"
+   },
+   {
+    "start": 2.51,
+    "end": 2.72,
+    "value": "B"
+   },
+   {
+    "start": 2.72,
+    "end": 2.8,
+    "value": "A"
+   },
+   {
+    "start": 2.8,
+    "end": 2.86,
+    "value": "D"
+   },
+   {
+    "start": 2.86,
+    "end": 2.92,
+    "value": "H"
+   },
+   {
+    "start": 2.92,
+    "end": 2.99,
+    "value": "D"
+   },
+   {
+    "start": 2.99,
+    "end": 3.07,
+    "value": "A"
+   },
+   {
+    "start": 3.07,
+    "end": 3.24,
+    "value": "E"
+   },
+   {
+    "start": 3.24,
+    "end": 3.31,
+    "value": "F"
+   },
+   {
+    "start": 3.31,
+    "end": 3.38,
+    "value": "E"
+   },
+   {
+    "start": 3.38,
+    "end": 3.45,
+    "value": "B"
+   },
+   {
+    "start": 3.45,
+    "end": 3.46,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_02",
+  "subtitle": "Apple Watch Ultra 3، 49mm، Noir، disponible دابا عندنا.",
+  "source": "human-take",
+  "start": 3.52,
+  "duration": 3.75,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Apple",
+    "start": 0.02,
+    "end": 0.44
+   },
+   {
+    "word": "Watch",
+    "start": 0.44,
+    "end": 0.6
+   },
+   {
+    "word": "Ultra",
+    "start": 0.6,
+    "end": 1.04
+   },
+   {
+    "word": "3،",
+    "start": 1.04,
+    "end": 1.2
+   },
+   {
+    "word": "49mm،",
+    "start": 1.2,
+    "end": 2.22
+   },
+   {
+    "word": "Noir،",
+    "start": 2.22,
+    "end": 2.5
+   },
+   {
+    "word": "disponible",
+    "start": 2.5,
+    "end": 3.06
+   },
+   {
+    "word": "دابا",
+    "start": 3.06,
+    "end": 3.38
+   },
+   {
+    "word": "عندنا.",
+    "start": 3.38,
+    "end": 3.7
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.22,
+    "value": "B"
+   },
+   {
+    "start": 0.22,
+    "end": 0.29,
+    "value": "A"
+   },
+   {
+    "start": 0.29,
+    "end": 0.34,
+    "value": "B"
+   },
+   {
+    "start": 0.34,
+    "end": 0.53,
+    "value": "D"
+   },
+   {
+    "start": 0.53,
+    "end": 0.6,
+    "value": "B"
+   },
+   {
+    "start": 0.6,
+    "end": 0.88,
+    "value": "E"
+   },
+   {
+    "start": 0.88,
+    "end": 1.09,
+    "value": "C"
+   },
+   {
+    "start": 1.09,
+    "end": 1.16,
+    "value": "E"
+   },
+   {
+    "start": 1.16,
+    "end": 1.27,
+    "value": "A"
+   },
+   {
+    "start": 1.27,
+    "end": 1.36,
+    "value": "B"
+   },
+   {
+    "start": 1.36,
+    "end": 1.43,
+    "value": "G"
+   },
+   {
+    "start": 1.43,
+    "end": 1.51,
+    "value": "A"
+   },
+   {
+    "start": 1.51,
+    "end": 1.71,
+    "value": "B"
+   },
+   {
+    "start": 1.71,
+    "end": 1.79,
+    "value": "A"
+   },
+   {
+    "start": 1.79,
+    "end": 2.09,
+    "value": "B"
+   },
+   {
+    "start": 2.09,
+    "end": 2.16,
+    "value": "F"
+   },
+   {
+    "start": 2.16,
+    "end": 2.3,
+    "value": "D"
+   },
+   {
+    "start": 2.3,
+    "end": 2.44,
+    "value": "H"
+   },
+   {
+    "start": 2.44,
+    "end": 2.65,
+    "value": "B"
+   },
+   {
+    "start": 2.65,
+    "end": 2.78,
+    "value": "A"
+   },
+   {
+    "start": 2.78,
+    "end": 2.85,
+    "value": "F"
+   },
+   {
+    "start": 2.85,
+    "end": 2.91,
+    "value": "B"
+   },
+   {
+    "start": 2.91,
+    "end": 2.99,
+    "value": "A"
+   },
+   {
+    "start": 2.99,
+    "end": 3.06,
+    "value": "F"
+   },
+   {
+    "start": 3.06,
+    "end": 3.13,
+    "value": "B"
+   },
+   {
+    "start": 3.13,
+    "end": 3.2,
+    "value": "C"
+   },
+   {
+    "start": 3.2,
+    "end": 3.28,
+    "value": "A"
+   },
+   {
+    "start": 3.28,
+    "end": 3.46,
+    "value": "C"
+   },
+   {
+    "start": 3.46,
+    "end": 3.53,
+    "value": "B"
+   },
+   {
+    "start": 3.53,
+    "end": 3.67,
+    "value": "C"
+   },
+   {
+    "start": 3.67,
+    "end": 3.74,
+    "value": "E"
+   },
+   {
+    "start": 3.74,
+    "end": 3.75,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_03",
+  "subtitle": "boîtier en titane noir و écran saphir، قوية وكتقاوم الضربات.",
+  "source": "human-take",
+  "start": 7.27,
+  "duration": 2.175,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "boîtier",
+    "start": 0.02,
+    "end": 0.24
+   },
+   {
+    "word": "en",
+    "start": 0.24,
+    "end": 0.36
+   },
+   {
+    "word": "titane",
+    "start": 0.36,
+    "end": 0.58
+   },
+   {
+    "word": "noir",
+    "start": 0.58,
+    "end": 0.72
+   },
+   {
+    "word": "و",
+    "start": 0.72,
+    "end": 0.86
+   },
+   {
+    "word": "écran",
+    "start": 0.86,
+    "end": 0.98
+   },
+   {
+    "word": "saphir،",
+    "start": 0.98,
+    "end": 1.2
+   },
+   {
+    "word": "قوية",
+    "start": 1.2,
+    "end": 1.44
+   },
+   {
+    "word": "وكتقاوم",
+    "start": 1.44,
+    "end": 1.8
+   },
+   {
+    "word": "الضربات.",
+    "start": 1.8,
+    "end": 2.16
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.15,
+    "value": "B"
+   },
+   {
+    "start": 0.15,
+    "end": 0.22,
+    "value": "F"
+   },
+   {
+    "start": 0.22,
+    "end": 0.43,
+    "value": "B"
+   },
+   {
+    "start": 0.43,
+    "end": 0.5,
+    "value": "F"
+   },
+   {
+    "start": 0.5,
+    "end": 0.64,
+    "value": "B"
+   },
+   {
+    "start": 0.64,
+    "end": 0.72,
+    "value": "A"
+   },
+   {
+    "start": 0.72,
+    "end": 0.82,
+    "value": "D"
+   },
+   {
+    "start": 0.82,
+    "end": 0.87,
+    "value": "C"
+   },
+   {
+    "start": 0.87,
+    "end": 0.97,
+    "value": "A"
+   },
+   {
+    "start": 0.97,
+    "end": 1.04,
+    "value": "F"
+   },
+   {
+    "start": 1.04,
+    "end": 1.18,
+    "value": "D"
+   },
+   {
+    "start": 1.18,
+    "end": 1.32,
+    "value": "E"
+   },
+   {
+    "start": 1.32,
+    "end": 1.39,
+    "value": "F"
+   },
+   {
+    "start": 1.39,
+    "end": 1.81,
+    "value": "B"
+   },
+   {
+    "start": 1.81,
+    "end": 1.88,
+    "value": "D"
+   },
+   {
+    "start": 1.88,
+    "end": 2.02,
+    "value": "G"
+   },
+   {
+    "start": 2.02,
+    "end": 2.16,
+    "value": "F"
+   },
+   {
+    "start": 2.16,
+    "end": 2.17,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_04",
+  "subtitle": "مع البراسلي Black Ocean Band، مريح وكيبقى ثابت واخا تعوم ولا تجري.",
+  "source": "human-take",
+  "start": 9.445,
+  "duration": 3.23,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "مع",
+    "start": 0.0,
+    "end": 0.22
+   },
+   {
+    "word": "البراسلي",
+    "start": 0.22,
+    "end": 0.74
+   },
+   {
+    "word": "Black",
+    "start": 0.74,
+    "end": 0.9
+   },
+   {
+    "word": "Ocean",
+    "start": 0.9,
+    "end": 1.16
+   },
+   {
+    "word": "Band،",
+    "start": 1.16,
+    "end": 1.28
+   },
+   {
+    "word": "مريح",
+    "start": 1.28,
+    "end": 1.56
+   },
+   {
+    "word": "وكيبقى",
+    "start": 1.56,
+    "end": 1.98
+   },
+   {
+    "word": "ثابت",
+    "start": 1.98,
+    "end": 2.24
+   },
+   {
+    "word": "واخا",
+    "start": 2.24,
+    "end": 2.48
+   },
+   {
+    "word": "تعوم",
+    "start": 2.48,
+    "end": 2.76
+   },
+   {
+    "word": "ولا",
+    "start": 2.76,
+    "end": 2.88
+   },
+   {
+    "word": "تجري.",
+    "start": 2.88,
+    "end": 3.14
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.11,
+    "value": "X"
+   },
+   {
+    "start": 0.11,
+    "end": 0.17,
+    "value": "B"
+   },
+   {
+    "start": 0.17,
+    "end": 0.22,
+    "value": "E"
+   },
+   {
+    "start": 0.22,
+    "end": 0.29,
+    "value": "F"
+   },
+   {
+    "start": 0.29,
+    "end": 0.48,
+    "value": "C"
+   },
+   {
+    "start": 0.48,
+    "end": 0.53,
+    "value": "E"
+   },
+   {
+    "start": 0.53,
+    "end": 0.71,
+    "value": "F"
+   },
+   {
+    "start": 0.71,
+    "end": 0.92,
+    "value": "E"
+   },
+   {
+    "start": 0.92,
+    "end": 0.99,
+    "value": "F"
+   },
+   {
+    "start": 0.99,
+    "end": 1.11,
+    "value": "A"
+   },
+   {
+    "start": 1.11,
+    "end": 1.19,
+    "value": "B"
+   },
+   {
+    "start": 1.19,
+    "end": 1.27,
+    "value": "A"
+   },
+   {
+    "start": 1.27,
+    "end": 1.39,
+    "value": "E"
+   },
+   {
+    "start": 1.39,
+    "end": 1.6,
+    "value": "B"
+   },
+   {
+    "start": 1.6,
+    "end": 1.73,
+    "value": "A"
+   },
+   {
+    "start": 1.73,
+    "end": 1.84,
+    "value": "C"
+   },
+   {
+    "start": 1.84,
+    "end": 1.95,
+    "value": "A"
+   },
+   {
+    "start": 1.95,
+    "end": 2.09,
+    "value": "D"
+   },
+   {
+    "start": 2.09,
+    "end": 2.3,
+    "value": "F"
+   },
+   {
+    "start": 2.3,
+    "end": 2.44,
+    "value": "B"
+   },
+   {
+    "start": 2.44,
+    "end": 2.65,
+    "value": "E"
+   },
+   {
+    "start": 2.65,
+    "end": 2.79,
+    "value": "B"
+   },
+   {
+    "start": 2.79,
+    "end": 2.87,
+    "value": "A"
+   },
+   {
+    "start": 2.87,
+    "end": 2.98,
+    "value": "C"
+   },
+   {
+    "start": 2.98,
+    "end": 3.12,
+    "value": "B"
+   },
+   {
+    "start": 3.12,
+    "end": 3.22,
+    "value": "A"
+   },
+   {
+    "start": 3.22,
+    "end": 3.23,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_05",
+  "subtitle": "باطري حتى لـ 42 heures، وحتى لـ 72 heures فـ mode économie.",
+  "source": "human-take",
+  "start": 12.675,
+  "duration": 5.01,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "باطري",
+    "start": 0.08,
+    "end": 0.58
+   },
+   {
+    "word": "حتى",
+    "start": 0.58,
+    "end": 0.86
+   },
+   {
+    "word": "لـ",
+    "start": 0.86,
+    "end": 1.14
+   },
+   {
+    "word": "42",
+    "start": 1.14,
+    "end": 1.6
+   },
+   {
+    "word": "heures،",
+    "start": 1.6,
+    "end": 1.82
+   },
+   {
+    "word": "وحتى",
+    "start": 1.82,
+    "end": 2.32
+   },
+   {
+    "word": "لـ",
+    "start": 2.32,
+    "end": 2.58
+   },
+   {
+    "word": "72",
+    "start": 2.58,
+    "end": 3.28
+   },
+   {
+    "word": "heures",
+    "start": 3.28,
+    "end": 3.56
+   },
+   {
+    "word": "فـ",
+    "start": 3.56,
+    "end": 3.78
+   },
+   {
+    "word": "mode",
+    "start": 3.78,
+    "end": 4.02
+   },
+   {
+    "word": "économie.",
+    "start": 4.02,
+    "end": 5.0
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.01,
+    "value": "X"
+   },
+   {
+    "start": 0.01,
+    "end": 0.07,
+    "value": "B"
+   },
+   {
+    "start": 0.07,
+    "end": 0.13,
+    "value": "A"
+   },
+   {
+    "start": 0.13,
+    "end": 0.23,
+    "value": "B"
+   },
+   {
+    "start": 0.23,
+    "end": 0.44,
+    "value": "F"
+   },
+   {
+    "start": 0.44,
+    "end": 0.58,
+    "value": "B"
+   },
+   {
+    "start": 0.58,
+    "end": 0.93,
+    "value": "C"
+   },
+   {
+    "start": 0.93,
+    "end": 1.14,
+    "value": "B"
+   },
+   {
+    "start": 1.14,
+    "end": 1.21,
+    "value": "F"
+   },
+   {
+    "start": 1.21,
+    "end": 1.42,
+    "value": "B"
+   },
+   {
+    "start": 1.42,
+    "end": 1.49,
+    "value": "E"
+   },
+   {
+    "start": 1.49,
+    "end": 1.57,
+    "value": "A"
+   },
+   {
+    "start": 1.57,
+    "end": 1.64,
+    "value": "F"
+   },
+   {
+    "start": 1.64,
+    "end": 1.99,
+    "value": "B"
+   },
+   {
+    "start": 1.99,
+    "end": 2.07,
+    "value": "A"
+   },
+   {
+    "start": 2.07,
+    "end": 2.23,
+    "value": "F"
+   },
+   {
+    "start": 2.23,
+    "end": 2.44,
+    "value": "B"
+   },
+   {
+    "start": 2.44,
+    "end": 2.58,
+    "value": "C"
+   },
+   {
+    "start": 2.58,
+    "end": 2.86,
+    "value": "E"
+   },
+   {
+    "start": 2.86,
+    "end": 3.07,
+    "value": "F"
+   },
+   {
+    "start": 3.07,
+    "end": 3.14,
+    "value": "B"
+   },
+   {
+    "start": 3.14,
+    "end": 3.28,
+    "value": "E"
+   },
+   {
+    "start": 3.28,
+    "end": 3.42,
+    "value": "F"
+   },
+   {
+    "start": 3.42,
+    "end": 3.77,
+    "value": "B"
+   },
+   {
+    "start": 3.77,
+    "end": 3.84,
+    "value": "E"
+   },
+   {
+    "start": 3.84,
+    "end": 3.98,
+    "value": "B"
+   },
+   {
+    "start": 3.98,
+    "end": 4.12,
+    "value": "A"
+   },
+   {
+    "start": 4.12,
+    "end": 4.3,
+    "value": "B"
+   },
+   {
+    "start": 4.3,
+    "end": 4.37,
+    "value": "F"
+   },
+   {
+    "start": 4.37,
+    "end": 4.44,
+    "value": "G"
+   },
+   {
+    "start": 4.44,
+    "end": 4.51,
+    "value": "F"
+   },
+   {
+    "start": 4.51,
+    "end": 4.59,
+    "value": "A"
+   },
+   {
+    "start": 4.59,
+    "end": 4.66,
+    "value": "B"
+   },
+   {
+    "start": 4.66,
+    "end": 4.8,
+    "value": "E"
+   },
+   {
+    "start": 4.8,
+    "end": 4.88,
+    "value": "A"
+   },
+   {
+    "start": 4.88,
+    "end": 4.94,
+    "value": "C"
+   },
+   {
+    "start": 4.94,
+    "end": 5.0,
+    "value": "B"
+   },
+   {
+    "start": 5.0,
+    "end": 5.01,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_06",
+  "subtitle": "GPS دقيق بزاف، و SOS par satellite إلا كنتي فبلاصة ما فيهاش ريزو.",
+  "source": "human-take",
+  "start": 17.685,
+  "duration": 4.465,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "GPS",
+    "start": 0.0,
+    "end": 0.24
+   },
+   {
+    "word": "دقيق",
+    "start": 0.24,
+    "end": 0.64
+   },
+   {
+    "word": "بزاف،",
+    "start": 0.64,
+    "end": 1.1
+   },
+   {
+    "word": "و",
+    "start": 1.1,
+    "end": 1.26
+   },
+   {
+    "word": "SOS",
+    "start": 1.26,
+    "end": 1.84
+   },
+   {
+    "word": "par",
+    "start": 1.84,
+    "end": 2.02
+   },
+   {
+    "word": "satellite",
+    "start": 2.02,
+    "end": 2.42
+   },
+   {
+    "word": "إلا",
+    "start": 2.42,
+    "end": 2.6
+   },
+   {
+    "word": "كنتي",
+    "start": 2.6,
+    "end": 3.04
+   },
+   {
+    "word": "فبلاصة",
+    "start": 3.04,
+    "end": 3.54
+   },
+   {
+    "word": "ما",
+    "start": 3.54,
+    "end": 3.72
+   },
+   {
+    "word": "فيهاش",
+    "start": 3.72,
+    "end": 4.06
+   },
+   {
+    "word": "ريزو.",
+    "start": 4.06,
+    "end": 4.4
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.17,
+    "value": "X"
+   },
+   {
+    "start": 0.17,
+    "end": 0.69,
+    "value": "B"
+   },
+   {
+    "start": 0.69,
+    "end": 0.97,
+    "value": "C"
+   },
+   {
+    "start": 0.97,
+    "end": 1.32,
+    "value": "B"
+   },
+   {
+    "start": 1.32,
+    "end": 1.39,
+    "value": "C"
+   },
+   {
+    "start": 1.39,
+    "end": 1.53,
+    "value": "G"
+   },
+   {
+    "start": 1.53,
+    "end": 1.67,
+    "value": "F"
+   },
+   {
+    "start": 1.67,
+    "end": 1.88,
+    "value": "B"
+   },
+   {
+    "start": 1.88,
+    "end": 2.02,
+    "value": "E"
+   },
+   {
+    "start": 2.02,
+    "end": 2.09,
+    "value": "B"
+   },
+   {
+    "start": 2.09,
+    "end": 2.17,
+    "value": "A"
+   },
+   {
+    "start": 2.17,
+    "end": 2.26,
+    "value": "E"
+   },
+   {
+    "start": 2.26,
+    "end": 2.4,
+    "value": "B"
+   },
+   {
+    "start": 2.4,
+    "end": 2.47,
+    "value": "C"
+   },
+   {
+    "start": 2.47,
+    "end": 2.61,
+    "value": "F"
+   },
+   {
+    "start": 2.61,
+    "end": 2.69,
+    "value": "A"
+   },
+   {
+    "start": 2.69,
+    "end": 3.0,
+    "value": "B"
+   },
+   {
+    "start": 3.0,
+    "end": 3.21,
+    "value": "F"
+   },
+   {
+    "start": 3.21,
+    "end": 3.29,
+    "value": "A"
+   },
+   {
+    "start": 3.29,
+    "end": 3.47,
+    "value": "C"
+   },
+   {
+    "start": 3.47,
+    "end": 3.54,
+    "value": "B"
+   },
+   {
+    "start": 3.54,
+    "end": 3.61,
+    "value": "D"
+   },
+   {
+    "start": 3.61,
+    "end": 3.69,
+    "value": "A"
+   },
+   {
+    "start": 3.69,
+    "end": 3.75,
+    "value": "F"
+   },
+   {
+    "start": 3.75,
+    "end": 3.8,
+    "value": "G"
+   },
+   {
+    "start": 3.8,
+    "end": 4.01,
+    "value": "C"
+   },
+   {
+    "start": 4.01,
+    "end": 4.08,
+    "value": "B"
+   },
+   {
+    "start": 4.08,
+    "end": 4.15,
+    "value": "E"
+   },
+   {
+    "start": 4.15,
+    "end": 4.29,
+    "value": "B"
+   },
+   {
+    "start": 4.29,
+    "end": 4.43,
+    "value": "E"
+   },
+   {
+    "start": 4.43,
+    "end": 4.46,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_07",
+  "subtitle": "Produit original, boîte fermée, jamais ouvert, jamais activé.",
+  "source": "human-take",
+  "start": 22.15,
+  "duration": 3.345,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Produit",
+    "start": 0.06,
+    "end": 0.48
+   },
+   {
+    "word": "original,",
+    "start": 0.48,
+    "end": 1.2
+   },
+   {
+    "word": "boîte",
+    "start": 1.2,
+    "end": 1.4
+   },
+   {
+    "word": "fermée,",
+    "start": 1.4,
+    "end": 1.76
+   },
+   {
+    "word": "jamais",
+    "start": 1.76,
+    "end": 2.16
+   },
+   {
+    "word": "ouvert,",
+    "start": 2.16,
+    "end": 2.52
+   },
+   {
+    "word": "jamais",
+    "start": 2.52,
+    "end": 2.88
+   },
+   {
+    "word": "activé.",
+    "start": 2.88,
+    "end": 3.26
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.03,
+    "value": "X"
+   },
+   {
+    "start": 0.03,
+    "end": 0.08,
+    "value": "B"
+   },
+   {
+    "start": 0.08,
+    "end": 0.12,
+    "value": "E"
+   },
+   {
+    "start": 0.12,
+    "end": 0.4,
+    "value": "B"
+   },
+   {
+    "start": 0.4,
+    "end": 0.54,
+    "value": "E"
+   },
+   {
+    "start": 0.54,
+    "end": 0.61,
+    "value": "F"
+   },
+   {
+    "start": 0.61,
+    "end": 0.82,
+    "value": "B"
+   },
+   {
+    "start": 0.82,
+    "end": 0.96,
+    "value": "C"
+   },
+   {
+    "start": 0.96,
+    "end": 1.03,
+    "value": "B"
+   },
+   {
+    "start": 1.03,
+    "end": 1.11,
+    "value": "A"
+   },
+   {
+    "start": 1.11,
+    "end": 1.19,
+    "value": "E"
+   },
+   {
+    "start": 1.19,
+    "end": 1.33,
+    "value": "B"
+   },
+   {
+    "start": 1.33,
+    "end": 1.4,
+    "value": "G"
+   },
+   {
+    "start": 1.4,
+    "end": 1.54,
+    "value": "C"
+   },
+   {
+    "start": 1.54,
+    "end": 1.65,
+    "value": "A"
+   },
+   {
+    "start": 1.65,
+    "end": 1.72,
+    "value": "C"
+   },
+   {
+    "start": 1.72,
+    "end": 1.93,
+    "value": "B"
+   },
+   {
+    "start": 1.93,
+    "end": 2.0,
+    "value": "D"
+   },
+   {
+    "start": 2.0,
+    "end": 2.08,
+    "value": "A"
+   },
+   {
+    "start": 2.08,
+    "end": 2.32,
+    "value": "F"
+   },
+   {
+    "start": 2.32,
+    "end": 2.46,
+    "value": "C"
+   },
+   {
+    "start": 2.46,
+    "end": 2.53,
+    "value": "G"
+   },
+   {
+    "start": 2.53,
+    "end": 2.6,
+    "value": "B"
+   },
+   {
+    "start": 2.6,
+    "end": 2.67,
+    "value": "D"
+   },
+   {
+    "start": 2.67,
+    "end": 2.75,
+    "value": "A"
+   },
+   {
+    "start": 2.75,
+    "end": 2.84,
+    "value": "C"
+   },
+   {
+    "start": 2.84,
+    "end": 3.12,
+    "value": "F"
+   },
+   {
+    "start": 3.12,
+    "end": 3.19,
+    "value": "G"
+   },
+   {
+    "start": 3.19,
+    "end": 3.26,
+    "value": "C"
+   },
+   {
+    "start": 3.26,
+    "end": 3.33,
+    "value": "B"
+   },
+   {
+    "start": 3.33,
+    "end": 3.34,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_08",
+  "subtitle": "إلا بغيتي تكوموندي، صيفط لينا ميساج.",
+  "source": "human-take",
+  "start": 25.495,
+  "duration": 2.095,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "إلا",
+    "start": 0.08,
+    "end": 0.22
+   },
+   {
+    "word": "بغيتي",
+    "start": 0.22,
+    "end": 0.5
+   },
+   {
+    "word": "تكوموندي،",
+    "start": 0.5,
+    "end": 1.14
+   },
+   {
+    "word": "صيفط",
+    "start": 1.14,
+    "end": 1.46
+   },
+   {
+    "word": "لينا",
+    "start": 1.46,
+    "end": 1.74
+   },
+   {
+    "word": "ميساج.",
+    "start": 1.74,
+    "end": 2.04
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.05,
+    "value": "X"
+   },
+   {
+    "start": 0.05,
+    "end": 0.1,
+    "value": "B"
+   },
+   {
+    "start": 0.1,
+    "end": 0.15,
+    "value": "F"
+   },
+   {
+    "start": 0.15,
+    "end": 0.22,
+    "value": "B"
+   },
+   {
+    "start": 0.22,
+    "end": 0.3,
+    "value": "A"
+   },
+   {
+    "start": 0.3,
+    "end": 0.35,
+    "value": "F"
+   },
+   {
+    "start": 0.35,
+    "end": 0.53,
+    "value": "B"
+   },
+   {
+    "start": 0.53,
+    "end": 0.67,
+    "value": "E"
+   },
+   {
+    "start": 0.67,
+    "end": 0.73,
+    "value": "A"
+   },
+   {
+    "start": 0.73,
+    "end": 0.79,
+    "value": "E"
+   },
+   {
+    "start": 0.79,
+    "end": 0.87,
+    "value": "A"
+   },
+   {
+    "start": 0.87,
+    "end": 1.02,
+    "value": "C"
+   },
+   {
+    "start": 1.02,
+    "end": 1.23,
+    "value": "B"
+   },
+   {
+    "start": 1.23,
+    "end": 1.3,
+    "value": "C"
+   },
+   {
+    "start": 1.3,
+    "end": 1.44,
+    "value": "B"
+   },
+   {
+    "start": 1.44,
+    "end": 1.52,
+    "value": "A"
+   },
+   {
+    "start": 1.52,
+    "end": 1.59,
+    "value": "B"
+   },
+   {
+    "start": 1.59,
+    "end": 1.66,
+    "value": "A"
+   },
+   {
+    "start": 1.66,
+    "end": 2.08,
+    "value": "B"
+   },
+   {
+    "start": 2.08,
+    "end": 2.09,
+    "value": "X"
+   }
+  ]
+ }
+]

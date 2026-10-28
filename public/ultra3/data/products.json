@@ -1,0 +1,17 @@
+{
+ "angle": {
+  "src": "ultra3/products/angle.png",
+  "w": 798,
+  "h": 891
+ },
+ "front": {
+  "src": "ultra3/products/front.png",
+  "w": 561,
+  "h": 891
+ },
+ "side": {
+  "src": "ultra3/products/side.png",
+  "w": 960,
+  "h": 405
+ }
+}
