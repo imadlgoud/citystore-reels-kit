@@ -1,0 +1,22 @@
+{
+ "pro": {
+  "src": "pencils/products/pro.png",
+  "w": 51,
+  "h": 940
+ },
+ "gen2": {
+  "src": "pencils/products/gen2.png",
+  "w": 65,
+  "h": 940
+ },
+ "gen1": {
+  "src": "pencils/products/gen1.png",
+  "w": 49,
+  "h": 940
+ },
+ "usbc": {
+  "src": "pencils/products/usbc.png",
+  "w": 58,
+  "h": 940
+ }
+}

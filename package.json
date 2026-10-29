@@ -150,7 +150,11 @@
     "ultra3:cutout": "python3 reels/ultra3/cutout.py",
     "ultra3:audio": "REEL=ultra3 python3 scripts/process_vo_take.py && python3 reels/ultra3/build_timeline.py && REEL=ultra3 python3 scripts/make_music.py && REEL=ultra3 python3 scripts/mix_audio.py",
     "ultra3:render": "remotion render Ultra3Reel9x16 out/ultra3/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Ultra3Cover out/ultra3/cover_1080x1920.png",
-    "ultra3:build": "npm run ultra3:cutout && npm run ultra3:audio && REEL=ultra3 node scripts/make_srt.mjs && npm run ultra3:render && REEL=ultra3 bash scripts/finalize.sh && REEL=ultra3 bash scripts/verify.sh"
+    "ultra3:build": "npm run ultra3:cutout && npm run ultra3:audio && REEL=ultra3 node scripts/make_srt.mjs && npm run ultra3:render && REEL=ultra3 bash scripts/finalize.sh && REEL=ultra3 bash scripts/verify.sh",
+    "pencils:cutout": "python3 reels/pencils/cutout.py",
+    "pencils:audio": "REEL=pencils python3 scripts/process_vo_take.py && python3 reels/pencils/build_timeline.py && REEL=pencils python3 scripts/make_music.py && REEL=pencils python3 scripts/mix_audio.py",
+    "pencils:render": "remotion render PencilsReel9x16 out/pencils/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still PencilsCover out/pencils/cover_1080x1920.png",
+    "pencils:build": "npm run pencils:cutout && npm run pencils:audio && REEL=pencils node scripts/make_srt.mjs && npm run pencils:render && REEL=pencils bash scripts/finalize.sh && REEL=pencils bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

@@ -1,0 +1,12 @@
+{
+ "id": "pencils",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [6.05, 12.0, 18.1, 23.15, 29.2, 33.1],
+ "lead": 0.06,
+ "voEndBy": 999,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "maxSeconds": 60,
+ "note": "Apple Pencil range (Pro, 2nd gen, 1st gen, USB-C). 36.8 s raw -> 33.1 s trimmed; even 1.10x would end at 30.1 s, so per the standing rule the reel goes over 30 s at natural speed (36.5 s). 9:16 + cover only."
+}

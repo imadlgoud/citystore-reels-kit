@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # Apple Pencil range reel (36.5 s, over 30 s at natural speed): light, creative C-major pluck pop; drop when the four pencils land
+    "pencils": dict(seed=359, dur=36.5, phase=1.0, drop=4.0, end_lift=33.5, stop=35.25,
+                    chords=[[60, 64, 67], [57, 60, 64], [53, 57, 60], [55, 59, 62]], roots=[48, 45, 41, 43],
+                    final=[60, 64, 67, 72], final_bass=48, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
     # Apple Watch Ultra 3 reel (30 s): dark, driving A-minor adventure groove; drop when "classe" lands in the hook
     "ultra3": dict(seed=353, phase=1.0, drop=2.5, end_lift=27.75, stop=28.25,
                    chords=[[57, 60, 64], [53, 57, 60], [55, 59, 62], [52, 55, 59]], roots=[45, 41, 43, 40],

@@ -102,6 +102,9 @@ import { WBTL } from "./reels/watch11/timeline";
 import { Ultra3Reel } from "./reels/ultra3/Ultra3Reel";
 import { Ultra3Cover } from "./reels/ultra3/Ultra3Cover";
 import { U3TL } from "./reels/ultra3/timeline";
+import { PencilsReel } from "./reels/pencils/PencilsReel";
+import { PencilsCover } from "./reels/pencils/PencilsCover";
+import { PNTL } from "./reels/pencils/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -212,6 +215,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Apple Watch Ultra 3 49mm Noir: 30 s (pause trimming, natural speed); 9:16 + cover only */}
     <Composition id="Ultra3Reel9x16" component={Ultra3Reel} durationInFrames={Math.min(U3TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Ultra3Cover" component={Ultra3Cover} width={1080} height={1920} />
+    {/* Apple Pencil range: 36.5 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
+    <Composition id="PencilsReel9x16" component={PencilsReel} durationInFrames={PNTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="PencilsCover" component={PencilsCover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

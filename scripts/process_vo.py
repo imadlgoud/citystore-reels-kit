@@ -180,7 +180,9 @@ SPOKEN = {"18": "dix-huit", "100": "cent pour cent", "%": "", "citystore.ma": "c
           "apple": "a pel", "watch": "wotch", "series": "si riz", "11": "onz", "46": "ka rant sis", "mm": "mi li metr", "24": "vin katr",
           "heures": "eur", "sleep": "slip", "score": "skor", "neuf": "neuf", "utilisé": "u ti li ze",
           "classe": "klas", "ultra": "ul tra", "3": "trwa", "49mm": "ka rant nef mi li metr", "black": "blak", "ocean": "o shen",
-          "band": "band", "42": "ka rant de", "72": "swa sant duz", "gps": "je pe es", "sos": "es o es"}
+          "band": "band", "42": "ka rant de", "72": "swa sant duz", "gps": "je pe es", "sos": "es o es",
+          "pencil": "pen sil", "pro:": "pro", "2e": "de zyem", "1re": "pre myer", "génération:": "je ne ra syon", "sensible": "san sibl",
+          "pression": "pre syon", "double": "dubl", "tap": "tap", "usb-c:": "u es be se", "disponibles": "dis po nibl"}
 ARABIC = "\\u0621-\\u063F\\u0641-\\u064A\\u0671-\\u06D3"  # Arabic letters (no punctuation, no tatweel)
 
 
