@@ -1,0 +1,2200 @@
+{
+ "fps": 30,
+ "bpm": 120,
+ "beatFrames": 15.0,
+ "totalFrames": 900,
+ "holdFrom": 870,
+ "musicFirstDownbeat": 1.5,
+ "scenes": [
+  {
+   "id": "hook",
+   "from": 0,
+   "to": 105
+  },
+  {
+   "id": "intro",
+   "from": 105,
+   "to": 195
+  },
+  {
+   "id": "stab",
+   "from": 195,
+   "to": 330
+  },
+  {
+   "id": "track",
+   "from": 330,
+   "to": 488
+  },
+  {
+   "id": "fold",
+   "from": 488,
+   "to": 608
+  },
+  {
+   "id": "battery",
+   "from": 608,
+   "to": 675
+  },
+  {
+   "id": "trust",
+   "from": 675,
+   "to": 780
+  },
+  {
+   "id": "cta",
+   "from": 780,
+   "to": 848
+  },
+  {
+   "id": "end",
+   "from": 848,
+   "to": 900
+  }
+ ],
+ "events": {
+  "hook.slam": 0,
+  "hook.botLand": 9,
+  "hook.good": 30,
+  "hook.shake": 75,
+  "hook.fix": 90,
+  "intro.name": 105,
+  "intro.osmo": 128,
+  "intro.dispo": 150,
+  "st.axes": 225,
+  "st.steady": 262,
+  "st.cinema": 285,
+  "st.walk": 308,
+  "tr.active": 330,
+  "tr.mimo": 375,
+  "tr.follow": 398,
+  "tr.kids": 435,
+  "tr.hands": 465,
+  "fd.fold": 495,
+  "fd.pocket": 525,
+  "fd.clamp": 548,
+  "fd.sec": 592,
+  "bt.battery": 608,
+  "bt.hours": 638,
+  "trust.badge": 675,
+  "trust.original": 690,
+  "trust.thumb": 690,
+  "trust.checks": [
+   712,
+   728,
+   758
+  ],
+  "cta.url": 783,
+  "cta.message": 795,
+  "cta.socials": 798,
+  "cta.wave": 802,
+  "end.city": 848,
+  "end.typeStart": 852,
+  "end.typeStep": 0.05,
+  "end.icons": 858,
+  "end.iconStep": 0.05,
+  "end.tagline": 864,
+  "end.wink": 867,
+  "end.hold": 870
+ },
+ "eventsSec": {
+  "hook.slam": 0.0,
+  "hook.botLand": 0.3,
+  "hook.good": 1.0,
+  "hook.shake": 2.5,
+  "hook.fix": 3.0,
+  "intro.name": 3.5,
+  "intro.osmo": 4.25,
+  "intro.dispo": 5.0,
+  "st.axes": 7.5,
+  "st.steady": 8.75,
+  "st.cinema": 9.5,
+  "st.walk": 10.25,
+  "tr.active": 11.0,
+  "tr.mimo": 12.5,
+  "tr.follow": 13.25,
+  "tr.kids": 14.5,
+  "tr.hands": 15.5,
+  "fd.fold": 16.5,
+  "fd.pocket": 17.5,
+  "fd.clamp": 18.25,
+  "fd.sec": 19.75,
+  "bt.battery": 20.25,
+  "bt.hours": 21.25,
+  "trust.badge": 22.5,
+  "trust.original": 23.0,
+  "trust.thumb": 23.0,
+  "trust.checks": [
+   23.75,
+   24.25,
+   25.25
+  ],
+  "cta.url": 26.1,
+  "cta.message": 26.5,
+  "cta.socials": 26.6,
+  "cta.wave": 26.75,
+  "end.city": 28.25,
+  "end.typeStart": 28.4,
+  "end.typeStep": 0.05,
+  "end.icons": 28.6,
+  "end.iconStep": 0.05,
+  "end.tagline": 28.8,
+  "end.wink": 28.9,
+  "end.hold": 29.0
+ },
+ "sfx": [
+  {
+   "name": "blip_jump",
+   "t": 0.3,
+   "gainDb": -14
+  },
+  {
+   "name": "pop",
+   "t": 1.0,
+   "gainDb": -12
+  },
+  {
+   "name": "hit_small",
+   "t": 2.5,
+   "gainDb": -9
+  },
+  {
+   "name": "hit_small",
+   "t": 2.7,
+   "gainDb": -11
+  },
+  {
+   "name": "impact",
+   "t": 3.0,
+   "gainDb": -7
+  },
+  {
+   "name": "shine",
+   "t": 3.2,
+   "gainDb": -13
+  },
+  {
+   "name": "whoosh",
+   "t": 3.2,
+   "gainDb": -9
+  },
+  {
+   "name": "impact",
+   "t": 3.5,
+   "gainDb": -7
+  },
+  {
+   "name": "shine",
+   "t": 4.25,
+   "gainDb": -14
+  },
+  {
+   "name": "pop_big",
+   "t": 5.0,
+   "gainDb": -11
+  },
+  {
+   "name": "whoosh",
+   "t": 6.2,
+   "gainDb": -9
+  },
+  {
+   "name": "stamp",
+   "t": 7.5,
+   "gainDb": -10
+  },
+  {
+   "name": "riser_short",
+   "t": 8.6,
+   "gainDb": -15
+  },
+  {
+   "name": "ding",
+   "t": 8.85,
+   "gainDb": -11
+  },
+  {
+   "name": "shine",
+   "t": 9.5,
+   "gainDb": -13
+  },
+  {
+   "name": "pop",
+   "t": 10.25,
+   "gainDb": -12
+  },
+  {
+   "name": "whoosh",
+   "t": 10.7,
+   "gainDb": -9
+  },
+  {
+   "name": "pop_big",
+   "t": 11.0,
+   "gainDb": -11
+  },
+  {
+   "name": "blip",
+   "t": 12.5,
+   "gainDb": -12
+  },
+  {
+   "name": "blip_up",
+   "t": 13.25,
+   "gainDb": -12
+  },
+  {
+   "name": "pop",
+   "t": 14.5,
+   "gainDb": -12
+  },
+  {
+   "name": "pop",
+   "t": 15.5,
+   "gainDb": -12
+  },
+  {
+   "name": "whoosh",
+   "t": 15.95,
+   "gainDb": -9
+  },
+  {
+   "name": "whoosh",
+   "t": 16.5,
+   "gainDb": -11
+  },
+  {
+   "name": "pop",
+   "t": 17.5,
+   "gainDb": -12
+  },
+  {
+   "name": "stamp",
+   "t": 18.35,
+   "gainDb": -10
+  },
+  {
+   "name": "ding",
+   "t": 19.75,
+   "gainDb": -11
+  },
+  {
+   "name": "whoosh",
+   "t": 19.95,
+   "gainDb": -9
+  },
+  {
+   "name": "pop_big",
+   "t": 20.25,
+   "gainDb": -11
+  },
+  {
+   "name": "riser_short",
+   "t": 21.1,
+   "gainDb": -15
+  },
+  {
+   "name": "hit",
+   "t": 21.35,
+   "gainDb": -9
+  },
+  {
+   "name": "whoosh",
+   "t": 22.2,
+   "gainDb": -9
+  },
+  {
+   "name": "hit",
+   "t": 22.5,
+   "gainDb": -8
+  },
+  {
+   "name": "blip_up",
+   "t": 23.0,
+   "gainDb": -12
+  },
+  {
+   "name": "ding",
+   "t": 23.9,
+   "gainDb": -12
+  },
+  {
+   "name": "ding",
+   "t": 24.4,
+   "gainDb": -12
+  },
+  {
+   "name": "ding",
+   "t": 25.4,
+   "gainDb": -12
+  },
+  {
+   "name": "whoosh",
+   "t": 25.7,
+   "gainDb": -10
+  },
+  {
+   "name": "pop_big",
+   "t": 26.1,
+   "gainDb": -11
+  },
+  {
+   "name": "pop_big",
+   "t": 26.5,
+   "gainDb": -11
+  },
+  {
+   "name": "blip",
+   "t": 26.75,
+   "gainDb": -13
+  },
+  {
+   "name": "pop",
+   "t": 26.8,
+   "gainDb": -13
+  },
+  {
+   "name": "whoosh",
+   "t": 27.95,
+   "gainDb": -9
+  },
+  {
+   "name": "impact",
+   "t": 28.25,
+   "gainDb": -5
+  },
+  {
+   "name": "tick",
+   "t": 28.4,
+   "gainDb": -12
+  },
+  {
+   "name": "tick",
+   "t": 28.45,
+   "gainDb": -12
+  },
+  {
+   "name": "tick",
+   "t": 28.5,
+   "gainDb": -12
+  },
+  {
+   "name": "tick",
+   "t": 28.55,
+   "gainDb": -12
+  },
+  {
+   "name": "tick",
+   "t": 28.6,
+   "gainDb": -12
+  },
+  {
+   "name": "pop",
+   "t": 28.6,
+   "gainDb": -15
+  },
+  {
+   "name": "tick",
+   "t": 28.65,
+   "gainDb": -12
+  },
+  {
+   "name": "pop",
+   "t": 28.65,
+   "gainDb": -15
+  },
+  {
+   "name": "tick",
+   "t": 28.7,
+   "gainDb": -12
+  },
+  {
+   "name": "pop",
+   "t": 28.7,
+   "gainDb": -15
+  },
+  {
+   "name": "tick",
+   "t": 28.75,
+   "gainDb": -12
+  },
+  {
+   "name": "pop",
+   "t": 28.75,
+   "gainDb": -15
+  },
+  {
+   "name": "pop",
+   "t": 28.8,
+   "gainDb": -15
+  },
+  {
+   "name": "shine",
+   "t": 28.8,
+   "gainDb": -14
+  },
+  {
+   "name": "pop",
+   "t": 28.85,
+   "gainDb": -15
+  },
+  {
+   "name": "blip_wink",
+   "t": 28.9,
+   "gainDb": -11
+  }
+ ],
+ "subtitles": [
+  {
+   "text": "التيليفون ديالك كيصوّر مزيان…",
+   "start": 0.06,
+   "end": 1.5,
+   "words": [
+    {
+     "word": "التيليفون",
+     "start": 0.06,
+     "frame": 2
+    },
+    {
+     "word": "ديالك",
+     "start": 0.6,
+     "frame": 18
+    },
+    {
+     "word": "كيصوّر",
+     "start": 0.86,
+     "frame": 26
+    },
+    {
+     "word": "مزيان…",
+     "start": 1.12,
+     "frame": 34
+    }
+   ],
+   "line": 0,
+   "from": 2,
+   "to": 45
+  },
+  {
+   "text": "ولكن الفيديو ديما كيترعد؟",
+   "start": 1.5,
+   "end": 2.88,
+   "words": [
+    {
+     "word": "ولكن",
+     "start": 1.5,
+     "frame": 45
+    },
+    {
+     "word": "الفيديو",
+     "start": 1.78,
+     "frame": 53
+    },
+    {
+     "word": "ديما",
+     "start": 2.16,
+     "frame": 65
+    },
+    {
+     "word": "كيترعد؟",
+     "start": 2.42,
+     "frame": 73
+    }
+   ],
+   "line": 0,
+   "from": 45,
+   "to": 86
+  },
+  {
+   "text": "هاهوا الحل!",
+   "start": 2.88,
+   "end": 3.497,
+   "words": [
+    {
+     "word": "هاهوا",
+     "start": 2.88,
+     "frame": 86
+    },
+    {
+     "word": "الحل!",
+     "start": 3.14,
+     "frame": 94
+    }
+   ],
+   "line": 0,
+   "from": 86,
+   "to": 105
+  },
+  {
+   "text": "DJI Osmo Mobile 7،",
+   "start": 3.597,
+   "end": 5.097,
+   "words": [
+    {
+     "word": "DJI",
+     "start": 3.597,
+     "frame": 108
+    },
+    {
+     "word": "Osmo",
+     "start": 4.137,
+     "frame": 124
+    },
+    {
+     "word": "Mobile",
+     "start": 4.557,
+     "frame": 137
+    },
+    {
+     "word": "7،",
+     "start": 4.917,
+     "frame": 148
+    }
+   ],
+   "line": 1,
+   "from": 108,
+   "to": 153
+  },
+  {
+   "text": "disponible دابا عندنا.",
+   "start": 5.097,
+   "end": 6.558000000000001,
+   "words": [
+    {
+     "word": "disponible",
+     "start": 5.097,
+     "frame": 153
+    },
+    {
+     "word": "دابا",
+     "start": 5.817,
+     "frame": 175
+    },
+    {
+     "word": "عندنا.",
+     "start": 6.197,
+     "frame": 186
+    }
+   ],
+   "line": 1,
+   "from": 153,
+   "to": 197
+  },
+  {
+   "text": "stabilisateur 3 axes:",
+   "start": 6.578,
+   "end": 7.918,
+   "words": [
+    {
+     "word": "stabilisateur",
+     "start": 6.578,
+     "frame": 197
+    },
+    {
+     "word": "3",
+     "start": 7.418,
+     "frame": 223
+    },
+    {
+     "word": "axes:",
+     "start": 7.598,
+     "frame": 228
+    }
+   ],
+   "line": 2,
+   "from": 197,
+   "to": 238
+  },
+  {
+   "text": "الفيديو كيبقى ثابت بحال السينما،",
+   "start": 7.918,
+   "end": 9.838,
+   "words": [
+    {
+     "word": "الفيديو",
+     "start": 7.918,
+     "frame": 238
+    },
+    {
+     "word": "كيبقى",
+     "start": 8.438,
+     "frame": 253
+    },
+    {
+     "word": "ثابت",
+     "start": 8.778,
+     "frame": 263
+    },
+    {
+     "word": "بحال",
+     "start": 9.098,
+     "frame": 273
+    },
+    {
+     "word": "السينما،",
+     "start": 9.418,
+     "frame": 283
+    }
+   ],
+   "line": 2,
+   "from": 238,
+   "to": 295
+  },
+  {
+   "text": "واخا تمشي ولا تجري.",
+   "start": 9.838,
+   "end": 10.942,
+   "words": [
+    {
+     "word": "واخا",
+     "start": 9.838,
+     "frame": 295
+    },
+    {
+     "word": "تمشي",
+     "start": 10.198,
+     "frame": 306
+    },
+    {
+     "word": "ولا",
+     "start": 10.498,
+     "frame": 315
+    },
+    {
+     "word": "تجري.",
+     "start": 10.638,
+     "frame": 319
+    }
+   ],
+   "line": 2,
+   "from": 295,
+   "to": 328
+  },
+  {
+   "text": "ActiveTrack مع l’application DJI Mimo:",
+   "start": 10.962,
+   "end": 13.242,
+   "words": [
+    {
+     "word": "ActiveTrack",
+     "start": 10.962,
+     "frame": 329
+    },
+    {
+     "word": "مع",
+     "start": 11.522,
+     "frame": 346
+    },
+    {
+     "word": "l’application",
+     "start": 11.722,
+     "frame": 352
+    },
+    {
+     "word": "DJI",
+     "start": 12.422,
+     "frame": 373
+    },
+    {
+     "word": "Mimo:",
+     "start": 12.902,
+     "frame": 387
+    }
+   ],
+   "line": 3,
+   "from": 329,
+   "to": 397
+  },
+  {
+   "text": "كيتبّعك ولا كيتبّع ولادك أوتوماتيك،",
+   "start": 13.242,
+   "end": 15.522,
+   "words": [
+    {
+     "word": "كيتبّعك",
+     "start": 13.242,
+     "frame": 397
+    },
+    {
+     "word": "ولا",
+     "start": 13.802,
+     "frame": 414
+    },
+    {
+     "word": "كيتبّع",
+     "start": 13.962,
+     "frame": 419
+    },
+    {
+     "word": "ولادك",
+     "start": 14.402,
+     "frame": 432
+    },
+    {
+     "word": "أوتوماتيك،",
+     "start": 14.722,
+     "frame": 442
+    }
+   ],
+   "line": 3,
+   "from": 397,
+   "to": 466
+  },
+  {
+   "text": "بلا ما تحرّك يدك.",
+   "start": 15.522,
+   "end": 16.418,
+   "words": [
+    {
+     "word": "بلا",
+     "start": 15.522,
+     "frame": 466
+    },
+    {
+     "word": "ما",
+     "start": 15.682,
+     "frame": 470
+    },
+    {
+     "word": "تحرّك",
+     "start": 15.842,
+     "frame": 475
+    },
+    {
+     "word": "يدك.",
+     "start": 16.202,
+     "frame": 486
+    }
+   ],
+   "line": 3,
+   "from": 466,
+   "to": 493
+  },
+  {
+   "text": "كيتطوى وكيدخل فالجيب،",
+   "start": 16.458,
+   "end": 18.018,
+   "words": [
+    {
+     "word": "كيتطوى",
+     "start": 16.458,
+     "frame": 494
+    },
+    {
+     "word": "وكيدخل",
+     "start": 16.998,
+     "frame": 510
+    },
+    {
+     "word": "فالجيب،",
+     "start": 17.418,
+     "frame": 523
+    }
+   ],
+   "line": 4,
+   "from": 494,
+   "to": 541
+  },
+  {
+   "text": "و pince magnétique",
+   "start": 18.018,
+   "end": 18.678,
+   "words": [
+    {
+     "word": "و",
+     "start": 18.018,
+     "frame": 541
+    },
+    {
+     "word": "pince",
+     "start": 18.158,
+     "frame": 545
+    },
+    {
+     "word": "magnétique",
+     "start": 18.278,
+     "frame": 548
+    }
+   ],
+   "line": 4,
+   "from": 541,
+   "to": 560
+  },
+  {
+   "text": "باش تركّب التيليفون فثانية.",
+   "start": 18.678,
+   "end": 20.266000000000002,
+   "words": [
+    {
+     "word": "باش",
+     "start": 18.678,
+     "frame": 560
+    },
+    {
+     "word": "تركّب",
+     "start": 18.878,
+     "frame": 566
+    },
+    {
+     "word": "التيليفون",
+     "start": 19.238,
+     "frame": 577
+    },
+    {
+     "word": "فثانية.",
+     "start": 19.838,
+     "frame": 595
+    }
+   ],
+   "line": 4,
+   "from": 560,
+   "to": 608
+  },
+  {
+   "text": "باطري كتصبر حتى لـ 10 heures",
+   "start": 20.286,
+   "end": 21.666,
+   "words": [
+    {
+     "word": "باطري",
+     "start": 20.286,
+     "frame": 609
+    },
+    {
+     "word": "كتصبر",
+     "start": 20.686,
+     "frame": 621
+    },
+    {
+     "word": "حتى",
+     "start": 21.026,
+     "frame": 631
+    },
+    {
+     "word": "لـ",
+     "start": 21.186,
+     "frame": 636
+    },
+    {
+     "word": "10",
+     "start": 21.346,
+     "frame": 640
+    },
+    {
+     "word": "heures",
+     "start": 21.506,
+     "frame": 645
+    }
+   ],
+   "line": 5,
+   "from": 609,
+   "to": 650
+  },
+  {
+   "text": "ديال التصوير.",
+   "start": 21.666,
+   "end": 22.499,
+   "words": [
+    {
+     "word": "ديال",
+     "start": 21.666,
+     "frame": 650
+    },
+    {
+     "word": "التصوير.",
+     "start": 21.986,
+     "frame": 660
+    }
+   ],
+   "line": 5,
+   "from": 650,
+   "to": 675
+  },
+  {
+   "text": "Produit original, boîte fermée,",
+   "start": 22.619,
+   "end": 24.359,
+   "words": [
+    {
+     "word": "Produit",
+     "start": 22.619,
+     "frame": 679
+    },
+    {
+     "word": "original,",
+     "start": 22.979,
+     "frame": 689
+    },
+    {
+     "word": "boîte",
+     "start": 23.779,
+     "frame": 713
+    },
+    {
+     "word": "fermée,",
+     "start": 23.979,
+     "frame": 719
+    }
+   ],
+   "line": 6,
+   "from": 679,
+   "to": 731
+  },
+  {
+   "text": "jamais ouvert, jamais activé.",
+   "start": 24.359,
+   "end": 25.988,
+   "words": [
+    {
+     "word": "jamais",
+     "start": 24.359,
+     "frame": 731
+    },
+    {
+     "word": "ouvert,",
+     "start": 24.799,
+     "frame": 744
+    },
+    {
+     "word": "jamais",
+     "start": 25.159,
+     "frame": 755
+    },
+    {
+     "word": "activé.",
+     "start": 25.599,
+     "frame": 768
+    }
+   ],
+   "line": 6,
+   "from": 731,
+   "to": 780
+  },
+  {
+   "text": "إلا بغيتي تكوموندي،",
+   "start": 26.008,
+   "end": 27.188,
+   "words": [
+    {
+     "word": "إلا",
+     "start": 26.008,
+     "frame": 780
+    },
+    {
+     "word": "بغيتي",
+     "start": 26.228,
+     "frame": 787
+    },
+    {
+     "word": "تكوموندي،",
+     "start": 26.508,
+     "frame": 795
+    }
+   ],
+   "line": 7,
+   "from": 780,
+   "to": 816
+  },
+  {
+   "text": "صيفط لينا ميساج.",
+   "start": 27.188,
+   "end": 28.378,
+   "words": [
+    {
+     "word": "صيفط",
+     "start": 27.188,
+     "frame": 816
+    },
+    {
+     "word": "لينا",
+     "start": 27.468,
+     "frame": 824
+    },
+    {
+     "word": "ميساج.",
+     "start": 27.748,
+     "frame": 832
+    }
+   ],
+   "line": 7,
+   "from": 816,
+   "to": 851
+  }
+ ],
+ "vo": [
+  {
+   "id": "line_01",
+   "from": 2,
+   "start": 0.06,
+   "duration": 3.457,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.18,
+     "value": "B"
+    },
+    {
+     "start": 0.18,
+     "end": 0.25,
+     "value": "E"
+    },
+    {
+     "start": 0.25,
+     "end": 0.33,
+     "value": "A"
+    },
+    {
+     "start": 0.33,
+     "end": 0.47,
+     "value": "F"
+    },
+    {
+     "start": 0.47,
+     "end": 0.68,
+     "value": "B"
+    },
+    {
+     "start": 0.68,
+     "end": 0.82,
+     "value": "E"
+    },
+    {
+     "start": 0.82,
+     "end": 1.24,
+     "value": "B"
+    },
+    {
+     "start": 1.24,
+     "end": 1.73,
+     "value": "F"
+    },
+    {
+     "start": 1.73,
+     "end": 1.8,
+     "value": "G"
+    },
+    {
+     "start": 1.8,
+     "end": 1.87,
+     "value": "B"
+    },
+    {
+     "start": 1.87,
+     "end": 1.94,
+     "value": "F"
+    },
+    {
+     "start": 1.94,
+     "end": 2.02,
+     "value": "A"
+    },
+    {
+     "start": 2.02,
+     "end": 2.11,
+     "value": "B"
+    },
+    {
+     "start": 2.11,
+     "end": 2.19,
+     "value": "A"
+    },
+    {
+     "start": 2.19,
+     "end": 2.43,
+     "value": "B"
+    },
+    {
+     "start": 2.43,
+     "end": 2.57,
+     "value": "C"
+    },
+    {
+     "start": 2.57,
+     "end": 2.64,
+     "value": "B"
+    },
+    {
+     "start": 2.64,
+     "end": 2.84,
+     "value": "A"
+    },
+    {
+     "start": 2.84,
+     "end": 2.9,
+     "value": "B"
+    },
+    {
+     "start": 2.9,
+     "end": 2.95,
+     "value": "E"
+    },
+    {
+     "start": 2.95,
+     "end": 3.09,
+     "value": "F"
+    },
+    {
+     "start": 3.09,
+     "end": 3.3,
+     "value": "C"
+    },
+    {
+     "start": 3.3,
+     "end": 3.44,
+     "value": "B"
+    },
+    {
+     "start": 3.44,
+     "end": 3.45,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_02",
+   "from": 106,
+   "start": 3.517,
+   "duration": 3.061,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.04,
+     "value": "X"
+    },
+    {
+     "start": 0.04,
+     "end": 0.31,
+     "value": "B"
+    },
+    {
+     "start": 0.31,
+     "end": 0.45,
+     "value": "F"
+    },
+    {
+     "start": 0.45,
+     "end": 0.59,
+     "value": "D"
+    },
+    {
+     "start": 0.59,
+     "end": 0.66,
+     "value": "C"
+    },
+    {
+     "start": 0.66,
+     "end": 0.73,
+     "value": "B"
+    },
+    {
+     "start": 0.73,
+     "end": 0.87,
+     "value": "E"
+    },
+    {
+     "start": 0.87,
+     "end": 0.94,
+     "value": "B"
+    },
+    {
+     "start": 0.94,
+     "end": 1.04,
+     "value": "A"
+    },
+    {
+     "start": 1.04,
+     "end": 1.08,
+     "value": "B"
+    },
+    {
+     "start": 1.08,
+     "end": 1.12,
+     "value": "F"
+    },
+    {
+     "start": 1.12,
+     "end": 1.2,
+     "value": "A"
+    },
+    {
+     "start": 1.2,
+     "end": 1.33,
+     "value": "E"
+    },
+    {
+     "start": 1.33,
+     "end": 1.47,
+     "value": "B"
+    },
+    {
+     "start": 1.47,
+     "end": 1.68,
+     "value": "E"
+    },
+    {
+     "start": 1.68,
+     "end": 1.99,
+     "value": "B"
+    },
+    {
+     "start": 1.99,
+     "end": 2.01,
+     "value": "A"
+    },
+    {
+     "start": 2.01,
+     "end": 2.08,
+     "value": "F"
+    },
+    {
+     "start": 2.08,
+     "end": 2.15,
+     "value": "A"
+    },
+    {
+     "start": 2.15,
+     "end": 2.21,
+     "value": "B"
+    },
+    {
+     "start": 2.21,
+     "end": 2.29,
+     "value": "A"
+    },
+    {
+     "start": 2.29,
+     "end": 2.35,
+     "value": "B"
+    },
+    {
+     "start": 2.35,
+     "end": 2.41,
+     "value": "G"
+    },
+    {
+     "start": 2.41,
+     "end": 2.55,
+     "value": "C"
+    },
+    {
+     "start": 2.55,
+     "end": 2.69,
+     "value": "B"
+    },
+    {
+     "start": 2.69,
+     "end": 2.83,
+     "value": "C"
+    },
+    {
+     "start": 2.83,
+     "end": 2.91,
+     "value": "B"
+    },
+    {
+     "start": 2.91,
+     "end": 2.97,
+     "value": "A"
+    },
+    {
+     "start": 2.97,
+     "end": 3.01,
+     "value": "C"
+    },
+    {
+     "start": 3.01,
+     "end": 3.05,
+     "value": "E"
+    },
+    {
+     "start": 3.05,
+     "end": 3.06,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_03",
+   "from": 197,
+   "start": 6.578,
+   "duration": 4.385,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.1,
+     "value": "X"
+    },
+    {
+     "start": 0.1,
+     "end": 0.18,
+     "value": "B"
+    },
+    {
+     "start": 0.18,
+     "end": 0.31,
+     "value": "A"
+    },
+    {
+     "start": 0.31,
+     "end": 0.51,
+     "value": "F"
+    },
+    {
+     "start": 0.51,
+     "end": 0.58,
+     "value": "B"
+    },
+    {
+     "start": 0.58,
+     "end": 0.65,
+     "value": "C"
+    },
+    {
+     "start": 0.65,
+     "end": 0.79,
+     "value": "E"
+    },
+    {
+     "start": 0.79,
+     "end": 0.93,
+     "value": "B"
+    },
+    {
+     "start": 0.93,
+     "end": 1.0,
+     "value": "F"
+    },
+    {
+     "start": 1.0,
+     "end": 1.07,
+     "value": "B"
+    },
+    {
+     "start": 1.07,
+     "end": 1.28,
+     "value": "C"
+    },
+    {
+     "start": 1.28,
+     "end": 1.42,
+     "value": "B"
+    },
+    {
+     "start": 1.42,
+     "end": 1.56,
+     "value": "A"
+    },
+    {
+     "start": 1.56,
+     "end": 1.63,
+     "value": "G"
+    },
+    {
+     "start": 1.63,
+     "end": 1.77,
+     "value": "B"
+    },
+    {
+     "start": 1.77,
+     "end": 2.05,
+     "value": "F"
+    },
+    {
+     "start": 2.05,
+     "end": 2.16,
+     "value": "A"
+    },
+    {
+     "start": 2.16,
+     "end": 2.33,
+     "value": "B"
+    },
+    {
+     "start": 2.33,
+     "end": 2.41,
+     "value": "A"
+    },
+    {
+     "start": 2.41,
+     "end": 2.6,
+     "value": "B"
+    },
+    {
+     "start": 2.6,
+     "end": 2.81,
+     "value": "C"
+    },
+    {
+     "start": 2.81,
+     "end": 3.09,
+     "value": "B"
+    },
+    {
+     "start": 3.09,
+     "end": 3.17,
+     "value": "A"
+    },
+    {
+     "start": 3.17,
+     "end": 3.32,
+     "value": "C"
+    },
+    {
+     "start": 3.32,
+     "end": 3.46,
+     "value": "F"
+    },
+    {
+     "start": 3.46,
+     "end": 3.6,
+     "value": "C"
+    },
+    {
+     "start": 3.6,
+     "end": 3.81,
+     "value": "B"
+    },
+    {
+     "start": 3.81,
+     "end": 4.3,
+     "value": "F"
+    },
+    {
+     "start": 4.3,
+     "end": 4.37,
+     "value": "B"
+    },
+    {
+     "start": 4.37,
+     "end": 4.38,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_04",
+   "from": 329,
+   "start": 10.962,
+   "duration": 5.476,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.37,
+     "value": "B"
+    },
+    {
+     "start": 0.37,
+     "end": 0.58,
+     "value": "F"
+    },
+    {
+     "start": 0.58,
+     "end": 0.65,
+     "value": "C"
+    },
+    {
+     "start": 0.65,
+     "end": 0.72,
+     "value": "B"
+    },
+    {
+     "start": 0.72,
+     "end": 0.8,
+     "value": "A"
+    },
+    {
+     "start": 0.8,
+     "end": 0.85,
+     "value": "C"
+    },
+    {
+     "start": 0.85,
+     "end": 0.96,
+     "value": "B"
+    },
+    {
+     "start": 0.96,
+     "end": 1.04,
+     "value": "A"
+    },
+    {
+     "start": 1.04,
+     "end": 1.48,
+     "value": "B"
+    },
+    {
+     "start": 1.48,
+     "end": 1.55,
+     "value": "E"
+    },
+    {
+     "start": 1.55,
+     "end": 1.63,
+     "value": "A"
+    },
+    {
+     "start": 1.63,
+     "end": 2.03,
+     "value": "B"
+    },
+    {
+     "start": 2.03,
+     "end": 2.1,
+     "value": "C"
+    },
+    {
+     "start": 2.1,
+     "end": 2.31,
+     "value": "B"
+    },
+    {
+     "start": 2.31,
+     "end": 2.43,
+     "value": "A"
+    },
+    {
+     "start": 2.43,
+     "end": 2.74,
+     "value": "B"
+    },
+    {
+     "start": 2.74,
+     "end": 2.82,
+     "value": "A"
+    },
+    {
+     "start": 2.82,
+     "end": 3.04,
+     "value": "C"
+    },
+    {
+     "start": 3.04,
+     "end": 3.11,
+     "value": "B"
+    },
+    {
+     "start": 3.11,
+     "end": 3.2,
+     "value": "A"
+    },
+    {
+     "start": 3.2,
+     "end": 3.41,
+     "value": "B"
+    },
+    {
+     "start": 3.41,
+     "end": 3.49,
+     "value": "A"
+    },
+    {
+     "start": 3.49,
+     "end": 3.7,
+     "value": "E"
+    },
+    {
+     "start": 3.7,
+     "end": 3.77,
+     "value": "B"
+    },
+    {
+     "start": 3.77,
+     "end": 3.84,
+     "value": "C"
+    },
+    {
+     "start": 3.84,
+     "end": 4.05,
+     "value": "E"
+    },
+    {
+     "start": 4.05,
+     "end": 4.13,
+     "value": "A"
+    },
+    {
+     "start": 4.13,
+     "end": 4.36,
+     "value": "F"
+    },
+    {
+     "start": 4.36,
+     "end": 4.43,
+     "value": "B"
+    },
+    {
+     "start": 4.43,
+     "end": 4.53,
+     "value": "A"
+    },
+    {
+     "start": 4.53,
+     "end": 4.75,
+     "value": "B"
+    },
+    {
+     "start": 4.75,
+     "end": 4.83,
+     "value": "A"
+    },
+    {
+     "start": 4.83,
+     "end": 4.9,
+     "value": "B"
+    },
+    {
+     "start": 4.9,
+     "end": 5.04,
+     "value": "C"
+    },
+    {
+     "start": 5.04,
+     "end": 5.46,
+     "value": "B"
+    },
+    {
+     "start": 5.46,
+     "end": 5.47,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_05",
+   "from": 493,
+   "start": 16.438,
+   "duration": 3.848,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.31,
+     "value": "B"
+    },
+    {
+     "start": 0.31,
+     "end": 0.39,
+     "value": "A"
+    },
+    {
+     "start": 0.39,
+     "end": 0.54,
+     "value": "E"
+    },
+    {
+     "start": 0.54,
+     "end": 0.68,
+     "value": "C"
+    },
+    {
+     "start": 0.68,
+     "end": 0.77,
+     "value": "A"
+    },
+    {
+     "start": 0.77,
+     "end": 0.9,
+     "value": "B"
+    },
+    {
+     "start": 0.9,
+     "end": 0.97,
+     "value": "G"
+    },
+    {
+     "start": 0.97,
+     "end": 1.18,
+     "value": "B"
+    },
+    {
+     "start": 1.18,
+     "end": 1.32,
+     "value": "A"
+    },
+    {
+     "start": 1.32,
+     "end": 1.44,
+     "value": "F"
+    },
+    {
+     "start": 1.44,
+     "end": 1.52,
+     "value": "A"
+    },
+    {
+     "start": 1.52,
+     "end": 1.72,
+     "value": "E"
+    },
+    {
+     "start": 1.72,
+     "end": 1.79,
+     "value": "B"
+    },
+    {
+     "start": 1.79,
+     "end": 1.87,
+     "value": "A"
+    },
+    {
+     "start": 1.87,
+     "end": 1.92,
+     "value": "C"
+    },
+    {
+     "start": 1.92,
+     "end": 2.32,
+     "value": "B"
+    },
+    {
+     "start": 2.32,
+     "end": 2.45,
+     "value": "A"
+    },
+    {
+     "start": 2.45,
+     "end": 2.49,
+     "value": "B"
+    },
+    {
+     "start": 2.49,
+     "end": 2.57,
+     "value": "A"
+    },
+    {
+     "start": 2.57,
+     "end": 2.7,
+     "value": "F"
+    },
+    {
+     "start": 2.7,
+     "end": 2.91,
+     "value": "B"
+    },
+    {
+     "start": 2.91,
+     "end": 3.12,
+     "value": "F"
+    },
+    {
+     "start": 3.12,
+     "end": 3.19,
+     "value": "G"
+    },
+    {
+     "start": 3.19,
+     "end": 3.26,
+     "value": "E"
+    },
+    {
+     "start": 3.26,
+     "end": 3.34,
+     "value": "A"
+    },
+    {
+     "start": 3.34,
+     "end": 3.41,
+     "value": "B"
+    },
+    {
+     "start": 3.41,
+     "end": 3.55,
+     "value": "C"
+    },
+    {
+     "start": 3.55,
+     "end": 3.69,
+     "value": "B"
+    },
+    {
+     "start": 3.69,
+     "end": 3.76,
+     "value": "C"
+    },
+    {
+     "start": 3.76,
+     "end": 3.83,
+     "value": "D"
+    },
+    {
+     "start": 3.83,
+     "end": 3.84,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_06",
+   "from": 609,
+   "start": 20.286,
+   "duration": 2.233,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.05,
+     "value": "B"
+    },
+    {
+     "start": 0.05,
+     "end": 0.09,
+     "value": "A"
+    },
+    {
+     "start": 0.09,
+     "end": 0.29,
+     "value": "F"
+    },
+    {
+     "start": 0.29,
+     "end": 0.36,
+     "value": "B"
+    },
+    {
+     "start": 0.36,
+     "end": 0.57,
+     "value": "F"
+    },
+    {
+     "start": 0.57,
+     "end": 0.64,
+     "value": "B"
+    },
+    {
+     "start": 0.64,
+     "end": 0.74,
+     "value": "A"
+    },
+    {
+     "start": 0.74,
+     "end": 0.89,
+     "value": "B"
+    },
+    {
+     "start": 0.89,
+     "end": 1.1,
+     "value": "C"
+    },
+    {
+     "start": 1.1,
+     "end": 1.24,
+     "value": "B"
+    },
+    {
+     "start": 1.24,
+     "end": 1.31,
+     "value": "C"
+    },
+    {
+     "start": 1.31,
+     "end": 1.38,
+     "value": "G"
+    },
+    {
+     "start": 1.38,
+     "end": 1.52,
+     "value": "B"
+    },
+    {
+     "start": 1.52,
+     "end": 1.59,
+     "value": "F"
+    },
+    {
+     "start": 1.59,
+     "end": 1.66,
+     "value": "B"
+    },
+    {
+     "start": 1.66,
+     "end": 1.87,
+     "value": "F"
+    },
+    {
+     "start": 1.87,
+     "end": 2.01,
+     "value": "B"
+    },
+    {
+     "start": 2.01,
+     "end": 2.08,
+     "value": "F"
+    },
+    {
+     "start": 2.08,
+     "end": 2.22,
+     "value": "E"
+    },
+    {
+     "start": 2.22,
+     "end": 2.23,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_07",
+   "from": 676,
+   "start": 22.519,
+   "duration": 3.489,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.02,
+     "value": "B"
+    },
+    {
+     "start": 0.02,
+     "end": 0.1,
+     "value": "A"
+    },
+    {
+     "start": 0.1,
+     "end": 0.18,
+     "value": "B"
+    },
+    {
+     "start": 0.18,
+     "end": 0.28,
+     "value": "A"
+    },
+    {
+     "start": 0.28,
+     "end": 0.33,
+     "value": "F"
+    },
+    {
+     "start": 0.33,
+     "end": 0.45,
+     "value": "B"
+    },
+    {
+     "start": 0.45,
+     "end": 0.59,
+     "value": "E"
+    },
+    {
+     "start": 0.59,
+     "end": 0.73,
+     "value": "B"
+    },
+    {
+     "start": 0.73,
+     "end": 0.94,
+     "value": "C"
+    },
+    {
+     "start": 0.94,
+     "end": 1.08,
+     "value": "B"
+    },
+    {
+     "start": 1.08,
+     "end": 1.23,
+     "value": "A"
+    },
+    {
+     "start": 1.23,
+     "end": 1.32,
+     "value": "F"
+    },
+    {
+     "start": 1.32,
+     "end": 1.46,
+     "value": "B"
+    },
+    {
+     "start": 1.46,
+     "end": 1.53,
+     "value": "G"
+    },
+    {
+     "start": 1.53,
+     "end": 1.6,
+     "value": "C"
+    },
+    {
+     "start": 1.6,
+     "end": 1.67,
+     "value": "E"
+    },
+    {
+     "start": 1.67,
+     "end": 1.75,
+     "value": "A"
+    },
+    {
+     "start": 1.75,
+     "end": 2.02,
+     "value": "B"
+    },
+    {
+     "start": 2.02,
+     "end": 2.09,
+     "value": "C"
+    },
+    {
+     "start": 2.09,
+     "end": 2.17,
+     "value": "A"
+    },
+    {
+     "start": 2.17,
+     "end": 2.35,
+     "value": "F"
+    },
+    {
+     "start": 2.35,
+     "end": 2.42,
+     "value": "G"
+    },
+    {
+     "start": 2.42,
+     "end": 2.84,
+     "value": "B"
+    },
+    {
+     "start": 2.84,
+     "end": 2.91,
+     "value": "C"
+    },
+    {
+     "start": 2.91,
+     "end": 2.99,
+     "value": "A"
+    },
+    {
+     "start": 2.99,
+     "end": 3.06,
+     "value": "B"
+    },
+    {
+     "start": 3.06,
+     "end": 3.12,
+     "value": "C"
+    },
+    {
+     "start": 3.12,
+     "end": 3.33,
+     "value": "B"
+    },
+    {
+     "start": 3.33,
+     "end": 3.4,
+     "value": "G"
+    },
+    {
+     "start": 3.4,
+     "end": 3.47,
+     "value": "B"
+    },
+    {
+     "start": 3.47,
+     "end": 3.48,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_08",
+   "from": 780,
+   "start": 26.008,
+   "duration": 2.042,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.23,
+     "value": "B"
+    },
+    {
+     "start": 0.23,
+     "end": 0.3,
+     "value": "F"
+    },
+    {
+     "start": 0.3,
+     "end": 0.37,
+     "value": "B"
+    },
+    {
+     "start": 0.37,
+     "end": 0.44,
+     "value": "F"
+    },
+    {
+     "start": 0.44,
+     "end": 0.65,
+     "value": "E"
+    },
+    {
+     "start": 0.65,
+     "end": 0.72,
+     "value": "B"
+    },
+    {
+     "start": 0.72,
+     "end": 0.8,
+     "value": "A"
+    },
+    {
+     "start": 0.8,
+     "end": 0.92,
+     "value": "B"
+    },
+    {
+     "start": 0.92,
+     "end": 1.0,
+     "value": "A"
+    },
+    {
+     "start": 1.0,
+     "end": 1.22,
+     "value": "B"
+    },
+    {
+     "start": 1.22,
+     "end": 1.36,
+     "value": "F"
+    },
+    {
+     "start": 1.36,
+     "end": 1.43,
+     "value": "A"
+    },
+    {
+     "start": 1.43,
+     "end": 1.5,
+     "value": "B"
+    },
+    {
+     "start": 1.5,
+     "end": 1.56,
+     "value": "A"
+    },
+    {
+     "start": 1.56,
+     "end": 1.75,
+     "value": "B"
+    },
+    {
+     "start": 1.75,
+     "end": 1.82,
+     "value": "C"
+    },
+    {
+     "start": 1.82,
+     "end": 1.89,
+     "value": "E"
+    },
+    {
+     "start": 1.89,
+     "end": 2.03,
+     "value": "B"
+    },
+    {
+     "start": 2.03,
+     "end": 2.04,
+     "value": "X"
+    }
+   ]
+  }
+ ]
+}

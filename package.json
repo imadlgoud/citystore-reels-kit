@@ -154,7 +154,11 @@
     "pencils:cutout": "python3 reels/pencils/cutout.py",
     "pencils:audio": "REEL=pencils python3 scripts/process_vo_take.py && python3 reels/pencils/build_timeline.py && REEL=pencils python3 scripts/make_music.py && REEL=pencils python3 scripts/mix_audio.py",
     "pencils:render": "remotion render PencilsReel9x16 out/pencils/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still PencilsCover out/pencils/cover_1080x1920.png",
-    "pencils:build": "npm run pencils:cutout && npm run pencils:audio && REEL=pencils node scripts/make_srt.mjs && npm run pencils:render && REEL=pencils bash scripts/finalize.sh && REEL=pencils bash scripts/verify.sh"
+    "pencils:build": "npm run pencils:cutout && npm run pencils:audio && REEL=pencils node scripts/make_srt.mjs && npm run pencils:render && REEL=pencils bash scripts/finalize.sh && REEL=pencils bash scripts/verify.sh",
+    "om7:cutout": "python3 reels/om7/cutout.py",
+    "om7:audio": "REEL=om7 python3 scripts/process_vo_take.py && python3 reels/om7/build_timeline.py && REEL=om7 python3 scripts/make_music.py && REEL=om7 python3 scripts/mix_audio.py",
+    "om7:render": "remotion render Om7Reel9x16 out/om7/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Om7Cover out/om7/cover_1080x1920.png",
+    "om7:build": "npm run om7:cutout && npm run om7:audio && REEL=om7 node scripts/make_srt.mjs && npm run om7:render && REEL=om7 bash scripts/finalize.sh && REEL=om7 bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

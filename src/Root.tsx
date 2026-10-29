@@ -105,6 +105,9 @@ import { U3TL } from "./reels/ultra3/timeline";
 import { PencilsReel } from "./reels/pencils/PencilsReel";
 import { PencilsCover } from "./reels/pencils/PencilsCover";
 import { PNTL } from "./reels/pencils/timeline";
+import { Om7Reel } from "./reels/om7/Om7Reel";
+import { Om7Cover } from "./reels/om7/Om7Cover";
+import { O7TL } from "./reels/om7/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -218,6 +221,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Apple Pencil range: 36.5 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
     <Composition id="PencilsReel9x16" component={PencilsReel} durationInFrames={PNTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="PencilsCover" component={PencilsCover} width={1080} height={1920} />
+    {/* DJI Osmo Mobile 7: 30 s (pause trimming + 1.10x); 9:16 + cover only */}
+    <Composition id="Om7Reel9x16" component={Om7Reel} durationInFrames={Math.min(O7TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="Om7Cover" component={Om7Cover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

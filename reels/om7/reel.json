@@ -1,0 +1,11 @@
+{
+ "id": "om7",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [4.17, 7.7, 12.86, 19.1, 23.36, 25.85, 29.93],
+ "lead": 0.06,
+ "voEndBy": 28.05,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "note": "DJI Osmo Mobile 7. Aim 30 s: pause trimming, then <=1.1x pitch-kept speed-up. 9:16 + cover only."
+}

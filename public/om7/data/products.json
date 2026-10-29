@@ -1,0 +1,27 @@
+{
+ "unfolded": {
+  "src": "om7/products/unfolded.png",
+  "w": 390,
+  "h": 885
+ },
+ "folded": {
+  "src": "om7/products/folded.png",
+  "w": 579,
+  "h": 894
+ },
+ "phone": {
+  "src": "om7/products/phone.png",
+  "w": 372,
+  "h": 900
+ },
+ "clamp": {
+  "src": "om7/products/clamp.png",
+  "w": 177,
+  "h": 96
+ },
+ "pouch": {
+  "src": "om7/products/pouch.png",
+  "w": 243,
+  "h": 252
+ }
+}

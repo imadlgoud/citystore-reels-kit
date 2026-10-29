@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # DJI Osmo Mobile 7 reel (30 s): bright, bouncy E-flat vlog pop; drop on "هاهوا الحل!"
+    "om7": dict(seed=367, phase=1.0, drop=3.0, end_lift=28.25, stop=28.75,
+                chords=[[63, 67, 70], [60, 63, 67], [56, 60, 63], [58, 62, 65]], roots=[39, 36, 44, 46],
+                final=[63, 67, 70, 75], final_bass=39, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
     # Apple Pencil range reel (36.5 s, over 30 s at natural speed): light, creative C-major pluck pop; drop when the four pencils land
     "pencils": dict(seed=359, dur=36.5, phase=1.0, drop=4.0, end_lift=33.5, stop=35.25,
                     chords=[[60, 64, 67], [57, 60, 64], [53, 57, 60], [55, 59, 62]], roots=[48, 45, 41, 43],
