@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # iPhone Duo (two colours) reel (30 s): same airy G-major premium pop as the first Duo reel, new seed; drop on the unfold
+    "iphoneduo2": dict(seed=373, phase=1.0, drop=1.0, end_lift=27.75, stop=28.25,
+                       chords=[[67, 71, 74], [64, 67, 71], [60, 64, 67], [62, 66, 69]], roots=[43, 40, 36, 38],
+                       final=[67, 71, 74, 79], final_bass=43, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
     # DJI Osmo Mobile 7 reel (30 s): bright, bouncy E-flat vlog pop; drop on "هاهوا الحل!"
     "om7": dict(seed=367, phase=1.0, drop=3.0, end_lift=28.25, stop=28.75,
                 chords=[[63, 67, 70], [60, 63, 67], [56, 60, 63], [58, 62, 65]], roots=[39, 36, 44, 46],

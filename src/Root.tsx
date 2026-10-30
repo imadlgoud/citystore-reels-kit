@@ -108,6 +108,9 @@ import { PNTL } from "./reels/pencils/timeline";
 import { Om7Reel } from "./reels/om7/Om7Reel";
 import { Om7Cover } from "./reels/om7/Om7Cover";
 import { O7TL } from "./reels/om7/timeline";
+import { IphoneDuo2Reel } from "./reels/iphoneduo2/IphoneDuo2Reel";
+import { IphoneDuo2Cover } from "./reels/iphoneduo2/IphoneDuo2Cover";
+import { D2TL } from "./reels/iphoneduo2/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -224,6 +227,9 @@ export const RemotionRoot: React.FC = () => (
     {/* DJI Osmo Mobile 7: 30 s (pause trimming + 1.10x); 9:16 + cover only */}
     <Composition id="Om7Reel9x16" component={Om7Reel} durationInFrames={Math.min(O7TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Om7Cover" component={Om7Cover} width={1080} height={1920} />
+    {/* iPhone Duo 256GB, Night Sky + Star White: 30 s (tightest pauses + 1.06x on request); 9:16 + cover only */}
+    <Composition id="IphoneDuo2Reel9x16" component={IphoneDuo2Reel} durationInFrames={Math.min(D2TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="IphoneDuo2Cover" component={IphoneDuo2Cover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

@@ -1,0 +1,42 @@
+{
+ "open": {
+  "src": "iphoneduo2/products/open.png",
+  "w": 1100,
+  "h": 715
+ },
+ "flat": {
+  "src": "iphoneduo2/products/flat.png",
+  "w": 856,
+  "h": 614
+ },
+ "back": {
+  "src": "iphoneduo2/products/back.png",
+  "w": 619,
+  "h": 861
+ },
+ "front": {
+  "src": "iphoneduo2/products/front.png",
+  "w": 377,
+  "h": 1079
+ },
+ "side": {
+  "src": "iphoneduo2/products/side.png",
+  "w": 136,
+  "h": 943
+ },
+ "night": {
+  "src": "iphoneduo2/products/night.png",
+  "w": 662,
+  "h": 427
+ },
+ "flat_white": {
+  "src": "iphoneduo2/products/flat_white.png",
+  "w": 576,
+  "h": 639
+ },
+ "flat_night": {
+  "src": "iphoneduo2/products/flat_night.png",
+  "w": 570,
+  "h": 639
+ }
+}

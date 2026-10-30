@@ -1,0 +1,1593 @@
+[
+ {
+  "id": "line_01",
+  "subtitle": "أول iPhone كيتطوى… ودابا بجوج ديال الألوان عند City Store!",
+  "source": "human-take",
+  "start": 0.06,
+  "duration": 3.456,
+  "speed": 1.059,
+  "words": [
+   {
+    "word": "أول",
+    "start": 0.0,
+    "end": 0.16
+   },
+   {
+    "word": "iPhone",
+    "start": 0.16,
+    "end": 0.52
+   },
+   {
+    "word": "كيتطوى…",
+    "start": 0.52,
+    "end": 1.1
+   },
+   {
+    "word": "ودابا",
+    "start": 1.1,
+    "end": 1.46
+   },
+   {
+    "word": "بجوج",
+    "start": 1.46,
+    "end": 1.84
+   },
+   {
+    "word": "ديال",
+    "start": 1.84,
+    "end": 2.18
+   },
+   {
+    "word": "الألوان",
+    "start": 2.18,
+    "end": 2.72
+   },
+   {
+    "word": "عند",
+    "start": 2.72,
+    "end": 2.88
+   },
+   {
+    "word": "City",
+    "start": 2.88,
+    "end": 3.26
+   },
+   {
+    "word": "Store!",
+    "start": 3.26,
+    "end": 3.44
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.06,
+    "value": "B"
+   },
+   {
+    "start": 0.06,
+    "end": 0.19,
+    "value": "F"
+   },
+   {
+    "start": 0.19,
+    "end": 0.26,
+    "value": "B"
+   },
+   {
+    "start": 0.26,
+    "end": 0.4,
+    "value": "E"
+   },
+   {
+    "start": 0.4,
+    "end": 0.54,
+    "value": "C"
+   },
+   {
+    "start": 0.54,
+    "end": 0.61,
+    "value": "G"
+   },
+   {
+    "start": 0.61,
+    "end": 0.68,
+    "value": "E"
+   },
+   {
+    "start": 0.68,
+    "end": 0.89,
+    "value": "F"
+   },
+   {
+    "start": 0.89,
+    "end": 0.96,
+    "value": "B"
+   },
+   {
+    "start": 0.96,
+    "end": 1.04,
+    "value": "A"
+   },
+   {
+    "start": 1.04,
+    "end": 1.29,
+    "value": "E"
+   },
+   {
+    "start": 1.29,
+    "end": 1.36,
+    "value": "F"
+   },
+   {
+    "start": 1.36,
+    "end": 1.5,
+    "value": "C"
+   },
+   {
+    "start": 1.5,
+    "end": 1.61,
+    "value": "A"
+   },
+   {
+    "start": 1.61,
+    "end": 1.88,
+    "value": "B"
+   },
+   {
+    "start": 1.88,
+    "end": 1.99,
+    "value": "A"
+   },
+   {
+    "start": 1.99,
+    "end": 2.22,
+    "value": "B"
+   },
+   {
+    "start": 2.22,
+    "end": 2.36,
+    "value": "C"
+   },
+   {
+    "start": 2.36,
+    "end": 2.43,
+    "value": "B"
+   },
+   {
+    "start": 2.43,
+    "end": 2.5,
+    "value": "F"
+   },
+   {
+    "start": 2.5,
+    "end": 2.57,
+    "value": "C"
+   },
+   {
+    "start": 2.57,
+    "end": 2.65,
+    "value": "A"
+   },
+   {
+    "start": 2.65,
+    "end": 2.7,
+    "value": "C"
+   },
+   {
+    "start": 2.7,
+    "end": 3.1,
+    "value": "F"
+   },
+   {
+    "start": 3.1,
+    "end": 3.18,
+    "value": "A"
+   },
+   {
+    "start": 3.18,
+    "end": 3.37,
+    "value": "E"
+   },
+   {
+    "start": 3.37,
+    "end": 3.44,
+    "value": "C"
+   },
+   {
+    "start": 3.44,
+    "end": 3.45,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_02",
+  "subtitle": "iPhone Duo، 256GB، Night Sky و Star White.",
+  "source": "human-take",
+  "start": 3.516,
+  "duration": 3.371,
+  "speed": 1.059,
+  "words": [
+   {
+    "word": "iPhone",
+    "start": 0.04,
+    "end": 0.42
+   },
+   {
+    "word": "Duo،",
+    "start": 0.42,
+    "end": 0.86
+   },
+   {
+    "word": "256GB،",
+    "start": 0.86,
+    "end": 2.24
+   },
+   {
+    "word": "Night",
+    "start": 2.24,
+    "end": 2.44
+   },
+   {
+    "word": "Sky",
+    "start": 2.44,
+    "end": 2.66
+   },
+   {
+    "word": "و",
+    "start": 2.66,
+    "end": 2.9
+   },
+   {
+    "word": "Star",
+    "start": 2.9,
+    "end": 3.14
+   },
+   {
+    "word": "White.",
+    "start": 3.14,
+    "end": 3.34
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.05,
+    "value": "B"
+   },
+   {
+    "start": 0.05,
+    "end": 0.16,
+    "value": "C"
+   },
+   {
+    "start": 0.16,
+    "end": 0.23,
+    "value": "B"
+   },
+   {
+    "start": 0.23,
+    "end": 0.3,
+    "value": "G"
+   },
+   {
+    "start": 0.3,
+    "end": 0.37,
+    "value": "E"
+   },
+   {
+    "start": 0.37,
+    "end": 0.45,
+    "value": "A"
+   },
+   {
+    "start": 0.45,
+    "end": 0.74,
+    "value": "F"
+   },
+   {
+    "start": 0.74,
+    "end": 1.09,
+    "value": "B"
+   },
+   {
+    "start": 1.09,
+    "end": 1.17,
+    "value": "A"
+   },
+   {
+    "start": 1.17,
+    "end": 1.34,
+    "value": "B"
+   },
+   {
+    "start": 1.34,
+    "end": 1.48,
+    "value": "F"
+   },
+   {
+    "start": 1.48,
+    "end": 1.69,
+    "value": "B"
+   },
+   {
+    "start": 1.69,
+    "end": 1.83,
+    "value": "F"
+   },
+   {
+    "start": 1.83,
+    "end": 2.11,
+    "value": "B"
+   },
+   {
+    "start": 2.11,
+    "end": 2.2,
+    "value": "A"
+   },
+   {
+    "start": 2.2,
+    "end": 2.26,
+    "value": "C"
+   },
+   {
+    "start": 2.26,
+    "end": 2.39,
+    "value": "B"
+   },
+   {
+    "start": 2.39,
+    "end": 2.6,
+    "value": "E"
+   },
+   {
+    "start": 2.6,
+    "end": 2.67,
+    "value": "C"
+   },
+   {
+    "start": 2.67,
+    "end": 2.74,
+    "value": "B"
+   },
+   {
+    "start": 2.74,
+    "end": 2.81,
+    "value": "F"
+   },
+   {
+    "start": 2.81,
+    "end": 2.88,
+    "value": "B"
+   },
+   {
+    "start": 2.88,
+    "end": 2.96,
+    "value": "A"
+   },
+   {
+    "start": 2.96,
+    "end": 3.08,
+    "value": "D"
+   },
+   {
+    "start": 3.08,
+    "end": 3.15,
+    "value": "B"
+   },
+   {
+    "start": 3.15,
+    "end": 3.22,
+    "value": "F"
+   },
+   {
+    "start": 3.22,
+    "end": 3.29,
+    "value": "E"
+   },
+   {
+    "start": 3.29,
+    "end": 3.36,
+    "value": "B"
+   },
+   {
+    "start": 3.36,
+    "end": 3.37,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_03",
+  "subtitle": "مطوي: écran 5.4 pouces، بحال iPhone عادي فيد وحدة.",
+  "source": "human-take",
+  "start": 6.887,
+  "duration": 3.711,
+  "speed": 1.059,
+  "words": [
+   {
+    "word": "مطوي:",
+    "start": 0.04,
+    "end": 0.52
+   },
+   {
+    "word": "écran",
+    "start": 0.52,
+    "end": 0.8
+   },
+   {
+    "word": "5.4",
+    "start": 0.8,
+    "end": 1.6
+   },
+   {
+    "word": "pouces،",
+    "start": 1.6,
+    "end": 1.8
+   },
+   {
+    "word": "بحال",
+    "start": 1.8,
+    "end": 2.26
+   },
+   {
+    "word": "iPhone",
+    "start": 2.26,
+    "end": 2.66
+   },
+   {
+    "word": "عادي",
+    "start": 2.66,
+    "end": 3.06
+   },
+   {
+    "word": "فيد",
+    "start": 3.06,
+    "end": 3.26
+   },
+   {
+    "word": "وحدة.",
+    "start": 3.26,
+    "end": 3.66
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.02,
+    "value": "X"
+   },
+   {
+    "start": 0.02,
+    "end": 0.06,
+    "value": "B"
+   },
+   {
+    "start": 0.06,
+    "end": 0.14,
+    "value": "A"
+   },
+   {
+    "start": 0.14,
+    "end": 0.31,
+    "value": "F"
+   },
+   {
+    "start": 0.31,
+    "end": 0.38,
+    "value": "B"
+   },
+   {
+    "start": 0.38,
+    "end": 0.45,
+    "value": "F"
+   },
+   {
+    "start": 0.45,
+    "end": 0.52,
+    "value": "B"
+   },
+   {
+    "start": 0.52,
+    "end": 0.6,
+    "value": "A"
+   },
+   {
+    "start": 0.6,
+    "end": 0.68,
+    "value": "C"
+   },
+   {
+    "start": 0.68,
+    "end": 1.03,
+    "value": "E"
+   },
+   {
+    "start": 1.03,
+    "end": 1.17,
+    "value": "B"
+   },
+   {
+    "start": 1.17,
+    "end": 1.24,
+    "value": "E"
+   },
+   {
+    "start": 1.24,
+    "end": 1.31,
+    "value": "G"
+   },
+   {
+    "start": 1.31,
+    "end": 1.52,
+    "value": "B"
+   },
+   {
+    "start": 1.52,
+    "end": 1.59,
+    "value": "C"
+   },
+   {
+    "start": 1.59,
+    "end": 1.67,
+    "value": "A"
+   },
+   {
+    "start": 1.67,
+    "end": 1.79,
+    "value": "D"
+   },
+   {
+    "start": 1.79,
+    "end": 1.86,
+    "value": "C"
+   },
+   {
+    "start": 1.86,
+    "end": 1.93,
+    "value": "B"
+   },
+   {
+    "start": 1.93,
+    "end": 2.0,
+    "value": "F"
+   },
+   {
+    "start": 2.0,
+    "end": 2.07,
+    "value": "B"
+   },
+   {
+    "start": 2.07,
+    "end": 2.15,
+    "value": "A"
+   },
+   {
+    "start": 2.15,
+    "end": 2.26,
+    "value": "C"
+   },
+   {
+    "start": 2.26,
+    "end": 2.33,
+    "value": "B"
+   },
+   {
+    "start": 2.33,
+    "end": 2.47,
+    "value": "C"
+   },
+   {
+    "start": 2.47,
+    "end": 2.54,
+    "value": "B"
+   },
+   {
+    "start": 2.54,
+    "end": 2.61,
+    "value": "G"
+   },
+   {
+    "start": 2.61,
+    "end": 2.68,
+    "value": "F"
+   },
+   {
+    "start": 2.68,
+    "end": 2.76,
+    "value": "A"
+   },
+   {
+    "start": 2.76,
+    "end": 2.86,
+    "value": "D"
+   },
+   {
+    "start": 2.86,
+    "end": 3.14,
+    "value": "B"
+   },
+   {
+    "start": 3.14,
+    "end": 3.21,
+    "value": "G"
+   },
+   {
+    "start": 3.21,
+    "end": 3.35,
+    "value": "B"
+   },
+   {
+    "start": 3.35,
+    "end": 3.42,
+    "value": "F"
+   },
+   {
+    "start": 3.42,
+    "end": 3.56,
+    "value": "B"
+   },
+   {
+    "start": 3.56,
+    "end": 3.63,
+    "value": "C"
+   },
+   {
+    "start": 3.63,
+    "end": 3.7,
+    "value": "E"
+   },
+   {
+    "start": 3.7,
+    "end": 3.71,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_04",
+  "subtitle": "محلول: écran 7.6 pouces، أكبر écran فتاريخ iPhone، مزيان للأفلام، الخدمة والجيمز.",
+  "source": "human-take",
+  "start": 10.598,
+  "duration": 5.354,
+  "speed": 1.059,
+  "words": [
+   {
+    "word": "محلول:",
+    "start": 0.04,
+    "end": 0.4
+   },
+   {
+    "word": "écran",
+    "start": 0.4,
+    "end": 0.6
+   },
+   {
+    "word": "7.6",
+    "start": 0.6,
+    "end": 1.38
+   },
+   {
+    "word": "pouces،",
+    "start": 1.38,
+    "end": 1.56
+   },
+   {
+    "word": "أكبر",
+    "start": 1.56,
+    "end": 1.96
+   },
+   {
+    "word": "écran",
+    "start": 1.96,
+    "end": 2.16
+   },
+   {
+    "word": "فتاريخ",
+    "start": 2.16,
+    "end": 2.78
+   },
+   {
+    "word": "iPhone،",
+    "start": 2.78,
+    "end": 3.16
+   },
+   {
+    "word": "مزيان",
+    "start": 3.16,
+    "end": 3.54
+   },
+   {
+    "word": "للأفلام،",
+    "start": 3.54,
+    "end": 4.1
+   },
+   {
+    "word": "الخدمة",
+    "start": 4.1,
+    "end": 4.7
+   },
+   {
+    "word": "والجيمز.",
+    "start": 4.7,
+    "end": 5.3
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.05,
+    "value": "B"
+   },
+   {
+    "start": 0.05,
+    "end": 0.1,
+    "value": "A"
+   },
+   {
+    "start": 0.1,
+    "end": 0.41,
+    "value": "F"
+   },
+   {
+    "start": 0.41,
+    "end": 0.49,
+    "value": "A"
+   },
+   {
+    "start": 0.49,
+    "end": 0.55,
+    "value": "B"
+   },
+   {
+    "start": 0.55,
+    "end": 0.61,
+    "value": "C"
+   },
+   {
+    "start": 0.61,
+    "end": 0.89,
+    "value": "E"
+   },
+   {
+    "start": 0.89,
+    "end": 0.96,
+    "value": "B"
+   },
+   {
+    "start": 0.96,
+    "end": 1.04,
+    "value": "A"
+   },
+   {
+    "start": 1.04,
+    "end": 1.24,
+    "value": "E"
+   },
+   {
+    "start": 1.24,
+    "end": 1.31,
+    "value": "G"
+   },
+   {
+    "start": 1.31,
+    "end": 1.45,
+    "value": "F"
+   },
+   {
+    "start": 1.45,
+    "end": 1.53,
+    "value": "A"
+   },
+   {
+    "start": 1.53,
+    "end": 1.76,
+    "value": "B"
+   },
+   {
+    "start": 1.76,
+    "end": 1.97,
+    "value": "E"
+   },
+   {
+    "start": 1.97,
+    "end": 2.04,
+    "value": "B"
+   },
+   {
+    "start": 2.04,
+    "end": 2.18,
+    "value": "C"
+   },
+   {
+    "start": 2.18,
+    "end": 2.26,
+    "value": "A"
+   },
+   {
+    "start": 2.26,
+    "end": 2.33,
+    "value": "F"
+   },
+   {
+    "start": 2.33,
+    "end": 2.53,
+    "value": "B"
+   },
+   {
+    "start": 2.53,
+    "end": 2.81,
+    "value": "F"
+   },
+   {
+    "start": 2.81,
+    "end": 2.88,
+    "value": "G"
+   },
+   {
+    "start": 2.88,
+    "end": 3.02,
+    "value": "F"
+   },
+   {
+    "start": 3.02,
+    "end": 3.16,
+    "value": "B"
+   },
+   {
+    "start": 3.16,
+    "end": 3.37,
+    "value": "C"
+   },
+   {
+    "start": 3.37,
+    "end": 3.51,
+    "value": "G"
+   },
+   {
+    "start": 3.51,
+    "end": 3.58,
+    "value": "E"
+   },
+   {
+    "start": 3.58,
+    "end": 3.65,
+    "value": "C"
+   },
+   {
+    "start": 3.65,
+    "end": 3.72,
+    "value": "B"
+   },
+   {
+    "start": 3.72,
+    "end": 3.86,
+    "value": "C"
+   },
+   {
+    "start": 3.86,
+    "end": 4.0,
+    "value": "B"
+   },
+   {
+    "start": 4.0,
+    "end": 4.07,
+    "value": "C"
+   },
+   {
+    "start": 4.07,
+    "end": 4.14,
+    "value": "G"
+   },
+   {
+    "start": 4.14,
+    "end": 4.21,
+    "value": "H"
+   },
+   {
+    "start": 4.21,
+    "end": 4.28,
+    "value": "C"
+   },
+   {
+    "start": 4.28,
+    "end": 4.37,
+    "value": "A"
+   },
+   {
+    "start": 4.37,
+    "end": 4.54,
+    "value": "B"
+   },
+   {
+    "start": 4.54,
+    "end": 4.72,
+    "value": "A"
+   },
+   {
+    "start": 4.72,
+    "end": 4.84,
+    "value": "B"
+   },
+   {
+    "start": 4.84,
+    "end": 4.98,
+    "value": "F"
+   },
+   {
+    "start": 4.98,
+    "end": 5.33,
+    "value": "B"
+   },
+   {
+    "start": 5.33,
+    "end": 5.35,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_05",
+  "subtitle": "puce A20 Pro، جوج كاميرات 48 mégapixels، و design en titane.",
+  "source": "human-take",
+  "start": 15.952,
+  "duration": 4.268,
+  "speed": 1.059,
+  "words": [
+   {
+    "word": "puce",
+    "start": 0.04,
+    "end": 0.22
+   },
+   {
+    "word": "A20",
+    "start": 0.22,
+    "end": 0.66
+   },
+   {
+    "word": "Pro،",
+    "start": 0.66,
+    "end": 0.88
+   },
+   {
+    "word": "جوج",
+    "start": 0.88,
+    "end": 1.08
+   },
+   {
+    "word": "كاميرات",
+    "start": 1.08,
+    "end": 1.74
+   },
+   {
+    "word": "48",
+    "start": 1.74,
+    "end": 2.34
+   },
+   {
+    "word": "mégapixels،",
+    "start": 2.34,
+    "end": 2.98
+   },
+   {
+    "word": "و",
+    "start": 2.98,
+    "end": 3.22
+   },
+   {
+    "word": "design",
+    "start": 3.22,
+    "end": 3.6
+   },
+   {
+    "word": "en",
+    "start": 3.6,
+    "end": 3.8
+   },
+   {
+    "word": "titane.",
+    "start": 3.8,
+    "end": 4.24
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.03,
+    "value": "A"
+   },
+   {
+    "start": 0.03,
+    "end": 0.18,
+    "value": "F"
+   },
+   {
+    "start": 0.18,
+    "end": 0.32,
+    "value": "B"
+   },
+   {
+    "start": 0.32,
+    "end": 0.42,
+    "value": "D"
+   },
+   {
+    "start": 0.42,
+    "end": 0.46,
+    "value": "C"
+   },
+   {
+    "start": 0.46,
+    "end": 0.53,
+    "value": "G"
+   },
+   {
+    "start": 0.53,
+    "end": 0.6,
+    "value": "D"
+   },
+   {
+    "start": 0.6,
+    "end": 0.68,
+    "value": "A"
+   },
+   {
+    "start": 0.68,
+    "end": 0.84,
+    "value": "E"
+   },
+   {
+    "start": 0.84,
+    "end": 1.19,
+    "value": "F"
+   },
+   {
+    "start": 1.19,
+    "end": 1.4,
+    "value": "B"
+   },
+   {
+    "start": 1.4,
+    "end": 1.48,
+    "value": "A"
+   },
+   {
+    "start": 1.48,
+    "end": 1.57,
+    "value": "C"
+   },
+   {
+    "start": 1.57,
+    "end": 1.64,
+    "value": "E"
+   },
+   {
+    "start": 1.64,
+    "end": 1.85,
+    "value": "B"
+   },
+   {
+    "start": 1.85,
+    "end": 1.95,
+    "value": "A"
+   },
+   {
+    "start": 1.95,
+    "end": 2.02,
+    "value": "C"
+   },
+   {
+    "start": 2.02,
+    "end": 2.08,
+    "value": "E"
+   },
+   {
+    "start": 2.08,
+    "end": 2.16,
+    "value": "A"
+   },
+   {
+    "start": 2.16,
+    "end": 2.27,
+    "value": "C"
+   },
+   {
+    "start": 2.27,
+    "end": 2.34,
+    "value": "B"
+   },
+   {
+    "start": 2.34,
+    "end": 2.46,
+    "value": "A"
+   },
+   {
+    "start": 2.46,
+    "end": 2.58,
+    "value": "B"
+   },
+   {
+    "start": 2.58,
+    "end": 2.69,
+    "value": "A"
+   },
+   {
+    "start": 2.69,
+    "end": 3.07,
+    "value": "B"
+   },
+   {
+    "start": 3.07,
+    "end": 3.14,
+    "value": "F"
+   },
+   {
+    "start": 3.14,
+    "end": 3.22,
+    "value": "A"
+   },
+   {
+    "start": 3.22,
+    "end": 3.32,
+    "value": "F"
+   },
+   {
+    "start": 3.32,
+    "end": 3.46,
+    "value": "B"
+   },
+   {
+    "start": 3.46,
+    "end": 3.53,
+    "value": "C"
+   },
+   {
+    "start": 3.53,
+    "end": 3.6,
+    "value": "B"
+   },
+   {
+    "start": 3.6,
+    "end": 3.68,
+    "value": "A"
+   },
+   {
+    "start": 3.68,
+    "end": 3.83,
+    "value": "E"
+   },
+   {
+    "start": 3.83,
+    "end": 3.97,
+    "value": "B"
+   },
+   {
+    "start": 3.97,
+    "end": 4.11,
+    "value": "C"
+   },
+   {
+    "start": 4.11,
+    "end": 4.25,
+    "value": "B"
+   },
+   {
+    "start": 4.25,
+    "end": 4.26,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_06",
+  "subtitle": "كيخدم بالـ eSIM، وكتحلّو بـ Touch ID.",
+  "source": "human-take",
+  "start": 20.22,
+  "duration": 2.04,
+  "speed": 1.059,
+  "words": [
+   {
+    "word": "كيخدم",
+    "start": 0.04,
+    "end": 0.34
+   },
+   {
+    "word": "بالـ",
+    "start": 0.34,
+    "end": 0.52
+   },
+   {
+    "word": "eSIM،",
+    "start": 0.52,
+    "end": 0.84
+   },
+   {
+    "word": "وكتحلّو",
+    "start": 0.84,
+    "end": 1.36
+   },
+   {
+    "word": "بـ",
+    "start": 1.36,
+    "end": 1.52
+   },
+   {
+    "word": "Touch",
+    "start": 1.52,
+    "end": 1.68
+   },
+   {
+    "word": "ID.",
+    "start": 1.68,
+    "end": 2.02
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.3,
+    "value": "B"
+   },
+   {
+    "start": 0.3,
+    "end": 0.38,
+    "value": "A"
+   },
+   {
+    "start": 0.38,
+    "end": 0.9,
+    "value": "B"
+   },
+   {
+    "start": 0.9,
+    "end": 1.04,
+    "value": "C"
+   },
+   {
+    "start": 1.04,
+    "end": 1.25,
+    "value": "B"
+   },
+   {
+    "start": 1.25,
+    "end": 1.35,
+    "value": "A"
+   },
+   {
+    "start": 1.35,
+    "end": 1.46,
+    "value": "F"
+   },
+   {
+    "start": 1.46,
+    "end": 1.67,
+    "value": "B"
+   },
+   {
+    "start": 1.67,
+    "end": 1.95,
+    "value": "C"
+   },
+   {
+    "start": 1.95,
+    "end": 2.02,
+    "value": "B"
+   },
+   {
+    "start": 2.02,
+    "end": 2.03,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_07",
+  "subtitle": "Produits originaux, boîte fermée, jamais ouverts, jamais activés.",
+  "source": "human-take",
+  "start": 22.259,
+  "duration": 3.503,
+  "speed": 1.059,
+  "words": [
+   {
+    "word": "Produits",
+    "start": 0.06,
+    "end": 0.44
+   },
+   {
+    "word": "originaux,",
+    "start": 0.44,
+    "end": 1.18
+   },
+   {
+    "word": "boîte",
+    "start": 1.18,
+    "end": 1.38
+   },
+   {
+    "word": "fermée,",
+    "start": 1.38,
+    "end": 1.74
+   },
+   {
+    "word": "jamais",
+    "start": 1.74,
+    "end": 2.12
+   },
+   {
+    "word": "ouverts,",
+    "start": 2.12,
+    "end": 2.48
+   },
+   {
+    "word": "jamais",
+    "start": 2.48,
+    "end": 2.86
+   },
+   {
+    "word": "activés.",
+    "start": 2.86,
+    "end": 3.46
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.08,
+    "value": "A"
+   },
+   {
+    "start": 0.08,
+    "end": 0.79,
+    "value": "B"
+   },
+   {
+    "start": 0.79,
+    "end": 0.87,
+    "value": "A"
+   },
+   {
+    "start": 0.87,
+    "end": 0.96,
+    "value": "F"
+   },
+   {
+    "start": 0.96,
+    "end": 1.04,
+    "value": "A"
+   },
+   {
+    "start": 1.04,
+    "end": 1.25,
+    "value": "F"
+   },
+   {
+    "start": 1.25,
+    "end": 1.37,
+    "value": "A"
+   },
+   {
+    "start": 1.37,
+    "end": 1.44,
+    "value": "G"
+   },
+   {
+    "start": 1.44,
+    "end": 1.5,
+    "value": "F"
+   },
+   {
+    "start": 1.5,
+    "end": 1.58,
+    "value": "B"
+   },
+   {
+    "start": 1.58,
+    "end": 1.64,
+    "value": "A"
+   },
+   {
+    "start": 1.64,
+    "end": 1.72,
+    "value": "B"
+   },
+   {
+    "start": 1.72,
+    "end": 1.82,
+    "value": "A"
+   },
+   {
+    "start": 1.82,
+    "end": 1.94,
+    "value": "B"
+   },
+   {
+    "start": 1.94,
+    "end": 2.01,
+    "value": "E"
+   },
+   {
+    "start": 2.01,
+    "end": 2.29,
+    "value": "F"
+   },
+   {
+    "start": 2.29,
+    "end": 2.43,
+    "value": "G"
+   },
+   {
+    "start": 2.43,
+    "end": 2.5,
+    "value": "C"
+   },
+   {
+    "start": 2.5,
+    "end": 2.57,
+    "value": "B"
+   },
+   {
+    "start": 2.57,
+    "end": 2.71,
+    "value": "A"
+   },
+   {
+    "start": 2.71,
+    "end": 2.82,
+    "value": "B"
+   },
+   {
+    "start": 2.82,
+    "end": 2.89,
+    "value": "D"
+   },
+   {
+    "start": 2.89,
+    "end": 2.97,
+    "value": "A"
+   },
+   {
+    "start": 2.97,
+    "end": 3.02,
+    "value": "B"
+   },
+   {
+    "start": 3.02,
+    "end": 3.14,
+    "value": "C"
+   },
+   {
+    "start": 3.14,
+    "end": 3.49,
+    "value": "B"
+   },
+   {
+    "start": 3.49,
+    "end": 3.5,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_08",
+  "subtitle": "إلا بغيتي تكوموندي، صيفط لينا ميساج.",
+  "source": "human-take",
+  "start": 25.763,
+  "duration": 1.737,
+  "speed": 1.059,
+  "words": [
+   {
+    "word": "إلا",
+    "start": 0.04,
+    "end": 0.16
+   },
+   {
+    "word": "بغيتي",
+    "start": 0.16,
+    "end": 0.4
+   },
+   {
+    "word": "تكوموندي،",
+    "start": 0.4,
+    "end": 0.92
+   },
+   {
+    "word": "صيفط",
+    "start": 0.92,
+    "end": 1.22
+   },
+   {
+    "word": "لينا",
+    "start": 1.22,
+    "end": 1.46
+   },
+   {
+    "word": "ميساج.",
+    "start": 1.46,
+    "end": 1.72
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.05,
+    "value": "B"
+   },
+   {
+    "start": 0.05,
+    "end": 0.1,
+    "value": "C"
+   },
+   {
+    "start": 0.1,
+    "end": 0.17,
+    "value": "H"
+   },
+   {
+    "start": 0.17,
+    "end": 0.24,
+    "value": "C"
+   },
+   {
+    "start": 0.24,
+    "end": 0.31,
+    "value": "F"
+   },
+   {
+    "start": 0.31,
+    "end": 0.45,
+    "value": "B"
+   },
+   {
+    "start": 0.45,
+    "end": 0.59,
+    "value": "E"
+   },
+   {
+    "start": 0.59,
+    "end": 0.66,
+    "value": "A"
+   },
+   {
+    "start": 0.66,
+    "end": 0.73,
+    "value": "E"
+   },
+   {
+    "start": 0.73,
+    "end": 0.79,
+    "value": "A"
+   },
+   {
+    "start": 0.79,
+    "end": 1.06,
+    "value": "B"
+   },
+   {
+    "start": 1.06,
+    "end": 1.13,
+    "value": "C"
+   },
+   {
+    "start": 1.13,
+    "end": 1.41,
+    "value": "B"
+   },
+   {
+    "start": 1.41,
+    "end": 1.49,
+    "value": "A"
+   },
+   {
+    "start": 1.49,
+    "end": 1.72,
+    "value": "B"
+   },
+   {
+    "start": 1.72,
+    "end": 1.73,
+    "value": "X"
+   }
+  ]
+ }
+]

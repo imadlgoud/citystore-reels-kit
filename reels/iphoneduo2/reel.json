@@ -1,0 +1,13 @@
+{
+ "id": "iphoneduo2",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [5.0, 10.24, 15.0, 22.55, 28.4, 31.45, 36.4],
+ "lead": 0.06,
+ "voEndBy": 27.5,
+ "maxPause": 0.06,
+ "sentPause": 0.12,
+ "silenceDb": -30,
+ "maxSeconds": 60,
+ "note": "iPhone Duo 256GB, Night Sky + Star White. User asked: speed up a little and remove the empty air -> tightest pauses + 1.06x pitch-kept speed-up (fits 30 s). 9:16 + cover only."
+}
