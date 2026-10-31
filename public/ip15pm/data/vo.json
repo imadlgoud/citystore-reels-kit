@@ -1,0 +1,1468 @@
+[
+ {
+  "id": "line_01",
+  "subtitle": "iPhone 15 Pro Max جديد، باقي مسدود فالبواطة… فـ 2026؟ إيه، كاين عندنا!",
+  "source": "human-take",
+  "start": 0.06,
+  "duration": 5.276,
+  "speed": 1.0272,
+  "words": [
+   {
+    "word": "iPhone",
+    "start": 0.0,
+    "end": 0.36
+   },
+   {
+    "word": "15",
+    "start": 0.36,
+    "end": 0.58
+   },
+   {
+    "word": "Pro",
+    "start": 0.58,
+    "end": 0.82
+   },
+   {
+    "word": "Max",
+    "start": 0.82,
+    "end": 1.02
+   },
+   {
+    "word": "جديد،",
+    "start": 1.02,
+    "end": 1.52
+   },
+   {
+    "word": "باقي",
+    "start": 1.52,
+    "end": 2.04
+   },
+   {
+    "word": "مسدود",
+    "start": 2.04,
+    "end": 2.44
+   },
+   {
+    "word": "فالبواطة…",
+    "start": 2.44,
+    "end": 3.28
+   },
+   {
+    "word": "فـ",
+    "start": 3.28,
+    "end": 3.48
+   },
+   {
+    "word": "2026؟",
+    "start": 3.48,
+    "end": 4.04
+   },
+   {
+    "word": "إيه،",
+    "start": 4.04,
+    "end": 4.34
+   },
+   {
+    "word": "كاين",
+    "start": 4.34,
+    "end": 4.8
+   },
+   {
+    "word": "عندنا!",
+    "start": 4.8,
+    "end": 5.18
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.05,
+    "value": "B"
+   },
+   {
+    "start": 0.05,
+    "end": 0.09,
+    "value": "C"
+   },
+   {
+    "start": 0.09,
+    "end": 0.16,
+    "value": "B"
+   },
+   {
+    "start": 0.16,
+    "end": 0.23,
+    "value": "G"
+   },
+   {
+    "start": 0.23,
+    "end": 0.3,
+    "value": "E"
+   },
+   {
+    "start": 0.3,
+    "end": 0.38,
+    "value": "A"
+   },
+   {
+    "start": 0.38,
+    "end": 0.62,
+    "value": "C"
+   },
+   {
+    "start": 0.62,
+    "end": 0.7,
+    "value": "A"
+   },
+   {
+    "start": 0.7,
+    "end": 0.9,
+    "value": "E"
+   },
+   {
+    "start": 0.9,
+    "end": 0.98,
+    "value": "A"
+   },
+   {
+    "start": 0.98,
+    "end": 1.06,
+    "value": "D"
+   },
+   {
+    "start": 1.06,
+    "end": 1.13,
+    "value": "C"
+   },
+   {
+    "start": 1.13,
+    "end": 1.9,
+    "value": "B"
+   },
+   {
+    "start": 1.9,
+    "end": 2.07,
+    "value": "A"
+   },
+   {
+    "start": 2.07,
+    "end": 2.33,
+    "value": "B"
+   },
+   {
+    "start": 2.33,
+    "end": 2.54,
+    "value": "F"
+   },
+   {
+    "start": 2.54,
+    "end": 2.61,
+    "value": "B"
+   },
+   {
+    "start": 2.61,
+    "end": 2.68,
+    "value": "G"
+   },
+   {
+    "start": 2.68,
+    "end": 2.76,
+    "value": "A"
+   },
+   {
+    "start": 2.76,
+    "end": 2.9,
+    "value": "E"
+   },
+   {
+    "start": 2.9,
+    "end": 3.15,
+    "value": "A"
+   },
+   {
+    "start": 3.15,
+    "end": 3.39,
+    "value": "F"
+   },
+   {
+    "start": 3.39,
+    "end": 3.47,
+    "value": "A"
+   },
+   {
+    "start": 3.47,
+    "end": 3.57,
+    "value": "B"
+   },
+   {
+    "start": 3.57,
+    "end": 3.64,
+    "value": "G"
+   },
+   {
+    "start": 3.64,
+    "end": 3.71,
+    "value": "C"
+   },
+   {
+    "start": 3.71,
+    "end": 4.06,
+    "value": "B"
+   },
+   {
+    "start": 4.06,
+    "end": 4.14,
+    "value": "A"
+   },
+   {
+    "start": 4.14,
+    "end": 4.45,
+    "value": "C"
+   },
+   {
+    "start": 4.45,
+    "end": 4.52,
+    "value": "E"
+   },
+   {
+    "start": 4.52,
+    "end": 4.76,
+    "value": "F"
+   },
+   {
+    "start": 4.76,
+    "end": 4.9,
+    "value": "C"
+   },
+   {
+    "start": 4.9,
+    "end": 4.97,
+    "value": "B"
+   },
+   {
+    "start": 4.97,
+    "end": 5.18,
+    "value": "C"
+   },
+   {
+    "start": 5.18,
+    "end": 5.25,
+    "value": "E"
+   },
+   {
+    "start": 5.25,
+    "end": 5.27,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_02",
+  "subtitle": "1TB، Blue Titanium.",
+  "source": "human-take",
+  "start": 5.336,
+  "duration": 1.757,
+  "speed": 1.0272,
+  "words": [
+   {
+    "word": "1TB،",
+    "start": 0.08,
+    "end": 0.38
+   },
+   {
+    "word": "Blue",
+    "start": 0.38,
+    "end": 0.72
+   },
+   {
+    "word": "Titanium.",
+    "start": 0.72,
+    "end": 1.74
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.03,
+    "value": "X"
+   },
+   {
+    "start": 0.03,
+    "end": 0.1,
+    "value": "B"
+   },
+   {
+    "start": 0.1,
+    "end": 0.17,
+    "value": "C"
+   },
+   {
+    "start": 0.17,
+    "end": 0.25,
+    "value": "A"
+   },
+   {
+    "start": 0.25,
+    "end": 0.39,
+    "value": "B"
+   },
+   {
+    "start": 0.39,
+    "end": 0.6,
+    "value": "E"
+   },
+   {
+    "start": 0.6,
+    "end": 0.88,
+    "value": "B"
+   },
+   {
+    "start": 0.88,
+    "end": 1.07,
+    "value": "A"
+   },
+   {
+    "start": 1.07,
+    "end": 1.15,
+    "value": "B"
+   },
+   {
+    "start": 1.15,
+    "end": 1.29,
+    "value": "F"
+   },
+   {
+    "start": 1.29,
+    "end": 1.37,
+    "value": "A"
+   },
+   {
+    "start": 1.37,
+    "end": 1.53,
+    "value": "D"
+   },
+   {
+    "start": 1.53,
+    "end": 1.6,
+    "value": "C"
+   },
+   {
+    "start": 1.6,
+    "end": 1.74,
+    "value": "E"
+   },
+   {
+    "start": 1.74,
+    "end": 1.75,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_03",
+  "subtitle": "design en titane، خفيف وقوي، و écran 6.7 pouces ProMotion.",
+  "source": "human-take",
+  "start": 7.093,
+  "duration": 4.59,
+  "speed": 1.0272,
+  "words": [
+   {
+    "word": "design",
+    "start": 0.14,
+    "end": 0.54
+   },
+   {
+    "word": "en",
+    "start": 0.54,
+    "end": 0.74
+   },
+   {
+    "word": "titane،",
+    "start": 0.74,
+    "end": 1.28
+   },
+   {
+    "word": "خفيف",
+    "start": 1.28,
+    "end": 1.7
+   },
+   {
+    "word": "وقوي،",
+    "start": 1.7,
+    "end": 2.22
+   },
+   {
+    "word": "و",
+    "start": 2.22,
+    "end": 2.46
+   },
+   {
+    "word": "écran",
+    "start": 2.46,
+    "end": 2.66
+   },
+   {
+    "word": "6.7",
+    "start": 2.66,
+    "end": 3.48
+   },
+   {
+    "word": "pouces",
+    "start": 3.48,
+    "end": 3.78
+   },
+   {
+    "word": "ProMotion.",
+    "start": 3.78,
+    "end": 4.48
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.11,
+    "value": "X"
+   },
+   {
+    "start": 0.11,
+    "end": 0.41,
+    "value": "B"
+   },
+   {
+    "start": 0.41,
+    "end": 0.48,
+    "value": "C"
+   },
+   {
+    "start": 0.48,
+    "end": 0.55,
+    "value": "B"
+   },
+   {
+    "start": 0.55,
+    "end": 0.69,
+    "value": "E"
+   },
+   {
+    "start": 0.69,
+    "end": 0.76,
+    "value": "F"
+   },
+   {
+    "start": 0.76,
+    "end": 0.83,
+    "value": "B"
+   },
+   {
+    "start": 0.83,
+    "end": 0.91,
+    "value": "A"
+   },
+   {
+    "start": 0.91,
+    "end": 1.08,
+    "value": "C"
+   },
+   {
+    "start": 1.08,
+    "end": 1.16,
+    "value": "A"
+   },
+   {
+    "start": 1.16,
+    "end": 1.31,
+    "value": "B"
+   },
+   {
+    "start": 1.31,
+    "end": 1.45,
+    "value": "G"
+   },
+   {
+    "start": 1.45,
+    "end": 1.59,
+    "value": "B"
+   },
+   {
+    "start": 1.59,
+    "end": 1.66,
+    "value": "G"
+   },
+   {
+    "start": 1.66,
+    "end": 1.73,
+    "value": "F"
+   },
+   {
+    "start": 1.73,
+    "end": 1.83,
+    "value": "A"
+   },
+   {
+    "start": 1.83,
+    "end": 1.98,
+    "value": "F"
+   },
+   {
+    "start": 1.98,
+    "end": 2.05,
+    "value": "B"
+   },
+   {
+    "start": 2.05,
+    "end": 2.15,
+    "value": "A"
+   },
+   {
+    "start": 2.15,
+    "end": 2.26,
+    "value": "F"
+   },
+   {
+    "start": 2.26,
+    "end": 2.33,
+    "value": "C"
+   },
+   {
+    "start": 2.33,
+    "end": 2.61,
+    "value": "E"
+   },
+   {
+    "start": 2.61,
+    "end": 2.68,
+    "value": "F"
+   },
+   {
+    "start": 2.68,
+    "end": 2.96,
+    "value": "B"
+   },
+   {
+    "start": 2.96,
+    "end": 3.03,
+    "value": "G"
+   },
+   {
+    "start": 3.03,
+    "end": 3.38,
+    "value": "B"
+   },
+   {
+    "start": 3.38,
+    "end": 3.45,
+    "value": "E"
+   },
+   {
+    "start": 3.45,
+    "end": 3.67,
+    "value": "A"
+   },
+   {
+    "start": 3.67,
+    "end": 3.73,
+    "value": "F"
+   },
+   {
+    "start": 3.73,
+    "end": 3.78,
+    "value": "B"
+   },
+   {
+    "start": 3.78,
+    "end": 3.86,
+    "value": "A"
+   },
+   {
+    "start": 3.86,
+    "end": 4.07,
+    "value": "E"
+   },
+   {
+    "start": 4.07,
+    "end": 4.15,
+    "value": "A"
+   },
+   {
+    "start": 4.15,
+    "end": 4.23,
+    "value": "E"
+   },
+   {
+    "start": 4.23,
+    "end": 4.37,
+    "value": "B"
+   },
+   {
+    "start": 4.37,
+    "end": 4.44,
+    "value": "E"
+   },
+   {
+    "start": 4.44,
+    "end": 4.55,
+    "value": "A"
+   },
+   {
+    "start": 4.55,
+    "end": 4.59,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_04",
+  "subtitle": "puce A17 Pro، سريع فالجيمز، المونتاج وكلشي.",
+  "source": "human-take",
+  "start": 11.683,
+  "duration": 3.227,
+  "speed": 1.0272,
+  "words": [
+   {
+    "word": "puce",
+    "start": 0.08,
+    "end": 0.24
+   },
+   {
+    "word": "A17",
+    "start": 0.24,
+    "end": 0.82
+   },
+   {
+    "word": "Pro،",
+    "start": 0.82,
+    "end": 1.06
+   },
+   {
+    "word": "سريع",
+    "start": 1.06,
+    "end": 1.5
+   },
+   {
+    "word": "فالجيمز،",
+    "start": 1.5,
+    "end": 2.04
+   },
+   {
+    "word": "المونتاج",
+    "start": 2.04,
+    "end": 2.86
+   },
+   {
+    "word": "وكلشي.",
+    "start": 2.86,
+    "end": 3.22
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.03,
+    "value": "X"
+   },
+   {
+    "start": 0.03,
+    "end": 0.09,
+    "value": "B"
+   },
+   {
+    "start": 0.09,
+    "end": 0.21,
+    "value": "F"
+   },
+   {
+    "start": 0.21,
+    "end": 0.35,
+    "value": "B"
+   },
+   {
+    "start": 0.35,
+    "end": 0.42,
+    "value": "C"
+   },
+   {
+    "start": 0.42,
+    "end": 0.84,
+    "value": "B"
+   },
+   {
+    "start": 0.84,
+    "end": 0.92,
+    "value": "A"
+   },
+   {
+    "start": 0.92,
+    "end": 1.22,
+    "value": "E"
+   },
+   {
+    "start": 1.22,
+    "end": 1.57,
+    "value": "B"
+   },
+   {
+    "start": 1.57,
+    "end": 1.71,
+    "value": "G"
+   },
+   {
+    "start": 1.71,
+    "end": 1.92,
+    "value": "C"
+   },
+   {
+    "start": 1.92,
+    "end": 1.99,
+    "value": "B"
+   },
+   {
+    "start": 1.99,
+    "end": 2.07,
+    "value": "A"
+   },
+   {
+    "start": 2.07,
+    "end": 2.18,
+    "value": "B"
+   },
+   {
+    "start": 2.18,
+    "end": 2.29,
+    "value": "A"
+   },
+   {
+    "start": 2.29,
+    "end": 2.37,
+    "value": "E"
+   },
+   {
+    "start": 2.37,
+    "end": 2.45,
+    "value": "A"
+   },
+   {
+    "start": 2.45,
+    "end": 2.58,
+    "value": "E"
+   },
+   {
+    "start": 2.58,
+    "end": 2.65,
+    "value": "B"
+   },
+   {
+    "start": 2.65,
+    "end": 2.79,
+    "value": "F"
+   },
+   {
+    "start": 2.79,
+    "end": 2.86,
+    "value": "E"
+   },
+   {
+    "start": 2.86,
+    "end": 3.0,
+    "value": "F"
+   },
+   {
+    "start": 3.0,
+    "end": 3.21,
+    "value": "B"
+   },
+   {
+    "start": 3.21,
+    "end": 3.22,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_05",
+  "subtitle": "كاميرا 48 mégapixels و zoom optique 5 fois، تصوّر من بعيد بوضوح.",
+  "source": "human-take",
+  "start": 14.911,
+  "duration": 4.668,
+  "speed": 1.0272,
+  "words": [
+   {
+    "word": "كاميرا",
+    "start": 0.1,
+    "end": 0.72
+   },
+   {
+    "word": "48",
+    "start": 0.72,
+    "end": 1.3
+   },
+   {
+    "word": "mégapixels",
+    "start": 1.3,
+    "end": 2.0
+   },
+   {
+    "word": "و",
+    "start": 2.0,
+    "end": 2.2
+   },
+   {
+    "word": "zoom",
+    "start": 2.2,
+    "end": 2.38
+   },
+   {
+    "word": "optique",
+    "start": 2.38,
+    "end": 2.8
+   },
+   {
+    "word": "5",
+    "start": 2.8,
+    "end": 2.98
+   },
+   {
+    "word": "fois،",
+    "start": 2.98,
+    "end": 3.16
+   },
+   {
+    "word": "تصوّر",
+    "start": 3.16,
+    "end": 3.62
+   },
+   {
+    "word": "من",
+    "start": 3.62,
+    "end": 3.8
+   },
+   {
+    "word": "بعيد",
+    "start": 3.8,
+    "end": 4.18
+   },
+   {
+    "word": "بوضوح.",
+    "start": 4.18,
+    "end": 4.56
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.05,
+    "value": "B"
+   },
+   {
+    "start": 0.05,
+    "end": 0.17,
+    "value": "D"
+   },
+   {
+    "start": 0.17,
+    "end": 0.23,
+    "value": "C"
+   },
+   {
+    "start": 0.23,
+    "end": 0.31,
+    "value": "A"
+   },
+   {
+    "start": 0.31,
+    "end": 0.39,
+    "value": "C"
+   },
+   {
+    "start": 0.39,
+    "end": 0.46,
+    "value": "B"
+   },
+   {
+    "start": 0.46,
+    "end": 0.74,
+    "value": "C"
+   },
+   {
+    "start": 0.74,
+    "end": 0.88,
+    "value": "E"
+   },
+   {
+    "start": 0.88,
+    "end": 1.02,
+    "value": "B"
+   },
+   {
+    "start": 1.02,
+    "end": 1.1,
+    "value": "A"
+   },
+   {
+    "start": 1.1,
+    "end": 1.32,
+    "value": "C"
+   },
+   {
+    "start": 1.32,
+    "end": 1.44,
+    "value": "A"
+   },
+   {
+    "start": 1.44,
+    "end": 1.59,
+    "value": "B"
+   },
+   {
+    "start": 1.59,
+    "end": 1.66,
+    "value": "C"
+   },
+   {
+    "start": 1.66,
+    "end": 1.87,
+    "value": "B"
+   },
+   {
+    "start": 1.87,
+    "end": 2.15,
+    "value": "F"
+   },
+   {
+    "start": 2.15,
+    "end": 2.36,
+    "value": "E"
+   },
+   {
+    "start": 2.36,
+    "end": 2.78,
+    "value": "B"
+   },
+   {
+    "start": 2.78,
+    "end": 2.92,
+    "value": "C"
+   },
+   {
+    "start": 2.92,
+    "end": 2.99,
+    "value": "B"
+   },
+   {
+    "start": 2.99,
+    "end": 3.06,
+    "value": "G"
+   },
+   {
+    "start": 3.06,
+    "end": 3.2,
+    "value": "E"
+   },
+   {
+    "start": 3.2,
+    "end": 3.27,
+    "value": "C"
+   },
+   {
+    "start": 3.27,
+    "end": 3.41,
+    "value": "B"
+   },
+   {
+    "start": 3.41,
+    "end": 3.62,
+    "value": "F"
+   },
+   {
+    "start": 3.62,
+    "end": 3.64,
+    "value": "A"
+   },
+   {
+    "start": 3.64,
+    "end": 3.72,
+    "value": "B"
+   },
+   {
+    "start": 3.72,
+    "end": 3.79,
+    "value": "A"
+   },
+   {
+    "start": 3.79,
+    "end": 4.02,
+    "value": "B"
+   },
+   {
+    "start": 4.02,
+    "end": 4.1,
+    "value": "A"
+   },
+   {
+    "start": 4.1,
+    "end": 4.21,
+    "value": "E"
+   },
+   {
+    "start": 4.21,
+    "end": 4.29,
+    "value": "A"
+   },
+   {
+    "start": 4.29,
+    "end": 4.43,
+    "value": "E"
+   },
+   {
+    "start": 4.43,
+    "end": 4.5,
+    "value": "F"
+   },
+   {
+    "start": 4.5,
+    "end": 4.64,
+    "value": "B"
+   },
+   {
+    "start": 4.64,
+    "end": 4.66,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_06",
+  "subtitle": "كيخدم بالكارط SIM، و USB-C.",
+  "source": "human-take",
+  "start": 19.578,
+  "duration": 2.093,
+  "speed": 1.0272,
+  "words": [
+   {
+    "word": "كيخدم",
+    "start": 0.08,
+    "end": 0.46
+   },
+   {
+    "word": "بالكارط",
+    "start": 0.46,
+    "end": 1.1
+   },
+   {
+    "word": "SIM،",
+    "start": 1.1,
+    "end": 1.4
+   },
+   {
+    "word": "و",
+    "start": 1.4,
+    "end": 1.6
+   },
+   {
+    "word": "USB-C.",
+    "start": 1.6,
+    "end": 2.0
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.04,
+    "value": "X"
+   },
+   {
+    "start": 0.04,
+    "end": 0.32,
+    "value": "B"
+   },
+   {
+    "start": 0.32,
+    "end": 0.4,
+    "value": "A"
+   },
+   {
+    "start": 0.4,
+    "end": 0.45,
+    "value": "F"
+   },
+   {
+    "start": 0.45,
+    "end": 0.62,
+    "value": "C"
+   },
+   {
+    "start": 0.62,
+    "end": 0.66,
+    "value": "E"
+   },
+   {
+    "start": 0.66,
+    "end": 0.92,
+    "value": "F"
+   },
+   {
+    "start": 0.92,
+    "end": 1.13,
+    "value": "B"
+   },
+   {
+    "start": 1.13,
+    "end": 1.21,
+    "value": "A"
+   },
+   {
+    "start": 1.21,
+    "end": 1.29,
+    "value": "B"
+   },
+   {
+    "start": 1.29,
+    "end": 1.36,
+    "value": "E"
+   },
+   {
+    "start": 1.36,
+    "end": 1.5,
+    "value": "F"
+   },
+   {
+    "start": 1.5,
+    "end": 2.06,
+    "value": "B"
+   },
+   {
+    "start": 2.06,
+    "end": 2.09,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_07",
+  "subtitle": "Produit original, boîte fermée, jamais ouvert, jamais activé.",
+  "source": "human-take",
+  "start": 21.671,
+  "duration": 3.913,
+  "speed": 1.0272,
+  "words": [
+   {
+    "word": "Produit",
+    "start": 0.08,
+    "end": 0.52
+   },
+   {
+    "word": "original,",
+    "start": 0.52,
+    "end": 1.4
+   },
+   {
+    "word": "boîte",
+    "start": 1.4,
+    "end": 1.62
+   },
+   {
+    "word": "fermée,",
+    "start": 1.62,
+    "end": 2.12
+   },
+   {
+    "word": "jamais",
+    "start": 2.12,
+    "end": 2.52
+   },
+   {
+    "word": "ouvert,",
+    "start": 2.52,
+    "end": 3.02
+   },
+   {
+    "word": "jamais",
+    "start": 3.02,
+    "end": 3.42
+   },
+   {
+    "word": "activé.",
+    "start": 3.42,
+    "end": 3.82
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.04,
+    "value": "X"
+   },
+   {
+    "start": 0.04,
+    "end": 0.11,
+    "value": "B"
+   },
+   {
+    "start": 0.11,
+    "end": 0.18,
+    "value": "E"
+   },
+   {
+    "start": 0.18,
+    "end": 0.26,
+    "value": "A"
+   },
+   {
+    "start": 0.26,
+    "end": 0.47,
+    "value": "B"
+   },
+   {
+    "start": 0.47,
+    "end": 0.61,
+    "value": "E"
+   },
+   {
+    "start": 0.61,
+    "end": 0.68,
+    "value": "F"
+   },
+   {
+    "start": 0.68,
+    "end": 0.89,
+    "value": "B"
+   },
+   {
+    "start": 0.89,
+    "end": 1.03,
+    "value": "C"
+   },
+   {
+    "start": 1.03,
+    "end": 1.1,
+    "value": "E"
+   },
+   {
+    "start": 1.1,
+    "end": 1.38,
+    "value": "A"
+   },
+   {
+    "start": 1.38,
+    "end": 1.44,
+    "value": "F"
+   },
+   {
+    "start": 1.44,
+    "end": 1.57,
+    "value": "B"
+   },
+   {
+    "start": 1.57,
+    "end": 1.64,
+    "value": "G"
+   },
+   {
+    "start": 1.64,
+    "end": 1.78,
+    "value": "B"
+   },
+   {
+    "start": 1.78,
+    "end": 1.86,
+    "value": "A"
+   },
+   {
+    "start": 1.86,
+    "end": 1.9,
+    "value": "C"
+   },
+   {
+    "start": 1.9,
+    "end": 2.22,
+    "value": "B"
+   },
+   {
+    "start": 2.22,
+    "end": 2.29,
+    "value": "C"
+   },
+   {
+    "start": 2.29,
+    "end": 2.37,
+    "value": "A"
+   },
+   {
+    "start": 2.37,
+    "end": 2.43,
+    "value": "B"
+   },
+   {
+    "start": 2.43,
+    "end": 2.56,
+    "value": "E"
+   },
+   {
+    "start": 2.56,
+    "end": 2.7,
+    "value": "G"
+   },
+   {
+    "start": 2.7,
+    "end": 2.84,
+    "value": "C"
+   },
+   {
+    "start": 2.84,
+    "end": 3.19,
+    "value": "B"
+   },
+   {
+    "start": 3.19,
+    "end": 3.26,
+    "value": "D"
+   },
+   {
+    "start": 3.26,
+    "end": 3.34,
+    "value": "A"
+   },
+   {
+    "start": 3.34,
+    "end": 3.45,
+    "value": "C"
+   },
+   {
+    "start": 3.45,
+    "end": 3.66,
+    "value": "B"
+   },
+   {
+    "start": 3.66,
+    "end": 3.73,
+    "value": "G"
+   },
+   {
+    "start": 3.73,
+    "end": 3.87,
+    "value": "B"
+   },
+   {
+    "start": 3.87,
+    "end": 3.91,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_08",
+  "subtitle": "إلا بغيتي تكوموندي، صيفط لينا ميساج.",
+  "source": "human-take",
+  "start": 25.585,
+  "duration": 2.015,
+  "speed": 1.0272,
+  "words": [
+   {
+    "word": "إلا",
+    "start": 0.08,
+    "end": 0.2
+   },
+   {
+    "word": "بغيتي",
+    "start": 0.2,
+    "end": 0.48
+   },
+   {
+    "word": "تكوموندي،",
+    "start": 0.48,
+    "end": 1.12
+   },
+   {
+    "word": "صيفط",
+    "start": 1.12,
+    "end": 1.42
+   },
+   {
+    "word": "لينا",
+    "start": 1.42,
+    "end": 1.7
+   },
+   {
+    "word": "ميساج.",
+    "start": 1.7,
+    "end": 2.0
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.05,
+    "value": "X"
+   },
+   {
+    "start": 0.05,
+    "end": 0.24,
+    "value": "B"
+   },
+   {
+    "start": 0.24,
+    "end": 0.45,
+    "value": "F"
+   },
+   {
+    "start": 0.45,
+    "end": 0.59,
+    "value": "E"
+   },
+   {
+    "start": 0.59,
+    "end": 0.67,
+    "value": "A"
+   },
+   {
+    "start": 0.67,
+    "end": 0.75,
+    "value": "E"
+   },
+   {
+    "start": 0.75,
+    "end": 0.82,
+    "value": "A"
+   },
+   {
+    "start": 0.82,
+    "end": 1.0,
+    "value": "C"
+   },
+   {
+    "start": 1.0,
+    "end": 1.21,
+    "value": "B"
+   },
+   {
+    "start": 1.21,
+    "end": 1.28,
+    "value": "C"
+   },
+   {
+    "start": 1.28,
+    "end": 1.49,
+    "value": "B"
+   },
+   {
+    "start": 1.49,
+    "end": 1.56,
+    "value": "C"
+   },
+   {
+    "start": 1.56,
+    "end": 1.64,
+    "value": "A"
+   },
+   {
+    "start": 1.64,
+    "end": 2.0,
+    "value": "B"
+   },
+   {
+    "start": 2.0,
+    "end": 2.01,
+    "value": "X"
+   }
+  ]
+ }
+]

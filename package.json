@@ -162,7 +162,11 @@
     "iphoneduo2:cutout": "python3 reels/iphoneduo2/cutout.py",
     "iphoneduo2:audio": "REEL=iphoneduo2 python3 scripts/process_vo_take.py && python3 reels/iphoneduo2/build_timeline.py && REEL=iphoneduo2 python3 scripts/make_music.py && REEL=iphoneduo2 python3 scripts/mix_audio.py",
     "iphoneduo2:render": "remotion render IphoneDuo2Reel9x16 out/iphoneduo2/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still IphoneDuo2Cover out/iphoneduo2/cover_1080x1920.png",
-    "iphoneduo2:build": "npm run iphoneduo2:cutout && npm run iphoneduo2:audio && REEL=iphoneduo2 node scripts/make_srt.mjs && npm run iphoneduo2:render && REEL=iphoneduo2 bash scripts/finalize.sh && REEL=iphoneduo2 bash scripts/verify.sh"
+    "iphoneduo2:build": "npm run iphoneduo2:cutout && npm run iphoneduo2:audio && REEL=iphoneduo2 node scripts/make_srt.mjs && npm run iphoneduo2:render && REEL=iphoneduo2 bash scripts/finalize.sh && REEL=iphoneduo2 bash scripts/verify.sh",
+    "ip15pm:cutout": "python3 reels/ip15pm/cutout.py",
+    "ip15pm:audio": "REEL=ip15pm python3 scripts/process_vo_take.py && python3 reels/ip15pm/build_timeline.py && REEL=ip15pm python3 scripts/make_music.py && REEL=ip15pm python3 scripts/mix_audio.py",
+    "ip15pm:render": "remotion render Ip15pmReel9x16 out/ip15pm/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Ip15pmCover out/ip15pm/cover_1080x1920.png",
+    "ip15pm:build": "npm run ip15pm:cutout && npm run ip15pm:audio && REEL=ip15pm node scripts/make_srt.mjs && npm run ip15pm:render && REEL=ip15pm bash scripts/finalize.sh && REEL=ip15pm bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

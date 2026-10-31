@@ -1,0 +1,11 @@
+{
+ "id": "ip15pm",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [6.0, 8.1, 12.9, 16.48, 21.5, 23.8, 28.05],
+ "lead": 0.06,
+ "voEndBy": 27.6,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "note": "iPhone 15 Pro Max 1TB Blue Titanium (new, sealed). Aim 30 s: pause trimming, then <=1.1x pitch-kept speed-up. 9:16 + cover only."
+}

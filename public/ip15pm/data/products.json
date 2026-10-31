@@ -1,0 +1,17 @@
+{
+ "pair": {
+  "src": "ip15pm/products/pair.png",
+  "w": 537,
+  "h": 666
+ },
+ "front": {
+  "src": "ip15pm/products/front.png",
+  "w": 322,
+  "h": 666
+ },
+ "cam": {
+  "src": "ip15pm/products/cam.png",
+  "w": 400,
+  "h": 380
+ }
+}

@@ -66,6 +66,7 @@ npm run studio                   # interactive preview
 | Apple Pencil range: Pro, 2e gén., 1re gén., USB-C (Darija, **36.5 s**, over 30 s at natural speed; 9:16 only) | `PencilsReel9x16`, `PencilsCover` | `out/pencils/` | `npm run pencils:build` |
 | DJI Osmo Mobile 7 (Darija, 30 s, pause trimming + 1.10x; 9:16 only) | `Om7Reel9x16`, `Om7Cover` | `out/om7/` | `npm run om7:build` |
 | iPhone Duo 256GB, Night Sky + Star White (Darija, 30 s, tightest pauses + 1.06x on request; 9:16 only) | `IphoneDuo2Reel9x16`, `IphoneDuo2Cover` | `out/iphoneduo2/` | `npm run iphoneduo2:build` |
+| iPhone 15 Pro Max 1TB Blue Titanium, neuf scellé (Darija, 30 s, pause trimming + 1.03x; 9:16 only) | `Ip15pmReel9x16`, `Ip15pmCover` | `out/ip15pm/` | `npm run ip15pm:build` |
 | Apple Watch Ultra 4 (Darija) | `WatchReel9x16`, `WatchReel1x1`, `WatchCover` | `out/watch/` | `npm run watch:build` |
 | Galaxy Watch8 Classic + Ultra2 (Darija) | `GalaxyReel9x16`, `GalaxyReel1x1`, `GalaxyCover` | `out/galaxy/` | `npm run galaxy:build` |
 | Sony WH-1000XM6 + XM5 (Darija) | `SonyReel9x16`, `SonyReel1x1`, `SonyCover` | `out/sony/` | `npm run sony:build` |

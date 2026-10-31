@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # iPhone 15 Pro Max reel (30 s): cool D-minor premium pulse; drop on "إيه، كاين عندنا!"
+    "ip15pm": dict(seed=379, phase=1.0, drop=4.5, end_lift=27.75, stop=28.25,
+                   chords=[[62, 65, 69], [58, 62, 65], [60, 64, 67], [57, 61, 64]], roots=[38, 34, 36, 33],
+                   final=[62, 65, 69, 74], final_bass=38, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
     # iPhone Duo (two colours) reel (30 s): same airy G-major premium pop as the first Duo reel, new seed; drop on the unfold
     "iphoneduo2": dict(seed=373, phase=1.0, drop=1.0, end_lift=27.75, stop=28.25,
                        chords=[[67, 71, 74], [64, 67, 71], [60, 64, 67], [62, 66, 69]], roots=[43, 40, 36, 38],

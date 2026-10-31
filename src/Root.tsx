@@ -111,6 +111,9 @@ import { O7TL } from "./reels/om7/timeline";
 import { IphoneDuo2Reel } from "./reels/iphoneduo2/IphoneDuo2Reel";
 import { IphoneDuo2Cover } from "./reels/iphoneduo2/IphoneDuo2Cover";
 import { D2TL } from "./reels/iphoneduo2/timeline";
+import { Ip15pmReel } from "./reels/ip15pm/Ip15pmReel";
+import { Ip15pmCover } from "./reels/ip15pm/Ip15pmCover";
+import { P5TL } from "./reels/ip15pm/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -230,6 +233,9 @@ export const RemotionRoot: React.FC = () => (
     {/* iPhone Duo 256GB, Night Sky + Star White: 30 s (tightest pauses + 1.06x on request); 9:16 + cover only */}
     <Composition id="IphoneDuo2Reel9x16" component={IphoneDuo2Reel} durationInFrames={Math.min(D2TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="IphoneDuo2Cover" component={IphoneDuo2Cover} width={1080} height={1920} />
+    {/* iPhone 15 Pro Max 1TB Blue Titanium: 30 s (pause trimming + light 1.03x); 9:16 + cover only */}
+    <Composition id="Ip15pmReel9x16" component={Ip15pmReel} durationInFrames={Math.min(P5TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="Ip15pmCover" component={Ip15pmCover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );
