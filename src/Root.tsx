@@ -114,6 +114,9 @@ import { D2TL } from "./reels/iphoneduo2/timeline";
 import { Ip15pmReel } from "./reels/ip15pm/Ip15pmReel";
 import { Ip15pmCover } from "./reels/ip15pm/Ip15pmCover";
 import { P5TL } from "./reels/ip15pm/timeline";
+import { FC27Reel } from "./reels/fc27/FCReel";
+import { FC27Cover } from "./reels/fc27/FC27Cover";
+import { FCTL } from "./reels/fc27/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -236,6 +239,9 @@ export const RemotionRoot: React.FC = () => (
     {/* iPhone 15 Pro Max 1TB Blue Titanium: 30 s (pause trimming + light 1.03x); 9:16 + cover only */}
     <Composition id="Ip15pmReel9x16" component={Ip15pmReel} durationInFrames={Math.min(P5TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Ip15pmCover" component={Ip15pmCover} width={1080} height={1920} />
+    {/* EA SPORTS FC 27 (PS5): 30 s (pause trimming, natural speed); 9:16 + cover only */}
+    <Composition id="FC27Reel9x16" component={FC27Reel} durationInFrames={Math.min(FCTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="FC27Cover" component={FC27Cover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

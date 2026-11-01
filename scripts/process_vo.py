@@ -186,7 +186,9 @@ SPOKEN = {"18": "dix-huit", "100": "cent pour cent", "%": "", "citystore.ma": "c
           "dji": "di ji ai", "osmo": "os mo", "mobile": "mo bil", "7،": "set", "stabilisateur": "sta bi li za teur", "axes:": "aks",
           "activetrack": "ak tiv trak", "l’application": "la pli ka syon", "mimo:": "mi mo", "pince": "pans", "10": "dis", "night": "nait", "sky": "skai",
           "15": "kenz", "pro": "pro", "max": "maks", "2026؟": "de mil vin sis", "1tb،": "un te ra ok tet", "blue": "blu", "titanium.": "ti ta nium",
-          "promotion.": "pro mo shon", "a17": "a dis set", "zoom": "zum", "optique": "op tik", "5": "sank", "fois،": "fwa", "sim،": "sim", "usb-c.": "u es be se"}
+          "promotion.": "pro mo shon", "a17": "a dis set", "zoom": "zum", "optique": "op tik", "5": "sank", "fois،": "fwa", "sim،": "sim", "usb-c.": "u es be se",
+          "fc": "ef se", "27": "vint set", "ea": "i a", "sports": "sports", "ps5،": "pe es sank", "the": "ze", "grounds،": "graunds",
+          "career،": "ka rir", "ultimate": "ul ti met", "team": "tim", "laliga،": "la li ga", "champions": "cham pions", "league": "lig"}
 ARABIC = "\\u0621-\\u063F\\u0641-\\u064A\\u0671-\\u06D3"  # Arabic letters (no punctuation, no tatweel)
 
 

@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # EA SPORTS FC 27 reel (30 s): stadium-anthem F-minor drive; drop when the box lands
+    "fc27": dict(seed=383, phase=1.0, drop=3.5, end_lift=27.75, stop=28.25,
+                 chords=[[65, 68, 72], [61, 65, 68], [63, 67, 70], [60, 64, 67]], roots=[41, 37, 39, 36],
+                 final=[65, 68, 72, 77], final_bass=41, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
     # iPhone 15 Pro Max reel (30 s): cool D-minor premium pulse; drop on "إيه، كاين عندنا!"
     "ip15pm": dict(seed=379, phase=1.0, drop=4.5, end_lift=27.75, stop=28.25,
                    chords=[[62, 65, 69], [58, 62, 65], [60, 64, 67], [57, 61, 64]], roots=[38, 34, 36, 33],

@@ -1,0 +1,11 @@
+{
+ "id": "fc27",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [3.75, 8.2, 14.05, 19.45, 23.85, 27.5],
+ "lead": 0.06,
+ "voEndBy": 999,
+ "maxPause": 0.12,
+ "sentPause": 0.25,
+ "note": "EA SPORTS FC 27 (PS5), new, sealed. Aim 30 s: pause trimming with 0.25 s sentence breaks, natural speed (no speed-up needed). 9:16 + cover only."
+}
