@@ -1,0 +1,18 @@
+{
+ "colorsoft": {
+  "src": "kindles/products/colorsoft.png",
+  "w": 1040,
+  "h": 1100
+ },
+ "scribe": {
+  "src": "kindles/products/scribe.png",
+  "w": 616,
+  "h": 664,
+  "note": [
+   0.2403,
+   0.5663,
+   0.7727,
+   0.8434
+  ]
+ }
+}

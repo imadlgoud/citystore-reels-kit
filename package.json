@@ -170,7 +170,11 @@
     "fc27:cutout": "python3 reels/fc27/cutout.py",
     "fc27:audio": "REEL=fc27 python3 scripts/process_vo_take.py && python3 reels/fc27/build_timeline.py && REEL=fc27 python3 scripts/make_music.py && REEL=fc27 python3 scripts/mix_audio.py",
     "fc27:render": "remotion render FC27Reel9x16 out/fc27/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still FC27Cover out/fc27/cover_1080x1920.png",
-    "fc27:build": "npm run fc27:cutout && npm run fc27:audio && REEL=fc27 node scripts/make_srt.mjs && npm run fc27:render && REEL=fc27 bash scripts/finalize.sh && REEL=fc27 bash scripts/verify.sh"
+    "fc27:build": "npm run fc27:cutout && npm run fc27:audio && REEL=fc27 node scripts/make_srt.mjs && npm run fc27:render && REEL=fc27 bash scripts/finalize.sh && REEL=fc27 bash scripts/verify.sh",
+    "kindles:cutout": "python3 reels/kindles/cutout.py",
+    "kindles:audio": "REEL=kindles python3 scripts/process_vo_take.py && python3 reels/kindles/build_timeline.py && REEL=kindles python3 scripts/make_music.py && REEL=kindles python3 scripts/mix_audio.py",
+    "kindles:render": "remotion render KindlesReel9x16 out/kindles/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still KindlesCover out/kindles/cover_1080x1920.png",
+    "kindles:build": "npm run kindles:cutout && npm run kindles:audio && REEL=kindles node scripts/make_srt.mjs && npm run kindles:render && REEL=kindles bash scripts/finalize.sh && REEL=kindles bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

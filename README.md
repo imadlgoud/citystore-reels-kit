@@ -68,6 +68,7 @@ npm run studio                   # interactive preview
 | iPhone Duo 256GB, Night Sky + Star White (Darija, 30 s, tightest pauses + 1.06x on request; 9:16 only) | `IphoneDuo2Reel9x16`, `IphoneDuo2Cover` | `out/iphoneduo2/` | `npm run iphoneduo2:build` |
 | iPhone 15 Pro Max 1TB Blue Titanium, neuf scellé (Darija, 30 s, pause trimming + 1.03x; 9:16 only) | `Ip15pmReel9x16`, `Ip15pmCover` | `out/ip15pm/` | `npm run ip15pm:build` |
 | EA SPORTS FC 27 (PS5), neuf scellé (Darija, 30 s, pause trimming, natural speed; 9:16 only) | `FC27Reel9x16`, `FC27Cover` | `out/fc27/` | `npm run fc27:build` |
+| Kindle Colorsoft 16GB + Kindle Scribe 16GB (Darija, **35 s**, VO sped up on request: trim + 1.10x; 9:16 only) | `KindlesReel9x16`, `KindlesCover` | `out/kindles/` | `npm run kindles:build` |
 | Apple Watch Ultra 4 (Darija) | `WatchReel9x16`, `WatchReel1x1`, `WatchCover` | `out/watch/` | `npm run watch:build` |
 | Galaxy Watch8 Classic + Ultra2 (Darija) | `GalaxyReel9x16`, `GalaxyReel1x1`, `GalaxyCover` | `out/galaxy/` | `npm run galaxy:build` |
 | Sony WH-1000XM6 + XM5 (Darija) | `SonyReel9x16`, `SonyReel1x1`, `SonyCover` | `out/sony/` | `npm run sony:build` |

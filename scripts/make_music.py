@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # Kindle Colorsoft + Scribe reel (35 s, over 30 s): calm, warm A-flat reading groove; drop on "جوج Kindle"
+    "kindles": dict(seed=389, dur=35.0, phase=1.0, drop=2.0, end_lift=32.0, stop=33.75,
+                    chords=[[56, 60, 63], [53, 56, 60], [49, 53, 56], [51, 55, 58]], roots=[44, 41, 37, 39],
+                    final=[56, 60, 63, 68], final_bass=44, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
     # EA SPORTS FC 27 reel (30 s): stadium-anthem F-minor drive; drop when the box lands
     "fc27": dict(seed=383, phase=1.0, drop=3.5, end_lift=27.75, stop=28.25,
                  chords=[[65, 68, 72], [61, 65, 68], [63, 67, 70], [60, 64, 67]], roots=[41, 37, 39, 36],

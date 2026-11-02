@@ -1,0 +1,12 @@
+{
+ "id": "kindles",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [5.2, 13.46, 20.94, 26.97, 32.85, 37.6],
+ "lead": 0.06,
+ "voEndBy": 31.63,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "maxSeconds": 60,
+ "note": "Kindle Colorsoft 16GB + Kindle Scribe 16GB (Premium Pen). User asked to speed the VO up a bit: pause trimming + max 1.10x pitch-kept speed-up -> VO ends at 31.6 s, reel 35 s (over 30 s under the standing approval). 9:16 + cover only."
+}

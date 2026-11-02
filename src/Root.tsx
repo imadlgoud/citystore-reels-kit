@@ -117,6 +117,9 @@ import { P5TL } from "./reels/ip15pm/timeline";
 import { FC27Reel } from "./reels/fc27/FCReel";
 import { FC27Cover } from "./reels/fc27/FC27Cover";
 import { FCTL } from "./reels/fc27/timeline";
+import { KindlesReel } from "./reels/kindles/KindlesReel";
+import { KindlesCover } from "./reels/kindles/KindlesCover";
+import { KDTL } from "./reels/kindles/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -242,6 +245,9 @@ export const RemotionRoot: React.FC = () => (
     {/* EA SPORTS FC 27 (PS5): 30 s (pause trimming, natural speed); 9:16 + cover only */}
     <Composition id="FC27Reel9x16" component={FC27Reel} durationInFrames={Math.min(FCTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="FC27Cover" component={FC27Cover} width={1080} height={1920} />
+    {/* Kindle Colorsoft + Scribe: 35 s, over 30 s (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
+    <Composition id="KindlesReel9x16" component={KindlesReel} durationInFrames={KDTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="KindlesCover" component={KindlesCover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );
