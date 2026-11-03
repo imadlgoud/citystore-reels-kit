@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # WHOOP Life reel (36.5 s, over 30 s at natural speed): same bright F-major fitness pulse as the WHOOP 5.0 reel, new seed
+    "whooplife": dict(seed=397, dur=36.5, phase=1.0, drop=1.0, end_lift=33.75, stop=35.25,
+                      chords=[[65, 69, 72], [62, 65, 69], [58, 62, 65], [60, 64, 67]], roots=[41, 38, 34, 36],
+                      final=[65, 69, 72, 77], final_bass=41, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
     # Kindle Colorsoft + Scribe reel (35 s, over 30 s): calm, warm A-flat reading groove; drop on "جوج Kindle"
     "kindles": dict(seed=389, dur=35.0, phase=1.0, drop=2.0, end_lift=32.0, stop=33.75,
                     chords=[[56, 60, 63], [53, 56, 60], [49, 53, 56], [51, 55, 58]], roots=[44, 41, 37, 39],

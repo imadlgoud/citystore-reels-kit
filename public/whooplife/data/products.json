@@ -1,0 +1,17 @@
+{
+ "life": {
+  "src": "whooplife/products/life.png",
+  "w": 543,
+  "h": 615
+ },
+ "box": {
+  "src": "whooplife/products/box.png",
+  "w": 174,
+  "h": 477
+ },
+ "battery": {
+  "src": "whooplife/products/battery.png",
+  "w": 606,
+  "h": 465
+ }
+}

@@ -120,6 +120,9 @@ import { FCTL } from "./reels/fc27/timeline";
 import { KindlesReel } from "./reels/kindles/KindlesReel";
 import { KindlesCover } from "./reels/kindles/KindlesCover";
 import { KDTL } from "./reels/kindles/timeline";
+import { WhoopLifeReel } from "./reels/whooplife/WhoopLifeReel";
+import { WhoopLifeCover } from "./reels/whooplife/WhoopLifeCover";
+import { WLTL } from "./reels/whooplife/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -248,6 +251,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Kindle Colorsoft + Scribe: 35 s, over 30 s (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
     <Composition id="KindlesReel9x16" component={KindlesReel} durationInFrames={KDTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="KindlesCover" component={KindlesCover} width={1080} height={1920} />
+    {/* WHOOP Life (12-month membership): 36.5 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
+    <Composition id="WhoopLifeReel9x16" component={WhoopLifeReel} durationInFrames={WLTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="WhoopLifeCover" component={WhoopLifeCover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

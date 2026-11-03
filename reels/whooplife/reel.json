@@ -1,0 +1,12 @@
+{
+ "id": "whooplife",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [4.13, 7.97, 13.18, 18.36, 23.95, 27.72, 31.86],
+ "lead": 0.06,
+ "voEndBy": 999,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "maxSeconds": 60,
+ "note": "WHOOP Life (12-month membership). 34.2 s raw -> 33.5 s trimmed; even 1.10x would end at 30.5 s, so per the standing rule the reel goes over 30 s at natural speed (36.5 s). 9:16 + cover only."
+}
