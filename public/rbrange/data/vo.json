@@ -1,0 +1,2013 @@
+[
+ {
+  "id": "line_01",
+  "subtitle": "إلا كنتي كتقلّب على نضاضر smart، ما تشريش حتى تشوف هاد الفيديو!",
+  "source": "human-take",
+  "start": 0.06,
+  "duration": 4.88,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "إلا",
+    "start": 0.0,
+    "end": 0.26
+   },
+   {
+    "word": "كنتي",
+    "start": 0.26,
+    "end": 0.8
+   },
+   {
+    "word": "كتقلّب",
+    "start": 0.8,
+    "end": 1.28
+   },
+   {
+    "word": "على",
+    "start": 1.28,
+    "end": 1.52
+   },
+   {
+    "word": "نضاضر",
+    "start": 1.52,
+    "end": 2.04
+   },
+   {
+    "word": "smart،",
+    "start": 2.04,
+    "end": 2.28
+   },
+   {
+    "word": "ما",
+    "start": 2.28,
+    "end": 2.52
+   },
+   {
+    "word": "تشريش",
+    "start": 2.52,
+    "end": 3.02
+   },
+   {
+    "word": "حتى",
+    "start": 3.02,
+    "end": 3.26
+   },
+   {
+    "word": "تشوف",
+    "start": 3.26,
+    "end": 3.82
+   },
+   {
+    "word": "هاد",
+    "start": 3.82,
+    "end": 4.06
+   },
+   {
+    "word": "الفيديو!",
+    "start": 4.06,
+    "end": 4.82
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.08,
+    "value": "B"
+   },
+   {
+    "start": 0.08,
+    "end": 0.15,
+    "value": "C"
+   },
+   {
+    "start": 0.15,
+    "end": 0.78,
+    "value": "B"
+   },
+   {
+    "start": 0.78,
+    "end": 0.86,
+    "value": "A"
+   },
+   {
+    "start": 0.86,
+    "end": 0.95,
+    "value": "C"
+   },
+   {
+    "start": 0.95,
+    "end": 1.02,
+    "value": "H"
+   },
+   {
+    "start": 1.02,
+    "end": 1.09,
+    "value": "C"
+   },
+   {
+    "start": 1.09,
+    "end": 1.17,
+    "value": "A"
+   },
+   {
+    "start": 1.17,
+    "end": 1.27,
+    "value": "C"
+   },
+   {
+    "start": 1.27,
+    "end": 1.38,
+    "value": "A"
+   },
+   {
+    "start": 1.38,
+    "end": 1.55,
+    "value": "B"
+   },
+   {
+    "start": 1.55,
+    "end": 1.63,
+    "value": "A"
+   },
+   {
+    "start": 1.63,
+    "end": 1.69,
+    "value": "D"
+   },
+   {
+    "start": 1.69,
+    "end": 1.95,
+    "value": "B"
+   },
+   {
+    "start": 1.95,
+    "end": 2.08,
+    "value": "A"
+   },
+   {
+    "start": 2.08,
+    "end": 2.12,
+    "value": "F"
+   },
+   {
+    "start": 2.12,
+    "end": 2.37,
+    "value": "B"
+   },
+   {
+    "start": 2.37,
+    "end": 2.44,
+    "value": "C"
+   },
+   {
+    "start": 2.44,
+    "end": 3.0,
+    "value": "B"
+   },
+   {
+    "start": 3.0,
+    "end": 3.07,
+    "value": "G"
+   },
+   {
+    "start": 3.07,
+    "end": 3.21,
+    "value": "B"
+   },
+   {
+    "start": 3.21,
+    "end": 3.28,
+    "value": "G"
+   },
+   {
+    "start": 3.28,
+    "end": 3.35,
+    "value": "B"
+   },
+   {
+    "start": 3.35,
+    "end": 3.7,
+    "value": "F"
+   },
+   {
+    "start": 3.7,
+    "end": 3.77,
+    "value": "B"
+   },
+   {
+    "start": 3.77,
+    "end": 3.84,
+    "value": "C"
+   },
+   {
+    "start": 3.84,
+    "end": 3.92,
+    "value": "A"
+   },
+   {
+    "start": 3.92,
+    "end": 4.11,
+    "value": "C"
+   },
+   {
+    "start": 4.11,
+    "end": 4.19,
+    "value": "A"
+   },
+   {
+    "start": 4.19,
+    "end": 4.26,
+    "value": "C"
+   },
+   {
+    "start": 4.26,
+    "end": 4.33,
+    "value": "A"
+   },
+   {
+    "start": 4.33,
+    "end": 4.51,
+    "value": "C"
+   },
+   {
+    "start": 4.51,
+    "end": 4.53,
+    "value": "A"
+   },
+   {
+    "start": 4.53,
+    "end": 4.59,
+    "value": "B"
+   },
+   {
+    "start": 4.59,
+    "end": 4.64,
+    "value": "A"
+   },
+   {
+    "start": 4.64,
+    "end": 4.8,
+    "value": "C"
+   },
+   {
+    "start": 4.8,
+    "end": 4.87,
+    "value": "E"
+   },
+   {
+    "start": 4.87,
+    "end": 4.88,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_02",
+  "subtitle": "Ray-Ban Meta بربعة، disponibles دابا عندنا:",
+  "source": "human-take",
+  "start": 4.94,
+  "duration": 2.06,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Ray-Ban",
+    "start": 0.06,
+    "end": 0.42
+   },
+   {
+    "word": "Meta",
+    "start": 0.42,
+    "end": 0.58
+   },
+   {
+    "word": "بربعة،",
+    "start": 0.58,
+    "end": 0.88
+   },
+   {
+    "word": "disponibles",
+    "start": 0.88,
+    "end": 1.36
+   },
+   {
+    "word": "دابا",
+    "start": 1.36,
+    "end": 1.66
+   },
+   {
+    "word": "عندنا:",
+    "start": 1.66,
+    "end": 1.98
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.03,
+    "value": "X"
+   },
+   {
+    "start": 0.03,
+    "end": 0.2,
+    "value": "B"
+   },
+   {
+    "start": 0.2,
+    "end": 0.28,
+    "value": "A"
+   },
+   {
+    "start": 0.28,
+    "end": 0.4,
+    "value": "E"
+   },
+   {
+    "start": 0.4,
+    "end": 0.47,
+    "value": "B"
+   },
+   {
+    "start": 0.47,
+    "end": 0.55,
+    "value": "A"
+   },
+   {
+    "start": 0.55,
+    "end": 0.65,
+    "value": "B"
+   },
+   {
+    "start": 0.65,
+    "end": 0.79,
+    "value": "C"
+   },
+   {
+    "start": 0.79,
+    "end": 0.87,
+    "value": "A"
+   },
+   {
+    "start": 0.87,
+    "end": 0.98,
+    "value": "C"
+   },
+   {
+    "start": 0.98,
+    "end": 1.05,
+    "value": "B"
+   },
+   {
+    "start": 1.05,
+    "end": 1.26,
+    "value": "C"
+   },
+   {
+    "start": 1.26,
+    "end": 1.33,
+    "value": "E"
+   },
+   {
+    "start": 1.33,
+    "end": 1.47,
+    "value": "F"
+   },
+   {
+    "start": 1.47,
+    "end": 1.54,
+    "value": "C"
+   },
+   {
+    "start": 1.54,
+    "end": 1.61,
+    "value": "B"
+   },
+   {
+    "start": 1.61,
+    "end": 1.68,
+    "value": "G"
+   },
+   {
+    "start": 1.68,
+    "end": 1.75,
+    "value": "C"
+   },
+   {
+    "start": 1.75,
+    "end": 2.03,
+    "value": "E"
+   },
+   {
+    "start": 2.03,
+    "end": 2.06,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_03",
+  "subtitle": "Wayfarer 3e génération، Matte Black، verres Transitions: كيتبدلو بوحدهم على حساب الضو، وفيهم bouton لـ Meta AI.",
+  "source": "human-take",
+  "start": 7.0,
+  "duration": 6.73,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Wayfarer",
+    "start": 0.06,
+    "end": 0.44
+   },
+   {
+    "word": "3e",
+    "start": 0.44,
+    "end": 0.84
+   },
+   {
+    "word": "génération،",
+    "start": 0.84,
+    "end": 1.24
+   },
+   {
+    "word": "Matte",
+    "start": 1.24,
+    "end": 1.42
+   },
+   {
+    "word": "Black،",
+    "start": 1.42,
+    "end": 1.62
+   },
+   {
+    "word": "verres",
+    "start": 1.62,
+    "end": 1.98
+   },
+   {
+    "word": "Transitions:",
+    "start": 1.98,
+    "end": 2.62
+   },
+   {
+    "word": "كيتبدلو",
+    "start": 2.62,
+    "end": 3.28
+   },
+   {
+    "word": "بوحدهم",
+    "start": 3.28,
+    "end": 3.88
+   },
+   {
+    "word": "على",
+    "start": 3.88,
+    "end": 4.06
+   },
+   {
+    "word": "حساب",
+    "start": 4.06,
+    "end": 4.46
+   },
+   {
+    "word": "الضو،",
+    "start": 4.46,
+    "end": 4.94
+   },
+   {
+    "word": "وفيهم",
+    "start": 4.94,
+    "end": 5.4
+   },
+   {
+    "word": "bouton",
+    "start": 5.4,
+    "end": 5.84
+   },
+   {
+    "word": "لـ",
+    "start": 5.84,
+    "end": 6.04
+   },
+   {
+    "word": "Meta",
+    "start": 6.04,
+    "end": 6.24
+   },
+   {
+    "word": "AI.",
+    "start": 6.24,
+    "end": 6.7
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.18,
+    "value": "B"
+   },
+   {
+    "start": 0.18,
+    "end": 0.25,
+    "value": "C"
+   },
+   {
+    "start": 0.25,
+    "end": 0.46,
+    "value": "B"
+   },
+   {
+    "start": 0.46,
+    "end": 0.6,
+    "value": "C"
+   },
+   {
+    "start": 0.6,
+    "end": 0.67,
+    "value": "H"
+   },
+   {
+    "start": 0.67,
+    "end": 0.74,
+    "value": "D"
+   },
+   {
+    "start": 0.74,
+    "end": 0.88,
+    "value": "B"
+   },
+   {
+    "start": 0.88,
+    "end": 0.95,
+    "value": "E"
+   },
+   {
+    "start": 0.95,
+    "end": 1.02,
+    "value": "F"
+   },
+   {
+    "start": 1.02,
+    "end": 1.19,
+    "value": "A"
+   },
+   {
+    "start": 1.19,
+    "end": 1.25,
+    "value": "C"
+   },
+   {
+    "start": 1.25,
+    "end": 1.31,
+    "value": "B"
+   },
+   {
+    "start": 1.31,
+    "end": 1.52,
+    "value": "H"
+   },
+   {
+    "start": 1.52,
+    "end": 1.59,
+    "value": "C"
+   },
+   {
+    "start": 1.59,
+    "end": 1.87,
+    "value": "B"
+   },
+   {
+    "start": 1.87,
+    "end": 2.01,
+    "value": "G"
+   },
+   {
+    "start": 2.01,
+    "end": 2.22,
+    "value": "C"
+   },
+   {
+    "start": 2.22,
+    "end": 2.29,
+    "value": "B"
+   },
+   {
+    "start": 2.29,
+    "end": 2.36,
+    "value": "E"
+   },
+   {
+    "start": 2.36,
+    "end": 2.64,
+    "value": "F"
+   },
+   {
+    "start": 2.64,
+    "end": 3.2,
+    "value": "B"
+   },
+   {
+    "start": 3.2,
+    "end": 3.41,
+    "value": "F"
+   },
+   {
+    "start": 3.41,
+    "end": 3.49,
+    "value": "A"
+   },
+   {
+    "start": 3.49,
+    "end": 3.66,
+    "value": "E"
+   },
+   {
+    "start": 3.66,
+    "end": 3.73,
+    "value": "B"
+   },
+   {
+    "start": 3.73,
+    "end": 3.94,
+    "value": "F"
+   },
+   {
+    "start": 3.94,
+    "end": 4.02,
+    "value": "A"
+   },
+   {
+    "start": 4.02,
+    "end": 4.32,
+    "value": "B"
+   },
+   {
+    "start": 4.32,
+    "end": 4.58,
+    "value": "A"
+   },
+   {
+    "start": 4.58,
+    "end": 4.68,
+    "value": "B"
+   },
+   {
+    "start": 4.68,
+    "end": 4.75,
+    "value": "F"
+   },
+   {
+    "start": 4.75,
+    "end": 4.82,
+    "value": "B"
+   },
+   {
+    "start": 4.82,
+    "end": 4.89,
+    "value": "G"
+   },
+   {
+    "start": 4.89,
+    "end": 4.96,
+    "value": "B"
+   },
+   {
+    "start": 4.96,
+    "end": 5.03,
+    "value": "F"
+   },
+   {
+    "start": 5.03,
+    "end": 5.09,
+    "value": "A"
+   },
+   {
+    "start": 5.09,
+    "end": 5.15,
+    "value": "F"
+   },
+   {
+    "start": 5.15,
+    "end": 5.23,
+    "value": "A"
+   },
+   {
+    "start": 5.23,
+    "end": 5.42,
+    "value": "E"
+   },
+   {
+    "start": 5.42,
+    "end": 5.48,
+    "value": "A"
+   },
+   {
+    "start": 5.48,
+    "end": 5.54,
+    "value": "B"
+   },
+   {
+    "start": 5.54,
+    "end": 5.6,
+    "value": "A"
+   },
+   {
+    "start": 5.6,
+    "end": 5.67,
+    "value": "B"
+   },
+   {
+    "start": 5.67,
+    "end": 5.74,
+    "value": "A"
+   },
+   {
+    "start": 5.74,
+    "end": 5.88,
+    "value": "C"
+   },
+   {
+    "start": 5.88,
+    "end": 5.95,
+    "value": "B"
+   },
+   {
+    "start": 5.95,
+    "end": 6.09,
+    "value": "C"
+   },
+   {
+    "start": 6.09,
+    "end": 6.16,
+    "value": "E"
+   },
+   {
+    "start": 6.16,
+    "end": 6.23,
+    "value": "C"
+   },
+   {
+    "start": 6.23,
+    "end": 6.37,
+    "value": "B"
+   },
+   {
+    "start": 6.37,
+    "end": 6.44,
+    "value": "D"
+   },
+   {
+    "start": 6.44,
+    "end": 6.51,
+    "value": "G"
+   },
+   {
+    "start": 6.51,
+    "end": 6.72,
+    "value": "B"
+   },
+   {
+    "start": 6.72,
+    "end": 6.73,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_04",
+  "subtitle": "Aviator 3e génération: style aviateur classique، بنفس الـ upgrades ديال Gen 3، وباطري حتى لـ 9 heures.",
+  "source": "human-take",
+  "start": 13.73,
+  "duration": 6.645,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Aviator",
+    "start": 0.0,
+    "end": 0.86
+   },
+   {
+    "word": "3e",
+    "start": 0.86,
+    "end": 1.26
+   },
+   {
+    "word": "génération:",
+    "start": 1.26,
+    "end": 1.7
+   },
+   {
+    "word": "style",
+    "start": 1.7,
+    "end": 1.94
+   },
+   {
+    "word": "aviateur",
+    "start": 1.94,
+    "end": 2.66
+   },
+   {
+    "word": "classique،",
+    "start": 2.66,
+    "end": 3.06
+   },
+   {
+    "word": "بنفس",
+    "start": 3.06,
+    "end": 3.48
+   },
+   {
+    "word": "الـ",
+    "start": 3.48,
+    "end": 3.68
+   },
+   {
+    "word": "upgrades",
+    "start": 3.68,
+    "end": 4.14
+   },
+   {
+    "word": "ديال",
+    "start": 4.14,
+    "end": 4.6
+   },
+   {
+    "word": "Gen",
+    "start": 4.6,
+    "end": 4.84
+   },
+   {
+    "word": "3،",
+    "start": 4.84,
+    "end": 5.14
+   },
+   {
+    "word": "وباطري",
+    "start": 5.14,
+    "end": 5.74
+   },
+   {
+    "word": "حتى",
+    "start": 5.74,
+    "end": 5.96
+   },
+   {
+    "word": "لـ",
+    "start": 5.96,
+    "end": 6.16
+   },
+   {
+    "word": "9",
+    "start": 6.16,
+    "end": 6.36
+   },
+   {
+    "word": "heures.",
+    "start": 6.36,
+    "end": 6.58
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.07,
+    "value": "B"
+   },
+   {
+    "start": 0.07,
+    "end": 0.13,
+    "value": "C"
+   },
+   {
+    "start": 0.13,
+    "end": 0.27,
+    "value": "H"
+   },
+   {
+    "start": 0.27,
+    "end": 0.34,
+    "value": "C"
+   },
+   {
+    "start": 0.34,
+    "end": 0.62,
+    "value": "B"
+   },
+   {
+    "start": 0.62,
+    "end": 0.76,
+    "value": "C"
+   },
+   {
+    "start": 0.76,
+    "end": 0.83,
+    "value": "D"
+   },
+   {
+    "start": 0.83,
+    "end": 0.97,
+    "value": "B"
+   },
+   {
+    "start": 0.97,
+    "end": 1.11,
+    "value": "F"
+   },
+   {
+    "start": 1.11,
+    "end": 1.53,
+    "value": "B"
+   },
+   {
+    "start": 1.53,
+    "end": 1.6,
+    "value": "E"
+   },
+   {
+    "start": 1.6,
+    "end": 1.67,
+    "value": "G"
+   },
+   {
+    "start": 1.67,
+    "end": 1.74,
+    "value": "B"
+   },
+   {
+    "start": 1.74,
+    "end": 1.81,
+    "value": "C"
+   },
+   {
+    "start": 1.81,
+    "end": 1.88,
+    "value": "B"
+   },
+   {
+    "start": 1.88,
+    "end": 1.95,
+    "value": "E"
+   },
+   {
+    "start": 1.95,
+    "end": 2.16,
+    "value": "C"
+   },
+   {
+    "start": 2.16,
+    "end": 2.23,
+    "value": "H"
+   },
+   {
+    "start": 2.23,
+    "end": 2.3,
+    "value": "C"
+   },
+   {
+    "start": 2.3,
+    "end": 2.51,
+    "value": "B"
+   },
+   {
+    "start": 2.51,
+    "end": 2.59,
+    "value": "A"
+   },
+   {
+    "start": 2.59,
+    "end": 2.98,
+    "value": "F"
+   },
+   {
+    "start": 2.98,
+    "end": 3.05,
+    "value": "B"
+   },
+   {
+    "start": 3.05,
+    "end": 3.13,
+    "value": "A"
+   },
+   {
+    "start": 3.13,
+    "end": 3.41,
+    "value": "C"
+   },
+   {
+    "start": 3.41,
+    "end": 3.9,
+    "value": "B"
+   },
+   {
+    "start": 3.9,
+    "end": 3.97,
+    "value": "C"
+   },
+   {
+    "start": 3.97,
+    "end": 4.09,
+    "value": "A"
+   },
+   {
+    "start": 4.09,
+    "end": 4.14,
+    "value": "C"
+   },
+   {
+    "start": 4.14,
+    "end": 4.4,
+    "value": "E"
+   },
+   {
+    "start": 4.4,
+    "end": 4.47,
+    "value": "F"
+   },
+   {
+    "start": 4.47,
+    "end": 4.53,
+    "value": "A"
+   },
+   {
+    "start": 4.53,
+    "end": 4.59,
+    "value": "D"
+   },
+   {
+    "start": 4.59,
+    "end": 4.67,
+    "value": "A"
+   },
+   {
+    "start": 4.67,
+    "end": 4.95,
+    "value": "E"
+   },
+   {
+    "start": 4.95,
+    "end": 5.65,
+    "value": "B"
+   },
+   {
+    "start": 5.65,
+    "end": 5.72,
+    "value": "F"
+   },
+   {
+    "start": 5.72,
+    "end": 5.93,
+    "value": "C"
+   },
+   {
+    "start": 5.93,
+    "end": 6.07,
+    "value": "F"
+   },
+   {
+    "start": 6.07,
+    "end": 6.14,
+    "value": "C"
+   },
+   {
+    "start": 6.14,
+    "end": 6.21,
+    "value": "B"
+   },
+   {
+    "start": 6.21,
+    "end": 6.28,
+    "value": "G"
+   },
+   {
+    "start": 6.28,
+    "end": 6.42,
+    "value": "C"
+   },
+   {
+    "start": 6.42,
+    "end": 6.63,
+    "value": "E"
+   },
+   {
+    "start": 6.63,
+    "end": 6.64,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_05",
+  "subtitle": "Wayfarer و Headliner 2e génération: نفس الكاميرا، باطري حتى لـ 8 heures، وبثمن أقل.",
+  "source": "human-take",
+  "start": 20.375,
+  "duration": 4.085,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Wayfarer",
+    "start": 0.04,
+    "end": 0.36
+   },
+   {
+    "word": "و",
+    "start": 0.36,
+    "end": 0.52
+   },
+   {
+    "word": "Headliner",
+    "start": 0.52,
+    "end": 1.04
+   },
+   {
+    "word": "2e",
+    "start": 1.04,
+    "end": 1.2
+   },
+   {
+    "word": "génération:",
+    "start": 1.2,
+    "end": 1.52
+   },
+   {
+    "word": "نفس",
+    "start": 1.52,
+    "end": 1.76
+   },
+   {
+    "word": "الكاميرا،",
+    "start": 1.76,
+    "end": 2.44
+   },
+   {
+    "word": "باطري",
+    "start": 2.44,
+    "end": 2.82
+   },
+   {
+    "word": "حتى",
+    "start": 2.82,
+    "end": 2.98
+   },
+   {
+    "word": "لـ",
+    "start": 2.98,
+    "end": 3.2
+   },
+   {
+    "word": "8",
+    "start": 3.2,
+    "end": 3.36
+   },
+   {
+    "word": "heures،",
+    "start": 3.36,
+    "end": 3.52
+   },
+   {
+    "word": "وبثمن",
+    "start": 3.52,
+    "end": 3.86
+   },
+   {
+    "word": "أقل.",
+    "start": 3.86,
+    "end": 4.02
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.01,
+    "value": "X"
+   },
+   {
+    "start": 0.01,
+    "end": 0.05,
+    "value": "B"
+   },
+   {
+    "start": 0.05,
+    "end": 0.16,
+    "value": "F"
+   },
+   {
+    "start": 0.16,
+    "end": 0.37,
+    "value": "B"
+   },
+   {
+    "start": 0.37,
+    "end": 0.51,
+    "value": "H"
+   },
+   {
+    "start": 0.51,
+    "end": 0.58,
+    "value": "B"
+   },
+   {
+    "start": 0.58,
+    "end": 0.66,
+    "value": "A"
+   },
+   {
+    "start": 0.66,
+    "end": 0.77,
+    "value": "E"
+   },
+   {
+    "start": 0.77,
+    "end": 1.19,
+    "value": "B"
+   },
+   {
+    "start": 1.19,
+    "end": 1.27,
+    "value": "A"
+   },
+   {
+    "start": 1.27,
+    "end": 1.46,
+    "value": "C"
+   },
+   {
+    "start": 1.46,
+    "end": 1.6,
+    "value": "B"
+   },
+   {
+    "start": 1.6,
+    "end": 1.67,
+    "value": "E"
+   },
+   {
+    "start": 1.67,
+    "end": 1.88,
+    "value": "F"
+   },
+   {
+    "start": 1.88,
+    "end": 1.95,
+    "value": "B"
+   },
+   {
+    "start": 1.95,
+    "end": 2.02,
+    "value": "A"
+   },
+   {
+    "start": 2.02,
+    "end": 2.06,
+    "value": "C"
+   },
+   {
+    "start": 2.06,
+    "end": 2.18,
+    "value": "D"
+   },
+   {
+    "start": 2.18,
+    "end": 2.24,
+    "value": "C"
+   },
+   {
+    "start": 2.24,
+    "end": 2.32,
+    "value": "A"
+   },
+   {
+    "start": 2.32,
+    "end": 2.47,
+    "value": "C"
+   },
+   {
+    "start": 2.47,
+    "end": 2.55,
+    "value": "A"
+   },
+   {
+    "start": 2.55,
+    "end": 2.76,
+    "value": "D"
+   },
+   {
+    "start": 2.76,
+    "end": 2.83,
+    "value": "B"
+   },
+   {
+    "start": 2.83,
+    "end": 2.9,
+    "value": "C"
+   },
+   {
+    "start": 2.9,
+    "end": 3.32,
+    "value": "B"
+   },
+   {
+    "start": 3.32,
+    "end": 3.4,
+    "value": "A"
+   },
+   {
+    "start": 3.4,
+    "end": 3.51,
+    "value": "B"
+   },
+   {
+    "start": 3.51,
+    "end": 3.79,
+    "value": "F"
+   },
+   {
+    "start": 3.79,
+    "end": 3.93,
+    "value": "C"
+   },
+   {
+    "start": 3.93,
+    "end": 4.07,
+    "value": "B"
+   },
+   {
+    "start": 4.07,
+    "end": 4.08,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_06",
+  "subtitle": "وكاملين فيهم: كاميرا 12 mégapixels، vidéo 3K، وكتسمع الموسيقى وتجاوب على les appels.",
+  "source": "human-take",
+  "start": 24.46,
+  "duration": 6.91,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "وكاملين",
+    "start": 0.04,
+    "end": 0.7
+   },
+   {
+    "word": "فيهم:",
+    "start": 0.7,
+    "end": 1.22
+   },
+   {
+    "word": "كاميرا",
+    "start": 1.22,
+    "end": 1.86
+   },
+   {
+    "word": "12",
+    "start": 1.86,
+    "end": 2.06
+   },
+   {
+    "word": "mégapixels،",
+    "start": 2.06,
+    "end": 2.72
+   },
+   {
+    "word": "vidéo",
+    "start": 2.72,
+    "end": 3.14
+   },
+   {
+    "word": "3K،",
+    "start": 3.14,
+    "end": 3.56
+   },
+   {
+    "word": "وكتسمع",
+    "start": 3.56,
+    "end": 4.34
+   },
+   {
+    "word": "الموسيقى",
+    "start": 4.34,
+    "end": 5.22
+   },
+   {
+    "word": "وتجاوب",
+    "start": 5.22,
+    "end": 5.86
+   },
+   {
+    "word": "على",
+    "start": 5.86,
+    "end": 6.08
+   },
+   {
+    "word": "les",
+    "start": 6.08,
+    "end": 6.34
+   },
+   {
+    "word": "appels.",
+    "start": 6.34,
+    "end": 6.84
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.03,
+    "value": "X"
+   },
+   {
+    "start": 0.03,
+    "end": 0.32,
+    "value": "B"
+   },
+   {
+    "start": 0.32,
+    "end": 0.4,
+    "value": "A"
+   },
+   {
+    "start": 0.4,
+    "end": 0.61,
+    "value": "C"
+   },
+   {
+    "start": 0.61,
+    "end": 0.82,
+    "value": "B"
+   },
+   {
+    "start": 0.82,
+    "end": 0.89,
+    "value": "F"
+   },
+   {
+    "start": 0.89,
+    "end": 1.17,
+    "value": "C"
+   },
+   {
+    "start": 1.17,
+    "end": 1.25,
+    "value": "A"
+   },
+   {
+    "start": 1.25,
+    "end": 1.32,
+    "value": "B"
+   },
+   {
+    "start": 1.32,
+    "end": 1.38,
+    "value": "C"
+   },
+   {
+    "start": 1.38,
+    "end": 1.52,
+    "value": "G"
+   },
+   {
+    "start": 1.52,
+    "end": 1.66,
+    "value": "F"
+   },
+   {
+    "start": 1.66,
+    "end": 1.87,
+    "value": "C"
+   },
+   {
+    "start": 1.87,
+    "end": 1.95,
+    "value": "A"
+   },
+   {
+    "start": 1.95,
+    "end": 2.05,
+    "value": "C"
+   },
+   {
+    "start": 2.05,
+    "end": 2.14,
+    "value": "A"
+   },
+   {
+    "start": 2.14,
+    "end": 2.31,
+    "value": "E"
+   },
+   {
+    "start": 2.31,
+    "end": 2.38,
+    "value": "B"
+   },
+   {
+    "start": 2.38,
+    "end": 2.59,
+    "value": "C"
+   },
+   {
+    "start": 2.59,
+    "end": 2.67,
+    "value": "A"
+   },
+   {
+    "start": 2.67,
+    "end": 2.93,
+    "value": "B"
+   },
+   {
+    "start": 2.93,
+    "end": 3.0,
+    "value": "C"
+   },
+   {
+    "start": 3.0,
+    "end": 3.07,
+    "value": "B"
+   },
+   {
+    "start": 3.07,
+    "end": 3.15,
+    "value": "A"
+   },
+   {
+    "start": 3.15,
+    "end": 3.22,
+    "value": "G"
+   },
+   {
+    "start": 3.22,
+    "end": 3.28,
+    "value": "B"
+   },
+   {
+    "start": 3.28,
+    "end": 3.36,
+    "value": "A"
+   },
+   {
+    "start": 3.36,
+    "end": 3.46,
+    "value": "B"
+   },
+   {
+    "start": 3.46,
+    "end": 3.53,
+    "value": "F"
+   },
+   {
+    "start": 3.53,
+    "end": 3.61,
+    "value": "A"
+   },
+   {
+    "start": 3.61,
+    "end": 3.87,
+    "value": "F"
+   },
+   {
+    "start": 3.87,
+    "end": 3.94,
+    "value": "D"
+   },
+   {
+    "start": 3.94,
+    "end": 4.08,
+    "value": "C"
+   },
+   {
+    "start": 4.08,
+    "end": 4.18,
+    "value": "A"
+   },
+   {
+    "start": 4.18,
+    "end": 4.25,
+    "value": "F"
+   },
+   {
+    "start": 4.25,
+    "end": 4.46,
+    "value": "C"
+   },
+   {
+    "start": 4.46,
+    "end": 4.53,
+    "value": "B"
+   },
+   {
+    "start": 4.53,
+    "end": 4.61,
+    "value": "A"
+   },
+   {
+    "start": 4.61,
+    "end": 4.72,
+    "value": "B"
+   },
+   {
+    "start": 4.72,
+    "end": 4.8,
+    "value": "A"
+   },
+   {
+    "start": 4.8,
+    "end": 4.87,
+    "value": "E"
+   },
+   {
+    "start": 4.87,
+    "end": 4.94,
+    "value": "B"
+   },
+   {
+    "start": 4.94,
+    "end": 5.02,
+    "value": "A"
+   },
+   {
+    "start": 5.02,
+    "end": 5.21,
+    "value": "C"
+   },
+   {
+    "start": 5.21,
+    "end": 5.28,
+    "value": "E"
+   },
+   {
+    "start": 5.28,
+    "end": 5.42,
+    "value": "F"
+   },
+   {
+    "start": 5.42,
+    "end": 5.49,
+    "value": "B"
+   },
+   {
+    "start": 5.49,
+    "end": 5.56,
+    "value": "E"
+   },
+   {
+    "start": 5.56,
+    "end": 5.64,
+    "value": "A"
+   },
+   {
+    "start": 5.64,
+    "end": 6.05,
+    "value": "B"
+   },
+   {
+    "start": 6.05,
+    "end": 6.13,
+    "value": "A"
+   },
+   {
+    "start": 6.13,
+    "end": 6.27,
+    "value": "C"
+   },
+   {
+    "start": 6.27,
+    "end": 6.34,
+    "value": "B"
+   },
+   {
+    "start": 6.34,
+    "end": 6.42,
+    "value": "A"
+   },
+   {
+    "start": 6.42,
+    "end": 6.59,
+    "value": "E"
+   },
+   {
+    "start": 6.59,
+    "end": 6.7,
+    "value": "A"
+   },
+   {
+    "start": 6.7,
+    "end": 6.77,
+    "value": "F"
+   },
+   {
+    "start": 6.77,
+    "end": 6.9,
+    "value": "B"
+   },
+   {
+    "start": 6.9,
+    "end": 6.91,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_07",
+  "subtitle": "Produits originaux, boîte fermée, jamais ouverts, jamais activés.",
+  "source": "human-take",
+  "start": 31.37,
+  "duration": 3.515,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Produits",
+    "start": 0.06,
+    "end": 0.4
+   },
+   {
+    "word": "originaux,",
+    "start": 0.4,
+    "end": 1.2
+   },
+   {
+    "word": "boîte",
+    "start": 1.2,
+    "end": 1.36
+   },
+   {
+    "word": "fermée,",
+    "start": 1.36,
+    "end": 1.78
+   },
+   {
+    "word": "jamais",
+    "start": 1.78,
+    "end": 2.12
+   },
+   {
+    "word": "ouverts,",
+    "start": 2.12,
+    "end": 2.56
+   },
+   {
+    "word": "jamais",
+    "start": 2.56,
+    "end": 2.92
+   },
+   {
+    "word": "activés.",
+    "start": 2.92,
+    "end": 3.46
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.03,
+    "value": "X"
+   },
+   {
+    "start": 0.03,
+    "end": 0.1,
+    "value": "E"
+   },
+   {
+    "start": 0.1,
+    "end": 0.16,
+    "value": "F"
+   },
+   {
+    "start": 0.16,
+    "end": 0.51,
+    "value": "B"
+   },
+   {
+    "start": 0.51,
+    "end": 0.58,
+    "value": "C"
+   },
+   {
+    "start": 0.58,
+    "end": 0.65,
+    "value": "F"
+   },
+   {
+    "start": 0.65,
+    "end": 0.86,
+    "value": "A"
+   },
+   {
+    "start": 0.86,
+    "end": 0.99,
+    "value": "F"
+   },
+   {
+    "start": 0.99,
+    "end": 1.13,
+    "value": "B"
+   },
+   {
+    "start": 1.13,
+    "end": 1.2,
+    "value": "G"
+   },
+   {
+    "start": 1.2,
+    "end": 1.34,
+    "value": "C"
+   },
+   {
+    "start": 1.34,
+    "end": 1.42,
+    "value": "A"
+   },
+   {
+    "start": 1.42,
+    "end": 1.5,
+    "value": "C"
+   },
+   {
+    "start": 1.5,
+    "end": 1.61,
+    "value": "A"
+   },
+   {
+    "start": 1.61,
+    "end": 1.83,
+    "value": "B"
+   },
+   {
+    "start": 1.83,
+    "end": 1.9,
+    "value": "F"
+   },
+   {
+    "start": 1.9,
+    "end": 1.98,
+    "value": "A"
+   },
+   {
+    "start": 1.98,
+    "end": 2.03,
+    "value": "B"
+   },
+   {
+    "start": 2.03,
+    "end": 2.14,
+    "value": "E"
+   },
+   {
+    "start": 2.14,
+    "end": 2.21,
+    "value": "F"
+   },
+   {
+    "start": 2.21,
+    "end": 2.28,
+    "value": "G"
+   },
+   {
+    "start": 2.28,
+    "end": 2.49,
+    "value": "C"
+   },
+   {
+    "start": 2.49,
+    "end": 2.77,
+    "value": "B"
+   },
+   {
+    "start": 2.77,
+    "end": 2.84,
+    "value": "C"
+   },
+   {
+    "start": 2.84,
+    "end": 2.92,
+    "value": "A"
+   },
+   {
+    "start": 2.92,
+    "end": 3.08,
+    "value": "C"
+   },
+   {
+    "start": 3.08,
+    "end": 3.29,
+    "value": "B"
+   },
+   {
+    "start": 3.29,
+    "end": 3.43,
+    "value": "G"
+   },
+   {
+    "start": 3.43,
+    "end": 3.5,
+    "value": "B"
+   },
+   {
+    "start": 3.5,
+    "end": 3.51,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_08",
+  "subtitle": "إلا بغيتي تكوموندي، صيفط لينا ميساج.",
+  "source": "human-take",
+  "start": 34.885,
+  "duration": 2.035,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "إلا",
+    "start": 0.04,
+    "end": 0.18
+   },
+   {
+    "word": "بغيتي",
+    "start": 0.18,
+    "end": 0.46
+   },
+   {
+    "word": "تكوموندي،",
+    "start": 0.46,
+    "end": 1.12
+   },
+   {
+    "word": "صيفط",
+    "start": 1.12,
+    "end": 1.44
+   },
+   {
+    "word": "لينا",
+    "start": 1.44,
+    "end": 1.72
+   },
+   {
+    "word": "ميساج.",
+    "start": 1.72,
+    "end": 2.02
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.01,
+    "value": "X"
+   },
+   {
+    "start": 0.01,
+    "end": 0.2,
+    "value": "B"
+   },
+   {
+    "start": 0.2,
+    "end": 0.27,
+    "value": "F"
+   },
+   {
+    "start": 0.27,
+    "end": 0.48,
+    "value": "B"
+   },
+   {
+    "start": 0.48,
+    "end": 0.76,
+    "value": "E"
+   },
+   {
+    "start": 0.76,
+    "end": 1.18,
+    "value": "B"
+   },
+   {
+    "start": 1.18,
+    "end": 1.25,
+    "value": "C"
+   },
+   {
+    "start": 1.25,
+    "end": 1.46,
+    "value": "B"
+   },
+   {
+    "start": 1.46,
+    "end": 1.53,
+    "value": "C"
+   },
+   {
+    "start": 1.53,
+    "end": 1.61,
+    "value": "A"
+   },
+   {
+    "start": 1.61,
+    "end": 2.02,
+    "value": "B"
+   },
+   {
+    "start": 2.02,
+    "end": 2.03,
+    "value": "X"
+   }
+  ]
+ }
+]

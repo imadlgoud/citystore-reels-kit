@@ -71,6 +71,7 @@ npm run studio                   # interactive preview
 | Kindle Colorsoft 16GB + Kindle Scribe 16GB (Darija, **35 s**, VO sped up on request: trim + 1.10x; 9:16 only) | `KindlesReel9x16`, `KindlesCover` | `out/kindles/` | `npm run kindles:build` |
 | WHOOP Life, abonnement 12 mois (Darija, **36.5 s**, over 30 s at natural speed; 9:16 only; upload copy at crf 21) | `WhoopLifeReel9x16`, `WhoopLifeCover` | `out/whooplife/` | `npm run whooplife:build` |
 | Ray-Ban Meta (3e gén.) Wayfarer Matte Black, verres Transitions (Darija, 30 s, pause trimming + 1.10x; 9:16 only) | `RbMetaReel9x16`, `RbMetaCover` | `out/rbmeta/` | `npm run rbmeta:build` |
+| Ray-Ban Meta range: Wayfarer Gen 3 Transitions, Aviator Gen 3, Wayfarer + Headliner Gen 2 (Darija, **39.5 s**, natural speed; 9:16 only; upload copy at crf 21) | `RbRangeReel9x16`, `RbRangeCover` | `out/rbrange/` | `npm run rbrange:build` |
 | Apple Watch Ultra 4 (Darija) | `WatchReel9x16`, `WatchReel1x1`, `WatchCover` | `out/watch/` | `npm run watch:build` |
 | Galaxy Watch8 Classic + Ultra2 (Darija) | `GalaxyReel9x16`, `GalaxyReel1x1`, `GalaxyCover` | `out/galaxy/` | `npm run galaxy:build` |
 | Sony WH-1000XM6 + XM5 (Darija) | `SonyReel9x16`, `SonyReel1x1`, `SonyCover` | `out/sony/` | `npm run sony:build` |

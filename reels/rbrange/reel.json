@@ -1,0 +1,12 @@
+{
+ "id": "rbrange",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [5.03, 7.1, 14.05, 20.47, 24.56, 31.47, 34.98],
+ "lead": 0.06,
+ "voEndBy": 999,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "maxSeconds": 60,
+ "note": "Ray-Ban Meta range (Wayfarer Gen 3 Transitions, Aviator Gen 3, Wayfarer + Headliner Gen 2). 37.1 s raw -> 36.9 s trimmed; even 1.10x would end at 33.6 s, so per the standing rule: natural speed, reel 39.5 s. The take barely pauses: boundaries from the longest short pauses + a syllable estimate. 9:16 + cover only."
+}

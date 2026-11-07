@@ -126,6 +126,9 @@ import { WLTL } from "./reels/whooplife/timeline";
 import { RbMetaReel } from "./reels/rbmeta/RbMetaReel";
 import { RbMetaCover } from "./reels/rbmeta/RbMetaCover";
 import { RBTL } from "./reels/rbmeta/timeline";
+import { RbRangeReel } from "./reels/rbrange/RbRangeReel";
+import { RbRangeCover } from "./reels/rbrange/RbRangeCover";
+import { RRTL } from "./reels/rbrange/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -260,6 +263,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Ray-Ban Meta Wayfarer Matte Black Transitions: 30 s (pause trimming + 1.10x); 9:16 + cover only */}
     <Composition id="RbMetaReel9x16" component={RbMetaReel} durationInFrames={Math.min(RBTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="RbMetaCover" component={RbMetaCover} width={1080} height={1920} />
+    {/* Ray-Ban Meta range: 39.5 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
+    <Composition id="RbRangeReel9x16" component={RbRangeReel} durationInFrames={RRTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="RbRangeCover" component={RbRangeCover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

@@ -195,7 +195,9 @@ SPOKEN = {"18": "dix-huit", "100": "cent pour cent", "%": "", "citystore.ma": "c
           "life": "laif", "life،": "laif", "avec": "a vek", "12": "duz", "mois،": "mwa", "ecg": "e se je", "les": "le", "tendances": "tan dans",
           "ray-ban": "rei ban", "meta": "me ta", "3e": "trwa zyem", "wayfarer": "wei fe rer", "matte": "mat", "verres": "ver",
           "transitions": "tran zi syon", "3k": "trwa ka", "bouton": "bu ton", "action": "ak syon", "ai": "ei ai", "micros": "mi kro",
-          "9": "neuf", "boîte": "bwat", "charge": "charj"}
+          "9": "neuf", "boîte": "bwat", "charge": "charj",
+          "smart": "smart", "aviator": "ei vi ei tor", "style": "stil", "aviateur": "a vya teur", "classique": "kla sik",
+          "upgrades": "ap greid", "gen": "djen", "headliner": "hed lai ner", "2e": "de zyem", "8": "uit", "appels": "a pel"}
 ARABIC = "\\u0621-\\u063F\\u0641-\\u064A\\u0671-\\u06D3"  # Arabic letters (no punctuation, no tatweel)
 
 

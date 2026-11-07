@@ -182,7 +182,11 @@
     "rbmeta:cutout": "python3 reels/rbmeta/cutout.py",
     "rbmeta:audio": "REEL=rbmeta python3 scripts/process_vo_take.py && python3 reels/rbmeta/build_timeline.py && REEL=rbmeta python3 scripts/make_music.py && REEL=rbmeta python3 scripts/mix_audio.py",
     "rbmeta:render": "remotion render RbMetaReel9x16 out/rbmeta/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still RbMetaCover out/rbmeta/cover_1080x1920.png",
-    "rbmeta:build": "npm run rbmeta:cutout && npm run rbmeta:audio && REEL=rbmeta node scripts/make_srt.mjs && npm run rbmeta:render && REEL=rbmeta bash scripts/finalize.sh && REEL=rbmeta bash scripts/verify.sh"
+    "rbmeta:build": "npm run rbmeta:cutout && npm run rbmeta:audio && REEL=rbmeta node scripts/make_srt.mjs && npm run rbmeta:render && REEL=rbmeta bash scripts/finalize.sh && REEL=rbmeta bash scripts/verify.sh",
+    "rbrange:cutout": "python3 reels/rbrange/cutout.py",
+    "rbrange:audio": "REEL=rbrange python3 scripts/process_vo_take.py && python3 reels/rbrange/build_timeline.py && REEL=rbrange python3 scripts/make_music.py && REEL=rbrange python3 scripts/mix_audio.py",
+    "rbrange:render": "remotion render RbRangeReel9x16 out/rbrange/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still RbRangeCover out/rbrange/cover_1080x1920.png",
+    "rbrange:build": "npm run rbrange:cutout && npm run rbrange:audio && REEL=rbrange node scripts/make_srt.mjs && npm run rbrange:render && REEL=rbrange bash scripts/finalize.sh && REEL=rbrange bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

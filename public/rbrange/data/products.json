@@ -1,0 +1,32 @@
+{
+ "w3": {
+  "src": "rbrange/products/w3.png",
+  "w": 1000,
+  "h": 282
+ },
+ "w3_lens": {
+  "src": "rbrange/products/w3_lens.png",
+  "w": 1000,
+  "h": 282
+ },
+ "w3_angle": {
+  "src": "rbrange/products/w3_angle.png",
+  "w": 1000,
+  "h": 458
+ },
+ "aviator": {
+  "src": "rbrange/products/aviator.png",
+  "w": 1000,
+  "h": 430
+ },
+ "w2": {
+  "src": "rbrange/products/w2.png",
+  "w": 777,
+  "h": 344
+ },
+ "headliner": {
+  "src": "rbrange/products/headliner.png",
+  "w": 1000,
+  "h": 350
+ }
+}
