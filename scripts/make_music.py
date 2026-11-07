@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # Ray-Ban Meta reel (30 s): sunny, laid-back E-major groove; drop on "وفيهم كاميرا!"
+    "rbmeta": dict(seed=401, phase=1.0, drop=3.0, end_lift=28.25, stop=28.75,
+                   chords=[[64, 68, 71], [61, 64, 68], [57, 61, 64], [59, 63, 66]], roots=[40, 37, 45, 47],
+                   final=[64, 68, 71, 76], final_bass=40, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
     # WHOOP Life reel (36.5 s, over 30 s at natural speed): same bright F-major fitness pulse as the WHOOP 5.0 reel, new seed
     "whooplife": dict(seed=397, dur=36.5, phase=1.0, drop=1.0, end_lift=33.75, stop=35.25,
                       chords=[[65, 69, 72], [62, 65, 69], [58, 62, 65], [60, 64, 67]], roots=[41, 38, 34, 36],

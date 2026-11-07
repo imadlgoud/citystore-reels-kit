@@ -192,7 +192,10 @@ SPOKEN = {"18": "dix-huit", "100": "cent pour cent", "%": "", "citystore.ma": "c
           "kindle": "kin del", "kindle،": "kin del", "colorsoft،": "ko lor soft", "16gb:": "sez gi ga", "16gb،": "sez gi ga", "7": "set",
           "scribe،": "skraib", "scribe": "skraib", "premium": "pre mium", "pen:": "pen", "10.2": "dis vir gul de", "texte": "tekst",
           "e": "e", "ink": "ink", "lumière": "lu myer",
-          "life": "laif", "life،": "laif", "avec": "a vek", "12": "duz", "mois،": "mwa", "ecg": "e se je", "les": "le", "tendances": "tan dans"}
+          "life": "laif", "life،": "laif", "avec": "a vek", "12": "duz", "mois،": "mwa", "ecg": "e se je", "les": "le", "tendances": "tan dans",
+          "ray-ban": "rei ban", "meta": "me ta", "3e": "trwa zyem", "wayfarer": "wei fe rer", "matte": "mat", "verres": "ver",
+          "transitions": "tran zi syon", "3k": "trwa ka", "bouton": "bu ton", "action": "ak syon", "ai": "ei ai", "micros": "mi kro",
+          "9": "neuf", "boîte": "bwat", "charge": "charj"}
 ARABIC = "\\u0621-\\u063F\\u0641-\\u064A\\u0671-\\u06D3"  # Arabic letters (no punctuation, no tatweel)
 
 

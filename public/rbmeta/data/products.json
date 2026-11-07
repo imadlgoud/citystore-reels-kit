@@ -1,0 +1,27 @@
+{
+ "front": {
+  "src": "rbmeta/products/front.png",
+  "w": 1000,
+  "h": 282
+ },
+ "front_lens": {
+  "src": "rbmeta/products/front_lens.png",
+  "w": 1000,
+  "h": 282
+ },
+ "angle": {
+  "src": "rbmeta/products/angle.png",
+  "w": 1000,
+  "h": 458
+ },
+ "side": {
+  "src": "rbmeta/products/side.png",
+  "w": 1000,
+  "h": 458
+ },
+ "case": {
+  "src": "rbmeta/products/case.png",
+  "w": 383,
+  "h": 160
+ }
+}

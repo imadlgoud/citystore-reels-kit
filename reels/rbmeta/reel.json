@@ -1,0 +1,11 @@
+{
+ "id": "rbmeta",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [4.65, 11.03, 15.9, 20.45, 24.9, 29.17, 33.18],
+ "lead": 0.06,
+ "voEndBy": 28.0,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "note": "Ray-Ban Meta (3rd gen) Wayfarer Matte Black, Transitions lenses. Aim 30 s: pause trimming + the max 1.10x pitch-kept speed-up (VO ends at 28.0 s). Boundaries from the pause pattern + a syllable estimate. 9:16 + cover only."
+}

@@ -178,7 +178,11 @@
     "whooplife:cutout": "python3 reels/whooplife/cutout.py",
     "whooplife:audio": "REEL=whooplife python3 scripts/process_vo_take.py && python3 reels/whooplife/build_timeline.py && REEL=whooplife python3 scripts/make_music.py && REEL=whooplife python3 scripts/mix_audio.py",
     "whooplife:render": "remotion render WhoopLifeReel9x16 out/whooplife/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still WhoopLifeCover out/whooplife/cover_1080x1920.png",
-    "whooplife:build": "npm run whooplife:cutout && npm run whooplife:audio && REEL=whooplife node scripts/make_srt.mjs && npm run whooplife:render && REEL=whooplife bash scripts/finalize.sh && REEL=whooplife bash scripts/verify.sh"
+    "whooplife:build": "npm run whooplife:cutout && npm run whooplife:audio && REEL=whooplife node scripts/make_srt.mjs && npm run whooplife:render && REEL=whooplife bash scripts/finalize.sh && REEL=whooplife bash scripts/verify.sh",
+    "rbmeta:cutout": "python3 reels/rbmeta/cutout.py",
+    "rbmeta:audio": "REEL=rbmeta python3 scripts/process_vo_take.py && python3 reels/rbmeta/build_timeline.py && REEL=rbmeta python3 scripts/make_music.py && REEL=rbmeta python3 scripts/mix_audio.py",
+    "rbmeta:render": "remotion render RbMetaReel9x16 out/rbmeta/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still RbMetaCover out/rbmeta/cover_1080x1920.png",
+    "rbmeta:build": "npm run rbmeta:cutout && npm run rbmeta:audio && REEL=rbmeta node scripts/make_srt.mjs && npm run rbmeta:render && REEL=rbmeta bash scripts/finalize.sh && REEL=rbmeta bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

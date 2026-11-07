@@ -70,6 +70,7 @@ npm run studio                   # interactive preview
 | EA SPORTS FC 27 (PS5), neuf scellé (Darija, 30 s, pause trimming, natural speed; 9:16 only) | `FC27Reel9x16`, `FC27Cover` | `out/fc27/` | `npm run fc27:build` |
 | Kindle Colorsoft 16GB + Kindle Scribe 16GB (Darija, **35 s**, VO sped up on request: trim + 1.10x; 9:16 only) | `KindlesReel9x16`, `KindlesCover` | `out/kindles/` | `npm run kindles:build` |
 | WHOOP Life, abonnement 12 mois (Darija, **36.5 s**, over 30 s at natural speed; 9:16 only; upload copy at crf 21) | `WhoopLifeReel9x16`, `WhoopLifeCover` | `out/whooplife/` | `npm run whooplife:build` |
+| Ray-Ban Meta (3e gén.) Wayfarer Matte Black, verres Transitions (Darija, 30 s, pause trimming + 1.10x; 9:16 only) | `RbMetaReel9x16`, `RbMetaCover` | `out/rbmeta/` | `npm run rbmeta:build` |
 | Apple Watch Ultra 4 (Darija) | `WatchReel9x16`, `WatchReel1x1`, `WatchCover` | `out/watch/` | `npm run watch:build` |
 | Galaxy Watch8 Classic + Ultra2 (Darija) | `GalaxyReel9x16`, `GalaxyReel1x1`, `GalaxyCover` | `out/galaxy/` | `npm run galaxy:build` |
 | Sony WH-1000XM6 + XM5 (Darija) | `SonyReel9x16`, `SonyReel1x1`, `SonyCover` | `out/sony/` | `npm run sony:build` |
