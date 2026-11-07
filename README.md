@@ -34,6 +34,9 @@ npm run studio                   # interactive preview
   the "متوفر عند CITY STORE" ribbon, exactly as on `Hero10Cover`. Keep the reel's trust scene stamp as well.
 - **Used products (d'occasion)**: the trust scene must not say "Boîte fermée / Jamais ouverts / Jamais activés";
   use `ChecklistTrust` with what is true (e.g. "OCCASION TESTÉE": Produit d'occasion / Testé / Fonctionne bien).
+- **Reel description**: every delivered video comes with a ready-to-paste caption (sent in the chat and saved as
+  `reels/<id>/caption.md`): hook line, product + DISPONIBLE, script-only spec lines, the trust line as spoken, the CTA,
+  citystore.ma, hashtags. Minimal emojis: only 📩 (CTA) and 🌐 (site).
 
 ## Reels
 | Reel | Compositions | Outputs | Build |
