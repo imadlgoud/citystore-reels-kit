@@ -1,0 +1,1541 @@
+[
+ {
+  "id": "line_01",
+  "subtitle": "إلا كنتي كتقرا فالتيليفون وكيعياو ليك عينيك، هاد الفيديو ليك!",
+  "source": "human-take",
+  "start": 0.06,
+  "duration": 3.28,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "إلا",
+    "start": 0.0,
+    "end": 0.12
+   },
+   {
+    "word": "كنتي",
+    "start": 0.12,
+    "end": 0.42
+   },
+   {
+    "word": "كتقرا",
+    "start": 0.42,
+    "end": 0.74
+   },
+   {
+    "word": "فالتيليفون",
+    "start": 0.74,
+    "end": 1.5
+   },
+   {
+    "word": "وكيعياو",
+    "start": 1.5,
+    "end": 1.92
+   },
+   {
+    "word": "ليك",
+    "start": 1.92,
+    "end": 2.06
+   },
+   {
+    "word": "عينيك،",
+    "start": 2.06,
+    "end": 2.36
+   },
+   {
+    "word": "هاد",
+    "start": 2.36,
+    "end": 2.58
+   },
+   {
+    "word": "الفيديو",
+    "start": 2.58,
+    "end": 3.0
+   },
+   {
+    "word": "ليك!",
+    "start": 3.0,
+    "end": 3.18
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.06,
+    "value": "B"
+   },
+   {
+    "start": 0.06,
+    "end": 0.12,
+    "value": "G"
+   },
+   {
+    "start": 0.12,
+    "end": 0.19,
+    "value": "C"
+   },
+   {
+    "start": 0.19,
+    "end": 0.54,
+    "value": "B"
+   },
+   {
+    "start": 0.54,
+    "end": 0.68,
+    "value": "D"
+   },
+   {
+    "start": 0.68,
+    "end": 0.75,
+    "value": "C"
+   },
+   {
+    "start": 0.75,
+    "end": 0.82,
+    "value": "G"
+   },
+   {
+    "start": 0.82,
+    "end": 1.1,
+    "value": "B"
+   },
+   {
+    "start": 1.1,
+    "end": 1.17,
+    "value": "G"
+   },
+   {
+    "start": 1.17,
+    "end": 1.24,
+    "value": "F"
+   },
+   {
+    "start": 1.24,
+    "end": 1.31,
+    "value": "C"
+   },
+   {
+    "start": 1.31,
+    "end": 1.38,
+    "value": "E"
+   },
+   {
+    "start": 1.38,
+    "end": 1.59,
+    "value": "B"
+   },
+   {
+    "start": 1.59,
+    "end": 1.73,
+    "value": "F"
+   },
+   {
+    "start": 1.73,
+    "end": 2.29,
+    "value": "B"
+   },
+   {
+    "start": 2.29,
+    "end": 2.57,
+    "value": "C"
+   },
+   {
+    "start": 2.57,
+    "end": 2.78,
+    "value": "B"
+   },
+   {
+    "start": 2.78,
+    "end": 2.99,
+    "value": "F"
+   },
+   {
+    "start": 2.99,
+    "end": 3.27,
+    "value": "B"
+   },
+   {
+    "start": 3.27,
+    "end": 3.28,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_02",
+  "subtitle": "هاهوما من أحسن les liseuses اللي عندنا:",
+  "source": "human-take",
+  "start": 3.34,
+  "duration": 1.78,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "هاهوما",
+    "start": 0.08,
+    "end": 0.44
+   },
+   {
+    "word": "من",
+    "start": 0.44,
+    "end": 0.56
+   },
+   {
+    "word": "أحسن",
+    "start": 0.56,
+    "end": 0.84
+   },
+   {
+    "word": "les",
+    "start": 0.84,
+    "end": 0.96
+   },
+   {
+    "word": "liseuses",
+    "start": 0.96,
+    "end": 1.2
+   },
+   {
+    "word": "اللي",
+    "start": 1.2,
+    "end": 1.44
+   },
+   {
+    "word": "عندنا:",
+    "start": 1.44,
+    "end": 1.68
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.03,
+    "value": "X"
+   },
+   {
+    "start": 0.03,
+    "end": 0.07,
+    "value": "B"
+   },
+   {
+    "start": 0.07,
+    "end": 0.18,
+    "value": "C"
+   },
+   {
+    "start": 0.18,
+    "end": 0.25,
+    "value": "E"
+   },
+   {
+    "start": 0.25,
+    "end": 0.33,
+    "value": "A"
+   },
+   {
+    "start": 0.33,
+    "end": 0.41,
+    "value": "C"
+   },
+   {
+    "start": 0.41,
+    "end": 0.49,
+    "value": "A"
+   },
+   {
+    "start": 0.49,
+    "end": 0.55,
+    "value": "B"
+   },
+   {
+    "start": 0.55,
+    "end": 0.61,
+    "value": "C"
+   },
+   {
+    "start": 0.61,
+    "end": 1.52,
+    "value": "B"
+   },
+   {
+    "start": 1.52,
+    "end": 1.66,
+    "value": "C"
+   },
+   {
+    "start": 1.66,
+    "end": 1.73,
+    "value": "E"
+   },
+   {
+    "start": 1.73,
+    "end": 1.78,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_03",
+  "subtitle": "Amazon Kindle 11e génération، 16GB، Vert و Noir: صغير، خفيف، كيدخل فالجيب، وباطري كتصبر حتى لـ 6 semaines.",
+  "source": "human-take",
+  "start": 5.12,
+  "duration": 6.87,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Amazon",
+    "start": 0.08,
+    "end": 0.64
+   },
+   {
+    "word": "Kindle",
+    "start": 0.64,
+    "end": 1.02
+   },
+   {
+    "word": "11e",
+    "start": 1.02,
+    "end": 1.4
+   },
+   {
+    "word": "génération،",
+    "start": 1.4,
+    "end": 1.76
+   },
+   {
+    "word": "16GB،",
+    "start": 1.76,
+    "end": 2.4
+   },
+   {
+    "word": "Vert",
+    "start": 2.4,
+    "end": 2.6
+   },
+   {
+    "word": "و",
+    "start": 2.6,
+    "end": 2.8
+   },
+   {
+    "word": "Noir:",
+    "start": 2.8,
+    "end": 2.98
+   },
+   {
+    "word": "صغير،",
+    "start": 2.98,
+    "end": 3.38
+   },
+   {
+    "word": "خفيف،",
+    "start": 3.38,
+    "end": 3.84
+   },
+   {
+    "word": "كيدخل",
+    "start": 3.84,
+    "end": 4.22
+   },
+   {
+    "word": "فالجيب،",
+    "start": 4.22,
+    "end": 4.86
+   },
+   {
+    "word": "وباطري",
+    "start": 4.86,
+    "end": 5.58
+   },
+   {
+    "word": "كتصبر",
+    "start": 5.58,
+    "end": 5.98
+   },
+   {
+    "word": "حتى",
+    "start": 5.98,
+    "end": 6.18
+   },
+   {
+    "word": "لـ",
+    "start": 6.18,
+    "end": 6.36
+   },
+   {
+    "word": "6",
+    "start": 6.36,
+    "end": 6.54
+   },
+   {
+    "word": "semaines.",
+    "start": 6.54,
+    "end": 6.74
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.04,
+    "value": "X"
+   },
+   {
+    "start": 0.04,
+    "end": 0.1,
+    "value": "B"
+   },
+   {
+    "start": 0.1,
+    "end": 0.15,
+    "value": "D"
+   },
+   {
+    "start": 0.15,
+    "end": 0.23,
+    "value": "A"
+   },
+   {
+    "start": 0.23,
+    "end": 0.3,
+    "value": "D"
+   },
+   {
+    "start": 0.3,
+    "end": 0.36,
+    "value": "B"
+   },
+   {
+    "start": 0.36,
+    "end": 0.43,
+    "value": "E"
+   },
+   {
+    "start": 0.43,
+    "end": 0.5,
+    "value": "F"
+   },
+   {
+    "start": 0.5,
+    "end": 0.64,
+    "value": "B"
+   },
+   {
+    "start": 0.64,
+    "end": 0.78,
+    "value": "F"
+   },
+   {
+    "start": 0.78,
+    "end": 0.85,
+    "value": "B"
+   },
+   {
+    "start": 0.85,
+    "end": 0.92,
+    "value": "E"
+   },
+   {
+    "start": 0.92,
+    "end": 1.41,
+    "value": "B"
+   },
+   {
+    "start": 1.41,
+    "end": 1.55,
+    "value": "C"
+   },
+   {
+    "start": 1.55,
+    "end": 1.69,
+    "value": "B"
+   },
+   {
+    "start": 1.69,
+    "end": 1.83,
+    "value": "F"
+   },
+   {
+    "start": 1.83,
+    "end": 1.9,
+    "value": "B"
+   },
+   {
+    "start": 1.9,
+    "end": 2.04,
+    "value": "A"
+   },
+   {
+    "start": 2.04,
+    "end": 2.1,
+    "value": "B"
+   },
+   {
+    "start": 2.1,
+    "end": 2.23,
+    "value": "F"
+   },
+   {
+    "start": 2.23,
+    "end": 2.37,
+    "value": "B"
+   },
+   {
+    "start": 2.37,
+    "end": 2.51,
+    "value": "D"
+   },
+   {
+    "start": 2.51,
+    "end": 2.58,
+    "value": "C"
+   },
+   {
+    "start": 2.58,
+    "end": 2.65,
+    "value": "G"
+   },
+   {
+    "start": 2.65,
+    "end": 2.72,
+    "value": "E"
+   },
+   {
+    "start": 2.72,
+    "end": 2.8,
+    "value": "A"
+   },
+   {
+    "start": 2.8,
+    "end": 2.92,
+    "value": "E"
+   },
+   {
+    "start": 2.92,
+    "end": 3.06,
+    "value": "F"
+   },
+   {
+    "start": 3.06,
+    "end": 3.2,
+    "value": "B"
+   },
+   {
+    "start": 3.2,
+    "end": 3.27,
+    "value": "F"
+   },
+   {
+    "start": 3.27,
+    "end": 3.48,
+    "value": "D"
+   },
+   {
+    "start": 3.48,
+    "end": 3.62,
+    "value": "B"
+   },
+   {
+    "start": 3.62,
+    "end": 3.69,
+    "value": "H"
+   },
+   {
+    "start": 3.69,
+    "end": 3.9,
+    "value": "C"
+   },
+   {
+    "start": 3.9,
+    "end": 3.97,
+    "value": "B"
+   },
+   {
+    "start": 3.97,
+    "end": 4.11,
+    "value": "C"
+   },
+   {
+    "start": 4.11,
+    "end": 4.18,
+    "value": "G"
+   },
+   {
+    "start": 4.18,
+    "end": 4.67,
+    "value": "B"
+   },
+   {
+    "start": 4.67,
+    "end": 4.75,
+    "value": "A"
+   },
+   {
+    "start": 4.75,
+    "end": 4.8,
+    "value": "G"
+   },
+   {
+    "start": 4.8,
+    "end": 5.05,
+    "value": "F"
+   },
+   {
+    "start": 5.05,
+    "end": 5.14,
+    "value": "A"
+   },
+   {
+    "start": 5.14,
+    "end": 5.19,
+    "value": "B"
+   },
+   {
+    "start": 5.19,
+    "end": 5.24,
+    "value": "A"
+   },
+   {
+    "start": 5.24,
+    "end": 5.3,
+    "value": "B"
+   },
+   {
+    "start": 5.3,
+    "end": 5.35,
+    "value": "A"
+   },
+   {
+    "start": 5.35,
+    "end": 5.48,
+    "value": "C"
+   },
+   {
+    "start": 5.48,
+    "end": 5.76,
+    "value": "B"
+   },
+   {
+    "start": 5.76,
+    "end": 6.04,
+    "value": "F"
+   },
+   {
+    "start": 6.04,
+    "end": 6.46,
+    "value": "B"
+   },
+   {
+    "start": 6.46,
+    "end": 6.6,
+    "value": "F"
+   },
+   {
+    "start": 6.6,
+    "end": 6.68,
+    "value": "A"
+   },
+   {
+    "start": 6.68,
+    "end": 6.85,
+    "value": "B"
+   },
+   {
+    "start": 6.85,
+    "end": 6.87,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_04",
+  "subtitle": "Kobo Libra Colour، Noir: écran 7 pouces بالألوان، boutons باش تقلب الصفحة، ومقاوم للما.",
+  "source": "human-take",
+  "start": 11.99,
+  "duration": 5.12,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Kobo",
+    "start": 0.08,
+    "end": 0.4
+   },
+   {
+    "word": "Libra",
+    "start": 0.4,
+    "end": 0.76
+   },
+   {
+    "word": "Colour،",
+    "start": 0.76,
+    "end": 1.1
+   },
+   {
+    "word": "Noir:",
+    "start": 1.1,
+    "end": 1.28
+   },
+   {
+    "word": "écran",
+    "start": 1.28,
+    "end": 1.52
+   },
+   {
+    "word": "7",
+    "start": 1.52,
+    "end": 1.72
+   },
+   {
+    "word": "pouces",
+    "start": 1.72,
+    "end": 1.88
+   },
+   {
+    "word": "بالألوان،",
+    "start": 1.88,
+    "end": 2.66
+   },
+   {
+    "word": "boutons",
+    "start": 2.66,
+    "end": 3.08
+   },
+   {
+    "word": "باش",
+    "start": 3.08,
+    "end": 3.24
+   },
+   {
+    "word": "تقلب",
+    "start": 3.24,
+    "end": 3.6
+   },
+   {
+    "word": "الصفحة،",
+    "start": 3.6,
+    "end": 4.1
+   },
+   {
+    "word": "ومقاوم",
+    "start": 4.1,
+    "end": 4.74
+   },
+   {
+    "word": "للما.",
+    "start": 4.74,
+    "end": 5.08
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.04,
+    "value": "X"
+   },
+   {
+    "start": 0.04,
+    "end": 0.16,
+    "value": "F"
+   },
+   {
+    "start": 0.16,
+    "end": 0.26,
+    "value": "A"
+   },
+   {
+    "start": 0.26,
+    "end": 0.33,
+    "value": "F"
+   },
+   {
+    "start": 0.33,
+    "end": 0.4,
+    "value": "B"
+   },
+   {
+    "start": 0.4,
+    "end": 0.48,
+    "value": "A"
+   },
+   {
+    "start": 0.48,
+    "end": 0.58,
+    "value": "F"
+   },
+   {
+    "start": 0.58,
+    "end": 0.86,
+    "value": "C"
+   },
+   {
+    "start": 0.86,
+    "end": 0.93,
+    "value": "H"
+   },
+   {
+    "start": 0.93,
+    "end": 1.0,
+    "value": "C"
+   },
+   {
+    "start": 1.0,
+    "end": 1.08,
+    "value": "A"
+   },
+   {
+    "start": 1.08,
+    "end": 1.14,
+    "value": "F"
+   },
+   {
+    "start": 1.14,
+    "end": 1.28,
+    "value": "D"
+   },
+   {
+    "start": 1.28,
+    "end": 1.34,
+    "value": "C"
+   },
+   {
+    "start": 1.34,
+    "end": 1.41,
+    "value": "G"
+   },
+   {
+    "start": 1.41,
+    "end": 1.48,
+    "value": "B"
+   },
+   {
+    "start": 1.48,
+    "end": 1.76,
+    "value": "E"
+   },
+   {
+    "start": 1.76,
+    "end": 2.04,
+    "value": "B"
+   },
+   {
+    "start": 2.04,
+    "end": 2.14,
+    "value": "A"
+   },
+   {
+    "start": 2.14,
+    "end": 2.24,
+    "value": "F"
+   },
+   {
+    "start": 2.24,
+    "end": 2.31,
+    "value": "B"
+   },
+   {
+    "start": 2.31,
+    "end": 2.4,
+    "value": "A"
+   },
+   {
+    "start": 2.4,
+    "end": 2.44,
+    "value": "B"
+   },
+   {
+    "start": 2.44,
+    "end": 2.62,
+    "value": "C"
+   },
+   {
+    "start": 2.62,
+    "end": 2.76,
+    "value": "F"
+   },
+   {
+    "start": 2.76,
+    "end": 2.9,
+    "value": "C"
+   },
+   {
+    "start": 2.9,
+    "end": 2.98,
+    "value": "A"
+   },
+   {
+    "start": 2.98,
+    "end": 3.11,
+    "value": "F"
+   },
+   {
+    "start": 3.11,
+    "end": 3.19,
+    "value": "A"
+   },
+   {
+    "start": 3.19,
+    "end": 3.34,
+    "value": "E"
+   },
+   {
+    "start": 3.34,
+    "end": 3.48,
+    "value": "B"
+   },
+   {
+    "start": 3.48,
+    "end": 3.76,
+    "value": "F"
+   },
+   {
+    "start": 3.76,
+    "end": 3.83,
+    "value": "G"
+   },
+   {
+    "start": 3.83,
+    "end": 3.97,
+    "value": "B"
+   },
+   {
+    "start": 3.97,
+    "end": 4.07,
+    "value": "D"
+   },
+   {
+    "start": 4.07,
+    "end": 4.11,
+    "value": "C"
+   },
+   {
+    "start": 4.11,
+    "end": 4.19,
+    "value": "A"
+   },
+   {
+    "start": 4.19,
+    "end": 4.4,
+    "value": "C"
+   },
+   {
+    "start": 4.4,
+    "end": 4.47,
+    "value": "B"
+   },
+   {
+    "start": 4.47,
+    "end": 4.68,
+    "value": "E"
+   },
+   {
+    "start": 4.68,
+    "end": 4.82,
+    "value": "F"
+   },
+   {
+    "start": 4.82,
+    "end": 4.9,
+    "value": "A"
+   },
+   {
+    "start": 4.9,
+    "end": 5.11,
+    "value": "F"
+   },
+   {
+    "start": 5.11,
+    "end": 5.12,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_05",
+  "subtitle": "وكاملين فيهم: écran E Ink ما كيعييش العينين، و lumière intégrée باش تقرا حتى فالليل.",
+  "source": "human-take",
+  "start": 17.11,
+  "duration": 4.83,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "وكاملين",
+    "start": 0.12,
+    "end": 0.66
+   },
+   {
+    "word": "فيهم:",
+    "start": 0.66,
+    "end": 0.98
+   },
+   {
+    "word": "écran",
+    "start": 0.98,
+    "end": 1.18
+   },
+   {
+    "word": "E",
+    "start": 1.18,
+    "end": 1.36
+   },
+   {
+    "word": "Ink",
+    "start": 1.36,
+    "end": 1.6
+   },
+   {
+    "word": "ما",
+    "start": 1.6,
+    "end": 1.78
+   },
+   {
+    "word": "كيعييش",
+    "start": 1.78,
+    "end": 2.3
+   },
+   {
+    "word": "العينين،",
+    "start": 2.3,
+    "end": 2.78
+   },
+   {
+    "word": "و",
+    "start": 2.78,
+    "end": 3.04
+   },
+   {
+    "word": "lumière",
+    "start": 3.04,
+    "end": 3.38
+   },
+   {
+    "word": "intégrée",
+    "start": 3.38,
+    "end": 3.54
+   },
+   {
+    "word": "باش",
+    "start": 3.54,
+    "end": 3.72
+   },
+   {
+    "word": "تقرا",
+    "start": 3.72,
+    "end": 4.04
+   },
+   {
+    "word": "حتى",
+    "start": 4.04,
+    "end": 4.24
+   },
+   {
+    "word": "فالليل.",
+    "start": 4.24,
+    "end": 4.74
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.11,
+    "value": "X"
+   },
+   {
+    "start": 0.11,
+    "end": 0.16,
+    "value": "B"
+   },
+   {
+    "start": 0.16,
+    "end": 0.21,
+    "value": "E"
+   },
+   {
+    "start": 0.21,
+    "end": 0.42,
+    "value": "C"
+   },
+   {
+    "start": 0.42,
+    "end": 0.5,
+    "value": "A"
+   },
+   {
+    "start": 0.5,
+    "end": 0.71,
+    "value": "B"
+   },
+   {
+    "start": 0.71,
+    "end": 0.78,
+    "value": "G"
+   },
+   {
+    "start": 0.78,
+    "end": 0.99,
+    "value": "F"
+   },
+   {
+    "start": 0.99,
+    "end": 1.06,
+    "value": "B"
+   },
+   {
+    "start": 1.06,
+    "end": 1.13,
+    "value": "C"
+   },
+   {
+    "start": 1.13,
+    "end": 1.48,
+    "value": "E"
+   },
+   {
+    "start": 1.48,
+    "end": 1.97,
+    "value": "B"
+   },
+   {
+    "start": 1.97,
+    "end": 2.05,
+    "value": "A"
+   },
+   {
+    "start": 2.05,
+    "end": 2.39,
+    "value": "B"
+   },
+   {
+    "start": 2.39,
+    "end": 2.53,
+    "value": "F"
+   },
+   {
+    "start": 2.53,
+    "end": 2.95,
+    "value": "B"
+   },
+   {
+    "start": 2.95,
+    "end": 3.02,
+    "value": "F"
+   },
+   {
+    "start": 3.02,
+    "end": 3.16,
+    "value": "B"
+   },
+   {
+    "start": 3.16,
+    "end": 3.24,
+    "value": "A"
+   },
+   {
+    "start": 3.24,
+    "end": 3.37,
+    "value": "C"
+   },
+   {
+    "start": 3.37,
+    "end": 3.65,
+    "value": "B"
+   },
+   {
+    "start": 3.65,
+    "end": 3.79,
+    "value": "F"
+   },
+   {
+    "start": 3.79,
+    "end": 3.86,
+    "value": "B"
+   },
+   {
+    "start": 3.86,
+    "end": 3.98,
+    "value": "A"
+   },
+   {
+    "start": 3.98,
+    "end": 4.05,
+    "value": "B"
+   },
+   {
+    "start": 4.05,
+    "end": 4.33,
+    "value": "D"
+   },
+   {
+    "start": 4.33,
+    "end": 4.4,
+    "value": "B"
+   },
+   {
+    "start": 4.4,
+    "end": 4.47,
+    "value": "C"
+   },
+   {
+    "start": 4.47,
+    "end": 4.54,
+    "value": "G"
+   },
+   {
+    "start": 4.54,
+    "end": 4.61,
+    "value": "B"
+   },
+   {
+    "start": 4.61,
+    "end": 4.68,
+    "value": "C"
+   },
+   {
+    "start": 4.68,
+    "end": 4.75,
+    "value": "B"
+   },
+   {
+    "start": 4.75,
+    "end": 4.82,
+    "value": "C"
+   },
+   {
+    "start": 4.82,
+    "end": 4.83,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_06",
+  "subtitle": "Produits originaux, boîte fermée, jamais ouverts, jamais activés.",
+  "source": "human-take",
+  "start": 21.94,
+  "duration": 3.66,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Produits",
+    "start": 0.08,
+    "end": 0.46
+   },
+   {
+    "word": "originaux,",
+    "start": 0.46,
+    "end": 1.22
+   },
+   {
+    "word": "boîte",
+    "start": 1.22,
+    "end": 1.4
+   },
+   {
+    "word": "fermée,",
+    "start": 1.4,
+    "end": 1.78
+   },
+   {
+    "word": "jamais",
+    "start": 1.78,
+    "end": 2.24
+   },
+   {
+    "word": "ouverts,",
+    "start": 2.24,
+    "end": 2.62
+   },
+   {
+    "word": "jamais",
+    "start": 2.62,
+    "end": 2.98
+   },
+   {
+    "word": "activés.",
+    "start": 2.98,
+    "end": 3.56
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.02,
+    "value": "X"
+   },
+   {
+    "start": 0.02,
+    "end": 0.08,
+    "value": "A"
+   },
+   {
+    "start": 0.08,
+    "end": 0.14,
+    "value": "F"
+   },
+   {
+    "start": 0.14,
+    "end": 0.22,
+    "value": "A"
+   },
+   {
+    "start": 0.22,
+    "end": 0.4,
+    "value": "B"
+   },
+   {
+    "start": 0.4,
+    "end": 0.47,
+    "value": "E"
+   },
+   {
+    "start": 0.47,
+    "end": 0.54,
+    "value": "F"
+   },
+   {
+    "start": 0.54,
+    "end": 0.75,
+    "value": "B"
+   },
+   {
+    "start": 0.75,
+    "end": 0.82,
+    "value": "C"
+   },
+   {
+    "start": 0.82,
+    "end": 0.92,
+    "value": "D"
+   },
+   {
+    "start": 0.92,
+    "end": 0.96,
+    "value": "C"
+   },
+   {
+    "start": 0.96,
+    "end": 1.22,
+    "value": "A"
+   },
+   {
+    "start": 1.22,
+    "end": 1.29,
+    "value": "F"
+   },
+   {
+    "start": 1.29,
+    "end": 1.43,
+    "value": "B"
+   },
+   {
+    "start": 1.43,
+    "end": 1.5,
+    "value": "G"
+   },
+   {
+    "start": 1.5,
+    "end": 1.57,
+    "value": "C"
+   },
+   {
+    "start": 1.57,
+    "end": 1.64,
+    "value": "H"
+   },
+   {
+    "start": 1.64,
+    "end": 1.73,
+    "value": "A"
+   },
+   {
+    "start": 1.73,
+    "end": 1.8,
+    "value": "C"
+   },
+   {
+    "start": 1.8,
+    "end": 2.15,
+    "value": "B"
+   },
+   {
+    "start": 2.15,
+    "end": 2.22,
+    "value": "D"
+   },
+   {
+    "start": 2.22,
+    "end": 2.3,
+    "value": "A"
+   },
+   {
+    "start": 2.3,
+    "end": 2.47,
+    "value": "B"
+   },
+   {
+    "start": 2.47,
+    "end": 2.61,
+    "value": "G"
+   },
+   {
+    "start": 2.61,
+    "end": 2.75,
+    "value": "C"
+   },
+   {
+    "start": 2.75,
+    "end": 2.96,
+    "value": "B"
+   },
+   {
+    "start": 2.96,
+    "end": 3.03,
+    "value": "D"
+   },
+   {
+    "start": 3.03,
+    "end": 3.11,
+    "value": "A"
+   },
+   {
+    "start": 3.11,
+    "end": 3.23,
+    "value": "C"
+   },
+   {
+    "start": 3.23,
+    "end": 3.65,
+    "value": "B"
+   },
+   {
+    "start": 3.65,
+    "end": 3.66,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_07",
+  "subtitle": "إلا بغيتي تكوموندي، صيفط لينا ميساج.",
+  "source": "human-take",
+  "start": 25.6,
+  "duration": 1.89,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "إلا",
+    "start": 0.08,
+    "end": 0.2
+   },
+   {
+    "word": "بغيتي",
+    "start": 0.2,
+    "end": 0.44
+   },
+   {
+    "word": "تكوموندي،",
+    "start": 0.44,
+    "end": 0.96
+   },
+   {
+    "word": "صيفط",
+    "start": 0.96,
+    "end": 1.32
+   },
+   {
+    "word": "لينا",
+    "start": 1.32,
+    "end": 1.58
+   },
+   {
+    "word": "ميساج.",
+    "start": 1.58,
+    "end": 1.86
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.05,
+    "value": "X"
+   },
+   {
+    "start": 0.05,
+    "end": 0.3,
+    "value": "B"
+   },
+   {
+    "start": 0.3,
+    "end": 0.58,
+    "value": "F"
+   },
+   {
+    "start": 0.58,
+    "end": 0.65,
+    "value": "A"
+   },
+   {
+    "start": 0.65,
+    "end": 0.72,
+    "value": "E"
+   },
+   {
+    "start": 0.72,
+    "end": 0.79,
+    "value": "A"
+   },
+   {
+    "start": 0.79,
+    "end": 0.9,
+    "value": "C"
+   },
+   {
+    "start": 0.9,
+    "end": 1.11,
+    "value": "B"
+   },
+   {
+    "start": 1.11,
+    "end": 1.18,
+    "value": "C"
+   },
+   {
+    "start": 1.18,
+    "end": 1.32,
+    "value": "B"
+   },
+   {
+    "start": 1.32,
+    "end": 1.4,
+    "value": "A"
+   },
+   {
+    "start": 1.4,
+    "end": 1.48,
+    "value": "C"
+   },
+   {
+    "start": 1.48,
+    "end": 1.55,
+    "value": "A"
+   },
+   {
+    "start": 1.55,
+    "end": 1.65,
+    "value": "B"
+   },
+   {
+    "start": 1.65,
+    "end": 1.76,
+    "value": "A"
+   },
+   {
+    "start": 1.76,
+    "end": 1.88,
+    "value": "B"
+   },
+   {
+    "start": 1.88,
+    "end": 1.89,
+    "value": "X"
+   }
+  ]
+ }
+]

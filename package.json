@@ -186,7 +186,11 @@
     "rbrange:cutout": "python3 reels/rbrange/cutout.py",
     "rbrange:audio": "REEL=rbrange python3 scripts/process_vo_take.py && python3 reels/rbrange/build_timeline.py && REEL=rbrange python3 scripts/make_music.py && REEL=rbrange python3 scripts/mix_audio.py",
     "rbrange:render": "remotion render RbRangeReel9x16 out/rbrange/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still RbRangeCover out/rbrange/cover_1080x1920.png",
-    "rbrange:build": "npm run rbrange:cutout && npm run rbrange:audio && REEL=rbrange node scripts/make_srt.mjs && npm run rbrange:render && REEL=rbrange bash scripts/finalize.sh && REEL=rbrange bash scripts/verify.sh"
+    "rbrange:build": "npm run rbrange:cutout && npm run rbrange:audio && REEL=rbrange node scripts/make_srt.mjs && npm run rbrange:render && REEL=rbrange bash scripts/finalize.sh && REEL=rbrange bash scripts/verify.sh",
+    "readers2:cutout": "python3 reels/readers2/cutout.py",
+    "readers2:audio": "REEL=readers2 python3 scripts/process_vo_take.py && python3 reels/readers2/build_timeline.py && REEL=readers2 python3 scripts/make_music.py && REEL=readers2 python3 scripts/mix_audio.py",
+    "readers2:render": "remotion render Readers2Reel9x16 out/readers2/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Readers2Cover out/readers2/cover_1080x1920.png",
+    "readers2:build": "npm run readers2:cutout && npm run readers2:audio && REEL=readers2 node scripts/make_srt.mjs && npm run readers2:render && REEL=readers2 bash scripts/finalize.sh && REEL=readers2 bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

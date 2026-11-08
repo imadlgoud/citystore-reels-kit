@@ -1,0 +1,11 @@
+{
+ "id": "readers2",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [3.9, 6.1, 14.09, 20.57, 26.05, 30.13],
+ "lead": 0.06,
+ "voEndBy": 999,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "note": "E-readers: Kindle 11th gen 16GB (Vert + Noir) and Kobo Libra Colour (Noir). Aim 30 s: pause trimming only (natural speed, VO ends at 27.5 s). Boundaries from the long pauses + syllable balance. 9:16 + cover only."
+}

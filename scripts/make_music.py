@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # E-readers reel (Kindle 11 + Kobo Libra Colour, 30 s): calm, warm D-flat reading groove; drop on "هاد الفيديو ليك!"
+    "readers2": dict(seed=419, phase=1.0, drop=3.0, end_lift=27.75, stop=28.25,
+                     chords=[[61, 65, 68], [58, 61, 65], [54, 58, 61], [56, 60, 63]], roots=[37, 34, 42, 44],
+                     final=[61, 65, 68, 73], final_bass=37, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
     # Ray-Ban Meta range reel (39.5 s, over 30 s at natural speed): same sunny E-major groove as the Ray-Ban Meta reel, new seed
     "rbrange": dict(seed=409, dur=39.5, phase=1.0, drop=2.5, end_lift=37.0, stop=38.25,
                     chords=[[64, 68, 71], [61, 64, 68], [57, 61, 64], [59, 63, 66]], roots=[40, 37, 45, 47],

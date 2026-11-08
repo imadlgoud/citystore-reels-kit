@@ -1,0 +1,22 @@
+{
+ "black": {
+  "src": "readers2/products/black.png",
+  "w": 738,
+  "h": 1100
+ },
+ "green_pair": {
+  "src": "readers2/products/green_pair.png",
+  "w": 882,
+  "h": 885
+ },
+ "black_pair": {
+  "src": "readers2/products/black_pair.png",
+  "w": 765,
+  "h": 771
+ },
+ "kobo": {
+  "src": "readers2/products/kobo.png",
+  "w": 665,
+  "h": 889
+ }
+}

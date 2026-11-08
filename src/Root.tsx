@@ -129,6 +129,9 @@ import { RBTL } from "./reels/rbmeta/timeline";
 import { RbRangeReel } from "./reels/rbrange/RbRangeReel";
 import { RbRangeCover } from "./reels/rbrange/RbRangeCover";
 import { RRTL } from "./reels/rbrange/timeline";
+import { Readers2Reel } from "./reels/readers2/Readers2Reel";
+import { Readers2Cover } from "./reels/readers2/Readers2Cover";
+import { R2TL } from "./reels/readers2/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -266,6 +269,9 @@ export const RemotionRoot: React.FC = () => (
     {/* Ray-Ban Meta range: 39.5 s, over 30 s at natural speed (standing approval), so no MAX_FRAMES cap; 9:16 + cover only */}
     <Composition id="RbRangeReel9x16" component={RbRangeReel} durationInFrames={RRTL.totalFrames} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="RbRangeCover" component={RbRangeCover} width={1080} height={1920} />
+    {/* E-readers (Kindle 11 Vert + Noir, Kobo Libra Colour Noir): 30 s (pause trimming, natural speed); 9:16 + cover only */}
+    <Composition id="Readers2Reel9x16" component={Readers2Reel} durationInFrames={Math.min(R2TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="Readers2Cover" component={Readers2Cover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );
