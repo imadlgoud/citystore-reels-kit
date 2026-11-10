@@ -1,0 +1,11 @@
+{
+ "id": "airpods5b",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [4.4, 7.35, 15.3, 20.16, 26.27, 31.14],
+ "lead": 0.06,
+ "voEndBy": 27.6,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "note": "AirPods 5 (second reel, new 30 s script). Aim 30 s: pause trimming, then <=1.1x pitch-kept speed-up. 9:16 + cover only."
+}

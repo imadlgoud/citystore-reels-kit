@@ -190,7 +190,11 @@
     "readers2:cutout": "python3 reels/readers2/cutout.py",
     "readers2:audio": "REEL=readers2 python3 scripts/process_vo_take.py && python3 reels/readers2/build_timeline.py && REEL=readers2 python3 scripts/make_music.py && REEL=readers2 python3 scripts/mix_audio.py",
     "readers2:render": "remotion render Readers2Reel9x16 out/readers2/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Readers2Cover out/readers2/cover_1080x1920.png",
-    "readers2:build": "npm run readers2:cutout && npm run readers2:audio && REEL=readers2 node scripts/make_srt.mjs && npm run readers2:render && REEL=readers2 bash scripts/finalize.sh && REEL=readers2 bash scripts/verify.sh"
+    "readers2:build": "npm run readers2:cutout && npm run readers2:audio && REEL=readers2 node scripts/make_srt.mjs && npm run readers2:render && REEL=readers2 bash scripts/finalize.sh && REEL=readers2 bash scripts/verify.sh",
+    "airpods5b:cutout": "python3 reels/airpods5b/cutout.py",
+    "airpods5b:audio": "REEL=airpods5b python3 scripts/process_vo_take.py && python3 reels/airpods5b/build_timeline.py && REEL=airpods5b python3 scripts/make_music.py && REEL=airpods5b python3 scripts/mix_audio.py",
+    "airpods5b:render": "remotion render Airpods5bReel9x16 out/airpods5b/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Airpods5bCover out/airpods5b/cover_1080x1920.png",
+    "airpods5b:build": "npm run airpods5b:cutout && npm run airpods5b:audio && REEL=airpods5b node scripts/make_srt.mjs && npm run airpods5b:render && REEL=airpods5b bash scripts/finalize.sh && REEL=airpods5b bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

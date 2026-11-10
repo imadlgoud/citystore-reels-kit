@@ -1,0 +1,1586 @@
+[
+ {
+  "id": "line_01",
+  "subtitle": "عندك iPhone وباقي ما عندكش AirPods؟ راه ناقصاك نص التجربة!",
+  "source": "human-take",
+  "start": 0.06,
+  "duration": 3.744,
+  "speed": 1.0443,
+  "words": [
+   {
+    "word": "عندك",
+    "start": 0.0,
+    "end": 0.34
+   },
+   {
+    "word": "iPhone",
+    "start": 0.34,
+    "end": 0.7
+   },
+   {
+    "word": "وباقي",
+    "start": 0.7,
+    "end": 1.12
+   },
+   {
+    "word": "ما",
+    "start": 1.12,
+    "end": 1.32
+   },
+   {
+    "word": "عندكش",
+    "start": 1.32,
+    "end": 1.68
+   },
+   {
+    "word": "AirPods؟",
+    "start": 1.68,
+    "end": 2.06
+   },
+   {
+    "word": "راه",
+    "start": 2.06,
+    "end": 2.32
+   },
+   {
+    "word": "ناقصاك",
+    "start": 2.32,
+    "end": 2.92
+   },
+   {
+    "word": "نص",
+    "start": 2.92,
+    "end": 3.1
+   },
+   {
+    "word": "التجربة!",
+    "start": 3.1,
+    "end": 3.66
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.04,
+    "value": "B"
+   },
+   {
+    "start": 0.04,
+    "end": 0.43,
+    "value": "C"
+   },
+   {
+    "start": 0.43,
+    "end": 0.57,
+    "value": "G"
+   },
+   {
+    "start": 0.57,
+    "end": 0.64,
+    "value": "B"
+   },
+   {
+    "start": 0.64,
+    "end": 0.72,
+    "value": "A"
+   },
+   {
+    "start": 0.72,
+    "end": 0.79,
+    "value": "B"
+   },
+   {
+    "start": 0.79,
+    "end": 0.86,
+    "value": "E"
+   },
+   {
+    "start": 0.86,
+    "end": 0.94,
+    "value": "A"
+   },
+   {
+    "start": 0.94,
+    "end": 1.09,
+    "value": "E"
+   },
+   {
+    "start": 1.09,
+    "end": 1.23,
+    "value": "B"
+   },
+   {
+    "start": 1.23,
+    "end": 1.31,
+    "value": "A"
+   },
+   {
+    "start": 1.31,
+    "end": 1.36,
+    "value": "C"
+   },
+   {
+    "start": 1.36,
+    "end": 1.69,
+    "value": "B"
+   },
+   {
+    "start": 1.69,
+    "end": 1.76,
+    "value": "C"
+   },
+   {
+    "start": 1.76,
+    "end": 1.84,
+    "value": "A"
+   },
+   {
+    "start": 1.84,
+    "end": 2.02,
+    "value": "F"
+   },
+   {
+    "start": 2.02,
+    "end": 2.09,
+    "value": "G"
+   },
+   {
+    "start": 2.09,
+    "end": 2.16,
+    "value": "B"
+   },
+   {
+    "start": 2.16,
+    "end": 2.35,
+    "value": "A"
+   },
+   {
+    "start": 2.35,
+    "end": 2.45,
+    "value": "C"
+   },
+   {
+    "start": 2.45,
+    "end": 2.55,
+    "value": "A"
+   },
+   {
+    "start": 2.55,
+    "end": 2.61,
+    "value": "D"
+   },
+   {
+    "start": 2.61,
+    "end": 3.02,
+    "value": "F"
+   },
+   {
+    "start": 3.02,
+    "end": 3.16,
+    "value": "B"
+   },
+   {
+    "start": 3.16,
+    "end": 3.44,
+    "value": "F"
+   },
+   {
+    "start": 3.44,
+    "end": 3.52,
+    "value": "A"
+   },
+   {
+    "start": 3.52,
+    "end": 3.71,
+    "value": "E"
+   },
+   {
+    "start": 3.71,
+    "end": 3.74,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_02",
+  "subtitle": "AirPods 5، disponibles دابا عندنا.",
+  "source": "human-take",
+  "start": 3.804,
+  "duration": 2.346,
+  "speed": 1.0443,
+  "words": [
+   {
+    "word": "AirPods",
+    "start": 0.08,
+    "end": 0.5
+   },
+   {
+    "word": "5،",
+    "start": 0.5,
+    "end": 0.7
+   },
+   {
+    "word": "disponibles",
+    "start": 0.7,
+    "end": 1.48
+   },
+   {
+    "word": "دابا",
+    "start": 1.48,
+    "end": 1.88
+   },
+   {
+    "word": "عندنا.",
+    "start": 1.88,
+    "end": 2.28
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.04,
+    "value": "X"
+   },
+   {
+    "start": 0.04,
+    "end": 0.1,
+    "value": "B"
+   },
+   {
+    "start": 0.1,
+    "end": 0.15,
+    "value": "C"
+   },
+   {
+    "start": 0.15,
+    "end": 0.23,
+    "value": "A"
+   },
+   {
+    "start": 0.23,
+    "end": 0.38,
+    "value": "E"
+   },
+   {
+    "start": 0.38,
+    "end": 0.45,
+    "value": "G"
+   },
+   {
+    "start": 0.45,
+    "end": 0.59,
+    "value": "B"
+   },
+   {
+    "start": 0.59,
+    "end": 0.8,
+    "value": "C"
+   },
+   {
+    "start": 0.8,
+    "end": 0.87,
+    "value": "B"
+   },
+   {
+    "start": 0.87,
+    "end": 0.95,
+    "value": "A"
+   },
+   {
+    "start": 0.95,
+    "end": 1.16,
+    "value": "B"
+   },
+   {
+    "start": 1.16,
+    "end": 1.24,
+    "value": "A"
+   },
+   {
+    "start": 1.24,
+    "end": 1.33,
+    "value": "F"
+   },
+   {
+    "start": 1.33,
+    "end": 1.41,
+    "value": "A"
+   },
+   {
+    "start": 1.41,
+    "end": 1.49,
+    "value": "B"
+   },
+   {
+    "start": 1.49,
+    "end": 1.59,
+    "value": "A"
+   },
+   {
+    "start": 1.59,
+    "end": 1.68,
+    "value": "B"
+   },
+   {
+    "start": 1.68,
+    "end": 1.75,
+    "value": "C"
+   },
+   {
+    "start": 1.75,
+    "end": 1.83,
+    "value": "A"
+   },
+   {
+    "start": 1.83,
+    "end": 2.05,
+    "value": "C"
+   },
+   {
+    "start": 2.05,
+    "end": 2.12,
+    "value": "B"
+   },
+   {
+    "start": 2.12,
+    "end": 2.2,
+    "value": "A"
+   },
+   {
+    "start": 2.2,
+    "end": 2.27,
+    "value": "D"
+   },
+   {
+    "start": 2.27,
+    "end": 2.33,
+    "value": "B"
+   },
+   {
+    "start": 2.33,
+    "end": 2.34,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_03",
+  "subtitle": "réduction de bruit أقوى بـ 50% من AirPods 4، وكيتبدلو بوحدهم لـ mode transparence ملي شي حد كيهضر معاك.",
+  "source": "human-take",
+  "start": 6.15,
+  "duration": 6.674,
+  "speed": 1.0443,
+  "words": [
+   {
+    "word": "réduction",
+    "start": 0.08,
+    "end": 0.42
+   },
+   {
+    "word": "de",
+    "start": 0.42,
+    "end": 0.6
+   },
+   {
+    "word": "bruit",
+    "start": 0.6,
+    "end": 0.78
+   },
+   {
+    "word": "أقوى",
+    "start": 0.78,
+    "end": 1.3
+   },
+   {
+    "word": "بـ",
+    "start": 1.3,
+    "end": 1.48
+   },
+   {
+    "word": "50%",
+    "start": 1.48,
+    "end": 2.18
+   },
+   {
+    "word": "من",
+    "start": 2.18,
+    "end": 2.36
+   },
+   {
+    "word": "AirPods",
+    "start": 2.36,
+    "end": 2.82
+   },
+   {
+    "word": "4،",
+    "start": 2.82,
+    "end": 3.0
+   },
+   {
+    "word": "وكيتبدلو",
+    "start": 3.0,
+    "end": 3.8
+   },
+   {
+    "word": "بوحدهم",
+    "start": 3.8,
+    "end": 4.34
+   },
+   {
+    "word": "لـ",
+    "start": 4.34,
+    "end": 4.52
+   },
+   {
+    "word": "mode",
+    "start": 4.52,
+    "end": 4.7
+   },
+   {
+    "word": "transparence",
+    "start": 4.7,
+    "end": 5.32
+   },
+   {
+    "word": "ملي",
+    "start": 5.32,
+    "end": 5.5
+   },
+   {
+    "word": "شي",
+    "start": 5.5,
+    "end": 5.68
+   },
+   {
+    "word": "حد",
+    "start": 5.68,
+    "end": 5.86
+   },
+   {
+    "word": "كيهضر",
+    "start": 5.86,
+    "end": 6.26
+   },
+   {
+    "word": "معاك.",
+    "start": 6.26,
+    "end": 6.62
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.04,
+    "value": "X"
+   },
+   {
+    "start": 0.04,
+    "end": 0.17,
+    "value": "B"
+   },
+   {
+    "start": 0.17,
+    "end": 0.24,
+    "value": "C"
+   },
+   {
+    "start": 0.24,
+    "end": 0.52,
+    "value": "B"
+   },
+   {
+    "start": 0.52,
+    "end": 0.59,
+    "value": "E"
+   },
+   {
+    "start": 0.59,
+    "end": 0.66,
+    "value": "B"
+   },
+   {
+    "start": 0.66,
+    "end": 0.76,
+    "value": "A"
+   },
+   {
+    "start": 0.76,
+    "end": 1.02,
+    "value": "B"
+   },
+   {
+    "start": 1.02,
+    "end": 1.16,
+    "value": "D"
+   },
+   {
+    "start": 1.16,
+    "end": 1.3,
+    "value": "B"
+   },
+   {
+    "start": 1.3,
+    "end": 1.44,
+    "value": "F"
+   },
+   {
+    "start": 1.44,
+    "end": 1.65,
+    "value": "B"
+   },
+   {
+    "start": 1.65,
+    "end": 1.73,
+    "value": "A"
+   },
+   {
+    "start": 1.73,
+    "end": 1.96,
+    "value": "B"
+   },
+   {
+    "start": 1.96,
+    "end": 2.03,
+    "value": "G"
+   },
+   {
+    "start": 2.03,
+    "end": 2.1,
+    "value": "B"
+   },
+   {
+    "start": 2.1,
+    "end": 2.18,
+    "value": "A"
+   },
+   {
+    "start": 2.18,
+    "end": 2.31,
+    "value": "B"
+   },
+   {
+    "start": 2.31,
+    "end": 2.39,
+    "value": "A"
+   },
+   {
+    "start": 2.39,
+    "end": 2.43,
+    "value": "B"
+   },
+   {
+    "start": 2.43,
+    "end": 2.61,
+    "value": "C"
+   },
+   {
+    "start": 2.61,
+    "end": 2.69,
+    "value": "A"
+   },
+   {
+    "start": 2.69,
+    "end": 2.78,
+    "value": "E"
+   },
+   {
+    "start": 2.78,
+    "end": 2.85,
+    "value": "F"
+   },
+   {
+    "start": 2.85,
+    "end": 2.92,
+    "value": "B"
+   },
+   {
+    "start": 2.92,
+    "end": 3.13,
+    "value": "C"
+   },
+   {
+    "start": 3.13,
+    "end": 3.34,
+    "value": "B"
+   },
+   {
+    "start": 3.34,
+    "end": 3.42,
+    "value": "A"
+   },
+   {
+    "start": 3.42,
+    "end": 3.58,
+    "value": "C"
+   },
+   {
+    "start": 3.58,
+    "end": 3.65,
+    "value": "B"
+   },
+   {
+    "start": 3.65,
+    "end": 3.73,
+    "value": "A"
+   },
+   {
+    "start": 3.73,
+    "end": 3.96,
+    "value": "F"
+   },
+   {
+    "start": 3.96,
+    "end": 4.11,
+    "value": "A"
+   },
+   {
+    "start": 4.11,
+    "end": 4.26,
+    "value": "B"
+   },
+   {
+    "start": 4.26,
+    "end": 4.4,
+    "value": "E"
+   },
+   {
+    "start": 4.4,
+    "end": 4.47,
+    "value": "F"
+   },
+   {
+    "start": 4.47,
+    "end": 4.67,
+    "value": "A"
+   },
+   {
+    "start": 4.67,
+    "end": 4.73,
+    "value": "E"
+   },
+   {
+    "start": 4.73,
+    "end": 4.92,
+    "value": "D"
+   },
+   {
+    "start": 4.92,
+    "end": 5.0,
+    "value": "C"
+   },
+   {
+    "start": 5.0,
+    "end": 5.08,
+    "value": "A"
+   },
+   {
+    "start": 5.08,
+    "end": 5.24,
+    "value": "D"
+   },
+   {
+    "start": 5.24,
+    "end": 5.38,
+    "value": "E"
+   },
+   {
+    "start": 5.38,
+    "end": 5.52,
+    "value": "B"
+   },
+   {
+    "start": 5.52,
+    "end": 5.61,
+    "value": "A"
+   },
+   {
+    "start": 5.61,
+    "end": 6.08,
+    "value": "B"
+   },
+   {
+    "start": 6.08,
+    "end": 6.29,
+    "value": "C"
+   },
+   {
+    "start": 6.29,
+    "end": 6.36,
+    "value": "B"
+   },
+   {
+    "start": 6.36,
+    "end": 6.44,
+    "value": "A"
+   },
+   {
+    "start": 6.44,
+    "end": 6.66,
+    "value": "C"
+   },
+   {
+    "start": 6.66,
+    "end": 6.67,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_04",
+  "subtitle": "Traduction en direct: كيترجمو ليك فالبلاصة ملي كتهضر مع شي واحد بلغة أخرى.",
+  "source": "human-take",
+  "start": 12.825,
+  "duration": 4.156,
+  "speed": 1.0443,
+  "words": [
+   {
+    "word": "Traduction",
+    "start": 0.04,
+    "end": 0.58
+   },
+   {
+    "word": "en",
+    "start": 0.58,
+    "end": 0.72
+   },
+   {
+    "word": "direct:",
+    "start": 0.72,
+    "end": 1.02
+   },
+   {
+    "word": "كيترجمو",
+    "start": 1.02,
+    "end": 1.64
+   },
+   {
+    "word": "ليك",
+    "start": 1.64,
+    "end": 1.78
+   },
+   {
+    "word": "فالبلاصة",
+    "start": 1.78,
+    "end": 2.4
+   },
+   {
+    "word": "ملي",
+    "start": 2.4,
+    "end": 2.56
+   },
+   {
+    "word": "كتهضر",
+    "start": 2.56,
+    "end": 2.88
+   },
+   {
+    "word": "مع",
+    "start": 2.88,
+    "end": 3.02
+   },
+   {
+    "word": "شي",
+    "start": 3.02,
+    "end": 3.18
+   },
+   {
+    "word": "واحد",
+    "start": 3.18,
+    "end": 3.48
+   },
+   {
+    "word": "بلغة",
+    "start": 3.48,
+    "end": 3.78
+   },
+   {
+    "word": "أخرى.",
+    "start": 3.78,
+    "end": 4.08
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.01,
+    "value": "X"
+   },
+   {
+    "start": 0.01,
+    "end": 0.08,
+    "value": "B"
+   },
+   {
+    "start": 0.08,
+    "end": 0.22,
+    "value": "C"
+   },
+   {
+    "start": 0.22,
+    "end": 0.57,
+    "value": "B"
+   },
+   {
+    "start": 0.57,
+    "end": 0.65,
+    "value": "A"
+   },
+   {
+    "start": 0.65,
+    "end": 0.69,
+    "value": "E"
+   },
+   {
+    "start": 0.69,
+    "end": 0.94,
+    "value": "B"
+   },
+   {
+    "start": 0.94,
+    "end": 1.08,
+    "value": "C"
+   },
+   {
+    "start": 1.08,
+    "end": 1.36,
+    "value": "B"
+   },
+   {
+    "start": 1.36,
+    "end": 1.5,
+    "value": "C"
+   },
+   {
+    "start": 1.5,
+    "end": 1.57,
+    "value": "B"
+   },
+   {
+    "start": 1.57,
+    "end": 1.65,
+    "value": "A"
+   },
+   {
+    "start": 1.65,
+    "end": 1.73,
+    "value": "F"
+   },
+   {
+    "start": 1.73,
+    "end": 1.94,
+    "value": "B"
+   },
+   {
+    "start": 1.94,
+    "end": 2.01,
+    "value": "F"
+   },
+   {
+    "start": 2.01,
+    "end": 2.12,
+    "value": "A"
+   },
+   {
+    "start": 2.12,
+    "end": 2.17,
+    "value": "H"
+   },
+   {
+    "start": 2.17,
+    "end": 2.22,
+    "value": "D"
+   },
+   {
+    "start": 2.22,
+    "end": 2.29,
+    "value": "B"
+   },
+   {
+    "start": 2.29,
+    "end": 2.36,
+    "value": "C"
+   },
+   {
+    "start": 2.36,
+    "end": 2.44,
+    "value": "A"
+   },
+   {
+    "start": 2.44,
+    "end": 2.74,
+    "value": "B"
+   },
+   {
+    "start": 2.74,
+    "end": 2.81,
+    "value": "C"
+   },
+   {
+    "start": 2.81,
+    "end": 2.88,
+    "value": "B"
+   },
+   {
+    "start": 2.88,
+    "end": 2.96,
+    "value": "A"
+   },
+   {
+    "start": 2.96,
+    "end": 3.11,
+    "value": "C"
+   },
+   {
+    "start": 3.11,
+    "end": 3.25,
+    "value": "B"
+   },
+   {
+    "start": 3.25,
+    "end": 3.32,
+    "value": "F"
+   },
+   {
+    "start": 3.32,
+    "end": 3.46,
+    "value": "C"
+   },
+   {
+    "start": 3.46,
+    "end": 3.53,
+    "value": "B"
+   },
+   {
+    "start": 3.53,
+    "end": 3.69,
+    "value": "A"
+   },
+   {
+    "start": 3.69,
+    "end": 3.73,
+    "value": "F"
+   },
+   {
+    "start": 3.73,
+    "end": 3.84,
+    "value": "H"
+   },
+   {
+    "start": 3.84,
+    "end": 4.12,
+    "value": "D"
+   },
+   {
+    "start": 4.12,
+    "end": 4.15,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_05",
+  "subtitle": "Siri بلا يدين، son spatial personnalisé، ومقاومين للعرق، الغبرة والما.",
+  "source": "human-take",
+  "start": 16.98,
+  "duration": 4.769,
+  "speed": 1.0443,
+  "words": [
+   {
+    "word": "Siri",
+    "start": 0.06,
+    "end": 0.4
+   },
+   {
+    "word": "بلا",
+    "start": 0.4,
+    "end": 0.58
+   },
+   {
+    "word": "يدين،",
+    "start": 0.58,
+    "end": 0.94
+   },
+   {
+    "word": "son",
+    "start": 0.94,
+    "end": 1.2
+   },
+   {
+    "word": "spatial",
+    "start": 1.2,
+    "end": 1.6
+   },
+   {
+    "word": "personnalisé،",
+    "start": 1.6,
+    "end": 2.38
+   },
+   {
+    "word": "ومقاومين",
+    "start": 2.38,
+    "end": 3.2
+   },
+   {
+    "word": "للعرق،",
+    "start": 3.2,
+    "end": 3.56
+   },
+   {
+    "word": "الغبرة",
+    "start": 3.56,
+    "end": 4.24
+   },
+   {
+    "word": "والما.",
+    "start": 4.24,
+    "end": 4.68
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.03,
+    "value": "X"
+   },
+   {
+    "start": 0.03,
+    "end": 0.14,
+    "value": "B"
+   },
+   {
+    "start": 0.14,
+    "end": 0.28,
+    "value": "F"
+   },
+   {
+    "start": 0.28,
+    "end": 0.35,
+    "value": "B"
+   },
+   {
+    "start": 0.35,
+    "end": 0.43,
+    "value": "A"
+   },
+   {
+    "start": 0.43,
+    "end": 0.56,
+    "value": "H"
+   },
+   {
+    "start": 0.56,
+    "end": 0.63,
+    "value": "C"
+   },
+   {
+    "start": 0.63,
+    "end": 1.19,
+    "value": "B"
+   },
+   {
+    "start": 1.19,
+    "end": 1.26,
+    "value": "G"
+   },
+   {
+    "start": 1.26,
+    "end": 1.33,
+    "value": "E"
+   },
+   {
+    "start": 1.33,
+    "end": 1.4,
+    "value": "B"
+   },
+   {
+    "start": 1.4,
+    "end": 1.48,
+    "value": "A"
+   },
+   {
+    "start": 1.48,
+    "end": 1.61,
+    "value": "D"
+   },
+   {
+    "start": 1.61,
+    "end": 1.75,
+    "value": "B"
+   },
+   {
+    "start": 1.75,
+    "end": 1.82,
+    "value": "C"
+   },
+   {
+    "start": 1.82,
+    "end": 1.9,
+    "value": "A"
+   },
+   {
+    "start": 1.9,
+    "end": 2.02,
+    "value": "C"
+   },
+   {
+    "start": 2.02,
+    "end": 2.09,
+    "value": "B"
+   },
+   {
+    "start": 2.09,
+    "end": 2.16,
+    "value": "E"
+   },
+   {
+    "start": 2.16,
+    "end": 2.24,
+    "value": "A"
+   },
+   {
+    "start": 2.24,
+    "end": 2.63,
+    "value": "B"
+   },
+   {
+    "start": 2.63,
+    "end": 2.77,
+    "value": "F"
+   },
+   {
+    "start": 2.77,
+    "end": 2.85,
+    "value": "A"
+   },
+   {
+    "start": 2.85,
+    "end": 3.04,
+    "value": "E"
+   },
+   {
+    "start": 3.04,
+    "end": 3.11,
+    "value": "F"
+   },
+   {
+    "start": 3.11,
+    "end": 3.18,
+    "value": "B"
+   },
+   {
+    "start": 3.18,
+    "end": 3.26,
+    "value": "A"
+   },
+   {
+    "start": 3.26,
+    "end": 3.37,
+    "value": "B"
+   },
+   {
+    "start": 3.37,
+    "end": 3.44,
+    "value": "H"
+   },
+   {
+    "start": 3.44,
+    "end": 3.58,
+    "value": "D"
+   },
+   {
+    "start": 3.58,
+    "end": 3.65,
+    "value": "C"
+   },
+   {
+    "start": 3.65,
+    "end": 4.0,
+    "value": "B"
+   },
+   {
+    "start": 4.0,
+    "end": 4.11,
+    "value": "A"
+   },
+   {
+    "start": 4.11,
+    "end": 4.21,
+    "value": "D"
+   },
+   {
+    "start": 4.21,
+    "end": 4.36,
+    "value": "A"
+   },
+   {
+    "start": 4.36,
+    "end": 4.51,
+    "value": "F"
+   },
+   {
+    "start": 4.51,
+    "end": 4.59,
+    "value": "A"
+   },
+   {
+    "start": 4.59,
+    "end": 4.63,
+    "value": "D"
+   },
+   {
+    "start": 4.63,
+    "end": 4.74,
+    "value": "B"
+   },
+   {
+    "start": 4.74,
+    "end": 4.76,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_06",
+  "subtitle": "Produits originaux, boîte fermée, jamais ouverts, jamais activés.",
+  "source": "human-take",
+  "start": 21.749,
+  "duration": 3.869,
+  "speed": 1.0443,
+  "words": [
+   {
+    "word": "Produits",
+    "start": 0.08,
+    "end": 0.42
+   },
+   {
+    "word": "originaux,",
+    "start": 0.42,
+    "end": 1.3
+   },
+   {
+    "word": "boîte",
+    "start": 1.3,
+    "end": 1.48
+   },
+   {
+    "word": "fermée,",
+    "start": 1.48,
+    "end": 1.9
+   },
+   {
+    "word": "jamais",
+    "start": 1.9,
+    "end": 2.34
+   },
+   {
+    "word": "ouverts,",
+    "start": 2.34,
+    "end": 2.7
+   },
+   {
+    "word": "jamais",
+    "start": 2.7,
+    "end": 3.12
+   },
+   {
+    "word": "activés.",
+    "start": 3.12,
+    "end": 3.78
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.01,
+    "value": "X"
+   },
+   {
+    "start": 0.01,
+    "end": 0.06,
+    "value": "A"
+   },
+   {
+    "start": 0.06,
+    "end": 0.18,
+    "value": "F"
+   },
+   {
+    "start": 0.18,
+    "end": 0.39,
+    "value": "B"
+   },
+   {
+    "start": 0.39,
+    "end": 0.47,
+    "value": "A"
+   },
+   {
+    "start": 0.47,
+    "end": 0.64,
+    "value": "E"
+   },
+   {
+    "start": 0.64,
+    "end": 0.71,
+    "value": "B"
+   },
+   {
+    "start": 0.71,
+    "end": 0.85,
+    "value": "F"
+   },
+   {
+    "start": 0.85,
+    "end": 0.99,
+    "value": "C"
+   },
+   {
+    "start": 0.99,
+    "end": 1.07,
+    "value": "A"
+   },
+   {
+    "start": 1.07,
+    "end": 1.2,
+    "value": "B"
+   },
+   {
+    "start": 1.2,
+    "end": 1.62,
+    "value": "F"
+   },
+   {
+    "start": 1.62,
+    "end": 1.69,
+    "value": "G"
+   },
+   {
+    "start": 1.69,
+    "end": 1.83,
+    "value": "B"
+   },
+   {
+    "start": 1.83,
+    "end": 1.92,
+    "value": "A"
+   },
+   {
+    "start": 1.92,
+    "end": 2.3,
+    "value": "B"
+   },
+   {
+    "start": 2.3,
+    "end": 2.37,
+    "value": "C"
+   },
+   {
+    "start": 2.37,
+    "end": 2.45,
+    "value": "A"
+   },
+   {
+    "start": 2.45,
+    "end": 2.51,
+    "value": "B"
+   },
+   {
+    "start": 2.51,
+    "end": 2.63,
+    "value": "E"
+   },
+   {
+    "start": 2.63,
+    "end": 2.7,
+    "value": "G"
+   },
+   {
+    "start": 2.7,
+    "end": 2.98,
+    "value": "C"
+   },
+   {
+    "start": 2.98,
+    "end": 3.12,
+    "value": "B"
+   },
+   {
+    "start": 3.12,
+    "end": 3.19,
+    "value": "C"
+   },
+   {
+    "start": 3.19,
+    "end": 3.27,
+    "value": "A"
+   },
+   {
+    "start": 3.27,
+    "end": 3.34,
+    "value": "B"
+   },
+   {
+    "start": 3.34,
+    "end": 3.41,
+    "value": "C"
+   },
+   {
+    "start": 3.41,
+    "end": 3.69,
+    "value": "B"
+   },
+   {
+    "start": 3.69,
+    "end": 3.76,
+    "value": "G"
+   },
+   {
+    "start": 3.76,
+    "end": 3.83,
+    "value": "B"
+   },
+   {
+    "start": 3.83,
+    "end": 3.86,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_07",
+  "subtitle": "إلا بغيتي تكوموندي، صيفط لينا ميساج.",
+  "source": "human-take",
+  "start": 25.618,
+  "duration": 1.982,
+  "speed": 1.0443,
+  "words": [
+   {
+    "word": "إلا",
+    "start": 0.08,
+    "end": 0.2
+   },
+   {
+    "word": "بغيتي",
+    "start": 0.2,
+    "end": 0.48
+   },
+   {
+    "word": "تكوموندي،",
+    "start": 0.48,
+    "end": 1.12
+   },
+   {
+    "word": "صيفط",
+    "start": 1.12,
+    "end": 1.42
+   },
+   {
+    "word": "لينا",
+    "start": 1.42,
+    "end": 1.68
+   },
+   {
+    "word": "ميساج.",
+    "start": 1.68,
+    "end": 1.96
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.05,
+    "value": "X"
+   },
+   {
+    "start": 0.05,
+    "end": 0.2,
+    "value": "B"
+   },
+   {
+    "start": 0.2,
+    "end": 0.28,
+    "value": "A"
+   },
+   {
+    "start": 0.28,
+    "end": 0.45,
+    "value": "F"
+   },
+   {
+    "start": 0.45,
+    "end": 0.52,
+    "value": "B"
+   },
+   {
+    "start": 0.52,
+    "end": 0.66,
+    "value": "E"
+   },
+   {
+    "start": 0.66,
+    "end": 0.73,
+    "value": "F"
+   },
+   {
+    "start": 0.73,
+    "end": 0.81,
+    "value": "A"
+   },
+   {
+    "start": 0.81,
+    "end": 0.9,
+    "value": "C"
+   },
+   {
+    "start": 0.9,
+    "end": 1.18,
+    "value": "B"
+   },
+   {
+    "start": 1.18,
+    "end": 1.25,
+    "value": "C"
+   },
+   {
+    "start": 1.25,
+    "end": 1.39,
+    "value": "B"
+   },
+   {
+    "start": 1.39,
+    "end": 1.47,
+    "value": "A"
+   },
+   {
+    "start": 1.47,
+    "end": 1.54,
+    "value": "C"
+   },
+   {
+    "start": 1.54,
+    "end": 1.61,
+    "value": "A"
+   },
+   {
+    "start": 1.61,
+    "end": 1.76,
+    "value": "B"
+   },
+   {
+    "start": 1.76,
+    "end": 1.9,
+    "value": "C"
+   },
+   {
+    "start": 1.9,
+    "end": 1.97,
+    "value": "B"
+   },
+   {
+    "start": 1.97,
+    "end": 1.98,
+    "value": "X"
+   }
+  ]
+ }
+]

@@ -1,0 +1,12 @@
+{
+ "open": {
+  "src": "airpods5b/products/open.png",
+  "w": 460,
+  "h": 618
+ },
+ "case": {
+  "src": "airpods5b/products/case.png",
+  "w": 708,
+  "h": 750
+ }
+}

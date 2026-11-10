@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # AirPods 5 reel (second, 30 s): bright B-major pop; drop when the AirPods land on "AirPods 5"
+    "airpods5b": dict(seed=421, phase=1.0, drop=4.0, end_lift=27.75, stop=28.25,
+                      chords=[[59, 63, 66], [56, 59, 63], [52, 56, 59], [54, 58, 61]], roots=[47, 44, 40, 42],
+                      final=[59, 63, 66, 71], final_bass=47, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
     # E-readers reel (Kindle 11 + Kobo Libra Colour, 30 s): calm, warm D-flat reading groove; drop on "هاد الفيديو ليك!"
     "readers2": dict(seed=419, phase=1.0, drop=3.0, end_lift=27.75, stop=28.25,
                      chords=[[61, 65, 68], [58, 61, 65], [54, 58, 61], [56, 60, 63]], roots=[37, 34, 42, 44],

@@ -76,6 +76,7 @@ npm run studio                   # interactive preview
 | Ray-Ban Meta (3e gén.) Wayfarer Matte Black, verres Transitions (Darija, 30 s, pause trimming + 1.10x; 9:16 only) | `RbMetaReel9x16`, `RbMetaCover` | `out/rbmeta/` | `npm run rbmeta:build` |
 | Ray-Ban Meta range: Wayfarer Gen 3 Transitions, Aviator Gen 3, Wayfarer + Headliner Gen 2 (Darija, **39.5 s**, natural speed; 9:16 only; upload copy at crf 21) | `RbRangeReel9x16`, `RbRangeCover` | `out/rbrange/` | `npm run rbrange:build` |
 | E-readers: Kindle 11e gén. 16GB (Vert, Noir) + Kobo Libra Colour (Noir) (Darija, 30 s, pause trimming, natural speed; 9:16 only) | `Readers2Reel9x16`, `Readers2Cover` | `out/readers2/` | `npm run readers2:build` |
+| AirPods 5, second reel: ANC, live translation, Siri, spatial audio (Darija, 30 s, pause trimming + 1.04x; 9:16 only) | `Airpods5bReel9x16`, `Airpods5bCover` | `out/airpods5b/` | `npm run airpods5b:build` |
 | Apple Watch Ultra 4 (Darija) | `WatchReel9x16`, `WatchReel1x1`, `WatchCover` | `out/watch/` | `npm run watch:build` |
 | Galaxy Watch8 Classic + Ultra2 (Darija) | `GalaxyReel9x16`, `GalaxyReel1x1`, `GalaxyCover` | `out/galaxy/` | `npm run galaxy:build` |
 | Sony WH-1000XM6 + XM5 (Darija) | `SonyReel9x16`, `SonyReel1x1`, `SonyCover` | `out/sony/` | `npm run sony:build` |
