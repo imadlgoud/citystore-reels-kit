@@ -37,6 +37,7 @@ const expressionAt = (f: number): Expression => {
 };
 
 export const airpods5bDirection: Direction = {
+  hookCorner: true,
   gestures,
   expressionAt,
   cornerFrom: intro.from - 3,

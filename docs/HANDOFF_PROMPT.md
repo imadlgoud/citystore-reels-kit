@@ -97,7 +97,10 @@ A Darija voice-over (.wav), the script (Darija with French words), the product i
 - Where the claim needs it, add a small honest footnote. Earlier examples: "jusqu'à", compatibility notes, "connexion internet requise".
 
 **Scene structure**
-1. Hook with a drawn visual gag, Citybot centred.
+1. **Product-first hook** (`src/components/ProductHook.tsx`, reference: `src/reels/airpods5b/APScenes.tsx` `APHook`):
+   the real product big and the VO hook line in a white pill are fully on screen from frame 0. There is no pop-in and no
+   white flash, because frame 0 is the feed preview. The second half of the hook comes in as a `punch`. A drawn gag
+   can sit on top as `children`. Citybot starts in the corner (`hookCorner: true` in the Direction).
 2. Product intro with name + DISPONIBLE pill.
 3. One scene per script line/feature, with animated numbers, chips and drawn illustrations.
 4. Trust scene: "PRODUITS ORIGINAUX", Boîte fermée / Jamais ouverts / Jamais activés.

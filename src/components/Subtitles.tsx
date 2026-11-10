@@ -39,7 +39,7 @@ const runsOf = (words: { word: string; frame: number }[], base: Dir) => {
 };
 
 /** Burned-in subtitles, revealed word by word on the VO timing (French, Darija or mixed). */
-export const Subtitles: React.FC = () => {
+export const Subtitles: React.FC<{ hookCorner?: boolean }> = ({ hookCorner }) => {
   const frame = useCurrentFrame();
   const L = useLayout();
   const TL = useTL();
@@ -48,7 +48,7 @@ export const Subtitles: React.FC = () => {
 
   const second = TL.scenes[1].from;
   const last = TL.scenes[TL.scenes.length - 1].from;
-  const place: SubsPlace = frame < second ? L.subs.hook : frame >= last ? L.subs.end : L.subs.corner;
+  const place: SubsPlace = frame < second && !hookCorner ? L.subs.hook : frame >= last ? L.subs.end : L.subs.corner;
   const fadeOut = interpolate(frame, [chunk.to - 4, chunk.to], [1, 0], { extrapolateLeft: "clamp", extrapolateRight: "clamp" });
   const activeIdx = chunk.words.reduce((acc, w, i) => (frame >= w.frame ? i : acc), -1);
   const base: Dir = chunk.words.some((w) => ARABIC.test(w.word)) ? "rtl" : "ltr";

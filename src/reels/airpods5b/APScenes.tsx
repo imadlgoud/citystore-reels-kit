@@ -4,6 +4,7 @@ import { COLORS, FONT } from "../../brand";
 import { lerp, pop, ramp, shake, slam, sp } from "../../anim";
 import { IconName, LineIcon } from "../../components/Icons";
 import { ProductImage } from "../../components/ProductImage";
+import { ProductHook } from "../../components/ProductHook";
 import { Burst, SceneShell, useSceneFrame } from "../../components/SceneShell";
 import { OFFICIAL, apev, apscene } from "./timeline";
 
@@ -64,40 +65,21 @@ const XpBar: React.FC<{ fill: number; label: string }> = ({ fill, label }) => (
 
 /*
  * 0.0-3.75 s HOOK ("you have an iPhone and still no AirPods? you're missing half the experience!")
- * visual: a phone + an empty earbud slot with "?", then an "EXPÉRIENCE 50 %" bar.
+ * product-first: the AirPods are on screen from frame 0 with the hook pill; at "half" the pill punches to
+ * "ناقصاك نص التجربة!" and an "EXPÉRIENCE 50 %" bar drops in under the product.
  */
 export const APHook: React.FC = () => {
   const frame = useSceneFrame("hook");
-  const iAt = apev("hook.iphone"), nAt = apev("hook.no"), aAt = apev("hook.airpods"), hAt = apev("hook.half");
+  const hAt = apev("hook.half");
   const fill = 0.5 * easeOut(ramp(frame, hAt, hAt + 12));
-  const sk = shake(frame, hAt, 12, 8);
   return (
-    <SceneShell id="hook" shakeX={sk.x} shakeY={sk.y}>
-      {frame >= iAt - 1 && (
-        <div style={{ position: "absolute", left: 300, top: 380, transform: `scale(${pop(frame, iAt)}) rotate(-6deg)` }}>
-          <LineIcon name="phone" size={240} stroke={6} />
-        </div>
-      )}
-      {frame >= nAt - 1 && (
-        <div style={{ position: "absolute", left: 600, top: 400, width: 220, height: 220, borderRadius: "50%", border: "8px dashed rgba(255,255,255,0.85)", display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${pop(frame, nAt)})` }}>
-          <LineIcon name="headphones" size={130} stroke={7} color="rgba(255,255,255,0.5)" />
-          {frame >= aAt - 1 && <div style={{ position: "absolute", right: -16, top: -16, width: 84, height: 84, borderRadius: "50%", background: RED, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 60, lineHeight: "84px", textAlign: "center", border: "5px solid #fff", transform: `scale(${pop(frame, aAt)})` }}>?</div>}
-        </div>
-      )}
+    <ProductHook src={OFFICIAL.open.src} aspect={OFFICIAL.open.aspect} width={470} top={400} hook="عندك iPhone وما عندكش AirPods؟" punch={{ at: hAt, text: "ناقصاك نص التجربة!" }}>
       {frame >= hAt - 1 && (
-        <div style={{ position: "absolute", left: 300, top: 690, transform: `scale(${pop(frame, hAt)})`, transformOrigin: "left center" }}>
+        <div style={{ position: "absolute", left: 360, top: 1060, transform: `scale(${pop(frame, hAt)})`, transformOrigin: "left center", zIndex: 10 }}>
           <XpBar fill={fill} label="EXPÉRIENCE" />
         </div>
       )}
-      <div style={{ position: "absolute", left: 0, right: 70, top: 236, display: "flex", justifyContent: "center", zIndex: 20 }}>
-        {frame < hAt - 1 ? (
-          <div dir="rtl" style={{ ...slam(frame, 2, 2), fontFamily: FONT, fontWeight: 900, fontSize: 54, color: "#fff", textShadow, whiteSpace: "nowrap" }}>عندك iPhone وما عندكش AirPods؟</div>
-        ) : (
-          <div dir="rtl" style={{ ...slam(frame, hAt, 2.4), background: "#fff", color: COLORS.blue, fontFamily: FONT, fontWeight: 900, fontSize: 58, padding: "2px 36px 12px", borderRadius: 999, boxShadow: "0 14px 34px rgba(6,14,90,0.4)", whiteSpace: "nowrap" }}>ناقصاك نص التجربة!</div>
-        )}
-      </div>
-      <div style={{ position: "absolute", inset: 0, background: "#fff", opacity: interpolate(frame, [0, 1, 6], [0.5, 0.5, 0], clamp) }} />
-    </SceneShell>
+    </ProductHook>
   );
 };
 

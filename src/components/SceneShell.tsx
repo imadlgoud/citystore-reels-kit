@@ -7,16 +7,18 @@ import { SceneId, sceneIn, useTL } from "../timeline";
 export const useSceneFrame = (id: SceneId) => useCurrentFrame() + sceneIn(useTL(), id).from;
 
 /** Wraps a scene with the zoom-through in/out transition (cuts land on the beat). */
-export const SceneShell: React.FC<{ id: SceneId; children: React.ReactNode; shakeX?: number; shakeY?: number; noOut?: boolean }> = ({
+export const SceneShell: React.FC<{ id: SceneId; children: React.ReactNode; shakeX?: number; shakeY?: number; noOut?: boolean; noIn?: boolean }> = ({
   id,
   children,
   shakeX = 0,
   shakeY = 0,
   noOut,
+  noIn,
 }) => {
   const local = useCurrentFrame();
   const s = sceneIn(useTL(), id);
-  const t = sceneTransition(local, noOut ? 1e6 : s.to - s.from);
+  // noIn: fully drawn from the scene's first frame (product-first hook: frame 0 is the feed preview)
+  const t = noIn ? sceneTransition(local + 100, noOut ? 1e6 : s.to - s.from + 100) : sceneTransition(local, noOut ? 1e6 : s.to - s.from);
   return (
     <AbsoluteFill style={{ ...t, transform: `${t.transform} translate(${shakeX}px, ${shakeY}px)` }}>{children}</AbsoluteFill>
   );

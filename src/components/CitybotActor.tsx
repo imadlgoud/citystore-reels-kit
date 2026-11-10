@@ -38,6 +38,8 @@ export interface Direction {
   flashAt: (f: number) => number;
   /** optional text shown on the face screen instead of the face (e.g. a watch face) */
   faceAt?: (f: number) => React.ReactNode | null;
+  /** product-first hook: Citybot starts in the lower-left corner (no big centred hook pose) */
+  hookCorner?: boolean;
   /** optional headphones accessory */
   headphonesAt?: (f: number) => { color: string; p: number } | null;
   /** optional smart-glasses accessory */
@@ -80,7 +82,7 @@ const armPose = (d: Direction, fps: number, frame: number, arm: "left" | "right"
 };
 
 const placeAt = (d: Direction, frame: number, L: Layout): BotPlace => {
-  const toCorner = sp(frame, d.cornerFrom, { damping: 16, stiffness: 120, mass: 0.9 });
+  const toCorner = d.hookCorner ? 1 : sp(frame, d.cornerFrom, { damping: 16, stiffness: 120, mass: 0.9 });
   const toEnd = sp(frame, d.endFrom, { damping: 16, stiffness: 120, mass: 0.9 });
   const a = L.bot.hook, b = L.bot.corner, c = L.bot.end;
   const ab = { cx: lerp(a.cx, b.cx, toCorner), bottom: lerp(a.bottom, b.bottom, toCorner), width: lerp(a.width, b.width, toCorner) };

@@ -29,7 +29,7 @@ export const ReelFrame: React.FC<{
               );
             })}
             <CitybotActor direction={direction} />
-            <Subtitles />
+            <Subtitles hookCorner={direction.hookCorner} />
           </AbsoluteFill>
         </Freeze>
         <Audio src={staticFile(audio)} />

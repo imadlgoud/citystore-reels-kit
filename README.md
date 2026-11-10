@@ -34,6 +34,14 @@ npm run studio                   # interactive preview
   the "متوفر عند CITY STORE" ribbon, exactly as on `Hero10Cover`. Keep the reel's trust scene stamp as well.
 - **Used products (d'occasion)**: the trust scene must not say "Boîte fermée / Jamais ouverts / Jamais activés";
   use `ChecklistTrust` with what is true (e.g. "OCCASION TESTÉE": Produit d'occasion / Testé / Fonctionne bien).
+- **Product-first hook** (from Nov 2026: Insights showed 54-68 % of viewers skipping in the first 3 s): every new
+  reel opens with `ProductHook` (`src/components/ProductHook.tsx`, reference `APHook` in `src/reels/airpods5b/`).
+  - **Frame 0:** the real product and the hook pill are on screen from frame 0, with no fade-in.
+  - **Second half:** the second half of the hook is a `punch`.
+  - **Citybot:** starts in the corner (`hookCorner: true` in the Direction).
+  - **Script tips** (for the VO; see `docs/HOOKS.md`): "before you buy" warnings, comparisons and questions to the
+    viewer hold people best (Ray-Ban range: 41 % skip). "Do you have X? It's available" lines and e-readers skip the
+    most.
 - **Reel description**: every delivered video comes with a ready-to-paste caption (sent in the chat and saved as
   `reels/<id>/caption.md`): hook line, product + DISPONIBLE, script-only spec lines, the trust line as spoken, the CTA,
   citystore.ma, hashtags. Minimal emojis: only 📩 (CTA) and 🌐 (site).
