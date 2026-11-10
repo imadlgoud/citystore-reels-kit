@@ -134,6 +134,7 @@ import { Readers2Cover } from "./reels/readers2/Readers2Cover";
 import { R2TL } from "./reels/readers2/timeline";
 import { Airpods5bReel } from "./reels/airpods5b/Airpods5bReel";
 import { Airpods5bCover } from "./reels/airpods5b/Airpods5bCover";
+import { OccAndroidCover, OccGoproCover, OccIphoneCover, OccSamsungCover, OccTabletsCover } from "./reels/occasions/OccasionCover";
 import { APTL } from "./reels/airpods5b/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
@@ -278,6 +279,11 @@ export const RemotionRoot: React.FC = () => (
     {/* AirPods 5 (second reel): 30 s (pause trimming + 1.04x); 9:16 + cover only */}
     <Composition id="Airpods5bReel9x16" component={Airpods5bReel} durationInFrames={Math.min(APTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Airpods5bCover" component={Airpods5bCover} width={1080} height={1920} />
+    <Still id="OccIphoneCover" component={OccIphoneCover} width={1080} height={1920} />
+    <Still id="OccSamsungCover" component={OccSamsungCover} width={1080} height={1920} />
+    <Still id="OccTabletsCover" component={OccTabletsCover} width={1080} height={1920} />
+    <Still id="OccAndroidCover" component={OccAndroidCover} width={1080} height={1920} />
+    <Still id="OccGoproCover" component={OccGoproCover} width={1080} height={1920} />
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );
