@@ -11,7 +11,8 @@ Phone, earbud slot, experience bar, noise rings, switch, speech/translation bubb
 33.85 s raw -> 28.76 s with pause trimming -> x1.044 (pitch kept), ends at 27.6 s; reel 30 s.
 
 ## Specs shown (only what the VO says)
-- Hook: you have an iPhone but no AirPods -> you're missing half the experience. AirPods 5 DISPONIBLES.
+- Hook (product-first, `ProductHook`): the AirPods + hook pill from frame 0; "ناقصاك نص التجربة!" punches in with an
+  "EXPÉRIENCE 50 %" bar. Then AirPods 5 DISPONIBLES.
 - Noise reduction 50 % stronger vs AirPods 4 (footnote: "Jusqu'à 50 % de bruit en moins vs AirPods 4"); switches by itself
   to transparency mode when someone talks to you.
 - Live translation (footnote: "Avec Apple Intelligence sur iPhone compatible, langues prises en charge uniquement").
