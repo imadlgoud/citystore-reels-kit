@@ -47,7 +47,7 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
         { name: "iPhone 17 Pro Max", img: "pricelist/iphones/17promax.png", stock: ["256 GB", "512 GB", "1 TB"] },
         { name: "iPhone 17 Pro", img: "pricelist/iphones/17pro.png", stock: ["256 GB", "512 GB", "1 TB"] },
         { name: "iPhone Air", img: "pricelist/iphones/air.png", stock: ["256 GB", "512 GB", "1 TB"] },
-      ].map((p) => ({ ...p, price: "DISPONIBLE", condition: "neuf" as const })),
+      ].map((p) => ({ ...p, condition: "neuf" as const })),
     ],
   },
 };

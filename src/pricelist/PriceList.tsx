@@ -16,7 +16,8 @@ export type PriceItem = {
   name: string;
   /** path under public/, transparent cut-out */
   img: string;
-  price: string; // e.g. "2100 DH"
+  /** e.g. "2100 DH"; leave out on availability cards to drop the tag */
+  price?: string;
   condition?: "neuf" | "occasion";
   spec?: string; // e.g. "256 Go · Batterie 87 %"
   /** availability list (e.g. storage sizes): switches to the side-by-side card, one "DISPONIBLE" chip per entry */
@@ -58,10 +59,10 @@ const PhotoSlot: React.FC = () => (
    "✓ DISPONIBLE"), tag at the bottom. Fixed rows so cards in the same row line up. */
 const StockCard: React.FC<{ it: PriceItem; w: number; h: number }> = ({ it, w, h }) => {
   const tagSize = 40;
-  const padTop = 12, padBottom = tagSize * 1.1;
+  const padTop = 12, padBottom = it.price ? tagSize * 1.1 : 16;
   const nameMax = 30;
   const nameSize = Math.min(nameMax, (w - 40) / (it.name.length * 0.68));
-  const rowH = 24, rowGap = 3, maxRows = 4;
+  const rowH = 36, rowGap = 5, maxRows = 4;
   const sizesH = rowH * maxRows + rowGap * (maxRows - 1); // same height whatever the number of sizes
   const slotH = h - padTop - padBottom - nameMax * 1.15 - 4 - sizesH - 8;
   return (
@@ -77,18 +78,20 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number }> = ({ it, w, h
       <div style={{ marginTop: 4, height: nameMax * 1.15, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 900, fontSize: nameSize, lineHeight: 1, color: INK, whiteSpace: "nowrap" }}>{it.name}</div>
       <div style={{ marginTop: 8, height: sizesH, display: "flex", flexDirection: "column", gap: rowGap }}>
         {(it.stock ?? []).map((r) => (
-          <div key={r} style={{ height: rowH, width: 250, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 3px 0 14px" }}>
-            <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: 17, color: INK, whiteSpace: "nowrap" }}>{r}</span>
-            <span style={{ display: "inline-flex", alignItems: "center", gap: 3, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 12.5, letterSpacing: 0.5, padding: "2px 9px 3px 5px", borderRadius: 999 }}>
-              <LineIcon name="check" size={14} stroke={12} color="#fff" />DISPONIBLE
+          <div key={r} style={{ height: rowH, width: 360, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
+            <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: 25, color: INK, whiteSpace: "nowrap" }}>{r}</span>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: 5, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 18, letterSpacing: 0.5, padding: "3px 14px 4px 8px", borderRadius: 999 }}>
+              <LineIcon name="check" size={20} stroke={12} color="#fff" />DISPONIBLE
             </span>
           </div>
         ))}
       </div>
       {it.condition && <div style={{ position: "absolute", top: -16, left: -10, transform: "rotate(-6deg)", boxShadow: "0 8px 18px rgba(6,14,90,0.3)", borderRadius: 999 }}><Condition c={it.condition} size={22} /></div>}
-      <div style={{ position: "absolute", bottom: -tagSize * 0.55, background: `linear-gradient(90deg, ${COLORS.blue}, ${COLORS.cyan})`, color: "#fff", fontFamily: FONT_DISPLAY, fontWeight: 900, fontSize: tagSize, lineHeight: 1, letterSpacing: 2, padding: "8px 30px 6px", borderRadius: 999, border: "5px solid #fff", boxShadow: "0 14px 30px rgba(6,14,90,0.4)", whiteSpace: "nowrap" }}>
-        {it.price}
-      </div>
+      {it.price && (
+        <div style={{ position: "absolute", bottom: -tagSize * 0.55, background: `linear-gradient(90deg, ${COLORS.blue}, ${COLORS.cyan})`, color: "#fff", fontFamily: FONT_DISPLAY, fontWeight: 900, fontSize: tagSize, lineHeight: 1, letterSpacing: 2, padding: "8px 30px 6px", borderRadius: 999, border: "5px solid #fff", boxShadow: "0 14px 30px rgba(6,14,90,0.4)", whiteSpace: "nowrap" }}>
+          {it.price}
+        </div>
+      )}
     </div>
   );
 };
@@ -129,7 +132,7 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
   const cols = n === 1 ? 1 : 2;
   const header = !!(title || subtitle);
   const stockList = items.some((it) => it.stock);
-  const gridTop = header ? 545 : stockList ? 245 : 345, gridBottom = stockList ? 1585 : 1500, gapX = stockList ? 30 : 40, gapY = stockList ? 50 : 84;
+  const gridTop = header ? 545 : stockList ? 245 : 345, gridBottom = stockList ? 1598 : 1500, gapX = stockList ? 30 : 40, gapY = stockList ? 34 : 84;
   const footTop = stockList ? 1628 : 1590;
   const w = cols === 1 ? 640 : stockList ? 485 : 475;
   const h = Math.min(600, (gridBottom - gridTop - gapY * (rows - 1)) / rows);
