@@ -47,7 +47,7 @@ npm run studio                   # interactive preview
   citystore.ma, hashtags. Minimal emojis: only 📩 (CTA) and 🌐 (site).
 
 ## Price-list stories (9:16 stills)
-`src/pricelist/PriceList.tsx` is a City Store price-list story (font: Bebas Neue, SIL OFL; Arabic in Cairo): logo, optional title + subtitle pill, 2-6 product cards
+`src/pricelist/PriceList.tsx` is a City Store price-list story (text in Montserrat Black, prices in Bebas Neue (SIL OFL); Arabic in Cairo; cards in a row line up: photo baseline, name, spec, price): logo, optional title + subtitle pill, 2-6 product cards
 (official cut-out, name, optional spec line, NEUF / OCCASION badge, price), the WhatsApp number, socials, address and
 `WWW.CITYSTORE.MA`. Add an entry to `src/pricelist/lists.ts` (one per story), then run
 `npx remotion still PriceList-<id> out/pricelist/<id>.png`. Layout: 1-2 items use one row, 3-4 use 2x2, 5-6 use 2x3.
