@@ -54,39 +54,39 @@ const PhotoSlot: React.FC = () => (
   </div>
 );
 
-/* availability card: photo on top, name, then the sizes under it (each with its own "✓ DISPONIBLE"), tag at the bottom.
-   Fixed rows so cards in the same row line up (photos stand on the same line, names and sizes at the same height). */
+/* availability card: big photo on top, name, then the sizes stacked one under the other (each with its own
+   "✓ DISPONIBLE"), tag at the bottom. Fixed rows so cards in the same row line up. */
 const StockCard: React.FC<{ it: PriceItem; w: number; h: number }> = ({ it, w, h }) => {
-  const tagSize = h > 420 ? 60 : 46;
-  const padTop = 16, padBottom = tagSize * 1.12;
+  const tagSize = 40;
+  const padTop = 12, padBottom = tagSize * 1.1;
   const nameMax = 30;
   const nameSize = Math.min(nameMax, (w - 40) / (it.name.length * 0.68));
-  const chipH = 30, chipGap = 6;
-  const sizesH = chipH * 2 + chipGap; // room for up to 4 sizes (2 x 2)
-  const slotH = h - padTop - padBottom - nameMax * 1.2 - sizesH - 14;
+  const rowH = 24, rowGap = 3, maxRows = 4;
+  const sizesH = rowH * maxRows + rowGap * (maxRows - 1); // same height whatever the number of sizes
+  const slotH = h - padTop - padBottom - nameMax * 1.15 - 4 - sizesH - 8;
   return (
-    <div style={{ position: "relative", width: w, height: h, background: "rgba(255,255,255,0.96)", borderRadius: 36, boxShadow: "0 24px 50px rgba(6,14,90,0.35)", display: "flex", flexDirection: "column", alignItems: "center", padding: `${padTop}px 14px ${padBottom}px` }}>
+    <div style={{ position: "relative", width: w, height: h, background: "rgba(255,255,255,0.96)", borderRadius: 36, boxShadow: "0 24px 50px rgba(6,14,90,0.35)", display: "flex", flexDirection: "column", alignItems: "center", padding: `${padTop}px 10px ${padBottom}px` }}>
       <div style={{ position: "relative", height: slotH, width: "100%", display: "flex", alignItems: "flex-end", justifyContent: "center" }}>
         <div style={{ position: "absolute", top: 0, width: slotH, height: slotH, borderRadius: "50%", background: `radial-gradient(circle, ${COLORS.cyan}55 0%, ${COLORS.blue}22 60%, rgba(255,255,255,0) 72%)` }} />
         {it.img ? (
-          <Img src={staticFile(it.img)} style={{ position: "relative", maxWidth: "88%", maxHeight: "100%", transformOrigin: "bottom center", transform: `scale(${it.scale ?? 1}) rotate(${it.rotate ?? 0}deg)`, filter: "drop-shadow(0 14px 18px rgba(6,14,90,0.35))" }} />
+          <Img src={staticFile(it.img)} style={{ position: "relative", maxWidth: "96%", maxHeight: "100%", transformOrigin: "bottom center", transform: `scale(${it.scale ?? 1}) rotate(${it.rotate ?? 0}deg)`, filter: "drop-shadow(0 14px 18px rgba(6,14,90,0.35))" }} />
         ) : (
           <PhotoSlot />
         )}
       </div>
-      <div style={{ marginTop: 6, height: nameMax * 1.2, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 900, fontSize: nameSize, lineHeight: 1, color: INK, whiteSpace: "nowrap" }}>{it.name}</div>
-      <div style={{ marginTop: 8, height: sizesH, width: "100%", display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "flex-start", gap: chipGap }}>
+      <div style={{ marginTop: 4, height: nameMax * 1.15, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 900, fontSize: nameSize, lineHeight: 1, color: INK, whiteSpace: "nowrap" }}>{it.name}</div>
+      <div style={{ marginTop: 8, height: sizesH, display: "flex", flexDirection: "column", gap: rowGap }}>
         {(it.stock ?? []).map((r) => (
-          <div key={r} style={{ height: chipH, display: "inline-flex", alignItems: "center", gap: 6, background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 12px" }}>
-            <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: 18, color: INK, whiteSpace: "nowrap" }}>{r}</span>
-            <span style={{ display: "inline-flex", alignItems: "center", gap: 3, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 13, letterSpacing: 0.5, padding: "3px 9px 4px 5px", borderRadius: 999 }}>
-              <LineIcon name="check" size={15} stroke={12} color="#fff" />DISPONIBLE
+          <div key={r} style={{ height: rowH, width: 250, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 3px 0 14px" }}>
+            <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: 17, color: INK, whiteSpace: "nowrap" }}>{r}</span>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: 3, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 12.5, letterSpacing: 0.5, padding: "2px 9px 3px 5px", borderRadius: 999 }}>
+              <LineIcon name="check" size={14} stroke={12} color="#fff" />DISPONIBLE
             </span>
           </div>
         ))}
       </div>
       {it.condition && <div style={{ position: "absolute", top: -16, left: -10, transform: "rotate(-6deg)", boxShadow: "0 8px 18px rgba(6,14,90,0.3)", borderRadius: 999 }}><Condition c={it.condition} size={22} /></div>}
-      <div style={{ position: "absolute", bottom: -tagSize * 0.55, background: `linear-gradient(90deg, ${COLORS.blue}, ${COLORS.cyan})`, color: "#fff", fontFamily: FONT_DISPLAY, fontWeight: 900, fontSize: tagSize, lineHeight: 1, letterSpacing: 2, padding: "9px 32px 7px", borderRadius: 999, border: "5px solid #fff", boxShadow: "0 14px 30px rgba(6,14,90,0.4)", whiteSpace: "nowrap" }}>
+      <div style={{ position: "absolute", bottom: -tagSize * 0.55, background: `linear-gradient(90deg, ${COLORS.blue}, ${COLORS.cyan})`, color: "#fff", fontFamily: FONT_DISPLAY, fontWeight: 900, fontSize: tagSize, lineHeight: 1, letterSpacing: 2, padding: "8px 30px 6px", borderRadius: 999, border: "5px solid #fff", boxShadow: "0 14px 30px rgba(6,14,90,0.4)", whiteSpace: "nowrap" }}>
         {it.price}
       </div>
     </div>
@@ -129,8 +129,9 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
   const cols = n === 1 ? 1 : 2;
   const header = !!(title || subtitle);
   const stockList = items.some((it) => it.stock);
-  const gridTop = header ? 545 : 345, gridBottom = stockList ? 1525 : 1500, gapX = 40, gapY = stockList ? 62 : 84;
-  const w = cols === 1 ? 640 : 475;
+  const gridTop = header ? 545 : stockList ? 245 : 345, gridBottom = stockList ? 1585 : 1500, gapX = stockList ? 30 : 40, gapY = stockList ? 50 : 84;
+  const footTop = stockList ? 1628 : 1590;
+  const w = cols === 1 ? 640 : stockList ? 485 : 475;
   const h = Math.min(600, (gridBottom - gridTop - gapY * (rows - 1)) / rows);
   const heavy: React.CSSProperties = { fontFamily: FONT, fontWeight: 900, color: "#fff", lineHeight: 1, textShadow: "0 10px 30px rgba(8,20,110,0.4)", whiteSpace: "nowrap" };
   return (
@@ -138,9 +139,9 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
       <BrandBackground drift={false} />
       <Burst x={540} y={1000} r={1200} rot={6} opacity={0.16} rays={22} />
       {/* logo */}
-      <div style={{ position: "absolute", top: 120, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 10 }}>
-        <Img src={staticFile("logo/city.png")} style={{ width: 300 }} />
-        <Img src={staticFile("logo/storema.png")} style={{ width: 300 }} />
+      <div style={{ position: "absolute", top: stockList ? 70 : 120, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: stockList ? 7 : 10 }}>
+        <Img src={staticFile("logo/city.png")} style={{ width: stockList ? 230 : 300 }} />
+        <Img src={staticFile("logo/storema.png")} style={{ width: stockList ? 230 : 300 }} />
       </div>
       {/* title (optional) */}
       {header && <div style={{ position: "absolute", top: 345, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
@@ -156,7 +157,7 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
         ))}
       </div>
       {/* how to order */}
-      <div style={{ position: "absolute", top: 1590, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
+      <div style={{ position: "absolute", top: footTop, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: stockList ? 10 : 14 }}>
         <div dir="rtl" style={{ ...heavy, fontSize: 44, textAlign: "center" }}>كوموندي دابا فـ WhatsApp</div>
         <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
           <div style={{ width: 62, height: 62, borderRadius: "50%", background: "#25D366", display: "flex", alignItems: "center", justifyContent: "center", border: "4px solid #fff" }}>
@@ -170,7 +171,7 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
         </div>
         <div style={{ fontFamily: FONT, fontWeight: 700, fontSize: 24, color: "rgba(255,255,255,0.9)" }}>{footnote}</div>
       </div>
-      <div style={{ position: "absolute", right: 58, top: 1590 }}>
+      <div style={{ position: "absolute", right: 58, top: footTop }}>
         <Citybot id="pricelist" width={170} expression="happy" mouth="smile" tilt={6} rightArm={{ rot: 72, hand: "thumb" }} leftArm={{ rot: 30, hand: "open" }} hover={8} />
       </div>
       {/* website bar */}
