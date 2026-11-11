@@ -54,40 +54,39 @@ const PhotoSlot: React.FC = () => (
   </div>
 );
 
-/* side-by-side card for availability lists: photo on the left, name + one row per entry ("128 GB  ✓ DISPONIBLE") */
+/* availability card: photo on top, name, then the sizes under it (each with its own "✓ DISPONIBLE"), tag at the bottom.
+   Fixed rows so cards in the same row line up (photos stand on the same line, names and sizes at the same height). */
 const StockCard: React.FC<{ it: PriceItem; w: number; h: number }> = ({ it, w, h }) => {
-  const tagSize = h > 420 ? 66 : 54;
-  const padTop = 18, padBottom = tagSize * 0.62;
-  const colW = w - 200;
+  const tagSize = h > 420 ? 60 : 46;
+  const padTop = 16, padBottom = tagSize * 1.12;
   const nameMax = 30;
-  const nameSize = Math.min(nameMax, (colW - 6) / (it.name.length * 0.68));
-  const rows = it.stock ?? [];
-  const rowH = Math.min(38, (h - padTop - padBottom - nameMax * 1.3 - 8) / Math.max(rows.length, 1));
+  const nameSize = Math.min(nameMax, (w - 40) / (it.name.length * 0.68));
+  const chipH = 30, chipGap = 6;
+  const sizesH = chipH * 2 + chipGap; // room for up to 4 sizes (2 x 2)
+  const slotH = h - padTop - padBottom - nameMax * 1.2 - sizesH - 14;
   return (
-    <div style={{ position: "relative", width: w, height: h, background: "rgba(255,255,255,0.96)", borderRadius: 36, boxShadow: "0 24px 50px rgba(6,14,90,0.35)", display: "flex", padding: `${padTop}px 16px ${padBottom}px 12px`, gap: 8 }}>
-      <div style={{ position: "relative", width: 176, flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
-        <div style={{ position: "absolute", width: 160, height: 160, borderRadius: "50%", background: `radial-gradient(circle, ${COLORS.cyan}55 0%, ${COLORS.blue}22 60%, rgba(255,255,255,0) 72%)` }} />
+    <div style={{ position: "relative", width: w, height: h, background: "rgba(255,255,255,0.96)", borderRadius: 36, boxShadow: "0 24px 50px rgba(6,14,90,0.35)", display: "flex", flexDirection: "column", alignItems: "center", padding: `${padTop}px 14px ${padBottom}px` }}>
+      <div style={{ position: "relative", height: slotH, width: "100%", display: "flex", alignItems: "flex-end", justifyContent: "center" }}>
+        <div style={{ position: "absolute", top: 0, width: slotH, height: slotH, borderRadius: "50%", background: `radial-gradient(circle, ${COLORS.cyan}55 0%, ${COLORS.blue}22 60%, rgba(255,255,255,0) 72%)` }} />
         {it.img ? (
-          <Img src={staticFile(it.img)} style={{ position: "relative", maxWidth: "100%", maxHeight: "100%", transform: `scale(${it.scale ?? 1}) rotate(${it.rotate ?? 0}deg)`, filter: "drop-shadow(0 14px 18px rgba(6,14,90,0.35))" }} />
+          <Img src={staticFile(it.img)} style={{ position: "relative", maxWidth: "88%", maxHeight: "100%", transformOrigin: "bottom center", transform: `scale(${it.scale ?? 1}) rotate(${it.rotate ?? 0}deg)`, filter: "drop-shadow(0 14px 18px rgba(6,14,90,0.35))" }} />
         ) : (
           <PhotoSlot />
         )}
       </div>
-      <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center" }}>
-        <div style={{ height: nameMax * 1.3, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 900, fontSize: nameSize, lineHeight: 1, color: INK, whiteSpace: "nowrap" }}>{it.name}</div>
-        <div style={{ marginTop: 8, display: "flex", flexDirection: "column" }}>
-          {rows.map((r) => (
-            <div key={r} style={{ height: rowH, display: "flex", alignItems: "center", justifyContent: "space-between", borderTop: "2px solid #E6EAF7" }}>
-              <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: rowH * 0.56, color: INK }}>{r}</span>
-              <span style={{ display: "inline-flex", alignItems: "center", gap: 4, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: rowH * 0.42, letterSpacing: 1, padding: "2px 10px 3px 6px", borderRadius: 999 }}>
-                <LineIcon name="check" size={rowH * 0.5} stroke={12} color="#fff" />DISPONIBLE
-              </span>
-            </div>
-          ))}
-        </div>
+      <div style={{ marginTop: 6, height: nameMax * 1.2, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 900, fontSize: nameSize, lineHeight: 1, color: INK, whiteSpace: "nowrap" }}>{it.name}</div>
+      <div style={{ marginTop: 8, height: sizesH, width: "100%", display: "flex", flexWrap: "wrap", justifyContent: "center", alignContent: "flex-start", gap: chipGap }}>
+        {(it.stock ?? []).map((r) => (
+          <div key={r} style={{ height: chipH, display: "inline-flex", alignItems: "center", gap: 6, background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 12px" }}>
+            <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: 18, color: INK, whiteSpace: "nowrap" }}>{r}</span>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: 3, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 13, letterSpacing: 0.5, padding: "3px 9px 4px 5px", borderRadius: 999 }}>
+              <LineIcon name="check" size={15} stroke={12} color="#fff" />DISPONIBLE
+            </span>
+          </div>
+        ))}
       </div>
       {it.condition && <div style={{ position: "absolute", top: -16, left: -10, transform: "rotate(-6deg)", boxShadow: "0 8px 18px rgba(6,14,90,0.3)", borderRadius: 999 }}><Condition c={it.condition} size={22} /></div>}
-      <div style={{ position: "absolute", bottom: -tagSize * 0.55, left: "50%", transform: "translateX(-50%)", background: `linear-gradient(90deg, ${COLORS.blue}, ${COLORS.cyan})`, color: "#fff", fontFamily: FONT_DISPLAY, fontWeight: 900, fontSize: tagSize, lineHeight: 1, letterSpacing: 2, padding: "10px 34px 8px", borderRadius: 999, border: "6px solid #fff", boxShadow: "0 14px 30px rgba(6,14,90,0.4)", whiteSpace: "nowrap" }}>
+      <div style={{ position: "absolute", bottom: -tagSize * 0.55, background: `linear-gradient(90deg, ${COLORS.blue}, ${COLORS.cyan})`, color: "#fff", fontFamily: FONT_DISPLAY, fontWeight: 900, fontSize: tagSize, lineHeight: 1, letterSpacing: 2, padding: "9px 32px 7px", borderRadius: 999, border: "5px solid #fff", boxShadow: "0 14px 30px rgba(6,14,90,0.4)", whiteSpace: "nowrap" }}>
         {it.price}
       </div>
     </div>
@@ -129,7 +128,8 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
   const rows = n <= 2 ? 1 : n <= 4 ? 2 : 3;
   const cols = n === 1 ? 1 : 2;
   const header = !!(title || subtitle);
-  const gridTop = header ? 545 : 370, gridBottom = 1490, gapX = 40, gapY = 84;
+  const stockList = items.some((it) => it.stock);
+  const gridTop = header ? 545 : 345, gridBottom = stockList ? 1525 : 1500, gapX = 40, gapY = stockList ? 62 : 84;
   const w = cols === 1 ? 640 : 475;
   const h = Math.min(600, (gridBottom - gridTop - gapY * (rows - 1)) / rows);
   const heavy: React.CSSProperties = { fontFamily: FONT, fontWeight: 900, color: "#fff", lineHeight: 1, textShadow: "0 10px 30px rgba(8,20,110,0.4)", whiteSpace: "nowrap" };

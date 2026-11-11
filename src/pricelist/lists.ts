@@ -39,15 +39,15 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
   },
   iphones: {
     items: [
-      // img "" = photo still missing (a dashed PHOTO slot is drawn)
       ...[
-        { name: "iPhone Duo", img: "iphoneduo2/products/flat_white.png" },
-        { name: "iPhone 18 Pro Max", img: "" },
-        { name: "iPhone 18 Pro", img: "" },
-        { name: "iPhone 17 Pro Max", img: "" },
-        { name: "iPhone 17 Pro", img: "" },
-        { name: "iPhone Air", img: "pricelist/iphones/air.png" },
-      ].map((p) => ({ ...p, price: "DISPONIBLE", condition: "neuf" as const, stock: ["128 GB", "256 GB", "512 GB", "1 TB"] })),
+        { name: "iPhone Duo", img: "pricelist/iphones/duo.png", stock: ["128 GB", "256 GB", "512 GB", "1 TB"] },
+        { name: "iPhone 18 Pro Max", img: "pricelist/iphones/18promax.png", stock: ["128 GB", "256 GB", "512 GB", "1 TB"] },
+        { name: "iPhone 18 Pro", img: "pricelist/iphones/18pro.png", stock: ["128 GB", "256 GB", "512 GB", "1 TB"] },
+        // 17 Pro / 17 Pro Max / Air start at 256 GB
+        { name: "iPhone 17 Pro Max", img: "pricelist/iphones/17promax.png", stock: ["256 GB", "512 GB", "1 TB"] },
+        { name: "iPhone 17 Pro", img: "pricelist/iphones/17pro.png", stock: ["256 GB", "512 GB", "1 TB"] },
+        { name: "iPhone Air", img: "pricelist/iphones/air.png", stock: ["256 GB", "512 GB", "1 TB"] },
+      ].map((p) => ({ ...p, price: "DISPONIBLE", condition: "neuf" as const })),
     ],
   },
 };
