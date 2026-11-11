@@ -106,22 +106,22 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
         ))}
       </div>
       {/* how to order */}
-      <div style={{ position: "absolute", top: 1590, left: 60, right: 230, display: "flex", flexDirection: "column", gap: 14 }}>
-        <div dir="rtl" style={{ ...heavy, fontSize: 44, textAlign: "right" }}>كوموندي دابا فـ WhatsApp</div>
-        <div style={{ display: "flex", alignItems: "center", gap: 14, alignSelf: "flex-end" }}>
+      <div style={{ position: "absolute", top: 1590, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 14 }}>
+        <div dir="rtl" style={{ ...heavy, fontSize: 44, textAlign: "center" }}>كوموندي دابا فـ WhatsApp</div>
+        <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
           <div style={{ width: 62, height: 62, borderRadius: "50%", background: "#25D366", display: "flex", alignItems: "center", justifyContent: "center", border: "4px solid #fff" }}>
             <LineIcon name="call" size={38} stroke={9} color="#fff" />
           </div>
           <div style={{ ...heavy, fontSize: 52 }}>{whatsapp}</div>
         </div>
-        <div style={{ display: "flex", gap: 22, alignSelf: "flex-end", alignItems: "center", fontFamily: FONT, fontWeight: 800, fontSize: 30, color: "#fff" }}>
+        <div style={{ display: "flex", gap: 22, alignItems: "center", fontFamily: FONT, fontWeight: 800, fontSize: 30, color: "#fff" }}>
           <span style={{ display: "flex", alignItems: "center", gap: 8 }}><LineIcon name="instagram" size={40} stroke={8} />{SOCIAL.instagram}</span>
           <span style={{ display: "flex", alignItems: "center", gap: 8 }}><FacebookGlyph size={40} />{SOCIAL.facebook}</span>
         </div>
-        <div style={{ alignSelf: "flex-end", fontFamily: FONT, fontWeight: 700, fontSize: 26, color: "rgba(255,255,255,0.9)" }}>{footnote}</div>
+        <div style={{ fontFamily: FONT, fontWeight: 700, fontSize: 24, color: "rgba(255,255,255,0.9)" }}>{footnote}</div>
       </div>
-      <div style={{ position: "absolute", right: 10, top: 1555 }}>
-        <Citybot id="pricelist" width={210} expression="happy" mouth="smile" tilt={6} rightArm={{ rot: 72, hand: "thumb" }} leftArm={{ rot: 30, hand: "open" }} hover={8} />
+      <div style={{ position: "absolute", right: 0, top: 1580 }}>
+        <Citybot id="pricelist" width={170} expression="happy" mouth="smile" tilt={6} rightArm={{ rot: 72, hand: "thumb" }} leftArm={{ rot: 30, hand: "open" }} hover={8} />
       </div>
       {/* website bar */}
       <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: 70, background: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: FONT, fontWeight: 900, fontSize: 36, color: COLORS.blue, letterSpacing: 4 }}>
