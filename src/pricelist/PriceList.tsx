@@ -120,7 +120,7 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
         </div>
         <div style={{ fontFamily: FONT, fontWeight: 700, fontSize: 24, color: "rgba(255,255,255,0.9)" }}>{footnote}</div>
       </div>
-      <div style={{ position: "absolute", right: 0, top: 1580 }}>
+      <div style={{ position: "absolute", right: 58, top: 1590 }}>
         <Citybot id="pricelist" width={170} expression="happy" mouth="smile" tilt={6} rightArm={{ rot: 72, hand: "thumb" }} leftArm={{ rot: 30, hand: "open" }} hover={8} />
       </div>
       {/* website bar */}
