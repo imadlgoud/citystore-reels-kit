@@ -29,8 +29,6 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
     ],
   },
   airpods: {
-    title: "AIRPODS",
-    subtitle: "الأثمنة ديال AirPods",
     items: [
       { name: "AirPods Pro 2", img: "pricelist/airpods/pro2.png", price: "2100 DH", condition: "neuf", spec: "Boîtier USB-C" },
       { name: "AirPods 2", img: "pricelist/airpods/airpods2.png", price: "1100 DH", condition: "neuf" },

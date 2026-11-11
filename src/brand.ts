@@ -24,6 +24,8 @@ export const GRID = { pitch: 60, opacity: 0.15, lineWidth: 2 };
 // using @remotion/google-fonts' manifest. latin-ext covers é è à ç ô œ etc.
 // Cairo covers Arabic script (Darija subtitles/titles); CSS falls back to it per glyph.
 export const FONT = "Montserrat, Cairo";
+// Bebas Neue (SIL OFL, single weight; declared over 100-900 so bold text is never faux-bolded): price-list stories
+export const FONT_DISPLAY = "'Bebas Neue', Cairo";
 export const fontsReady = Promise.all(
   (fontManifest as { family?: string; file: string; unicodeRange: string }[]).map((f) =>
     loadFont({
