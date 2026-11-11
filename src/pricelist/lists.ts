@@ -28,4 +28,15 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: "Galaxy A16", img: "a16/products/back.png", price: "0000 DH", condition: "neuf", spec: "4 Go · 128 Go" },
     ],
   },
+  airpods: {
+    title: "AIRPODS",
+    subtitle: "الأثمنة ديال AirPods",
+    items: [
+      { name: "AirPods Pro 2", img: "pricelist/airpods/pro2.png", price: "2100 DH", condition: "neuf", spec: "Boîtier USB-C" },
+      { name: "AirPods 2", img: "pricelist/airpods/airpods2.png", price: "1100 DH", condition: "neuf" },
+      // AirPods 4 and 4 ANC look the same: the two renders from the AirPods reel (open / buds in) tell them apart
+      { name: "AirPods 4", img: "airpods5b/products/open.png", price: "1450 DH", condition: "neuf" },
+      { name: "AirPods 4 ANC", img: "airpods5b/products/case.png", price: "1850 DH", condition: "neuf", spec: "Réduction de bruit active" },
+    ],
+  },
 };
