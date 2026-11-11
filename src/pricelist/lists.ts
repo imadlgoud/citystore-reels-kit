@@ -37,4 +37,17 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: "AirPods 4 ANC", img: "airpods5b/products/case.png", price: "1850 DH", condition: "neuf", spec: "Réduction de bruit active", scale: 0.82 },
     ],
   },
+  iphones: {
+    items: [
+      // img "" = photo still missing (a dashed PHOTO slot is drawn)
+      ...[
+        { name: "iPhone Duo", img: "iphoneduo2/products/flat_white.png" },
+        { name: "iPhone 18 Pro Max", img: "" },
+        { name: "iPhone 18 Pro", img: "" },
+        { name: "iPhone 17 Pro Max", img: "" },
+        { name: "iPhone 17 Pro", img: "" },
+        { name: "iPhone Air", img: "pricelist/iphones/air.png" },
+      ].map((p) => ({ ...p, price: "DISPONIBLE", condition: "neuf" as const, stock: ["128 GB", "256 GB", "512 GB", "1 TB"] })),
+    ],
+  },
 };

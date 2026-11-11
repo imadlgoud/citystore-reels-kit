@@ -19,6 +19,8 @@ export type PriceItem = {
   price: string; // e.g. "2100 DH"
   condition?: "neuf" | "occasion";
   spec?: string; // e.g. "256 Go · Batterie 87 %"
+  /** availability list (e.g. storage sizes): switches to the side-by-side card, one "DISPONIBLE" chip per entry */
+  stock?: string[];
   /** image scale tweak inside its slot (1 = fit) */
   scale?: number;
   rotate?: number;
@@ -43,6 +45,54 @@ const Condition: React.FC<{ c: "neuf" | "occasion"; size: number }> = ({ c, size
     {c === "neuf" ? "NEUF" : "OCCASION"}
   </div>
 );
+
+/** placeholder shown when a product photo is still missing (img: "") */
+const PhotoSlot: React.FC = () => (
+  <div style={{ width: "88%", height: "88%", border: "4px dashed #9AA6D8", borderRadius: 24, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", gap: 6, color: "#9AA6D8", fontFamily: FONT, fontWeight: 900, fontSize: 20 }}>
+    <LineIcon name="phone" size={60} stroke={7} color="#9AA6D8" />
+    PHOTO
+  </div>
+);
+
+/* side-by-side card for availability lists: photo on the left, name + one row per entry ("128 GB  ✓ DISPONIBLE") */
+const StockCard: React.FC<{ it: PriceItem; w: number; h: number }> = ({ it, w, h }) => {
+  const tagSize = h > 420 ? 66 : 54;
+  const padTop = 18, padBottom = tagSize * 0.62;
+  const colW = w - 200;
+  const nameMax = 30;
+  const nameSize = Math.min(nameMax, (colW - 6) / (it.name.length * 0.68));
+  const rows = it.stock ?? [];
+  const rowH = Math.min(38, (h - padTop - padBottom - nameMax * 1.3 - 8) / Math.max(rows.length, 1));
+  return (
+    <div style={{ position: "relative", width: w, height: h, background: "rgba(255,255,255,0.96)", borderRadius: 36, boxShadow: "0 24px 50px rgba(6,14,90,0.35)", display: "flex", padding: `${padTop}px 16px ${padBottom}px 12px`, gap: 8 }}>
+      <div style={{ position: "relative", width: 176, flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center" }}>
+        <div style={{ position: "absolute", width: 160, height: 160, borderRadius: "50%", background: `radial-gradient(circle, ${COLORS.cyan}55 0%, ${COLORS.blue}22 60%, rgba(255,255,255,0) 72%)` }} />
+        {it.img ? (
+          <Img src={staticFile(it.img)} style={{ position: "relative", maxWidth: "100%", maxHeight: "100%", transform: `scale(${it.scale ?? 1}) rotate(${it.rotate ?? 0}deg)`, filter: "drop-shadow(0 14px 18px rgba(6,14,90,0.35))" }} />
+        ) : (
+          <PhotoSlot />
+        )}
+      </div>
+      <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center" }}>
+        <div style={{ height: nameMax * 1.3, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 900, fontSize: nameSize, lineHeight: 1, color: INK, whiteSpace: "nowrap" }}>{it.name}</div>
+        <div style={{ marginTop: 8, display: "flex", flexDirection: "column" }}>
+          {rows.map((r) => (
+            <div key={r} style={{ height: rowH, display: "flex", alignItems: "center", justifyContent: "space-between", borderTop: "2px solid #E6EAF7" }}>
+              <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: rowH * 0.56, color: INK }}>{r}</span>
+              <span style={{ display: "inline-flex", alignItems: "center", gap: 4, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: rowH * 0.42, letterSpacing: 1, padding: "2px 10px 3px 6px", borderRadius: 999 }}>
+                <LineIcon name="check" size={rowH * 0.5} stroke={12} color="#fff" />DISPONIBLE
+              </span>
+            </div>
+          ))}
+        </div>
+      </div>
+      {it.condition && <div style={{ position: "absolute", top: -16, left: -10, transform: "rotate(-6deg)", boxShadow: "0 8px 18px rgba(6,14,90,0.3)", borderRadius: 999 }}><Condition c={it.condition} size={22} /></div>}
+      <div style={{ position: "absolute", bottom: -tagSize * 0.55, left: "50%", transform: "translateX(-50%)", background: `linear-gradient(90deg, ${COLORS.blue}, ${COLORS.cyan})`, color: "#fff", fontFamily: FONT_DISPLAY, fontWeight: 900, fontSize: tagSize, lineHeight: 1, letterSpacing: 2, padding: "10px 34px 8px", borderRadius: 999, border: "6px solid #fff", boxShadow: "0 14px 30px rgba(6,14,90,0.4)", whiteSpace: "nowrap" }}>
+        {it.price}
+      </div>
+    </div>
+  );
+};
 
 const Card: React.FC<{ it: PriceItem; w: number; h: number }> = ({ it, w, h }) => {
   const big = h > 420;
@@ -102,7 +152,7 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
       {/* products */}
       <div style={{ position: "absolute", top: gridTop, left: 0, right: 0, display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: gapX, rowGap: gapY }}>
         {items.slice(0, 6).map((it, i) => (
-          <Card key={i} it={it} w={w} h={h} />
+          it.stock ? <StockCard key={i} it={it} w={w} h={h} /> : <Card key={i} it={it} w={w} h={h} />
         ))}
       </div>
       {/* how to order */}
