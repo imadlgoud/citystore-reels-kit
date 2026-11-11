@@ -134,6 +134,8 @@ import { Readers2Cover } from "./reels/readers2/Readers2Cover";
 import { R2TL } from "./reels/readers2/timeline";
 import { Airpods5bReel } from "./reels/airpods5b/Airpods5bReel";
 import { Airpods5bCover } from "./reels/airpods5b/Airpods5bCover";
+import { PriceList } from "./pricelist/PriceList";
+import { PRICE_LISTS } from "./pricelist/lists";
 import { OccAndroidCover, OccGoproCover, OccIphoneCover, OccSamsungCover, OccTabletsCover } from "./reels/occasions/OccasionCover";
 import { APTL } from "./reels/airpods5b/timeline";
 
@@ -284,6 +286,9 @@ export const RemotionRoot: React.FC = () => (
     <Still id="OccTabletsCover" component={OccTabletsCover} width={1080} height={1920} />
     <Still id="OccAndroidCover" component={OccAndroidCover} width={1080} height={1920} />
     <Still id="OccGoproCover" component={OccGoproCover} width={1080} height={1920} />
+    {Object.entries(PRICE_LISTS).map(([id, p]) => (
+      <Still key={id} id={`PriceList-${id}`} component={PriceList} defaultProps={p} width={1080} height={1920} />
+    ))}
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
 );

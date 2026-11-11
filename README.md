@@ -46,6 +46,12 @@ npm run studio                   # interactive preview
   `reels/<id>/caption.md`): hook line, product + DISPONIBLE, script-only spec lines, the trust line as spoken, the CTA,
   citystore.ma, hashtags. Minimal emojis: only 📩 (CTA) and 🌐 (site).
 
+## Price-list stories (9:16 stills)
+`src/pricelist/PriceList.tsx` is a City Store price-list story: logo, title, optional subtitle pill, 2-6 product cards
+(official cut-out, name, optional spec line, NEUF / OCCASION badge, price), the WhatsApp number, socials, address and
+`WWW.CITYSTORE.MA`. Add an entry to `src/pricelist/lists.ts` (one per story), then run
+`npx remotion still PriceList-<id> out/pricelist/<id>.png`. Layout: 1-2 items use one row, 3-4 use 2x2, 5-6 use 2x3.
+
 ## Reels
 | Reel | Compositions | Outputs | Build |
 |---|---|---|---|
