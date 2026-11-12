@@ -57,12 +57,12 @@ const PhotoSlot: React.FC = () => (
 
 /* availability card: big photo on top, name, then the sizes stacked one under the other (each with its own
    "✓ DISPONIBLE"), tag at the bottom. Fixed rows so cards in the same row line up. */
-const StockCard: React.FC<{ it: PriceItem; w: number; h: number }> = ({ it, w, h }) => {
+const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number }> = ({ it, w, h, maxRows }) => {
   const tagSize = 40;
   const padTop = 12, padBottom = it.price ? tagSize * 1.1 : 16;
   const nameMax = 30;
   const nameSize = Math.min(nameMax, (w - 40) / (it.name.length * 0.68));
-  const rowH = 36, rowGap = 5, maxRows = 4;
+  const rowH = 36, rowGap = 5; // maxRows: the longest list in the story, so every card keeps the same rows
   const sizesH = rowH * maxRows + rowGap * (maxRows - 1); // same height whatever the number of sizes
   const specH = it.spec ? 30 : 0; // optional line under the name (e.g. "Wi-Fi + 5G")
   const slotH = h - padTop - padBottom - nameMax * 1.15 - 4 - specH - sizesH - 8;
@@ -134,6 +134,7 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
   const cols = n === 1 ? 1 : 2;
   const header = !!(title || subtitle);
   const stockList = items.some((it) => it.stock);
+  const maxRows = Math.max(1, ...items.map((it) => it.stock?.length ?? 0));
   const gridTop = header ? 545 : stockList ? 245 : 345, gridBottom = stockList ? 1598 : 1500, gapX = stockList ? 30 : 40, gapY = stockList ? 34 : 84;
   const footTop = stockList ? 1628 : 1590;
   const w = cols === 1 ? 640 : stockList ? 485 : 475;
@@ -158,7 +159,7 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
       {/* products */}
       <div style={{ position: "absolute", top: gridTop, left: 0, right: 0, display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: gapX, rowGap: gapY }}>
         {items.slice(0, 6).map((it, i) => (
-          it.stock ? <StockCard key={i} it={it} w={w} h={h} /> : <Card key={i} it={it} w={w} h={h} />
+          it.stock ? <StockCard key={i} it={it} w={w} h={h} maxRows={maxRows} /> : <Card key={i} it={it} w={w} h={h} />
         ))}
       </div>
       {/* how to order */}

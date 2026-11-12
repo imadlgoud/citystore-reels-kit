@@ -35,4 +35,14 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: 'iPad Pro M5 11"', spec: "Wi-Fi", img: "pricelist/ipads/11.png", scale: 0.86, condition: "neuf", stock: ["256 GB", "2 TB"] },
     ],
   },
+  watches: {
+    items: [
+      { name: "Apple Watch Ultra 4", img: "ultra4/products/angle.png", stock: ["49 mm"] },
+      { name: "Apple Watch Ultra 3", img: "ultra3/products/angle.png", stock: ["49 mm"] },
+      { name: "Apple Watch Ultra 2", img: "pricelist/watches/ultra2.png", stock: ["49 mm"] },
+      { name: "Apple Watch Series 11", img: "watch11/products/setup.png", stock: ["46 mm"] },
+      { name: "Apple Watch Series 10", img: "pricelist/watches/series10.png", stock: ["42 mm"] },
+      { name: "Apple Watch SE 3", img: "pricelist/watches/se3.png", stock: ["44 mm"] },
+    ].map((p) => ({ ...p, condition: "neuf" as const })),
+  },
 };
