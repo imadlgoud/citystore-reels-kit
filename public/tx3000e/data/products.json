@@ -1,0 +1,17 @@
+{
+ "full": {
+  "src": "tx3000e/products/full.png",
+  "w": 810,
+  "h": 903
+ },
+ "card": {
+  "src": "tx3000e/products/card.png",
+  "w": 504,
+  "h": 405
+ },
+ "base": {
+  "src": "tx3000e/products/base.png",
+  "w": 342,
+  "h": 777
+ }
+}

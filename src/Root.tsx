@@ -138,6 +138,9 @@ import { PriceList } from "./pricelist/PriceList";
 import { PRICE_LISTS } from "./pricelist/lists";
 import { OccAndroidCover, OccGoproCover, OccIphoneCover, OccSamsungCover, OccTabletsCover } from "./reels/occasions/OccasionCover";
 import { APTL } from "./reels/airpods5b/timeline";
+import { Tx3000eReel } from "./reels/tx3000e/Tx3000eReel";
+import { Tx3000eCover } from "./reels/tx3000e/Tx3000eCover";
+import { TXTL } from "./reels/tx3000e/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -281,6 +284,8 @@ export const RemotionRoot: React.FC = () => (
     {/* AirPods 5 (second reel): 30 s (pause trimming + 1.04x); 9:16 + cover only */}
     <Composition id="Airpods5bReel9x16" component={Airpods5bReel} durationInFrames={Math.min(APTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Airpods5bCover" component={Airpods5bCover} width={1080} height={1920} />
+    <Composition id="Tx3000eReel9x16" component={Tx3000eReel} durationInFrames={Math.min(TXTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="Tx3000eCover" component={Tx3000eCover} width={1080} height={1920} />
     <Still id="OccIphoneCover" component={OccIphoneCover} width={1080} height={1920} />
     <Still id="OccSamsungCover" component={OccSamsungCover} width={1080} height={1920} />
     <Still id="OccTabletsCover" component={OccTabletsCover} width={1080} height={1920} />

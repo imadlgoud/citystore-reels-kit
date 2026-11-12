@@ -194,7 +194,11 @@
     "airpods5b:cutout": "python3 reels/airpods5b/cutout.py",
     "airpods5b:audio": "REEL=airpods5b python3 scripts/process_vo_take.py && python3 reels/airpods5b/build_timeline.py && REEL=airpods5b python3 scripts/make_music.py && REEL=airpods5b python3 scripts/mix_audio.py",
     "airpods5b:render": "remotion render Airpods5bReel9x16 out/airpods5b/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Airpods5bCover out/airpods5b/cover_1080x1920.png",
-    "airpods5b:build": "npm run airpods5b:cutout && npm run airpods5b:audio && REEL=airpods5b node scripts/make_srt.mjs && npm run airpods5b:render && REEL=airpods5b bash scripts/finalize.sh && REEL=airpods5b bash scripts/verify.sh"
+    "airpods5b:build": "npm run airpods5b:cutout && npm run airpods5b:audio && REEL=airpods5b node scripts/make_srt.mjs && npm run airpods5b:render && REEL=airpods5b bash scripts/finalize.sh && REEL=airpods5b bash scripts/verify.sh",
+    "tx3000e:cutout": "python3 reels/tx3000e/cutout.py",
+    "tx3000e:audio": "REEL=tx3000e python3 scripts/process_vo_take.py && python3 reels/tx3000e/build_timeline.py && REEL=tx3000e python3 scripts/make_music.py && REEL=tx3000e python3 scripts/mix_audio.py",
+    "tx3000e:render": "remotion render Tx3000eReel9x16 out/tx3000e/reel_9x16_raw.mp4 --codec=h264 --crf=16 && remotion still Tx3000eCover out/tx3000e/cover_1080x1920.png",
+    "tx3000e:build": "npm run tx3000e:cutout && npm run tx3000e:audio && REEL=tx3000e node scripts/make_srt.mjs && npm run tx3000e:render && REEL=tx3000e bash scripts/finalize.sh && REEL=tx3000e bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

@@ -1,0 +1,19 @@
+{
+ "id": "tx3000e",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [
+  5.15,
+  10.84,
+  19.55,
+  24.07,
+  28.63,
+  32.56
+ ],
+ "lead": 0.06,
+ "voEndBy": 27.6,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "note": "TP-Link Archer TX3000E (Wi-Fi 6 AX3000 PCIe + Bluetooth). Aim 30 s: pause trimming, then <=1.1x pitch-kept speed-up. 9:16 + cover only.",
+ "silenceDb": -34
+}

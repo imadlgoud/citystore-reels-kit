@@ -91,6 +91,7 @@ npm run studio                   # interactive preview
 | Ray-Ban Meta range: Wayfarer Gen 3 Transitions, Aviator Gen 3, Wayfarer + Headliner Gen 2 (Darija, **39.5 s**, natural speed; 9:16 only; upload copy at crf 21) | `RbRangeReel9x16`, `RbRangeCover` | `out/rbrange/` | `npm run rbrange:build` |
 | E-readers: Kindle 11e gén. 16GB (Vert, Noir) + Kobo Libra Colour (Noir) (Darija, 30 s, pause trimming, natural speed; 9:16 only) | `Readers2Reel9x16`, `Readers2Cover` | `out/readers2/` | `npm run readers2:build` |
 | AirPods 5, second reel: ANC, live translation, Siri, spatial audio (Darija, 30 s, pause trimming + 1.04x; 9:16 only) | `Airpods5bReel9x16`, `Airpods5bCover` | `out/airpods5b/` | `npm run airpods5b:build` |
+| TP-Link Archer TX3000E, PCIe Wi-Fi 6 AX3000 + Bluetooth (Darija, 30 s, pause trimming + 1.074x; 9:16 only) | `Tx3000eReel9x16`, `Tx3000eCover` | `out/tx3000e/` | `npm run tx3000e:build` |
 | Covers only for the real-footage occasion videos (iPhone, Samsung, tablettes, Xiaomi/Pixel/Honor, GoPro HERO10). Photos are frames from the shop videos (`public/occasions/`). | `OccIphoneCover`, `OccSamsungCover`, `OccTabletsCover`, `OccAndroidCover`, `OccGoproCover` | `out/occasions/` | `npx remotion still <Id> out/occasions/<Id>.png` |
 | Apple Watch Ultra 4 (Darija) | `WatchReel9x16`, `WatchReel1x1`, `WatchCover` | `out/watch/` | `npm run watch:build` |
 | Galaxy Watch8 Classic + Ultra2 (Darija) | `GalaxyReel9x16`, `GalaxyReel1x1`, `GalaxyCover` | `out/galaxy/` | `npm run galaxy:build` |
