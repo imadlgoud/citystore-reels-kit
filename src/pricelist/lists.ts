@@ -3,31 +3,9 @@ import { PriceListProps } from "./PriceList";
 /*
  * One entry per price-list story. Each becomes a Still called `PriceList-<id>` (registered in Root.tsx).
  * Images are transparent cut-outs under public/ (official renders only, like the reels).
- * Prices "0000 DH" are placeholders: replace them before posting.
+ * Optional header: `title` / `subtitle` under the logo. Price lists use `price`; availability lists use `stock`.
  */
 export const PRICE_LISTS: Record<string, PriceListProps> = {
-  smartphones: {
-    title: "SMARTPHONES",
-    subtitle: "الأثمنة ديال هاد السيمانة",
-    items: [
-      { name: "Redmi Note 15 5G", img: "redmi/products/note15.png", price: "0000 DH", condition: "neuf" },
-      { name: "Redmi Note 14 Pro+ 5G", img: "redmi/products/proplus.png", price: "0000 DH", condition: "neuf" },
-      { name: "Galaxy A16", img: "a16/products/pair.png", price: "0000 DH", condition: "neuf", spec: "4 Go · 128 Go" },
-      { name: "Galaxy A07", img: "a07/products/black.png", price: "0000 DH", condition: "neuf", spec: "4 Go · 64 Go" },
-    ],
-  },
-  selection: {
-    title: "SÉLECTION CITY STORE",
-    subtitle: "Neuf · Occasion",
-    items: [
-      { name: "Apple Watch Series 11", img: "watch11/products/trio.png", price: "0000 DH", condition: "neuf" },
-      { name: "Apple Watch Ultra 3", img: "ultra3/products/front.png", price: "0000 DH", condition: "neuf" },
-      { name: "WHOOP 5.0", img: "whoop/products/duo.png", price: "0000 DH", condition: "neuf" },
-      { name: "Galaxy A07", img: "a07/products/green.png", price: "0000 DH", condition: "occasion", spec: "4 Go · 64 Go" },
-      { name: "Redmi Note 14 5G", img: "redmi/products/note14.png", price: "0000 DH", condition: "occasion" },
-      { name: "Galaxy A16", img: "a16/products/back.png", price: "0000 DH", condition: "neuf", spec: "4 Go · 128 Go" },
-    ],
-  },
   airpods: {
     items: [
       { name: "AirPods Pro 2", img: "pricelist/airpods/pro2.png", price: "2100 DH", condition: "neuf", spec: "Boîtier USB-C" },
