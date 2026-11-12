@@ -38,7 +38,7 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
   watches: {
     items: [
       { name: "Apple Watch Ultra 4", img: "pricelist/watches/ultra4.png", stock: ["49 mm"] },
-      { name: "Apple Watch Ultra 3", img: "pricelist/watches/ultra3.png", stock: ["49 mm"] },
+      { name: "Apple Watch Ultra 3", img: "ultra3/products/angle.png", stock: ["49 mm"] },
       { name: "Apple Watch Ultra 2", img: "pricelist/watches/ultra2_single.png", stock: ["49 mm"] },
       { name: "Apple Watch Series 11", img: "pricelist/watches/series11.png", stock: ["46 mm"] },
       { name: "Apple Watch Series 10", img: "pricelist/watches/series10.png", stock: ["42 mm"] },
