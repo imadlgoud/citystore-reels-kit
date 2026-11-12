@@ -50,4 +50,11 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       ].map((p) => ({ ...p, condition: "neuf" as const })),
     ],
   },
+  ipads: {
+    items: [
+      { name: 'iPad Pro M5 13"', spec: "Wi-Fi + 5G", img: "pricelist/ipads/13.png", condition: "neuf", stock: ["256 GB", "512 GB", "1 TB", "2 TB"] },
+      { name: 'iPad Pro M5 13"', spec: "Wi-Fi", img: "pricelist/ipads/13.png", condition: "neuf", stock: ["256 GB", "512 GB"] },
+      { name: 'iPad Pro M5 11"', spec: "Wi-Fi", img: "pricelist/ipads/11.png", scale: 0.86, condition: "neuf", stock: ["256 GB", "2 TB"] },
+    ],
+  },
 };

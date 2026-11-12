@@ -64,7 +64,8 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number }> = ({ it, w, h
   const nameSize = Math.min(nameMax, (w - 40) / (it.name.length * 0.68));
   const rowH = 36, rowGap = 5, maxRows = 4;
   const sizesH = rowH * maxRows + rowGap * (maxRows - 1); // same height whatever the number of sizes
-  const slotH = h - padTop - padBottom - nameMax * 1.15 - 4 - sizesH - 8;
+  const specH = it.spec ? 30 : 0; // optional line under the name (e.g. "Wi-Fi + 5G")
+  const slotH = h - padTop - padBottom - nameMax * 1.15 - 4 - specH - sizesH - 8;
   return (
     <div style={{ position: "relative", width: w, height: h, background: "rgba(255,255,255,0.96)", borderRadius: 36, boxShadow: "0 24px 50px rgba(6,14,90,0.35)", display: "flex", flexDirection: "column", alignItems: "center", padding: `${padTop}px 10px ${padBottom}px` }}>
       <div style={{ position: "relative", height: slotH, width: "100%", display: "flex", alignItems: "flex-end", justifyContent: "center" }}>
@@ -76,6 +77,7 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number }> = ({ it, w, h
         )}
       </div>
       <div style={{ marginTop: 4, height: nameMax * 1.15, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 900, fontSize: nameSize, lineHeight: 1, color: INK, whiteSpace: "nowrap" }}>{it.name}</div>
+      {it.spec && <div style={{ height: specH, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 800, fontSize: 22, color: "#4A5594", whiteSpace: "nowrap" }}>{it.spec}</div>}
       <div style={{ marginTop: 8, height: sizesH, display: "flex", flexDirection: "column", gap: rowGap }}>
         {(it.stock ?? []).map((r) => (
           <div key={r} style={{ height: rowH, width: 360, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
@@ -135,7 +137,7 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
   const gridTop = header ? 545 : stockList ? 245 : 345, gridBottom = stockList ? 1598 : 1500, gapX = stockList ? 30 : 40, gapY = stockList ? 34 : 84;
   const footTop = stockList ? 1628 : 1590;
   const w = cols === 1 ? 640 : stockList ? 485 : 475;
-  const h = Math.min(600, (gridBottom - gridTop - gapY * (rows - 1)) / rows);
+  const h = Math.min(stockList ? 700 : 600, (gridBottom - gridTop - gapY * (rows - 1)) / rows);
   const heavy: React.CSSProperties = { fontFamily: FONT, fontWeight: 900, color: "#fff", lineHeight: 1, textShadow: "0 10px 30px rgba(8,20,110,0.4)", whiteSpace: "nowrap" };
   return (
     <AbsoluteFill>
