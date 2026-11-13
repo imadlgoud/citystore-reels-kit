@@ -7,3 +7,5 @@ Transparent PNGs supplied by City Store (originals in `src/`), trimmed; small on
 - Galaxy S26: `galaxy_s26_colours.png` (301 px, 4 colours + front) -> `s26.png` (3x).
 - Galaxy A57: `galaxy_a57_colours.png` (1600 px, 4 colours + front) -> `a57.png`.
 Configurations as given by City Store: S26 Ultra / S25 Ultra / S26: 12 GB / 256 GB + 12 GB / 512 GB; A57: 12 GB / 256 GB.
+- Galaxy A56: `galaxy_a56_colours.png` (Graphite, Pink, Light Gray, Olive + front) -> `a56.png` (2x). 12 GB / 256 GB.
+- Galaxy A36: `galaxy_a36_colours.png` (White, Lime, Lavender, Black) -> `a36.png` (2x). 12 GB / 256 GB.

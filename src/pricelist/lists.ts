@@ -64,6 +64,8 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: "Galaxy S25 Ultra", img: "pricelist/samsung/s25ultra.png", stock: ["12 GB · 256 GB", "12 GB · 512 GB"] },
       { name: "Galaxy S26", img: "pricelist/samsung/s26.png", stock: ["12 GB · 256 GB", "12 GB · 512 GB"] },
       { name: "Galaxy A57", img: "pricelist/samsung/a57.png", stock: ["12 GB · 256 GB"] },
+      { name: "Galaxy A56", img: "pricelist/samsung/a56.png", stock: ["12 GB · 256 GB"] },
+      { name: "Galaxy A36", img: "pricelist/samsung/a36.png", stock: ["12 GB · 256 GB"] },
     ].map((p) => ({ ...p, condition: "neuf" as const })),
   },
 };
