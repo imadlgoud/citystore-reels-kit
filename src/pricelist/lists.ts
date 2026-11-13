@@ -53,6 +53,8 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: 'MacBook Pro M4 14"', img: "pricelist/macbooks/pro14.png", stock: ["16 GB · 1 TB", "16 GB · 512 GB"] },
       { name: 'MacBook Air M4 13,6"', img: "pricelist/macbooks/air13.png", stock: ["16 GB · 512 GB"] },
       { name: 'MacBook Air M4 15"', img: "pricelist/macbooks/air15.png", stock: ["16 GB · 512 GB"] },
+      { name: 'MacBook Air M3 15"', img: "pricelist/macbooks/air15_m3.png", stock: ["16 GB · 256 GB", "16 GB · 512 GB"] },
+      { name: "MacBook Neo", img: "pricelist/macbooks/neo.png", stock: ["8 GB · 512 GB"] },
     ].map((p) => ({ ...p, condition: "neuf" as const })),
   },
 };

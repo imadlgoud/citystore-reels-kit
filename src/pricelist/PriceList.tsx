@@ -82,7 +82,7 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number
       {it.spec && <div style={{ height: specH, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 800, fontSize: 22, color: "#4A5594", whiteSpace: "nowrap" }}>{it.spec}</div>}
       <div style={{ marginTop: 8, height: sizesH, display: "flex", flexDirection: "column", gap: rowGap }}>
         {(it.stock ?? []).map((r) => (
-          <div key={r} style={{ height: rowH, width: Math.min(w - 40, Math.max(360, r.length * 17 + 190)), gap: 12, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
+          <div key={r} style={{ height: rowH, width: Math.min(w - 40, Math.max(360, Math.max(...(it.stock ?? [r]).map((x) => x.length)) * 17 + 190)), gap: 12, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
             <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: 25, color: INK, whiteSpace: "nowrap" }}>{r}</span>
             <span style={{ display: "inline-flex", alignItems: "center", gap: 5, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 18, letterSpacing: 0.5, padding: "3px 14px 4px 8px", borderRadius: 999 }}>
               <LineIcon name="check" size={20} stroke={12} color="#fff" />DISPONIBLE
