@@ -1,0 +1,17 @@
+{
+ "full": {
+  "src": "taba7lite/products/full.png",
+  "w": 893,
+  "h": 1100
+ },
+ "front": {
+  "src": "taba7lite/products/front.png",
+  "w": 646,
+  "h": 1100
+ },
+ "back": {
+  "src": "taba7lite/products/back.png",
+  "w": 248,
+  "h": 1100
+ }
+}

@@ -1,0 +1,12 @@
+{
+ "id": "taba7lite",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [3.1, 8.9, 13.2, 16.7, 21.1, 25.7],
+ "lead": 0.06,
+ "voEndBy": 27.6,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "silenceDb": -34,
+ "note": "Samsung Galaxy Tab A7 Lite Silver 32GB. Aim 30 s: pause trimming (natural speed). 9:16 + cover only."
+}

@@ -141,6 +141,9 @@ import { APTL } from "./reels/airpods5b/timeline";
 import { Tx3000eReel } from "./reels/tx3000e/Tx3000eReel";
 import { Tx3000eCover } from "./reels/tx3000e/Tx3000eCover";
 import { TXTL } from "./reels/tx3000e/timeline";
+import { TabA7LiteReel } from "./reels/taba7lite/TabA7LiteReel";
+import { TabA7LiteCover } from "./reels/taba7lite/TabA7LiteCover";
+import { TBTL } from "./reels/taba7lite/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -286,6 +289,8 @@ export const RemotionRoot: React.FC = () => (
     <Still id="Airpods5bCover" component={Airpods5bCover} width={1080} height={1920} />
     <Composition id="Tx3000eReel9x16" component={Tx3000eReel} durationInFrames={Math.min(TXTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Tx3000eCover" component={Tx3000eCover} width={1080} height={1920} />
+    <Composition id="TabA7LiteReel9x16" component={TabA7LiteReel} durationInFrames={Math.min(TBTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="TabA7LiteCover" component={TabA7LiteCover} width={1080} height={1920} />
     <Still id="OccIphoneCover" component={OccIphoneCover} width={1080} height={1920} />
     <Still id="OccSamsungCover" component={OccSamsungCover} width={1080} height={1920} />
     <Still id="OccTabletsCover" component={OccTabletsCover} width={1080} height={1920} />

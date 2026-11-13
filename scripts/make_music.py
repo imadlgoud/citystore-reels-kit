@@ -90,6 +90,10 @@ STYLES = {
     "kindle11": dict(seed=257, phase=1.0, drop=1.0, end_lift=28.25, stop=28.75,
                      chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                      final=[62, 66, 69, 74], final_bass=38, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
+    # Galaxy Tab A7 Lite reel (26.5 s): light, friendly A-major family groove; drop when the tablet lands on "Samsung"
+    "taba7lite": dict(seed=445, dur=26.5, phase=1.0, drop=3.0, end_lift=24.25, stop=24.75,
+                      chords=[[57, 61, 64], [54, 57, 61], [50, 54, 57], [52, 56, 59]], roots=[45, 42, 38, 40],
+                      final=[57, 61, 64, 69], final_bass=45, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
     # TP-Link Archer TX3000E reel (30 s): punchy E-minor gaming/tech groove; drop when the card lands on "TP-Link"
     "tx3000e": dict(seed=433, phase=1.0, drop=4.0, end_lift=27.75, stop=28.25,
                     chords=[[64, 67, 71], [60, 64, 67], [62, 67, 71], [62, 66, 69]], roots=[40, 36, 43, 38],
