@@ -40,6 +40,7 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: 'iPad Pro M5 13"', spec: "Wi-Fi", img: "pricelist/ipads/13.png", condition: "neuf", stock: ["256 GB", "512 GB"] },
       { name: 'iPad Pro M5 11"', spec: "Wi-Fi", img: "pricelist/ipads/11.png", condition: "neuf", stock: ["256 GB", "2 TB"] },
       { name: "iPad A16", spec: "Wi-Fi", img: "pricelist/ipads/a16.png", condition: "neuf", stock: ["128 GB"] },
+      { name: "Galaxy Tab A7 Lite", spec: "Silver", img: "pricelist/ipads/tab_a7lite.png", condition: "neuf", stock: ["32 GB"] },
     ],
   },
   watches: {
