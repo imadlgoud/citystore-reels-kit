@@ -102,7 +102,7 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number
 
 const Card: React.FC<{ it: PriceItem; w: number; h: number }> = ({ it, w, h }) => {
   const big = h > 420;
-  const priceSize = big ? 78 : 66;
+  const priceSize = (big ? 78 : 66) * ((it.price ?? "").length > 8 ? 0.8 : 1); // word tags (e.g. DISPONIBLE) a bit smaller than prices
   // fixed rows so every card in a row lines up: photo slot (products stand on the same line), one name line, one
   // spec line (kept empty when there is no spec), then the price tag
   const nameMax = big ? 40 : 34;
