@@ -7,14 +7,20 @@ import { PriceListProps } from "./PriceList";
  */
 export const PRICE_LISTS: Record<string, PriceListProps> = {
   airpods: {
+    // newest to oldest; each card: the small green "✓ DISPONIBLE" chip (stock [""]), like the other stories
     items: [
-      { name: "AirPods Pro 2", img: "pricelist/airpods/pro2.png", price: "DISPONIBLE", condition: "neuf", spec: "Boîtier USB-C" },
-      { name: "AirPods 2", img: "pricelist/airpods/airpods2.png", price: "DISPONIBLE", condition: "neuf" },
+      { name: "AirPods 5", spec: "Boîtier de charge sans fil", img: "pricelist/airpods/airpods5.png" },
+      { name: "AirPods 5", img: "pricelist/airpods/airpods5.png" },
+      { name: "AirPods Pro 3", img: "pricelist/airpods/pro3.png" },
       // AirPods 4 and 4 ANC look the same: the two renders from the AirPods reel (open / buds in) tell them apart
-      { name: "AirPods 4", img: "airpods5b/products/open.png", price: "DISPONIBLE", condition: "neuf" },
-      { name: "AirPods 4 ANC", img: "airpods5b/products/case.png", price: "DISPONIBLE", condition: "neuf", spec: "Réduction de bruit active", scale: 0.82 },
-    ],
+      { name: "AirPods 4 ANC", spec: "Réduction de bruit active", img: "airpods5b/products/case.png", scale: 0.82 },
+      { name: "AirPods 4", img: "airpods5b/products/open.png" },
+      { name: "AirPods Pro 2", spec: "Boîtier USB-C", img: "pricelist/airpods/pro2.png" },
+      { name: "AirPods 3e génération", img: "pricelist/airpods/airpods3.png" },
+      { name: "AirPods 2", img: "pricelist/airpods/airpods2.png" },
+    ].map((p) => ({ ...p, condition: "neuf" as const, stock: [""] })),
   },
+
   iphones: {
     items: [
       ...[

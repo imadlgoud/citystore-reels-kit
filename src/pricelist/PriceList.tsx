@@ -8,7 +8,7 @@ import { Citybot } from "../citybot/Citybot";
 import { SOCIAL } from "../config";
 
 /*
- * City Store price-list story (1080x1920, 9:16): logo, title, 2-6 product cards (photo, name, NEUF / OCCASION,
+ * City Store price-list story (1080x1920, 9:16): logo, title, 2-8 product cards (photo, name, NEUF / OCCASION,
  * optional spec line, price), then how to order. Fill it from src/pricelist/lists.ts and render with
  *   npx remotion still PriceList-<id> out/pricelist/<id>.png
  */
@@ -59,14 +59,14 @@ const PhotoSlot: React.FC = () => (
 
 /* availability card: big photo on top, name, then the sizes stacked one under the other (each with its own
    "✓ DISPONIBLE"), tag at the bottom. Fixed rows so cards in the same row line up. */
-const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number; center?: boolean }> = ({ it, w, h, maxRows, center }) => {
+const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number; center?: boolean; specRow?: boolean }> = ({ it, w, h, maxRows, center, specRow }) => {
   const tagSize = 40;
   const padTop = 12, padBottom = it.price ? tagSize * 1.1 : 16;
   const nameMax = 30;
   const nameSize = Math.min(nameMax, (w - 40) / (it.name.length * 0.68));
   const rowH = 36, rowGap = 5; // maxRows: the longest list in the story, so every card keeps the same rows
   const sizesH = rowH * maxRows + rowGap * (maxRows - 1); // same height whatever the number of sizes
-  const specH = it.spec ? 30 : 0; // optional line under the name (e.g. "Wi-Fi + 5G")
+  const specH = it.spec || specRow ? 30 : 0; // optional line under the name (e.g. "Wi-Fi + 5G"); kept empty when another card has one
   const slotH = h - padTop - padBottom - nameMax * 1.15 - 4 - specH - sizesH - 8;
   return (
     <div style={{ position: "relative", width: w, height: h, background: "rgba(255,255,255,0.96)", borderRadius: 36, boxShadow: "0 24px 50px rgba(6,14,90,0.35)", display: "flex", flexDirection: "column", alignItems: "center", padding: `${padTop}px 10px ${padBottom}px` }}>
@@ -79,9 +79,16 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number
         )}
       </div>
       <div style={{ marginTop: 4, height: nameMax * 1.15, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 900, fontSize: nameSize, lineHeight: 1, color: INK, whiteSpace: "nowrap" }}>{it.name}</div>
-      {it.spec && <div style={{ height: specH, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 800, fontSize: 22, color: "#4A5594", whiteSpace: "nowrap" }}>{it.spec}</div>}
+      {specH > 0 && <div style={{ height: specH, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 800, fontSize: 22, color: "#4A5594", whiteSpace: "nowrap" }}>{it.spec ?? ""}</div>}
       <div style={{ marginTop: 8, height: sizesH, display: "flex", flexDirection: "column", gap: rowGap }}>
-        {(it.stock ?? []).map((r) => (
+        {(it.stock ?? []).map((r) => r === "" ? (
+          /* no label: just the DISPONIBLE chip */
+          <div key="only" style={{ height: rowH, display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: 6, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 20, letterSpacing: 0.5, padding: "4px 18px 5px 10px", borderRadius: 999 }}>
+              <LineIcon name="check" size={22} stroke={12} color="#fff" />DISPONIBLE
+            </span>
+          </div>
+        ) : (
           <div key={r} style={{ height: rowH, width: Math.min(w - 40, Math.max(360, Math.max(...(it.stock ?? [r]).map((x) => x.length)) * 17 + 190)), gap: 12, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
             <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: 25, color: INK, whiteSpace: "nowrap" }}>{r}</span>
             <span style={{ display: "inline-flex", alignItems: "center", gap: 5, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 18, letterSpacing: 0.5, padding: "3px 14px 4px 8px", borderRadius: 999 }}>
@@ -131,12 +138,13 @@ const Card: React.FC<{ it: PriceItem; w: number; h: number }> = ({ it, w, h }) =
 };
 
 export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, photoCenter, whatsapp = "+212 633 93 28 28", footnote = "Derb Ghallef, Casablanca · Livraison partout au Maroc" }) => {
-  const n = Math.max(1, Math.min(items.length, 6));
-  const rows = n <= 2 ? 1 : n <= 4 ? 2 : 3;
+  const n = Math.max(1, Math.min(items.length, 8));
+  const rows = n <= 2 ? 1 : n <= 4 ? 2 : n <= 6 ? 3 : 4;
   const cols = n === 1 ? 1 : 2;
   const header = !!(title || subtitle);
   const stockList = items.some((it) => it.stock);
   const maxRows = Math.max(1, ...items.map((it) => it.stock?.length ?? 0));
+  const specRow = items.some((it) => it.spec);
   const gridTop = header ? 545 : stockList ? 245 : 345, gridBottom = stockList ? 1598 : 1500, gapX = stockList ? 30 : 40, gapY = stockList ? 34 : 84;
   const footTop = stockList ? 1628 : 1590;
   const w = cols === 1 ? 640 : stockList ? 485 : 475;
@@ -160,8 +168,8 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, ph
       </div>}
       {/* products */}
       <div style={{ position: "absolute", top: gridTop, left: 0, right: 0, display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: gapX, rowGap: gapY }}>
-        {items.slice(0, 6).map((it, i) => (
-          it.stock ? <StockCard key={i} it={it} w={w} h={h} maxRows={maxRows} center={photoCenter} /> : <Card key={i} it={it} w={w} h={h} />
+        {items.slice(0, 8).map((it, i) => (
+          it.stock ? <StockCard key={i} it={it} w={w} h={h} maxRows={maxRows} center={photoCenter} specRow={specRow} /> : <Card key={i} it={it} w={w} h={h} />
         ))}
       </div>
       {/* how to order */}
