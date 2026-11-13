@@ -46,4 +46,13 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: "Apple Watch SE 3", img: "pricelist/watches/se3.png", stock: ["44 mm"] },
     ].map((p) => ({ ...p, condition: "neuf" as const })),
   },
+  macbooks: {
+    photoCenter: true,
+    items: [
+      { name: 'MacBook Pro M5 14"', img: "pricelist/macbooks/pro14.png", stock: ["16 GB · 1 TB", "16 GB · 512 GB"] },
+      { name: 'MacBook Pro M4 14"', img: "pricelist/macbooks/pro14.png", stock: ["16 GB · 1 TB", "16 GB · 512 GB"] },
+      { name: 'MacBook Air M4 13,6"', img: "pricelist/macbooks/air13.png", stock: ["16 GB · 512 GB"] },
+      { name: 'MacBook Air M4 15"', img: "pricelist/macbooks/air15.png", stock: ["16 GB · 512 GB"] },
+    ].map((p) => ({ ...p, condition: "neuf" as const })),
+  },
 };

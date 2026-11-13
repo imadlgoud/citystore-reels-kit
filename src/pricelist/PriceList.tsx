@@ -33,6 +33,8 @@ export type PriceListProps = {
   items: PriceItem[];
   whatsapp?: string;
   footnote?: string;
+  /** centre the photos in their slot (wide products such as laptops); default: they stand on the bottom line */
+  photoCenter?: boolean;
 };
 
 // Text in Montserrat Black (Arabic falls back to Cairo); prices in Bebas Neue
@@ -57,7 +59,7 @@ const PhotoSlot: React.FC = () => (
 
 /* availability card: big photo on top, name, then the sizes stacked one under the other (each with its own
    "✓ DISPONIBLE"), tag at the bottom. Fixed rows so cards in the same row line up. */
-const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number }> = ({ it, w, h, maxRows }) => {
+const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number; center?: boolean }> = ({ it, w, h, maxRows, center }) => {
   const tagSize = 40;
   const padTop = 12, padBottom = it.price ? tagSize * 1.1 : 16;
   const nameMax = 30;
@@ -68,7 +70,7 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number
   const slotH = h - padTop - padBottom - nameMax * 1.15 - 4 - specH - sizesH - 8;
   return (
     <div style={{ position: "relative", width: w, height: h, background: "rgba(255,255,255,0.96)", borderRadius: 36, boxShadow: "0 24px 50px rgba(6,14,90,0.35)", display: "flex", flexDirection: "column", alignItems: "center", padding: `${padTop}px 10px ${padBottom}px` }}>
-      <div style={{ position: "relative", height: slotH, width: "100%", display: "flex", alignItems: "flex-end", justifyContent: "center" }}>
+      <div style={{ position: "relative", height: slotH, width: "100%", display: "flex", alignItems: center ? "center" : "flex-end", justifyContent: "center" }}>
         <div style={{ position: "absolute", top: 0, width: slotH, height: slotH, borderRadius: "50%", background: `radial-gradient(circle, ${COLORS.cyan}55 0%, ${COLORS.blue}22 60%, rgba(255,255,255,0) 72%)` }} />
         {it.img ? (
           <Img src={staticFile(it.img)} style={{ position: "relative", maxWidth: "96%", maxHeight: "100%", transformOrigin: "bottom center", transform: `scale(${it.scale ?? 1}) rotate(${it.rotate ?? 0}deg)`, filter: "drop-shadow(0 14px 18px rgba(6,14,90,0.35))" }} />
@@ -80,7 +82,7 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number
       {it.spec && <div style={{ height: specH, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 800, fontSize: 22, color: "#4A5594", whiteSpace: "nowrap" }}>{it.spec}</div>}
       <div style={{ marginTop: 8, height: sizesH, display: "flex", flexDirection: "column", gap: rowGap }}>
         {(it.stock ?? []).map((r) => (
-          <div key={r} style={{ height: rowH, width: 360, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
+          <div key={r} style={{ height: rowH, width: Math.min(w - 40, Math.max(360, r.length * 17 + 190)), gap: 12, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
             <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: 25, color: INK, whiteSpace: "nowrap" }}>{r}</span>
             <span style={{ display: "inline-flex", alignItems: "center", gap: 5, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 18, letterSpacing: 0.5, padding: "3px 14px 4px 8px", borderRadius: 999 }}>
               <LineIcon name="check" size={20} stroke={12} color="#fff" />DISPONIBLE
@@ -128,7 +130,7 @@ const Card: React.FC<{ it: PriceItem; w: number; h: number }> = ({ it, w, h }) =
   );
 };
 
-export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, whatsapp = "+212 633 93 28 28", footnote = "Derb Ghallef, Casablanca · Livraison partout au Maroc" }) => {
+export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, photoCenter, whatsapp = "+212 633 93 28 28", footnote = "Derb Ghallef, Casablanca · Livraison partout au Maroc" }) => {
   const n = Math.max(1, Math.min(items.length, 6));
   const rows = n <= 2 ? 1 : n <= 4 ? 2 : 3;
   const cols = n === 1 ? 1 : 2;
@@ -159,7 +161,7 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, wh
       {/* products */}
       <div style={{ position: "absolute", top: gridTop, left: 0, right: 0, display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: gapX, rowGap: gapY }}>
         {items.slice(0, 6).map((it, i) => (
-          it.stock ? <StockCard key={i} it={it} w={w} h={h} maxRows={maxRows} /> : <Card key={i} it={it} w={w} h={h} />
+          it.stock ? <StockCard key={i} it={it} w={w} h={h} maxRows={maxRows} center={photoCenter} /> : <Card key={i} it={it} w={w} h={h} />
         ))}
       </div>
       {/* how to order */}
