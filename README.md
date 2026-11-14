@@ -93,6 +93,7 @@ npm run studio                   # interactive preview
 | AirPods 5, second reel: ANC, live translation, Siri, spatial audio (Darija, 30 s, pause trimming + 1.04x; 9:16 only) | `Airpods5bReel9x16`, `Airpods5bCover` | `out/airpods5b/` | `npm run airpods5b:build` |
 | TP-Link Archer TX3000E, PCIe Wi-Fi 6 AX3000 + Bluetooth (Darija, 30 s, pause trimming + 1.074x; 9:16 only) | `Tx3000eReel9x16`, `Tx3000eCover` | `out/tx3000e/` | `npm run tx3000e:build` |
 | Samsung Galaxy Tab A7 Lite Silver 32GB (Darija, **26.5 s**, pause trimming, natural speed; 9:16 only) | `TabA7LiteReel9x16`, `TabA7LiteCover` | `out/taba7lite/` | `npm run taba7lite:build` |
+| DJI Osmo Action 5 Pro Essential Combo, vlogger angle (Darija, 30 s, pause trimming + 1.019x; 9:16 only) | `Oa5proReel9x16`, `Oa5proCover` | `out/oa5pro/` | `npm run oa5pro:build` |
 | Covers only for the real-footage occasion videos (iPhone, Samsung, tablettes, Xiaomi/Pixel/Honor, GoPro HERO10). Photos are frames from the shop videos (`public/occasions/`). | `OccIphoneCover`, `OccSamsungCover`, `OccTabletsCover`, `OccAndroidCover`, `OccGoproCover` | `out/occasions/` | `npx remotion still <Id> out/occasions/<Id>.png` |
 | Apple Watch Ultra 4 (Darija) | `WatchReel9x16`, `WatchReel1x1`, `WatchCover` | `out/watch/` | `npm run watch:build` |
 | Galaxy Watch8 Classic + Ultra2 (Darija) | `GalaxyReel9x16`, `GalaxyReel1x1`, `GalaxyCover` | `out/galaxy/` | `npm run galaxy:build` |

@@ -1,0 +1,12 @@
+{
+ "id": "oa5pro",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [4.87, 8.36, 13.3, 19.9, 25.84, 30.09],
+ "lead": 0.06,
+ "voEndBy": 27.6,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "silenceDb": -34,
+ "note": "DJI Osmo Action 5 Pro Essential Combo, vlogger angle. Aim 30 s: pause trimming, then <=1.1x pitch-kept speed-up. 9:16 + cover only."
+}

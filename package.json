@@ -202,7 +202,11 @@
     "taba7lite:cutout": "python3 reels/taba7lite/cutout.py",
     "taba7lite:audio": "REEL=taba7lite python3 scripts/process_vo_take.py && python3 reels/taba7lite/build_timeline.py && REEL=taba7lite python3 scripts/make_music.py && REEL=taba7lite python3 scripts/mix_audio.py",
     "taba7lite:render": "remotion render TabA7LiteReel9x16 out/taba7lite/reel_9x16_raw.mp4 --codec=h264 --crf=16 --concurrency=2 && remotion still TabA7LiteCover out/taba7lite/cover_1080x1920.png",
-    "taba7lite:build": "npm run taba7lite:cutout && npm run taba7lite:audio && REEL=taba7lite node scripts/make_srt.mjs && npm run taba7lite:render && REEL=taba7lite bash scripts/finalize.sh && REEL=taba7lite bash scripts/verify.sh"
+    "taba7lite:build": "npm run taba7lite:cutout && npm run taba7lite:audio && REEL=taba7lite node scripts/make_srt.mjs && npm run taba7lite:render && REEL=taba7lite bash scripts/finalize.sh && REEL=taba7lite bash scripts/verify.sh",
+    "oa5pro:cutout": "python3 reels/oa5pro/cutout.py",
+    "oa5pro:audio": "REEL=oa5pro python3 scripts/process_vo_take.py && python3 reels/oa5pro/build_timeline.py && REEL=oa5pro python3 scripts/make_music.py && REEL=oa5pro python3 scripts/mix_audio.py",
+    "oa5pro:render": "remotion render Oa5proReel9x16 out/oa5pro/reel_9x16_raw.mp4 --codec=h264 --crf=16 --concurrency=2 && remotion still Oa5proCover out/oa5pro/cover_1080x1920.png",
+    "oa5pro:build": "npm run oa5pro:cutout && npm run oa5pro:audio && REEL=oa5pro node scripts/make_srt.mjs && npm run oa5pro:render && REEL=oa5pro bash scripts/finalize.sh && REEL=oa5pro bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

@@ -144,6 +144,9 @@ import { TXTL } from "./reels/tx3000e/timeline";
 import { TabA7LiteReel } from "./reels/taba7lite/TabA7LiteReel";
 import { TabA7LiteCover } from "./reels/taba7lite/TabA7LiteCover";
 import { TBTL } from "./reels/taba7lite/timeline";
+import { Oa5proReel } from "./reels/oa5pro/Oa5proReel";
+import { Oa5proCover } from "./reels/oa5pro/Oa5proCover";
+import { OATL } from "./reels/oa5pro/timeline";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -291,6 +294,8 @@ export const RemotionRoot: React.FC = () => (
     <Still id="Tx3000eCover" component={Tx3000eCover} width={1080} height={1920} />
     <Composition id="TabA7LiteReel9x16" component={TabA7LiteReel} durationInFrames={Math.min(TBTL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="TabA7LiteCover" component={TabA7LiteCover} width={1080} height={1920} />
+    <Composition id="Oa5proReel9x16" component={Oa5proReel} durationInFrames={Math.min(OATL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="Oa5proCover" component={Oa5proCover} width={1080} height={1920} />
     <Still id="OccIphoneCover" component={OccIphoneCover} width={1080} height={1920} />
     <Still id="OccSamsungCover" component={OccSamsungCover} width={1080} height={1920} />
     <Still id="OccTabletsCover" component={OccTabletsCover} width={1080} height={1920} />
