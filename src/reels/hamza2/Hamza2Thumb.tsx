@@ -4,7 +4,7 @@ import { COLORS, FONT } from "../../brand";
 import { BrandBackground } from "../../components/BrandBackground";
 import { Burst } from "../../components/SceneShell";
 import { LayoutProvider, LAYOUT_9x16 } from "../../layout";
-import { DuoDevice } from "./DuoDevice";
+import { RealDuo } from "./RealDuo";
 import { ARM, Hamza } from "./Hamza";
 import { RoomBack } from "./Room";
 
@@ -24,7 +24,7 @@ export const Hamza2Thumb: React.FC = () => (
       </div>
       <Burst x={790} y={1050} r={520} rot={10} opacity={0.3} rays={18} />
       <div style={{ position: "absolute", left: 560, top: 820, transform: "rotate(6deg)", filter: "drop-shadow(0 30px 40px rgba(6,14,90,0.5))" }}>
-        <DuoDevice w={235} open={1} t={1.2} />
+        <RealDuo id="rdt" w={480} open={1} t={1.2} />
       </div>
       <div style={{ position: "absolute", left: 0, right: 0, top: 250, display: "flex", flexDirection: "column", alignItems: "center", gap: 18 }}>
         <div dir="rtl" style={{ background: "#fff", color: COLORS.blue, fontFamily: FONT, fontWeight: 900, fontSize: 110, lineHeight: 1.25, padding: "0 50px 10px", borderRadius: 40, boxShadow: "0 20px 44px rgba(6,14,90,0.45)", transform: "rotate(-3deg)", whiteSpace: "nowrap" }}>

@@ -8,7 +8,7 @@ import { LineIcon } from "../../components/Icons";
 import { Burst, SceneShell, useSceneFrame } from "../../components/SceneShell";
 import { useLayout } from "../../layout";
 import { EndCard } from "../../scenes/EndCard";
-import { DuoDevice } from "./DuoDevice";
+import { RealDuo } from "./RealDuo";
 import { ARM, ArmAngles, Hamza, HamzaExpr, handAt } from "./Hamza";
 import { Match } from "./Match";
 import { RoomBack, SofaFront } from "./Room";
@@ -145,7 +145,7 @@ export const H2S2: React.FC = () => {
   const box = { cx: v(560, 540), y: v(1000, 640), w: v(230, 170) };
   const drop = sp(frame, boxAt, { damping: 9, stiffness: 160, mass: 0.7 });
   const rise = sp(frame, rAt, { damping: 13, stiffness: 120 });
-  const duoW = v(170, 120);
+  const duoW = v(220, 160);
   return (
     <SceneShell id="s2" noIn>
       <div style={{ position: "absolute", inset: 0, background: "#fff", opacity: interpolate(frame - bAt, [0, 2, 10], [0.9, 0.9, 0], clamp), zIndex: 30 }} />
@@ -170,7 +170,7 @@ export const H2S2: React.FC = () => {
               <div style={{ position: "absolute", left: box.w / 2 - 320, top: -380, width: 640, height: 640, opacity: ramp(frame, rAt, rAt + 8) }}>
                 <Burst x={320} y={320} r={320} rot={frame * 1.2} opacity={0.5} rays={16} />
               </div>
-              <Img src={staticFile("iphoneduo2/products/front.png")} style={{ position: "absolute", left: box.w / 2 - duoW / 2, top: 30 - rise * v(470, 350), width: duoW, filter: "drop-shadow(0 24px 30px rgba(6,14,90,0.45))" }} />
+              <Img src={staticFile("hamza2/products/duo_folded_night.png")} style={{ position: "absolute", left: box.w / 2 - duoW / 2, top: 30 - rise * v(470, 350), width: duoW, filter: "drop-shadow(0 24px 30px rgba(6,14,90,0.45))" }} />
             </>
           )}
           <svg viewBox="0 0 230 190" width={box.w} style={{ position: "relative", overflow: "visible" }}>
@@ -200,7 +200,7 @@ export const H2S3: React.FC = () => {
   const { w: W } = useLayout();
   const uAt = h2ev("s3.unfold"), jAt = h2ev("s3.jaw"), q1 = h2ev("s3.q1"), q2 = h2ev("s3.q2");
   const open = sp(frame, uAt, { damping: 16, stiffness: 70, mass: 1 });
-  const pw = v(230, 165);
+  const pw = v(320, 190);
   const Q: React.FC<{ at: number; x: number; y: number; s: number; rot: number }> = ({ at, x, y, s, rot }) =>
     frame < at - 1 ? null : (
       <div style={{ position: "absolute", left: x, top: y, transform: `scale(${pop(frame, at)}) rotate(${rot}deg)`, fontFamily: AR, fontWeight: 900, fontSize: s, color: "#fff", textShadow }}>؟</div>
@@ -208,12 +208,12 @@ export const H2S3: React.FC = () => {
   return (
     <SceneShell id="s3">
       <div style={{ position: "absolute", left: W / 2 - pw, top: v(330, 120) }}>
-        <DuoDevice w={pw} open={open} t={frame / 30} />
+        <RealDuo id={`rd${pw}`} w={2 * pw} open={open} t={frame / 30} matchOn={0} />
       </div>
-      <BotAt frame={frame} id="cb3" cx={v(830, 920)} y={v(860, 470)} w={v(250, 190)} expr="proud" lookX={-0.6} lookY={-0.6} l={{ rot: 150, hand: "open" }} />
+      <BotAt frame={frame} id="cb3" cx={v(840, 920)} y={v(960, 470)} w={v(250, 190)} expr="proud" lookX={-0.6} lookY={-0.6} l={{ rot: 150, hand: "open" }} />
       <HamzaAt frame={frame} id="hz3" x={v(10, 20)} y={v(900, 470)} w={v(400, 320)} expr={frame >= jAt ? "jaw" : "neutral"} arms={frame >= jAt ? ARM.open : ARM.down} lookX={0.6} lookY={-0.7} lean={-4} />
-      <Q at={q1} x={v(200, 160)} y={v(760, 330)} s={v(150, 120)} rot={-12} />
-      <Q at={q2} x={v(310, 260)} y={v(700, 280)} s={v(110, 90)} rot={14} />
+      <Q at={q1} x={v(400, 160)} y={v(930, 330)} s={v(150, 120)} rot={-12} />
+      <Q at={q2} x={v(510, 260)} y={v(900, 280)} s={v(110, 90)} rot={14} />
     </SceneShell>
   );
 };
@@ -227,7 +227,7 @@ export const H2S4: React.FC = () => {
   const fold = sp(frame, fAt - 6, { damping: 18, stiffness: 160 });
   const reopen = sp(frame, oAt, { damping: 16, stiffness: 80 });
   const open = 1 - fold + fold * reopen;
-  const pw = v(240, 170);
+  const pw = v(310, 175);
   const devX = v(W / 2 - pw, 330 - pw), devY = v(300, 120);
   const pill = (at: number, text: string, x: number, y: number) =>
     frame < at - 1 ? null : (
@@ -244,30 +244,30 @@ export const H2S4: React.FC = () => {
   return (
     <SceneShell id="s4">
       <div style={{ position: "absolute", left: devX, top: devY }}>
-        <DuoDevice w={pw} open={open} t={frame / 30} />
+        <RealDuo id={`rd${pw}`} w={2 * pw} open={open} t={frame / 30} matchOn={ramp(frame, oAt + 6, oAt + 18)} />
       </div>
       {frame >= fAt && frame < oAt && pill(fAt, '5,4″', v(W / 2 + 175, 470), v(380, 160))}
-      {frame >= oAt && pill(oAt + 10, '7,6″', v(W / 2 + pw + 20, 640), v(230, 100))}
+      {frame >= oAt && pill(oAt + 10, '7,6″', v(W / 2 + pw - 150, 640), v(200, 100))}
       {frame >= bAt - 1 && (
-        <div style={{ position: "absolute", left: v(0, 560), right: v(70, 30), top: v(840, 280), display: "flex", justifyContent: "center", ...slam(frame, bAt, 1.8) }}>
+        <div style={{ position: "absolute", left: v(0, 560), right: v(70, 30), top: v(870, 280), display: "flex", justifyContent: "center", ...slam(frame, bAt, 1.8) }}>
           <div style={{ background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: v(34, 28), padding: "6px 24px 8px", borderRadius: 999, whiteSpace: "nowrap", boxShadow: "0 10px 26px rgba(6,14,90,0.3)" }}>Le plus grand écran d'iPhone</div>
         </div>
       )}
       {frame >= cAt - 1 && (
-        <div style={{ position: "absolute", left: v(0, 560), right: v(70, 30), top: v(930, 380), display: "flex", justifyContent: "center", gap: 30 }}>
+        <div style={{ position: "absolute", left: v(0, 560), right: v(70, 30), top: v(960, 380), display: "flex", justifyContent: "center", gap: 30 }}>
           {sw("iphoneduo2/products/night.png", "Night Sky", 0)}
           {sw("iphoneduo2/products/open.png", "Star White", 1)}
         </div>
       )}
       {frame >= fAt && (
-        <div style={{ position: "absolute", left: v(340, 560), right: v(130, 30), top: v(1150, 610), textAlign: "center", fontFamily: FONT, fontWeight: 700, fontSize: v(24, 20), color: "#fff", opacity: 0.85, textShadow }}>
+        <div style={{ position: "absolute", left: v(340, 560), right: v(130, 30), top: v(1170, 610), textAlign: "center", fontFamily: FONT, fontWeight: 700, fontSize: v(24, 20), color: "#fff", opacity: 0.85, textShadow }}>
           Écran extérieur 5,4″ · écran intérieur 7,6″ (diagonales mesurées en rectangle)
         </div>
       )}
       {v(true, false) && (
         <>
           <HamzaAt frame={frame} id="hz4" x={20} y={1170} w={250} expr="jaw" arms={ARM.open} lookX={0.6} lookY={-0.8} />
-          <BotAt frame={frame} id="cb4" cx={850} y={1200} w={170} expr="excited" lookX={-0.5} lookY={-0.8} />
+          <BotAt frame={frame} id="cb4" cx={850} y={1250} w={160} expr="excited" lookX={-0.5} lookY={-0.8} />
         </>
       )}
     </SceneShell>
@@ -337,14 +337,14 @@ export const H2S7: React.FC = () => {
   const hw = v(720, 520), hx = v(70, 170), hy = v(560, 150);
   const k = hw / 400;
   const hand = handAt(-1, ARM.holdFront.l);
-  const pw = 92 * k; // panel width in px
+  const pw = 112 * k; // half-width of the device in px
   const url = "citystore.ma";
   const typed = Math.max(0, Math.min(url.length, Math.floor((frame - uAt) / 1.5) + 1));
   return (
     <SceneShell id="s7">
       <HamzaAt frame={frame} id="hz7" x={hx} y={hy} w={hw} expr="delighted" arms={ARM.holdFront} lookY={-0.2}>
         <div style={{ position: "absolute", left: 200 * k - pw, top: (hand.y - 190) * k, transform: "rotate(-3deg)" }}>
-          <DuoDevice w={pw} open={1} t={frame / 30} />
+          <RealDuo id="rd7" w={2 * pw} open={1} t={frame / 30} />
         </div>
       </HamzaAt>
       {frame >= mAt - 1 && (
