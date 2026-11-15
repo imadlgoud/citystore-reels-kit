@@ -26,7 +26,7 @@ const useV = () => {
 };
 
 /* ---------- characters, lip-synced only when they speak ---------- */
-const HamzaAt: React.FC<{ frame: number; x: number; y: number; w: number; expr: HamzaExpr; arms?: { l: ArmAngles; r: ArmAngles }; held?: "phone" | null; lookX?: number; lookY?: number; tilt?: number; lean?: number; id?: string; children?: React.ReactNode }> = ({ frame, x, y, w, expr, children, ...p }) => (
+const HamzaAt: React.FC<{ frame: number; x: number; y: number; w: number; expr: HamzaExpr; legs?: boolean; arms?: { l: ArmAngles; r: ArmAngles }; held?: "phone" | null; lookX?: number; lookY?: number; tilt?: number; lean?: number; id?: string; children?: React.ReactNode }> = ({ frame, x, y, w, expr, children, ...p }) => (
   <div style={{ position: "absolute", left: x, top: y, width: w }}>
     <Hamza width={w} expr={expr} viseme={visemeFor("hamza", frame)} blink={blinkAt("hamza", frame)} breath={(frame / 30) * 0.35} {...p} />
     {children}
@@ -86,7 +86,7 @@ export const H2S1: React.FC = () => {
       {!close ? (
         <div style={{ position: "absolute", inset: 0, transform: `scale(${push})`, transformOrigin: "50% 60%" }}>
           <RoomBack sofaTop={sofaTop} />
-          <HamzaAt frame={frame} id="hz1" x={W / 2 - v(300, 230)} y={sofaTop - v(780, 590)} w={v(600, 460)} expr="squint" arms={ARM.phoneUp} held="phone" lookY={0.8} lean={5} tilt={6} />
+          <HamzaAt frame={frame} id="hz1" legs={false} x={W / 2 - v(300, 230)} y={sofaTop - v(780, 590)} w={v(600, 460)} expr="squint" arms={ARM.phoneUp} held="phone" lookY={0.8} lean={5} tilt={6} />
           <SofaFront sofaTop={sofaTop} />
         </div>
       ) : (
@@ -96,6 +96,9 @@ export const H2S1: React.FC = () => {
             <div style={{ position: "relative", width: "100%", height: "100%", borderRadius: pw * 0.09, overflow: "hidden" }}>
               {/* tiny landscape match: the ball is a ~4 px dot */}
               <Match w={pw * 0.92} h={ph - pw * 0.08} t={t} ballR={v(4.5, 3.5)} ant={frame >= aAt - 4 ? ant : -1} playerR={v(9, 7)} antU={v(16, 12)} />
+              <svg viewBox="0 0 100 190" preserveAspectRatio="none" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none" }}>
+                <path d="M62 0 L55 38 L70 66 L48 92 L60 124 L44 160 L50 190 M55 38 L86 30 L100 44 M70 66 L96 82 M48 92 L14 86 L0 100 M60 124 L84 140 M44 160 L18 176" stroke="rgba(255,255,255,0.85)" strokeWidth={0.7} fill="none" vectorEffect="non-scaling-stroke" />
+              </svg>
             </div>
           </div>
           {frame >= aAt && (
@@ -129,6 +132,9 @@ export const H2S2: React.FC = () => {
         <div style={{ position: "absolute", left: W / 2 - pw / 2, top: v(250, 110), width: pw, height: ph, borderRadius: pw * 0.12, background: "#1A1E28", padding: pw * 0.04, boxShadow: `0 0 ${80 * glow}px ${40 * glow}px rgba(140,235,255,${0.8 * glow})` }}>
           <div style={{ position: "relative", width: "100%", height: "100%", borderRadius: pw * 0.09, overflow: "hidden" }}>
             <Match w={pw * 0.92} h={ph - pw * 0.08} t={t} ballR={v(4.5, 3.5)} playerR={v(9, 7)} />
+              <svg viewBox="0 0 100 190" preserveAspectRatio="none" style={{ position: "absolute", inset: 0, width: "100%", height: "100%", pointerEvents: "none" }}>
+                <path d="M62 0 L55 38 L70 66 L48 92 L60 124 L44 160 L50 190 M55 38 L86 30 L100 44 M70 66 L96 82 M48 92 L14 86 L0 100 M60 124 L84 140 M44 160 L18 176" stroke="rgba(255,255,255,0.85)" strokeWidth={0.7} fill="none" vectorEffect="non-scaling-stroke" />
+              </svg>
             <div style={{ position: "absolute", inset: 0, background: "#fff", opacity: glow * 0.85 }} />
           </div>
         </div>

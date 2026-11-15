@@ -300,8 +300,6 @@ export const RemotionRoot: React.FC = () => (
     <Composition id="Oa5proReel9x16" component={Oa5proReel} durationInFrames={Math.min(OATL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Oa5proCover" component={Oa5proCover} width={1080} height={1920} />
     <Composition id="Hamza2Reel9x16" component={Hamza2Reel} durationInFrames={Math.min(H2TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
-    <Composition id="Hamza2Reel1x1" component={Hamza2Reel} durationInFrames={Math.min(H2TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1080} defaultProps={{ layout: LAYOUT_1x1 }} />
-    <Composition id="Hamza2Reel9x16Clean" component={Hamza2Reel} durationInFrames={Math.min(H2TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16, clean: true }} />
     <Still id="Hamza2Thumb" component={Hamza2Thumb} width={1080} height={1920} />
     <Still id="OccIphoneCover" component={OccIphoneCover} width={1080} height={1920} />
     <Still id="OccSamsungCover" component={OccSamsungCover} width={1080} height={1920} />

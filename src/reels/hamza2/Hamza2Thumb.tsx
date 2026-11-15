@@ -20,7 +20,7 @@ export const Hamza2Thumb: React.FC = () => (
         <line x1={1080 * 0.52} y1={0} x2={1080 * 0.4} y2={1920} stroke="#fff" strokeWidth={14} />
       </svg>
       <div style={{ position: "absolute", left: -70, top: 760 }}>
-        <Hamza id="hzt" width={600} expr="squint" arms={ARM.phoneUp} held="phone" lookY={0.8} lean={5} tilt={6} />
+        <Hamza id="hzt" legs={false} width={600} expr="squint" arms={ARM.phoneUp} held="phone" lookY={0.8} lean={5} tilt={6} />
       </div>
       <Burst x={790} y={1050} r={520} rot={10} opacity={0.3} rays={18} />
       <div style={{ position: "absolute", left: 560, top: 820, transform: "rotate(6deg)", filter: "drop-shadow(0 30px 40px rgba(6,14,90,0.5))" }}>
