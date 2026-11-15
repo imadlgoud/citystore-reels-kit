@@ -29,4 +29,11 @@ const cairo = getCairo();
   manifest.push({ family: "Cairo", subset: "arabic", file, unicodeRange: cairo.unicodeRanges.arabic, source: url });
   console.log("saved", file);
 }
-fs.writeFileSync(path.join(outDir, "manifest.json"), JSON.stringify(manifest, null, 2) + "\n");
+// keep fonts added by hand (e.g. Bebas Neue for the price-list stories): any entry whose family is not fetched here
+const prevPath = path.join(outDir, "manifest.json");
+if (fs.existsSync(prevPath)) {
+  for (const e of JSON.parse(fs.readFileSync(prevPath, "utf8"))) {
+    if (e.family && e.family !== "Cairo" && e.family !== "Montserrat") manifest.push(e);
+  }
+}
+fs.writeFileSync(prevPath, JSON.stringify(manifest, null, 2) + "\n");
