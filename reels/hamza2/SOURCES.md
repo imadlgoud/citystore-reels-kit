@@ -25,6 +25,9 @@ apple.com / Apple Newsroom could not be reached from this environment.
   the real screens, clipped to each screen outline measured on the photos.
 - Colour swatches (L4): `iphoneduo2/products/night.png` (Night Sky) and `open.png` (Star White).
 The earlier drawn device (`DuoDevice.tsx`) is no longer used.
+- L7 ("صيفط لينا ميساج"): Hamza types and sends a message on the real Duo: a City Store chat (drawn UI, City Store
+  logo) on the inner screen, "Salam ! Je veux l'iPhone Duo." typed with thumb taps and lit keys, sent exactly on
+  "ميساج" (bubble flies up with ✓✓, then a typing reply).
 Screen sizes as in the earlier iPhone Duo reels (footnote: diagonals measured as a rectangle).
 
 ## The match

@@ -330,39 +330,105 @@ export const H2S6: React.FC = () => {
 };
 
 /* ---------- S7 / L7: CTA, Hamza happily holds the open Duo; message bubble + citystore.ma ---------- */
+/** City Store chat on the Duo's inner screen: Hamza types, sends on "ميساج", the bubble lands with ✓✓ */
+const MSG = "Salam ! Je veux l'iPhone Duo.";
+const ChatScreen: React.FC<{ frame: number; from: number; sendAt: number; w: number; h: number }> = ({ frame, from, sendAt, w, h }) => {
+  const u = w / 100; // 1 unit = 1 % of the screen width
+  const typed = Math.max(0, Math.min(MSG.length, Math.round(((frame - from - 3) / Math.max(1, sendAt - from - 5)) * MSG.length)));
+  const sent = frame >= sendAt;
+  const fly = sp(frame, sendAt, { damping: 14, stiffness: 180 });
+  const keys = ["azertyuiop", "qsdfghjklm", "wxcvbn"];
+  const lit = !sent && typed > 0 ? (typed * 7) % 26 : -1;
+  let kIdx = 0;
+  return (
+    <div style={{ position: "relative", width: w, height: h, background: "#F1F3FA", fontFamily: FONT }}>
+      {/* header */}
+      <div style={{ position: "absolute", left: 0, right: 0, top: 0, height: 13 * u, background: "#fff", display: "flex", alignItems: "center", gap: 2.5 * u, padding: `0 ${4 * u}px`, boxShadow: "0 1px 0 #DDE1EE" }}>
+        <Img src={staticFile("logo/logo.png")} style={{ width: 8.5 * u, height: 8.5 * u, borderRadius: "50%" }} />
+        <div style={{ lineHeight: 1.1 }}>
+          <div style={{ fontWeight: 900, fontSize: 3.6 * u, color: "#16237F" }}>City Store</div>
+          <div style={{ fontWeight: 700, fontSize: 2.4 * u, color: GREEN }}>en ligne</div>
+        </div>
+      </div>
+      {/* sent bubble + reply typing */}
+      {sent && (
+        <div style={{ position: "absolute", right: 4 * u, top: 17 * u + (1 - fly) * 30 * u, maxWidth: 70 * u, background: COLORS.blue, color: "#fff", fontWeight: 800, fontSize: 3.4 * u, padding: `${1.8 * u}px ${3 * u}px`, borderRadius: `${4 * u}px ${4 * u}px ${1 * u}px ${4 * u}px`, opacity: fly }}>
+          {MSG}
+          <span style={{ fontSize: 2.4 * u, marginLeft: 1.5 * u, opacity: 0.85 }}>✓✓</span>
+        </div>
+      )}
+      {sent && frame >= sendAt + 10 && (
+        <div style={{ position: "absolute", left: 4 * u, top: 31 * u, background: "#fff", borderRadius: 4 * u, padding: `${1.6 * u}px ${3 * u}px`, display: "flex", gap: 1.2 * u, boxShadow: "0 1px 2px rgba(0,0,0,0.1)" }}>
+          {[0, 1, 2].map((i) => <span key={i} style={{ width: 1.6 * u, height: 1.6 * u, borderRadius: "50%", background: "#9AA3C7", opacity: 0.4 + 0.6 * Math.max(0, Math.sin(frame / 3 - i)) }} />)}
+        </div>
+      )}
+      {/* input row */}
+      <div style={{ position: "absolute", left: 3 * u, right: 3 * u, top: 47 * u, height: 9 * u, display: "flex", alignItems: "center", gap: 2 * u }}>
+        <div style={{ flex: 1, height: "100%", background: "#fff", borderRadius: 5 * u, border: "1px solid #D5DAEA", display: "flex", alignItems: "center", padding: `0 ${2.5 * u}px`, fontWeight: 700, fontSize: 3.2 * u, color: "#16237F", whiteSpace: "nowrap", overflow: "hidden" }}>
+          {sent ? <span style={{ color: "#9AA3C7" }}>Message</span> : <>{MSG.slice(0, typed)}<span style={{ opacity: Math.floor(frame / 6) % 2 ? 1 : 0 }}>|</span></>}
+        </div>
+        <div style={{ width: 9 * u, height: 9 * u, borderRadius: "50%", background: COLORS.blue, display: "flex", alignItems: "center", justifyContent: "center", transform: `scale(${frame >= sendAt - 2 && frame < sendAt + 4 ? 0.82 : 1})` }}>
+          <svg viewBox="0 0 24 24" width={5 * u} height={5 * u}><path d="M3 12 L21 4 L14 21 L11 13 Z" fill="#fff" /></svg>
+        </div>
+      </div>
+      {/* keyboard */}
+      <div style={{ position: "absolute", left: 0, right: 0, top: 59 * u, bottom: 0, background: "#D9DDEA", padding: `${1.5 * u}px ${1.5 * u}px`, display: "flex", flexDirection: "column", gap: 1.3 * u }}>
+        {keys.map((row) => (
+          <div key={row} style={{ display: "flex", justifyContent: "center", gap: 1.1 * u }}>
+            {row.split("").map((c) => {
+              const on = kIdx++ === lit;
+              return <div key={c} style={{ width: 8.4 * u, height: 7.4 * u, borderRadius: 1.2 * u, background: on ? COLORS.blue : "#fff", color: on ? "#fff" : "#16237F", fontWeight: 800, fontSize: 3 * u, display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 1px 0 #A9AFC6" }}>{c}</div>;
+            })}
+          </div>
+        ))}
+        <div style={{ display: "flex", justifyContent: "center" }}><div style={{ width: 50 * u, height: 7 * u, borderRadius: 1.2 * u, background: "#fff", boxShadow: "0 1px 0 #A9AFC6" }} /></div>
+      </div>
+    </div>
+  );
+};
+
+/* ---------- S7 / L7: CTA, Hamza types and sends the message on the Duo while Citybot says "صيفط لينا ميساج" ---------- */
 export const H2S7: React.FC = () => {
   const frame = useSceneFrame("s7");
   const v = useV();
+  const from = h2scene("s7").from;
   const mAt = h2ev("s7.msg"), uAt = h2ev("s7.url");
-  const hw = v(720, 520), hx = v(70, 170), hy = v(560, 150);
+  const hw = v(640, 520), hx = v(110, 170), hy = v(240, 150);
   const k = hw / 400;
   const hand = handAt(-1, ARM.holdFront.l);
-  const pw = 112 * k; // half-width of the device in px
+  const pw = 165 * k; // half-width of the device in px (bigger, so the chat reads)
+  const dw = 2 * pw, sc = dw / 490;
   const url = "citystore.ma";
-  const typed = Math.max(0, Math.min(url.length, Math.floor((frame - uAt) / 1.5) + 1));
+  const typedUrl = Math.max(0, Math.min(url.length, Math.floor((frame - uAt) / 1.5) + 1));
+  // thumbs tapping while he types, a little lift on "send"
+  const typing = frame < mAt + 2;
+  const tap = typing ? Math.sin(frame * 1.9) * 7 : 0;
+  const arms = { l: { up: ARM.holdFront.l.up, fore: ARM.holdFront.l.fore + tap }, r: { up: ARM.holdFront.r.up, fore: ARM.holdFront.r.fore - tap } };
   return (
     <SceneShell id="s7">
-      <HamzaAt frame={frame} id="hz7" x={hx} y={hy} w={hw} expr="delighted" arms={ARM.holdFront} lookY={-0.2}>
-        <div style={{ position: "absolute", left: 200 * k - pw, top: (hand.y - 190) * k, transform: "rotate(-3deg)" }}>
-          <RealDuo id="rd7" w={2 * pw} open={1} t={frame / 30} />
+      <HamzaAt frame={frame} id="hz7" x={hx} y={hy} w={hw} expr={frame < mAt ? "happy" : "delighted"} arms={arms} lookY={0.85} lookX={0}>
+        <div style={{ position: "absolute", left: 200 * k - pw, top: (hand.y - 190) * k, transform: "rotate(-2deg)" }}>
+          <RealDuo id="rd7" w={dw} open={1} t={frame / 30}
+            screen={<ChatScreen frame={frame} from={from} sendAt={mAt} w={449 * sc} h={398 * sc} />} />
         </div>
       </HamzaAt>
-      {frame >= mAt - 1 && (
-        <div style={{ position: "absolute", left: v(700, 830), top: v(300, 60), transform: `scale(${pop(frame, mAt)})` }}>
-          <div style={{ width: v(160, 130), height: v(160, 130), borderRadius: "50%", background: "#fff", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 34px rgba(6,14,90,0.35)" }}>
-            <LineIcon name="chat" size={v(100, 84)} stroke={8} color={COLORS.blue} progress={ramp(frame, mAt, mAt + 10)} />
-          </div>
-        </div>
-      )}
       {frame >= uAt - 1 && (
-        <div style={{ position: "absolute", left: v(60, 40), right: v(130, 330), top: v(250, 60), display: "flex", justifyContent: "center" }}>
+        <div style={{ position: "absolute", left: v(60, 40), right: v(130, 330), top: v(150, 60), display: "flex", justifyContent: "center", zIndex: 20 }}>
           <div style={{ ...slam(frame, uAt, 1.6), background: "#fff", color: COLORS.blue, fontFamily: FONT, fontWeight: 900, fontSize: v(64, 52), padding: "4px 30px 10px", borderRadius: 999, boxShadow: "0 14px 34px rgba(6,14,90,0.4)", minWidth: v(470, 380), textAlign: "center" }}>
-            {url.slice(0, typed)}
+            {url.slice(0, typedUrl)}
             <span style={{ opacity: Math.floor(frame / 8) % 2 ? 1 : 0.2 }}>|</span>
           </div>
         </div>
       )}
-      <BotAt frame={frame} id="cb7" cx={v(860, 940)} y={v(980, 600)} w={v(180, 150)} expr="happy" lookX={-0.6} r={{ rot: 122 + Math.sin(frame / 3) * 18, hand: "wave" }} />
+      {/* "message sent" pop next to the phone on "ميساج" */}
+      {frame >= mAt - 1 && (
+        <div style={{ position: "absolute", left: v(800, 830), top: v(330, 60), transform: `scale(${pop(frame, mAt)})` }}>
+          <div style={{ width: v(140, 120), height: v(140, 120), borderRadius: "50%", background: "#fff", display: "flex", alignItems: "center", justifyContent: "center", boxShadow: "0 14px 34px rgba(6,14,90,0.35)" }}>
+            <LineIcon name="chat" size={v(88, 76)} stroke={8} color={COLORS.blue} progress={ramp(frame, mAt, mAt + 10)} />
+          </div>
+        </div>
+      )}
+      <BotAt frame={frame} id="cb7" cx={v(880, 940)} y={v(560, 600)} w={v(160, 150)} expr="happy" lookX={-0.6} r={{ rot: 122 + Math.sin(frame / 3) * 18, hand: "wave" }} />
     </SceneShell>
   );
 };

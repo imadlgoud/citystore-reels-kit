@@ -18,13 +18,17 @@ const SCR_R = "248,31 470,14 468,411 248,397";
 const SCR_F = { x: 26, y: 18, w: 274, h: 607, r: 22 };
 
 /** matchOn: 0 = the official screen (real wallpaper), 1 = the invented match on the screens */
-export const RealDuo: React.FC<{ w: number; open: number; t: number; id: string; matchOn?: number; style?: React.CSSProperties }> = ({ w, open, t, id, matchOn = 1, style }) => {
+/** screen: optional HTML content shown on the open inner screen (fills its bounding box, clipped to its outline); it
+ *  replaces the match. Its box is SCREEN_BOX.w x SCREEN_BOX.h original pixels, scaled by w / 490. */
+export const SCREEN_BOX = { x: 21, y: 14, w: 449, h: 398 };
+export const RealDuo: React.FC<{ w: number; open: number; t: number; id: string; matchOn?: number; screen?: React.ReactNode; style?: React.CSSProperties }> = ({ w, open, t, id, matchOn = 1, screen, style }) => {
   const s = w / OPEN.w, H = OPEN.h * s;
   const fs = H / FOLD.h, fw = FOLD.w * fs; // folded photo at the same height
   const halfL = OPEN.hinge * s;
   const shift = (1 - open) * (w / 2 - halfL / 2);
   const showFold = 1 - Math.min(1, Math.max(0, open / 0.18));
   const showOpen = Math.min(1, Math.max(0, (open - 0.04) / 0.16));
+  if (screen) matchOn = 0;
   const match = (clip: string) => (
     <g clipPath={`url(#${clip})`} opacity={matchOn}>
       <g transform="translate(21 14)">
@@ -65,6 +69,11 @@ export const RealDuo: React.FC<{ w: number; open: number; t: number; id: string;
               {match(`${id}-r`)}
             </svg>
           </div>
+        </div>
+      )}
+      {screen && open > 0.98 && (
+        <div style={{ position: "absolute", left: SCREEN_BOX.x * s, top: SCREEN_BOX.y * s, width: SCREEN_BOX.w * s, height: SCREEN_BOX.h * s, overflow: "hidden", clipPath: "polygon(0.0% 0.3%, 50.6% 4.3%, 100.0% 0.0%, 99.6% 99.7%, 50.6% 96.2%, 0.4% 100.0%)" }}>
+          {screen}
         </div>
       )}
     </div>
