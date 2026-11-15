@@ -1,0 +1,10 @@
+[
+ {"id": "line_01", "speaker": "hamza", "subtitle": "كنتفرج فالماتش فالتيليفون… والكورة قد النملة!", "chunks": ["كنتفرج فالماتش فالتيليفون…", "والكورة قد النملة!"]},
+ {"id": "line_02", "speaker": "citybot", "subtitle": "ما تحتاجش تلفزة آ خويا! شوف هادا: iPhone Duo!", "chunks": ["ما تحتاجش تلفزة آ خويا!", "شوف هادا: iPhone Duo!"]},
+ {"id": "line_03", "speaker": "hamza", "subtitle": "آش هادا؟ تيليفون ولا تابليت؟!", "chunks": ["آش هادا؟", "تيليفون ولا تابليت؟!"]},
+ {"id": "line_04", "speaker": "citybot", "subtitle": "بجوج! مطوي iPhone عادي، ومحلول أكبر écran فتاريخ iPhone.", "chunks": ["بجوج!", "مطوي iPhone عادي،", "ومحلول أكبر écran فتاريخ iPhone."]},
+ {"id": "line_05", "speaker": "hamza", "subtitle": "وواش أوريجينال؟", "chunks": ["وواش أوريجينال؟"]},
+ {"id": "line_06", "speaker": "citybot", "subtitle": "فـ City Store؟ ديما! boîte fermée، jamais ouvert، jamais activé.", "chunks": ["فـ City Store؟ ديما!", "boîte fermée، jamais ouvert،", "jamais activé."]},
+ {"id": "line_07", "speaker": "citybot", "subtitle": "صيفط لينا ميساج، ولا دخل لـ citystore.ma.", "chunks": ["صيفط لينا ميساج،", "ولا دخل لـ citystore.ma."]},
+ {"id": "line_08", "speaker": "both", "subtitle": "City Store… الأصلي ديما!", "chunks": ["City Store… الأصلي ديما!"]}
+]

@@ -6,7 +6,17 @@ import path from "node:path";
 import fs from "node:fs";
 
 const [id = "Reel9x16", scale = "0.5", frames = "60", outDir = "out/preview"] = process.argv.slice(2);
-const browserExecutable = "/opt/pw-browsers/chromium_headless_shell-1194/chrome-linux/headless_shell";
+const findShell = () => {
+  const root = "/opt/pw-browsers";
+  if (!fs.existsSync(root)) return undefined;
+  for (const d of fs.readdirSync(root).filter((n) => n.startsWith("chromium_headless_shell-")).sort().reverse()) {
+    for (const rel of ["chrome-headless-shell-linux64/chrome-headless-shell", "chrome-linux/headless_shell"]) {
+      if (fs.existsSync(`${root}/${d}/${rel}`)) return `${root}/${d}/${rel}`;
+    }
+  }
+  return undefined;
+};
+const browserExecutable = findShell();
 fs.mkdirSync(outDir, { recursive: true });
 const serveUrl = await bundle({ entryPoint: path.resolve("src/index.ts") });
 const composition = await selectComposition({ serveUrl, id, browserExecutable });

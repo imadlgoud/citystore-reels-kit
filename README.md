@@ -94,6 +94,7 @@ npm run studio                   # interactive preview
 | TP-Link Archer TX3000E, PCIe Wi-Fi 6 AX3000 + Bluetooth (Darija, 30 s, pause trimming + 1.074x; 9:16 only) | `Tx3000eReel9x16`, `Tx3000eCover` | `out/tx3000e/` | `npm run tx3000e:build` |
 | Samsung Galaxy Tab A7 Lite Silver 32GB (Darija, **26.5 s**, pause trimming, natural speed; 9:16 only) | `TabA7LiteReel9x16`, `TabA7LiteCover` | `out/taba7lite/` | `npm run taba7lite:build` |
 | DJI Osmo Action 5 Pro Essential Combo, vlogger angle (Darija, 30 s, pause trimming + 1.019x; 9:16 only) | `Oa5proReel9x16`, `Oa5proCover` | `out/oa5pro/` | `npm run oa5pro:build` |
+| Hamza & Citybot ep. 2 "الكورة قد النملة" (iPhone Duo sketch, 2 characters, Darija, **26.5 s**, natural speed; 9:16 + 1:1 + thumbnail; Citybot robot FX + clean-voice copy) | `Hamza2Reel9x16`, `Hamza2Reel1x1`, `Hamza2Reel9x16Clean`, `Hamza2Thumb` | `out/hamza2/` | see `reels/hamza2/SOURCES.md` |
 | Covers only for the real-footage occasion videos (iPhone, Samsung, tablettes, Xiaomi/Pixel/Honor, GoPro HERO10). Photos are frames from the shop videos (`public/occasions/`). | `OccIphoneCover`, `OccSamsungCover`, `OccTabletsCover`, `OccAndroidCover`, `OccGoproCover` | `out/occasions/` | `npx remotion still <Id> out/occasions/<Id>.png` |
 | Apple Watch Ultra 4 (Darija) | `WatchReel9x16`, `WatchReel1x1`, `WatchCover` | `out/watch/` | `npm run watch:build` |
 | Galaxy Watch8 Classic + Ultra2 (Darija) | `GalaxyReel9x16`, `GalaxyReel1x1`, `GalaxyCover` | `out/galaxy/` | `npm run galaxy:build` |

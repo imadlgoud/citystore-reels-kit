@@ -1,0 +1,12 @@
+{
+ "id": "hamza2",
+ "vo_mode": "take",
+ "take": "vo/voiceover.wav",
+ "takeBoundaries": [2.88, 6.67, 9.32, 13.28, 14.55, 19.08, 21.81],
+ "lead": 0.25,
+ "voEndBy": 27.0,
+ "maxPause": 0.18,
+ "sentPause": 0.32,
+ "silenceDb": -38,
+ "note": "Hamza & Citybot episode 2 'الكورة قد النملة' (iPhone Duo). Two speakers, natural pacing (gaps 0.18 s in lines, 0.32 s between lines), no speed-up. 9:16 + 1:1 + thumbnail."
+}

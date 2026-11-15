@@ -1,0 +1,1827 @@
+{
+ "fps": 30,
+ "bpm": 120,
+ "beatFrames": 15.0,
+ "totalFrames": 795,
+ "holdFrom": 765,
+ "musicFirstDownbeat": 1.5,
+ "scenes": [
+  {
+   "id": "s1",
+   "from": 0,
+   "to": 88
+  },
+  {
+   "id": "s2",
+   "from": 88,
+   "to": 195
+  },
+  {
+   "id": "s3",
+   "from": 195,
+   "to": 274
+  },
+  {
+   "id": "s4",
+   "from": 274,
+   "to": 392
+  },
+  {
+   "id": "s5",
+   "from": 392,
+   "to": 431
+  },
+  {
+   "id": "s6",
+   "from": 431,
+   "to": 565
+  },
+  {
+   "id": "s7",
+   "from": 565,
+   "to": 647
+  },
+  {
+   "id": "end",
+   "from": 647,
+   "to": 795
+  }
+ ],
+ "events": {
+  "s1.closeup": 35,
+  "s1.ant": 71,
+  "s2.glow": 88,
+  "s2.burst": 97,
+  "s2.tv": 114,
+  "s2.look": 147,
+  "s2.box": 162,
+  "s2.rise": 179,
+  "s3.unfold": 200,
+  "s3.jaw": 200,
+  "s3.q1": 224,
+  "s3.q2": 248,
+  "s4.both": 276,
+  "s4.folded": 289,
+  "s4.open": 324,
+  "s4.biggest": 344,
+  "s4.colors": 363,
+  "s5.lean": 392,
+  "s5.q": 406,
+  "s6.city": 441,
+  "s6.always": 467,
+  "s6.b1": 485,
+  "s6.b2": 501,
+  "s6.b3": 531,
+  "s7.msg": 588,
+  "s7.url": 613,
+  "end.city": 649,
+  "end.typeStart": 656,
+  "end.typeStep": 0.05,
+  "end.icons": 670,
+  "end.iconStep": 0.05,
+  "end.tagline": 668,
+  "end.wink": 686,
+  "end.five": 697,
+  "end.hold": 765
+ },
+ "eventsSec": {
+  "s1.closeup": 1.16,
+  "s1.ant": 2.37,
+  "s2.glow": 2.92,
+  "s2.burst": 3.22,
+  "s2.tv": 3.8,
+  "s2.look": 4.9,
+  "s2.box": 5.4,
+  "s2.rise": 5.96,
+  "s3.unfold": 6.65,
+  "s3.jaw": 6.66,
+  "s3.q1": 7.46,
+  "s3.q2": 8.26,
+  "s4.both": 9.205,
+  "s4.folded": 9.645,
+  "s4.open": 10.785,
+  "s4.biggest": 11.465,
+  "s4.colors": 12.085,
+  "s5.lean": 13.08,
+  "s5.q": 13.54,
+  "s6.city": 14.715,
+  "s6.always": 15.575,
+  "s6.b1": 16.175,
+  "s6.b2": 16.695,
+  "s6.b3": 17.715,
+  "s7.msg": 19.585,
+  "s7.url": 20.445,
+  "end.city": 21.625,
+  "end.typeStart": 21.875,
+  "end.typeStep": 0.05,
+  "end.icons": 22.325,
+  "end.iconStep": 0.05,
+  "end.tagline": 22.255,
+  "end.wink": 22.875,
+  "end.five": 23.225,
+  "end.hold": 25.5
+ },
+ "sfx": [
+  {
+   "name": "crowd",
+   "t": 0.1,
+   "gainDb": -26
+  },
+  {
+   "name": "tap",
+   "t": 1.16,
+   "gainDb": -16
+  },
+  {
+   "name": "blip",
+   "t": 2.37,
+   "gainDb": -14
+  },
+  {
+   "name": "riser_short",
+   "t": 2.72,
+   "gainDb": -14
+  },
+  {
+   "name": "impact",
+   "t": 3.22,
+   "gainDb": -8
+  },
+  {
+   "name": "whoosh",
+   "t": 3.32,
+   "gainDb": -11
+  },
+  {
+   "name": "pop",
+   "t": 3.8,
+   "gainDb": -15
+  },
+  {
+   "name": "hit_small",
+   "t": 5.4,
+   "gainDb": -11
+  },
+  {
+   "name": "shine",
+   "t": 5.96,
+   "gainDb": -12
+  },
+  {
+   "name": "whoosh",
+   "t": 6.65,
+   "gainDb": -11
+  },
+  {
+   "name": "shutter",
+   "t": 7.2,
+   "gainDb": -14
+  },
+  {
+   "name": "pop",
+   "t": 7.46,
+   "gainDb": -14
+  },
+  {
+   "name": "pop",
+   "t": 8.26,
+   "gainDb": -13
+  },
+  {
+   "name": "pop",
+   "t": 9.645,
+   "gainDb": -13
+  },
+  {
+   "name": "whoosh",
+   "t": 10.785,
+   "gainDb": -12
+  },
+  {
+   "name": "crowd",
+   "t": 11.085,
+   "gainDb": -20
+  },
+  {
+   "name": "shutter",
+   "t": 11.235,
+   "gainDb": -15
+  },
+  {
+   "name": "ding",
+   "t": 11.465,
+   "gainDb": -13
+  },
+  {
+   "name": "pop",
+   "t": 12.085,
+   "gainDb": -15
+  },
+  {
+   "name": "hit_small",
+   "t": 13.54,
+   "gainDb": -12
+  },
+  {
+   "name": "blip_wink",
+   "t": 15.575,
+   "gainDb": -12
+  },
+  {
+   "name": "stamp",
+   "t": 16.175,
+   "gainDb": -10
+  },
+  {
+   "name": "stamp",
+   "t": 16.695,
+   "gainDb": -10
+  },
+  {
+   "name": "stamp",
+   "t": 17.715,
+   "gainDb": -10
+  },
+  {
+   "name": "pop_big",
+   "t": 19.585,
+   "gainDb": -12
+  },
+  {
+   "name": "tick",
+   "t": 20.445,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 20.495,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 20.545,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 20.595,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 20.645,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 20.695,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 20.745,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 20.795,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 20.845,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 20.895,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 20.945,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 20.995,
+   "gainDb": -14
+  },
+  {
+   "name": "whoosh",
+   "t": 21.275,
+   "gainDb": -10
+  },
+  {
+   "name": "impact",
+   "t": 21.625,
+   "gainDb": -6
+  },
+  {
+   "name": "tick",
+   "t": 21.875,
+   "gainDb": -13
+  },
+  {
+   "name": "tick",
+   "t": 21.925,
+   "gainDb": -13
+  },
+  {
+   "name": "tick",
+   "t": 21.975,
+   "gainDb": -13
+  },
+  {
+   "name": "tick",
+   "t": 22.025,
+   "gainDb": -13
+  },
+  {
+   "name": "tick",
+   "t": 22.075,
+   "gainDb": -13
+  },
+  {
+   "name": "tick",
+   "t": 22.125,
+   "gainDb": -13
+  },
+  {
+   "name": "tick",
+   "t": 22.175,
+   "gainDb": -13
+  },
+  {
+   "name": "tick",
+   "t": 22.225,
+   "gainDb": -13
+  },
+  {
+   "name": "shine",
+   "t": 22.255,
+   "gainDb": -14
+  },
+  {
+   "name": "pop",
+   "t": 22.325,
+   "gainDb": -16
+  },
+  {
+   "name": "pop",
+   "t": 22.375,
+   "gainDb": -16
+  },
+  {
+   "name": "pop",
+   "t": 22.425,
+   "gainDb": -16
+  },
+  {
+   "name": "pop",
+   "t": 22.475,
+   "gainDb": -16
+  },
+  {
+   "name": "pop",
+   "t": 22.525,
+   "gainDb": -16
+  },
+  {
+   "name": "pop",
+   "t": 22.575,
+   "gainDb": -16
+  },
+  {
+   "name": "hit",
+   "t": 23.225,
+   "gainDb": -9
+  }
+ ],
+ "subtitles": [
+  {
+   "text": "كنتفرج فالماتش فالتيليفون…",
+   "start": 0.25,
+   "end": 1.73,
+   "words": [
+    {
+     "word": "كنتفرج",
+     "start": 0.25,
+     "frame": 8
+    },
+    {
+     "word": "فالماتش",
+     "start": 0.63,
+     "frame": 19
+    },
+    {
+     "word": "فالتيليفون…",
+     "start": 1.01,
+     "frame": 30
+    }
+   ],
+   "line": 0,
+   "from": 8,
+   "to": 52
+  },
+  {
+   "text": "والكورة قد النملة!",
+   "start": 1.73,
+   "end": 2.9,
+   "words": [
+    {
+     "word": "والكورة",
+     "start": 1.73,
+     "frame": 52
+    },
+    {
+     "word": "قد",
+     "start": 2.21,
+     "frame": 66
+    },
+    {
+     "word": "النملة!",
+     "start": 2.37,
+     "frame": 71
+    }
+   ],
+   "line": 0,
+   "from": 52,
+   "to": 87
+  },
+  {
+   "text": "ما تحتاجش تلفزة آ خويا!",
+   "start": 3.08,
+   "end": 4.9,
+   "words": [
+    {
+     "word": "ما",
+     "start": 3.08,
+     "frame": 92
+    },
+    {
+     "word": "تحتاجش",
+     "start": 3.26,
+     "frame": 98
+    },
+    {
+     "word": "تلفزة",
+     "start": 3.8,
+     "frame": 114
+    },
+    {
+     "word": "آ",
+     "start": 4.2,
+     "frame": 126
+    },
+    {
+     "word": "خويا!",
+     "start": 4.38,
+     "frame": 131
+    }
+   ],
+   "line": 1,
+   "from": 92,
+   "to": 147
+  },
+  {
+   "text": "شوف هادا: iPhone Duo!",
+   "start": 4.9,
+   "end": 6.48,
+   "words": [
+    {
+     "word": "شوف",
+     "start": 4.9,
+     "frame": 147
+    },
+    {
+     "word": "هادا:",
+     "start": 5.08,
+     "frame": 152
+    },
+    {
+     "word": "iPhone",
+     "start": 5.6,
+     "frame": 168
+    },
+    {
+     "word": "Duo!",
+     "start": 5.96,
+     "frame": 179
+    }
+   ],
+   "line": 1,
+   "from": 147,
+   "to": 194
+  },
+  {
+   "text": "آش هادا؟",
+   "start": 6.66,
+   "end": 7.46,
+   "words": [
+    {
+     "word": "آش",
+     "start": 6.66,
+     "frame": 200
+    },
+    {
+     "word": "هادا؟",
+     "start": 6.84,
+     "frame": 205
+    }
+   ],
+   "line": 2,
+   "from": 200,
+   "to": 224
+  },
+  {
+   "text": "تيليفون ولا تابليت؟!",
+   "start": 7.46,
+   "end": 9.105,
+   "words": [
+    {
+     "word": "تيليفون",
+     "start": 7.46,
+     "frame": 224
+    },
+    {
+     "word": "ولا",
+     "start": 8.08,
+     "frame": 242
+    },
+    {
+     "word": "تابليت؟!",
+     "start": 8.26,
+     "frame": 248
+    }
+   ],
+   "line": 2,
+   "from": 224,
+   "to": 273
+  },
+  {
+   "text": "بجوج!",
+   "start": 9.205,
+   "end": 9.645,
+   "words": [
+    {
+     "word": "بجوج!",
+     "start": 9.205,
+     "frame": 276
+    }
+   ],
+   "line": 3,
+   "from": 276,
+   "to": 289
+  },
+  {
+   "text": "مطوي iPhone عادي،",
+   "start": 9.645,
+   "end": 10.785,
+   "words": [
+    {
+     "word": "مطوي",
+     "start": 9.645,
+     "frame": 289
+    },
+    {
+     "word": "iPhone",
+     "start": 9.985,
+     "frame": 300
+    },
+    {
+     "word": "عادي،",
+     "start": 10.305,
+     "frame": 309
+    }
+   ],
+   "line": 3,
+   "from": 289,
+   "to": 324
+  },
+  {
+   "text": "ومحلول أكبر écran فتاريخ iPhone.",
+   "start": 10.785,
+   "end": 13.06,
+   "words": [
+    {
+     "word": "ومحلول",
+     "start": 10.785,
+     "frame": 324
+    },
+    {
+     "word": "أكبر",
+     "start": 11.465,
+     "frame": 344
+    },
+    {
+     "word": "écran",
+     "start": 11.925,
+     "frame": 358
+    },
+    {
+     "word": "فتاريخ",
+     "start": 12.085,
+     "frame": 363
+    },
+    {
+     "word": "iPhone.",
+     "start": 12.605,
+     "frame": 378
+    }
+   ],
+   "line": 3,
+   "from": 324,
+   "to": 392
+  },
+  {
+   "text": "وواش أوريجينال؟",
+   "start": 13.2,
+   "end": 14.335,
+   "words": [
+    {
+     "word": "وواش",
+     "start": 13.2,
+     "frame": 396
+    },
+    {
+     "word": "أوريجينال؟",
+     "start": 13.54,
+     "frame": 406
+    }
+   ],
+   "line": 4,
+   "from": 396,
+   "to": 430
+  },
+  {
+   "text": "فـ City Store؟ ديما!",
+   "start": 14.475,
+   "end": 16.175,
+   "words": [
+    {
+     "word": "فـ",
+     "start": 14.475,
+     "frame": 434
+    },
+    {
+     "word": "City",
+     "start": 14.715,
+     "frame": 441
+    },
+    {
+     "word": "Store؟",
+     "start": 15.355,
+     "frame": 461
+    },
+    {
+     "word": "ديما!",
+     "start": 15.575,
+     "frame": 467
+    }
+   ],
+   "line": 5,
+   "from": 434,
+   "to": 485
+  },
+  {
+   "text": "boîte fermée، jamais ouvert،",
+   "start": 16.175,
+   "end": 17.715,
+   "words": [
+    {
+     "word": "boîte",
+     "start": 16.175,
+     "frame": 485
+    },
+    {
+     "word": "fermée،",
+     "start": 16.455,
+     "frame": 494
+    },
+    {
+     "word": "jamais",
+     "start": 16.695,
+     "frame": 501
+    },
+    {
+     "word": "ouvert،",
+     "start": 17.255,
+     "frame": 518
+    }
+   ],
+   "line": 5,
+   "from": 485,
+   "to": 531
+  },
+  {
+   "text": "jamais activé.",
+   "start": 17.715,
+   "end": 18.825,
+   "words": [
+    {
+     "word": "jamais",
+     "start": 17.715,
+     "frame": 531
+    },
+    {
+     "word": "activé.",
+     "start": 18.255,
+     "frame": 548
+    }
+   ],
+   "line": 5,
+   "from": 531,
+   "to": 565
+  },
+  {
+   "text": "صيفط لينا ميساج،",
+   "start": 18.965,
+   "end": 19.905,
+   "words": [
+    {
+     "word": "صيفط",
+     "start": 18.965,
+     "frame": 569
+    },
+    {
+     "word": "لينا",
+     "start": 19.285,
+     "frame": 579
+    },
+    {
+     "word": "ميساج،",
+     "start": 19.585,
+     "frame": 588
+    }
+   ],
+   "line": 6,
+   "from": 569,
+   "to": 597
+  },
+  {
+   "text": "ولا دخل لـ citystore.ma.",
+   "start": 19.905,
+   "end": 21.555,
+   "words": [
+    {
+     "word": "ولا",
+     "start": 19.905,
+     "frame": 597
+    },
+    {
+     "word": "دخل",
+     "start": 20.105,
+     "frame": 603
+    },
+    {
+     "word": "لـ",
+     "start": 20.285,
+     "frame": 609
+    },
+    {
+     "word": "citystore.ma.",
+     "start": 20.445,
+     "frame": 613
+    }
+   ],
+   "line": 6,
+   "from": 597,
+   "to": 647
+  },
+  {
+   "text": "City Store… الأصلي ديما!",
+   "start": 21.675,
+   "end": 23.605,
+   "words": [
+    {
+     "word": "City",
+     "start": 21.675,
+     "frame": 650
+    },
+    {
+     "word": "Store…",
+     "start": 22.035,
+     "frame": 661
+    },
+    {
+     "word": "الأصلي",
+     "start": 22.255,
+     "frame": 668
+    },
+    {
+     "word": "ديما!",
+     "start": 22.875,
+     "frame": 686
+    }
+   ],
+   "line": 7,
+   "from": 650,
+   "to": 708
+  }
+ ],
+ "vo": [
+  {
+   "id": "line_01",
+   "speaker": "hamza",
+   "from": 8,
+   "start": 0.25,
+   "duration": 2.67,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.07,
+     "value": "F"
+    },
+    {
+     "start": 0.07,
+     "end": 0.2,
+     "value": "B"
+    },
+    {
+     "start": 0.2,
+     "end": 0.27,
+     "value": "G"
+    },
+    {
+     "start": 0.27,
+     "end": 0.34,
+     "value": "F"
+    },
+    {
+     "start": 0.34,
+     "end": 0.48,
+     "value": "B"
+    },
+    {
+     "start": 0.48,
+     "end": 0.55,
+     "value": "G"
+    },
+    {
+     "start": 0.55,
+     "end": 0.62,
+     "value": "F"
+    },
+    {
+     "start": 0.62,
+     "end": 0.71,
+     "value": "A"
+    },
+    {
+     "start": 0.71,
+     "end": 0.77,
+     "value": "C"
+    },
+    {
+     "start": 0.77,
+     "end": 0.89,
+     "value": "B"
+    },
+    {
+     "start": 0.89,
+     "end": 1.02,
+     "value": "G"
+    },
+    {
+     "start": 1.02,
+     "end": 1.24,
+     "value": "B"
+    },
+    {
+     "start": 1.24,
+     "end": 1.38,
+     "value": "G"
+    },
+    {
+     "start": 1.38,
+     "end": 1.52,
+     "value": "E"
+    },
+    {
+     "start": 1.52,
+     "end": 1.59,
+     "value": "F"
+    },
+    {
+     "start": 1.59,
+     "end": 1.87,
+     "value": "E"
+    },
+    {
+     "start": 1.87,
+     "end": 2.29,
+     "value": "B"
+    },
+    {
+     "start": 2.29,
+     "end": 2.37,
+     "value": "A"
+    },
+    {
+     "start": 2.37,
+     "end": 2.44,
+     "value": "B"
+    },
+    {
+     "start": 2.44,
+     "end": 2.64,
+     "value": "C"
+    },
+    {
+     "start": 2.64,
+     "end": 2.67,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_02",
+   "speaker": "citybot",
+   "from": 88,
+   "start": 2.92,
+   "duration": 3.58,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.08,
+     "value": "X"
+    },
+    {
+     "start": 0.08,
+     "end": 0.16,
+     "value": "B"
+    },
+    {
+     "start": 0.16,
+     "end": 0.37,
+     "value": "A"
+    },
+    {
+     "start": 0.37,
+     "end": 0.6,
+     "value": "B"
+    },
+    {
+     "start": 0.6,
+     "end": 0.79,
+     "value": "C"
+    },
+    {
+     "start": 0.79,
+     "end": 0.84,
+     "value": "E"
+    },
+    {
+     "start": 0.84,
+     "end": 1.09,
+     "value": "F"
+    },
+    {
+     "start": 1.09,
+     "end": 1.16,
+     "value": "G"
+    },
+    {
+     "start": 1.16,
+     "end": 1.3,
+     "value": "F"
+    },
+    {
+     "start": 1.3,
+     "end": 1.37,
+     "value": "B"
+    },
+    {
+     "start": 1.37,
+     "end": 1.44,
+     "value": "C"
+    },
+    {
+     "start": 1.44,
+     "end": 1.51,
+     "value": "B"
+    },
+    {
+     "start": 1.51,
+     "end": 1.65,
+     "value": "F"
+    },
+    {
+     "start": 1.65,
+     "end": 1.79,
+     "value": "C"
+    },
+    {
+     "start": 1.79,
+     "end": 1.86,
+     "value": "B"
+    },
+    {
+     "start": 1.86,
+     "end": 2.14,
+     "value": "F"
+    },
+    {
+     "start": 2.14,
+     "end": 2.21,
+     "value": "G"
+    },
+    {
+     "start": 2.21,
+     "end": 2.35,
+     "value": "C"
+    },
+    {
+     "start": 2.35,
+     "end": 2.56,
+     "value": "B"
+    },
+    {
+     "start": 2.56,
+     "end": 2.7,
+     "value": "C"
+    },
+    {
+     "start": 2.7,
+     "end": 2.77,
+     "value": "B"
+    },
+    {
+     "start": 2.77,
+     "end": 2.91,
+     "value": "G"
+    },
+    {
+     "start": 2.91,
+     "end": 2.98,
+     "value": "E"
+    },
+    {
+     "start": 2.98,
+     "end": 3.05,
+     "value": "B"
+    },
+    {
+     "start": 3.05,
+     "end": 3.4,
+     "value": "F"
+    },
+    {
+     "start": 3.4,
+     "end": 3.47,
+     "value": "B"
+    },
+    {
+     "start": 3.47,
+     "end": 3.58,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_03",
+   "speaker": "hamza",
+   "from": 195,
+   "start": 6.5,
+   "duration": 2.625,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.12,
+     "value": "X"
+    },
+    {
+     "start": 0.12,
+     "end": 0.19,
+     "value": "C"
+    },
+    {
+     "start": 0.19,
+     "end": 0.32,
+     "value": "B"
+    },
+    {
+     "start": 0.32,
+     "end": 0.46,
+     "value": "C"
+    },
+    {
+     "start": 0.46,
+     "end": 0.53,
+     "value": "B"
+    },
+    {
+     "start": 0.53,
+     "end": 0.6,
+     "value": "D"
+    },
+    {
+     "start": 0.6,
+     "end": 1.02,
+     "value": "B"
+    },
+    {
+     "start": 1.02,
+     "end": 1.09,
+     "value": "G"
+    },
+    {
+     "start": 1.09,
+     "end": 1.16,
+     "value": "E"
+    },
+    {
+     "start": 1.16,
+     "end": 1.24,
+     "value": "A"
+    },
+    {
+     "start": 1.24,
+     "end": 1.3,
+     "value": "B"
+    },
+    {
+     "start": 1.3,
+     "end": 1.35,
+     "value": "H"
+    },
+    {
+     "start": 1.35,
+     "end": 1.43,
+     "value": "A"
+    },
+    {
+     "start": 1.43,
+     "end": 1.51,
+     "value": "D"
+    },
+    {
+     "start": 1.51,
+     "end": 1.6,
+     "value": "A"
+    },
+    {
+     "start": 1.6,
+     "end": 1.66,
+     "value": "B"
+    },
+    {
+     "start": 1.66,
+     "end": 1.71,
+     "value": "C"
+    },
+    {
+     "start": 1.71,
+     "end": 1.85,
+     "value": "B"
+    },
+    {
+     "start": 1.85,
+     "end": 2.11,
+     "value": "A"
+    },
+    {
+     "start": 2.11,
+     "end": 2.47,
+     "value": "F"
+    },
+    {
+     "start": 2.47,
+     "end": 2.61,
+     "value": "B"
+    },
+    {
+     "start": 2.61,
+     "end": 2.62,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_04",
+   "speaker": "citybot",
+   "from": 274,
+   "start": 9.125,
+   "duration": 3.955,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.01,
+     "value": "X"
+    },
+    {
+     "start": 0.01,
+     "end": 0.07,
+     "value": "B"
+    },
+    {
+     "start": 0.07,
+     "end": 0.26,
+     "value": "A"
+    },
+    {
+     "start": 0.26,
+     "end": 0.33,
+     "value": "F"
+    },
+    {
+     "start": 0.33,
+     "end": 0.46,
+     "value": "B"
+    },
+    {
+     "start": 0.46,
+     "end": 0.53,
+     "value": "C"
+    },
+    {
+     "start": 0.53,
+     "end": 0.67,
+     "value": "B"
+    },
+    {
+     "start": 0.67,
+     "end": 0.74,
+     "value": "G"
+    },
+    {
+     "start": 0.74,
+     "end": 0.81,
+     "value": "B"
+    },
+    {
+     "start": 0.81,
+     "end": 0.89,
+     "value": "A"
+    },
+    {
+     "start": 0.89,
+     "end": 0.96,
+     "value": "C"
+    },
+    {
+     "start": 0.96,
+     "end": 1.31,
+     "value": "B"
+    },
+    {
+     "start": 1.31,
+     "end": 1.45,
+     "value": "F"
+    },
+    {
+     "start": 1.45,
+     "end": 1.53,
+     "value": "A"
+    },
+    {
+     "start": 1.53,
+     "end": 1.77,
+     "value": "F"
+    },
+    {
+     "start": 1.77,
+     "end": 1.83,
+     "value": "E"
+    },
+    {
+     "start": 1.83,
+     "end": 2.08,
+     "value": "C"
+    },
+    {
+     "start": 2.08,
+     "end": 2.15,
+     "value": "B"
+    },
+    {
+     "start": 2.15,
+     "end": 2.23,
+     "value": "A"
+    },
+    {
+     "start": 2.23,
+     "end": 2.34,
+     "value": "F"
+    },
+    {
+     "start": 2.34,
+     "end": 2.55,
+     "value": "B"
+    },
+    {
+     "start": 2.55,
+     "end": 2.9,
+     "value": "F"
+    },
+    {
+     "start": 2.9,
+     "end": 2.97,
+     "value": "B"
+    },
+    {
+     "start": 2.97,
+     "end": 3.18,
+     "value": "C"
+    },
+    {
+     "start": 3.18,
+     "end": 3.39,
+     "value": "B"
+    },
+    {
+     "start": 3.39,
+     "end": 3.46,
+     "value": "C"
+    },
+    {
+     "start": 3.46,
+     "end": 3.53,
+     "value": "B"
+    },
+    {
+     "start": 3.53,
+     "end": 3.67,
+     "value": "G"
+    },
+    {
+     "start": 3.67,
+     "end": 3.74,
+     "value": "B"
+    },
+    {
+     "start": 3.74,
+     "end": 3.82,
+     "value": "A"
+    },
+    {
+     "start": 3.82,
+     "end": 3.9,
+     "value": "B"
+    },
+    {
+     "start": 3.9,
+     "end": 3.95,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_05",
+   "speaker": "hamza",
+   "from": 392,
+   "start": 13.08,
+   "duration": 1.275,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.07,
+     "value": "X"
+    },
+    {
+     "start": 0.07,
+     "end": 0.13,
+     "value": "B"
+    },
+    {
+     "start": 0.13,
+     "end": 0.18,
+     "value": "F"
+    },
+    {
+     "start": 0.18,
+     "end": 0.39,
+     "value": "E"
+    },
+    {
+     "start": 0.39,
+     "end": 0.46,
+     "value": "F"
+    },
+    {
+     "start": 0.46,
+     "end": 0.6,
+     "value": "B"
+    },
+    {
+     "start": 0.6,
+     "end": 0.67,
+     "value": "E"
+    },
+    {
+     "start": 0.67,
+     "end": 0.88,
+     "value": "F"
+    },
+    {
+     "start": 0.88,
+     "end": 0.96,
+     "value": "A"
+    },
+    {
+     "start": 0.96,
+     "end": 1.02,
+     "value": "E"
+    },
+    {
+     "start": 1.02,
+     "end": 1.22,
+     "value": "B"
+    },
+    {
+     "start": 1.22,
+     "end": 1.27,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_06",
+   "speaker": "citybot",
+   "from": 431,
+   "start": 14.355,
+   "duration": 4.49,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.03,
+     "value": "X"
+    },
+    {
+     "start": 0.03,
+     "end": 0.19,
+     "value": "B"
+    },
+    {
+     "start": 0.19,
+     "end": 0.26,
+     "value": "G"
+    },
+    {
+     "start": 0.26,
+     "end": 0.47,
+     "value": "F"
+    },
+    {
+     "start": 0.47,
+     "end": 0.55,
+     "value": "A"
+    },
+    {
+     "start": 0.55,
+     "end": 0.68,
+     "value": "E"
+    },
+    {
+     "start": 0.68,
+     "end": 0.75,
+     "value": "B"
+    },
+    {
+     "start": 0.75,
+     "end": 0.95,
+     "value": "E"
+    },
+    {
+     "start": 0.95,
+     "end": 1.3,
+     "value": "B"
+    },
+    {
+     "start": 1.3,
+     "end": 1.39,
+     "value": "A"
+    },
+    {
+     "start": 1.39,
+     "end": 1.49,
+     "value": "D"
+    },
+    {
+     "start": 1.49,
+     "end": 1.53,
+     "value": "C"
+    },
+    {
+     "start": 1.53,
+     "end": 1.73,
+     "value": "A"
+    },
+    {
+     "start": 1.73,
+     "end": 1.81,
+     "value": "F"
+    },
+    {
+     "start": 1.81,
+     "end": 1.93,
+     "value": "A"
+    },
+    {
+     "start": 1.93,
+     "end": 2.02,
+     "value": "G"
+    },
+    {
+     "start": 2.02,
+     "end": 2.09,
+     "value": "C"
+    },
+    {
+     "start": 2.09,
+     "end": 2.16,
+     "value": "B"
+    },
+    {
+     "start": 2.16,
+     "end": 2.24,
+     "value": "A"
+    },
+    {
+     "start": 2.24,
+     "end": 2.36,
+     "value": "C"
+    },
+    {
+     "start": 2.36,
+     "end": 2.43,
+     "value": "B"
+    },
+    {
+     "start": 2.43,
+     "end": 2.54,
+     "value": "A"
+    },
+    {
+     "start": 2.54,
+     "end": 2.71,
+     "value": "B"
+    },
+    {
+     "start": 2.71,
+     "end": 2.78,
+     "value": "C"
+    },
+    {
+     "start": 2.78,
+     "end": 2.86,
+     "value": "A"
+    },
+    {
+     "start": 2.86,
+     "end": 3.06,
+     "value": "F"
+    },
+    {
+     "start": 3.06,
+     "end": 3.13,
+     "value": "G"
+    },
+    {
+     "start": 3.13,
+     "end": 3.27,
+     "value": "C"
+    },
+    {
+     "start": 3.27,
+     "end": 3.41,
+     "value": "G"
+    },
+    {
+     "start": 3.41,
+     "end": 3.69,
+     "value": "B"
+    },
+    {
+     "start": 3.69,
+     "end": 3.76,
+     "value": "C"
+    },
+    {
+     "start": 3.76,
+     "end": 3.84,
+     "value": "A"
+    },
+    {
+     "start": 3.84,
+     "end": 3.89,
+     "value": "B"
+    },
+    {
+     "start": 3.89,
+     "end": 3.93,
+     "value": "C"
+    },
+    {
+     "start": 3.93,
+     "end": 4.42,
+     "value": "B"
+    },
+    {
+     "start": 4.42,
+     "end": 4.49,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_07",
+   "speaker": "citybot",
+   "from": 565,
+   "start": 18.845,
+   "duration": 2.73,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.07,
+     "value": "X"
+    },
+    {
+     "start": 0.07,
+     "end": 0.42,
+     "value": "B"
+    },
+    {
+     "start": 0.42,
+     "end": 0.5,
+     "value": "A"
+    },
+    {
+     "start": 0.5,
+     "end": 0.57,
+     "value": "C"
+    },
+    {
+     "start": 0.57,
+     "end": 0.65,
+     "value": "A"
+    },
+    {
+     "start": 0.65,
+     "end": 0.83,
+     "value": "B"
+    },
+    {
+     "start": 0.83,
+     "end": 0.9,
+     "value": "C"
+    },
+    {
+     "start": 0.9,
+     "end": 1.11,
+     "value": "B"
+    },
+    {
+     "start": 1.11,
+     "end": 1.18,
+     "value": "F"
+    },
+    {
+     "start": 1.18,
+     "end": 1.25,
+     "value": "B"
+    },
+    {
+     "start": 1.25,
+     "end": 1.35,
+     "value": "A"
+    },
+    {
+     "start": 1.35,
+     "end": 1.41,
+     "value": "B"
+    },
+    {
+     "start": 1.41,
+     "end": 1.54,
+     "value": "F"
+    },
+    {
+     "start": 1.54,
+     "end": 1.82,
+     "value": "B"
+    },
+    {
+     "start": 1.82,
+     "end": 1.9,
+     "value": "A"
+    },
+    {
+     "start": 1.9,
+     "end": 2.01,
+     "value": "F"
+    },
+    {
+     "start": 2.01,
+     "end": 2.09,
+     "value": "A"
+    },
+    {
+     "start": 2.09,
+     "end": 2.25,
+     "value": "E"
+    },
+    {
+     "start": 2.25,
+     "end": 2.32,
+     "value": "B"
+    },
+    {
+     "start": 2.32,
+     "end": 2.39,
+     "value": "C"
+    },
+    {
+     "start": 2.39,
+     "end": 2.47,
+     "value": "A"
+    },
+    {
+     "start": 2.47,
+     "end": 2.7,
+     "value": "D"
+    },
+    {
+     "start": 2.7,
+     "end": 2.73,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_08",
+   "speaker": "both",
+   "from": 647,
+   "start": 21.575,
+   "duration": 1.705,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.04,
+     "value": "X"
+    },
+    {
+     "start": 0.04,
+     "end": 0.1,
+     "value": "B"
+    },
+    {
+     "start": 0.1,
+     "end": 0.29,
+     "value": "F"
+    },
+    {
+     "start": 0.29,
+     "end": 0.43,
+     "value": "B"
+    },
+    {
+     "start": 0.43,
+     "end": 0.51,
+     "value": "A"
+    },
+    {
+     "start": 0.51,
+     "end": 0.69,
+     "value": "E"
+    },
+    {
+     "start": 0.69,
+     "end": 0.97,
+     "value": "F"
+    },
+    {
+     "start": 0.97,
+     "end": 1.04,
+     "value": "D"
+    },
+    {
+     "start": 1.04,
+     "end": 1.12,
+     "value": "A"
+    },
+    {
+     "start": 1.12,
+     "end": 1.52,
+     "value": "B"
+    },
+    {
+     "start": 1.52,
+     "end": 1.6,
+     "value": "A"
+    },
+    {
+     "start": 1.6,
+     "end": 1.69,
+     "value": "D"
+    },
+    {
+     "start": 1.69,
+     "end": 1.7,
+     "value": "X"
+    }
+   ]
+  }
+ ]
+}
