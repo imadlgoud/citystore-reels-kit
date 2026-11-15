@@ -1,0 +1,348 @@
+{
+ "source": "voiceover.wav",
+ "duration": 23.611,
+ "sampleRate": 24000,
+ "method": "lines: ffmpeg silencedetect (-35 dB, 0.2 s) + energy dip for L3/L4 (no silence there); words: estimated from voiced regions weighted by syllables (no Whisper model available)",
+ "lines": [
+  {
+   "id": "L1",
+   "speaker": "HAMZA",
+   "start": 0.21,
+   "end": 2.72,
+   "duration": 2.51,
+   "text": "كنتفرج فالماتش فالتيليفون… والكورة قد النملة!",
+   "words": [
+    {
+     "word": "كنتفرج",
+     "start": 0.2,
+     "end": 0.58
+    },
+    {
+     "word": "فالماتش",
+     "start": 0.58,
+     "end": 0.96
+    },
+    {
+     "word": "فالتيليفون…",
+     "start": 0.96,
+     "end": 1.68
+    },
+    {
+     "word": "والكورة",
+     "start": 1.68,
+     "end": 2.14
+    },
+    {
+     "word": "قد",
+     "start": 2.14,
+     "end": 2.32
+    },
+    {
+     "word": "النملة!",
+     "start": 2.32,
+     "end": 2.7
+    }
+   ]
+  },
+  {
+   "id": "L2",
+   "speaker": "CITYBOT",
+   "start": 3.05,
+   "end": 6.48,
+   "duration": 3.43,
+   "text": "ما تحتاجش تلفزة آ خويا! شوف هادا: iPhone Duo!",
+   "words": [
+    {
+     "word": "ما",
+     "start": 3.04,
+     "end": 3.2
+    },
+    {
+     "word": "تحتاجش",
+     "start": 3.2,
+     "end": 3.76
+    },
+    {
+     "word": "تلفزة",
+     "start": 3.76,
+     "end": 4.16
+    },
+    {
+     "word": "آ",
+     "start": 4.16,
+     "end": 4.34
+    },
+    {
+     "word": "خويا!",
+     "start": 4.34,
+     "end": 4.92
+    },
+    {
+     "word": "شوف",
+     "start": 4.92,
+     "end": 5.1
+    },
+    {
+     "word": "هادا:",
+     "start": 5.1,
+     "end": 5.74
+    },
+    {
+     "word": "iPhone",
+     "start": 5.74,
+     "end": 6.1
+    },
+    {
+     "word": "Duo!",
+     "start": 6.1,
+     "end": 6.46
+    }
+   ]
+  },
+  {
+   "id": "L3",
+   "speaker": "HAMZA",
+   "start": 6.86,
+   "end": 9.32,
+   "duration": 2.46,
+   "text": "آش هادا؟ تيليفون ولا تابليت؟!",
+   "words": [
+    {
+     "word": "آش",
+     "start": 6.85,
+     "end": 7.03
+    },
+    {
+     "word": "هادا؟",
+     "start": 7.03,
+     "end": 7.63
+    },
+    {
+     "word": "تيليفون",
+     "start": 7.63,
+     "end": 8.25
+    },
+    {
+     "word": "ولا",
+     "start": 8.25,
+     "end": 8.45
+    },
+    {
+     "word": "تابليت؟!",
+     "start": 8.45,
+     "end": 9.23
+    }
+   ]
+  },
+  {
+   "id": "L4",
+   "speaker": "CITYBOT",
+   "start": 9.32,
+   "end": 13.15,
+   "duration": 3.83,
+   "text": "بجوج! مطوي iPhone عادي، ومحلول أكبر écran فتاريخ iPhone.",
+   "words": [
+    {
+     "word": "بجوج!",
+     "start": 9.39,
+     "end": 9.85
+    },
+    {
+     "word": "مطوي",
+     "start": 9.85,
+     "end": 10.17
+    },
+    {
+     "word": "iPhone",
+     "start": 10.17,
+     "end": 10.49
+    },
+    {
+     "word": "عادي،",
+     "start": 10.49,
+     "end": 10.97
+    },
+    {
+     "word": "ومحلول",
+     "start": 10.97,
+     "end": 11.65
+    },
+    {
+     "word": "أكبر",
+     "start": 11.65,
+     "end": 12.13
+    },
+    {
+     "word": "écran",
+     "start": 12.13,
+     "end": 12.29
+    },
+    {
+     "word": "فتاريخ",
+     "start": 12.29,
+     "end": 12.79
+    },
+    {
+     "word": "iPhone.",
+     "start": 12.79,
+     "end": 13.13
+    }
+   ]
+  },
+  {
+   "id": "L5",
+   "speaker": "HAMZA",
+   "start": 13.41,
+   "end": 14.43,
+   "duration": 1.02,
+   "text": "وواش أوريجينال؟",
+   "words": [
+    {
+     "word": "وواش",
+     "start": 13.4,
+     "end": 13.74
+    },
+    {
+     "word": "أوريجينال؟",
+     "start": 13.74,
+     "end": 14.42
+    }
+   ]
+  },
+  {
+   "id": "L6",
+   "speaker": "CITYBOT",
+   "start": 14.66,
+   "end": 18.96,
+   "duration": 4.3,
+   "text": "فـ City Store؟ ديما! boîte fermée، jamais ouvert، jamais activé.",
+   "words": [
+    {
+     "word": "فـ",
+     "start": 14.67,
+     "end": 14.91
+    },
+    {
+     "word": "City",
+     "start": 14.91,
+     "end": 15.53
+    },
+    {
+     "word": "Store؟",
+     "start": 15.53,
+     "end": 15.75
+    },
+    {
+     "word": "ديما!",
+     "start": 15.75,
+     "end": 16.35
+    },
+    {
+     "word": "boîte",
+     "start": 16.35,
+     "end": 16.61
+    },
+    {
+     "word": "fermée،",
+     "start": 16.61,
+     "end": 16.83
+    },
+    {
+     "word": "jamais",
+     "start": 16.83,
+     "end": 17.47
+    },
+    {
+     "word": "ouvert،",
+     "start": 17.47,
+     "end": 17.93
+    },
+    {
+     "word": "jamais",
+     "start": 17.93,
+     "end": 18.45
+    },
+    {
+     "word": "activé.",
+     "start": 18.45,
+     "end": 18.93
+    }
+   ]
+  },
+  {
+   "id": "L7",
+   "speaker": "CITYBOT",
+   "start": 19.2,
+   "end": 21.71,
+   "duration": 2.51,
+   "text": "صيفط لينا ميساج، ولا دخل لـ citystore.ma.",
+   "words": [
+    {
+     "word": "صيفط",
+     "start": 19.19,
+     "end": 19.53
+    },
+    {
+     "word": "لينا",
+     "start": 19.53,
+     "end": 19.83
+    },
+    {
+     "word": "ميساج،",
+     "start": 19.83,
+     "end": 20.19
+    },
+    {
+     "word": "ولا",
+     "start": 20.19,
+     "end": 20.33
+    },
+    {
+     "word": "دخل",
+     "start": 20.33,
+     "end": 20.51
+    },
+    {
+     "word": "لـ",
+     "start": 20.51,
+     "end": 20.67
+    },
+    {
+     "word": "citystore.ma.",
+     "start": 20.67,
+     "end": 21.69
+    }
+   ]
+  },
+  {
+   "id": "L8",
+   "speaker": "HAMZA + CITYBOT",
+   "start": 21.91,
+   "end": 23.61,
+   "duration": 1.7,
+   "text": "City Store… الأصلي ديما!",
+   "words": [
+    {
+     "word": "City",
+     "start": 21.92,
+     "end": 22.28
+    },
+    {
+     "word": "Store…",
+     "start": 22.28,
+     "end": 22.5
+    },
+    {
+     "word": "الأصلي",
+     "start": 22.5,
+     "end": 23.12
+    },
+    {
+     "word": "ديما!",
+     "start": 23.12,
+     "end": 23.5
+    }
+   ]
+  }
+ ]
+}
