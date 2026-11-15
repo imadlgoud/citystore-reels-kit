@@ -44,5 +44,5 @@ on the unfolded Duo (big and clear).
 9:16 only (the 1:1 version was dropped on request): `out/hamza2/reel_9x16.mp4`, thumbnail, SRT.
 
 ## Length
-26.5 s (795 frames): VO ends at 23.28 s, end card from L8, final frame held from 25.5 s (the brief was cut off at
-"ending at"; 30 s maximum respected).
+23.6 s (708 frames): VO ends at 23.28 s, the high-five lands at 23.2 s, final frame held from 23.45 s (the earlier
+26.5 s cut waited ~3 s at the end and was trimmed on request).

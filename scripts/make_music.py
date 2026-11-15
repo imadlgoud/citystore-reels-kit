@@ -103,7 +103,7 @@ STYLES = {
                     chords=[[64, 67, 71], [60, 64, 67], [62, 67, 71], [62, 66, 69]], roots=[40, 36, 43, 38],
                     final=[64, 67, 71, 76], final_bass=40, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
     # Hamza & Citybot episode 2 sketch (26.5 s): light, playful F-major bounce; drop when Citybot bursts out (L2)
-    "hamza2": dict(seed=469, dur=26.5, phase=1.0, drop=3.0, end_lift=21.6, stop=22.1,
+    "hamza2": dict(seed=469, dur=23.6, phase=1.0, drop=3.0, end_lift=21.6, stop=22.1,
                    chords=[[65, 69, 72], [62, 65, 69], [58, 62, 65], [60, 64, 67]], roots=[41, 38, 46, 48],
                    final=[65, 69, 72, 77], final_bass=41, arp=[0, 1, 2, 1, 0, 2, 1, 2]),
     # AirPods 5 reel (second, 30 s): bright B-major pop; drop when the AirPods land on "AirPods 5"

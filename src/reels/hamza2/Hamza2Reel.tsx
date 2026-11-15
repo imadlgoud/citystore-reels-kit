@@ -33,7 +33,7 @@ const Background: React.FC = () => {
   );
 };
 
-/** Hamza & Citybot, episode 2 "الكورة قد النملة" (iPhone Duo): 26.5 s, final frame held from 25.5 s. */
+/** Hamza & Citybot, episode 2 "الكورة قد النملة" (iPhone Duo): 23.6 s, final frame held from 23.45 s. */
 export const Hamza2Reel: React.FC<{ layout: Layout; clean?: boolean }> = ({ layout, clean }) => (
   <LayoutProvider layout={sketchLayout(layout)}>
     <TimelineProvider tl={H2TL}>

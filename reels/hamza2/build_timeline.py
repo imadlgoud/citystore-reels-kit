@@ -1,6 +1,6 @@
 """Timeline for the Hamza & Citybot episode 2 sketch "الكورة قد النملة" (iPhone Duo) -> public/hamza2/data/timeline.json
 Scenes follow the recorded lines (one scene per line, cut at each line start), not fixed numbers. VO 0.25-23.28 s at
-natural speed; end card from L8, final frame held from 25.5 s, reel ends at 26.5 s (795 frames). Each VO entry carries
+natural speed; end card from L8, final frame held from 23.45 s, reel ends at 23.6 s (708 frames). Each VO entry carries
 its speaker so only that character lip-syncs (both on L8)."""
 import json
 import pathlib
@@ -11,7 +11,7 @@ VO = json.loads((PUB / "data" / "vo.json").read_text())
 LINES = json.loads((ROOT / "reels" / "hamza2" / "vo_lines.json").read_text())
 FPS, BPM = 30, 120
 BEAT = 60 / BPM
-TOTAL_FRAMES, HOLD_FROM = 795, 25.5
+TOTAL_FRAMES, HOLD_FROM = 708, 23.45
 LS = [l["start"] for l in VO]
 SCENES = [("s1", 0.0, LS[1]), ("s2", LS[1], LS[2]), ("s3", LS[2], LS[3]), ("s4", LS[3], LS[4]), ("s5", LS[4], LS[5]),
           ("s6", LS[5], LS[6]), ("s7", LS[6], LS[7]), ("end", LS[7], TOTAL_FRAMES / FPS)]

@@ -2,8 +2,8 @@
  "fps": 30,
  "bpm": 120,
  "beatFrames": 15.0,
- "totalFrames": 795,
- "holdFrom": 765,
+ "totalFrames": 708,
+ "holdFrom": 704,
  "musicFirstDownbeat": 1.5,
  "scenes": [
   {
@@ -44,7 +44,7 @@
   {
    "id": "end",
    "from": 647,
-   "to": 795
+   "to": 708
   }
  ],
  "events": {
@@ -82,7 +82,7 @@
   "end.tagline": 668,
   "end.wink": 686,
   "end.five": 697,
-  "end.hold": 765
+  "end.hold": 704
  },
  "eventsSec": {
   "s1.closeup": 1.16,
@@ -119,7 +119,7 @@
   "end.tagline": 22.255,
   "end.wink": 22.875,
   "end.five": 23.225,
-  "end.hold": 25.5
+  "end.hold": 23.45
  },
  "sfx": [
   {
@@ -792,7 +792,7 @@
   {
    "text": "City Store… الأصلي ديما!",
    "start": 21.675,
-   "end": 23.605,
+   "end": 23.43,
    "words": [
     {
      "word": "City",
@@ -817,7 +817,7 @@
    ],
    "line": 7,
    "from": 650,
-   "to": 708
+   "to": 703
   }
  ],
  "vo": [
