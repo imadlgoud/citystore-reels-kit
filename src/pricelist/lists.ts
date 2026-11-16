@@ -74,6 +74,14 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: "Galaxy A36", img: "pricelist/samsung/a36.png", stock: ["12 GB · 256 GB"] },
     ].map((p) => ({ ...p, condition: "neuf" as const })),
   },
+  garmin: {
+    items: [
+      { name: "Garmin Venu 4", img: "pricelist/garmin/venu4.png", stock: ["45 mm"] },
+      { name: "Garmin Venu 3", img: "pricelist/garmin/venu3.png", stock: [""] },
+      { name: "Garmin Venu 3S", img: "pricelist/garmin/venu3s.png", stock: [""] },
+      { name: "Garmin Vivoactive 5", img: "pricelist/garmin/vivoactive5.png", stock: [""] },
+    ].map((p) => ({ ...p, condition: "neuf" as const })),
+  },
 };
 
 /*
@@ -88,4 +96,5 @@ export const SQUARE_LISTS: Record<string, PriceListProps> = {
   watches: pick("watches", [0, 3, 1, 5]), // Ultra 4, Series 11, Ultra 3, SE 3 (Ultra 2 and Series 10 left out)
   macbooks: pick("macbooks", [0, 1, 2, 3]), // Pro M5 14, Pro M4 14, Air M4 13.6, Air M4 15 (Air M3 and Neo left out)
   samsung: pick("samsung", [0, 2, 3, 4]), // S26 Ultra, S26, A57, A56 (S25 Ultra and A36 left out)
+  garmin: pick("garmin", [0, 1, 2, 3]), // all four
 };
