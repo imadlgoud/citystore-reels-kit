@@ -75,3 +75,17 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
     ].map((p) => ({ ...p, condition: "neuf" as const })),
   },
 };
+
+/*
+ * 1:1 square posts: the 4 newest models of each story (Stills `PriceListSq-<id>`, 1080x1080).
+ * Picked by name from PRICE_LISTS so the cards stay in sync with the stories.
+ */
+const pick = (id: string, idx: number[]): PriceListProps => ({ ...PRICE_LISTS[id], items: idx.map((i) => PRICE_LISTS[id].items[i]) });
+export const SQUARE_LISTS: Record<string, PriceListProps> = {
+  airpods: pick("airpods", [0, 1, 2, 3]), // AirPods 5 (sans fil), AirPods 5, Pro 3, 4 ANC
+  iphones: pick("iphones", [0, 1, 2, 3]), // Duo, 18 Pro Max, 18 Pro, 17 Pro Max
+  ipads: pick("ipads", [0, 1, 2, 3]), // all four
+  watches: pick("watches", [0, 3, 1, 5]), // Ultra 4, Series 11, Ultra 3, SE 3 (Ultra 2 and Series 10 left out)
+  macbooks: pick("macbooks", [0, 1, 2, 3]), // Pro M5 14, Pro M4 14, Air M4 13.6, Air M4 15 (Air M3 and Neo left out)
+  samsung: pick("samsung", [0, 2, 3, 4]), // S26 Ultra, S26, A57, A56 (S25 Ultra and A36 left out)
+};

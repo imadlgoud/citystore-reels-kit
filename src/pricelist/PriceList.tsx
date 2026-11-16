@@ -59,14 +59,15 @@ const PhotoSlot: React.FC = () => (
 
 /* availability card: big photo on top, name, then the sizes stacked one under the other (each with its own
    "✓ DISPONIBLE"), tag at the bottom. Fixed rows so cards in the same row line up. */
-const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number; center?: boolean; specRow?: boolean }> = ({ it, w, h, maxRows, center, specRow }) => {
+/** compact: smaller rows/text for the 1:1 square posts */
+const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number; center?: boolean; specRow?: boolean; compact?: boolean }> = ({ it, w, h, maxRows, center, specRow, compact }) => {
   const tagSize = 40;
   const padTop = 12, padBottom = it.price ? tagSize * 1.1 : 16;
-  const nameMax = 30;
+  const nameMax = compact ? 28 : 30;
   const nameSize = Math.min(nameMax, (w - 40) / (it.name.length * 0.68));
-  const rowH = 36, rowGap = 5; // maxRows: the longest list in the story, so every card keeps the same rows
+  const rowH = compact ? 27 : 36, rowGap = compact ? 4 : 5; // maxRows: the longest list in the story, so every card keeps the same rows
   const sizesH = rowH * maxRows + rowGap * (maxRows - 1); // same height whatever the number of sizes
-  const specH = it.spec || specRow ? 30 : 0; // optional line under the name (e.g. "Wi-Fi + 5G"); kept empty when another card has one
+  const specH = it.spec || specRow ? (compact ? 24 : 30) : 0; // optional line under the name (e.g. "Wi-Fi + 5G"); kept empty when another card has one
   const slotH = h - padTop - padBottom - nameMax * 1.15 - 4 - specH - sizesH - 8;
   return (
     <div style={{ position: "relative", width: w, height: h, background: "rgba(255,255,255,0.96)", borderRadius: 36, boxShadow: "0 24px 50px rgba(6,14,90,0.35)", display: "flex", flexDirection: "column", alignItems: "center", padding: `${padTop}px 10px ${padBottom}px` }}>
@@ -79,8 +80,8 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number
         )}
       </div>
       <div style={{ marginTop: 4, height: nameMax * 1.15, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 900, fontSize: nameSize, lineHeight: 1, color: INK, whiteSpace: "nowrap" }}>{it.name}</div>
-      {specH > 0 && <div style={{ height: specH, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 800, fontSize: 22, color: "#4A5594", whiteSpace: "nowrap" }}>{it.spec ?? ""}</div>}
-      <div style={{ marginTop: 8, height: sizesH, display: "flex", flexDirection: "column", gap: rowGap }}>
+      {specH > 0 && <div style={{ height: specH, display: "flex", alignItems: "center", fontFamily: FONT, fontWeight: 800, fontSize: compact ? 19 : 22, color: "#4A5594", whiteSpace: "nowrap" }}>{it.spec ?? ""}</div>}
+      <div style={{ marginTop: compact ? 5 : 8, height: sizesH, display: "flex", flexDirection: "column", gap: rowGap }}>
         {(it.stock ?? []).map((r) => r === "" ? (
           /* no label: just the DISPONIBLE chip */
           <div key="only" style={{ height: rowH, display: "flex", alignItems: "center", justifyContent: "center" }}>
@@ -89,10 +90,10 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number
             </span>
           </div>
         ) : (
-          <div key={r} style={{ height: rowH, width: Math.min(w - 40, Math.max(360, Math.max(...(it.stock ?? [r]).map((x) => x.length)) * 17 + 190)), gap: 12, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
-            <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: 25, color: INK, whiteSpace: "nowrap" }}>{r}</span>
-            <span style={{ display: "inline-flex", alignItems: "center", gap: 5, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: 18, letterSpacing: 0.5, padding: "3px 14px 4px 8px", borderRadius: 999 }}>
-              <LineIcon name="check" size={20} stroke={12} color="#fff" />DISPONIBLE
+          <div key={r} style={{ height: rowH, width: Math.min(w - 30, Math.max(compact ? 300 : 360, Math.max(...(it.stock ?? [r]).map((x) => x.length)) * (compact ? 13 : 17) + (compact ? 150 : 190))), gap: 12, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
+            <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: compact ? 19 : 25, color: INK, whiteSpace: "nowrap" }}>{r}</span>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: 5, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: compact ? 14 : 18, letterSpacing: 0.5, padding: "3px 14px 4px 8px", borderRadius: 999 }}>
+              <LineIcon name="check" size={compact ? 15 : 20} stroke={12} color="#fff" />DISPONIBLE
             </span>
           </div>
         ))}
@@ -193,6 +194,44 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, ph
       {/* website bar */}
       <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: 70, background: "#fff", display: "flex", alignItems: "center", justifyContent: "center", fontFamily: FONT, fontWeight: 900, fontSize: 36, color: COLORS.blue, letterSpacing: 4 }}>
         WWW.CITYSTORE.MA
+      </div>
+    </AbsoluteFill>
+  );
+};
+
+/*
+ * 1:1 square post (1080x1080), 4 products in a 2x2 grid of the same availability cards (compact), logo on top with
+ * Citybot, and one bar at the bottom with WhatsApp + citystore.ma.
+ */
+export const PriceListSquare: React.FC<PriceListProps> = ({ items, photoCenter, whatsapp = "+212 633 93 28 28" }) => {
+  const four = items.slice(0, 4);
+  const maxRows = Math.max(1, ...four.map((it) => it.stock?.length ?? 0));
+  const specRow = four.some((it) => it.spec);
+  const top = 150, bottom = 975, gapX = 26, gapY = 26;
+  const w = (1080 - 2 * 34 - gapX) / 2, h = (bottom - top - gapY) / 2;
+  return (
+    <AbsoluteFill>
+      <BrandBackground drift={false} />
+      <Burst x={540} y={560} r={900} rot={6} opacity={0.16} rays={22} />
+      <div style={{ position: "absolute", top: 24, left: 0, right: 0, display: "flex", flexDirection: "column", alignItems: "center", gap: 5 }}>
+        <Img src={staticFile("logo/city.png")} style={{ width: 205 }} />
+        <Img src={staticFile("logo/storema.png")} style={{ width: 205 }} />
+      </div>
+      <div style={{ position: "absolute", right: 44, top: 14 }}>
+        <Citybot id="pricelistsq" width={92} expression="happy" mouth="smile" tilt={6} rightArm={{ rot: 72, hand: "thumb" }} leftArm={{ rot: 30, hand: "open" }} hover={4} />
+      </div>
+      <div style={{ position: "absolute", top, left: 34, right: 34, display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: gapX, rowGap: gapY }}>
+        {four.map((it, i) => <StockCard key={i} it={it} w={w} h={h} maxRows={maxRows} center={photoCenter} specRow={specRow} compact />)}
+      </div>
+      <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: 82, background: "#fff", display: "flex", alignItems: "center", justifyContent: "center", gap: 26 }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
+          <div style={{ width: 50, height: 50, borderRadius: "50%", background: "#25D366", display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <LineIcon name="call" size={30} stroke={9} color="#fff" />
+          </div>
+          <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: 36, color: INK }}>{whatsapp}</span>
+        </div>
+        <span style={{ width: 4, height: 40, background: "#D5DAEA", borderRadius: 2 }} />
+        <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: 34, color: COLORS.blue, letterSpacing: 3 }}>CITYSTORE.MA</span>
       </div>
     </AbsoluteFill>
   );

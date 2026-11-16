@@ -134,8 +134,8 @@ import { Readers2Cover } from "./reels/readers2/Readers2Cover";
 import { R2TL } from "./reels/readers2/timeline";
 import { Airpods5bReel } from "./reels/airpods5b/Airpods5bReel";
 import { Airpods5bCover } from "./reels/airpods5b/Airpods5bCover";
-import { PriceList } from "./pricelist/PriceList";
-import { PRICE_LISTS } from "./pricelist/lists";
+import { PriceList, PriceListSquare } from "./pricelist/PriceList";
+import { PRICE_LISTS, SQUARE_LISTS } from "./pricelist/lists";
 import { OccAndroidCover, OccGoproCover, OccIphoneCover, OccSamsungCover, OccTabletsCover } from "./reels/occasions/OccasionCover";
 import { APTL } from "./reels/airpods5b/timeline";
 import { Tx3000eReel } from "./reels/tx3000e/Tx3000eReel";
@@ -312,6 +312,9 @@ export const RemotionRoot: React.FC = () => (
     <Still id="OccGoproCover" component={OccGoproCover} width={1080} height={1920} />
     {Object.entries(PRICE_LISTS).map(([id, p]) => (
       <Still key={id} id={`PriceList-${id}`} component={PriceList} defaultProps={p} width={1080} height={1920} />
+    ))}
+    {Object.entries(SQUARE_LISTS).map(([id, p]) => (
+      <Still key={`sq-${id}`} id={`PriceListSq-${id}`} component={PriceListSquare} defaultProps={p} width={1080} height={1080} />
     ))}
     <Still id="CitybotSheet" component={CitybotSheet} width={1920} height={1080} />
   </>
