@@ -1,0 +1,1611 @@
+{
+ "fps": 30,
+ "bpm": 120,
+ "beatFrames": 15,
+ "totalFrames": 750,
+ "holdFrom": 735,
+ "musicFirstDownbeat": 0.0,
+ "scenes": [
+  {
+   "id": "hook",
+   "from": 0,
+   "to": 169
+  },
+  {
+   "id": "list",
+   "from": 169,
+   "to": 342
+  },
+  {
+   "id": "gift",
+   "from": 342,
+   "to": 446
+  },
+  {
+   "id": "trust",
+   "from": 446,
+   "to": 574
+  },
+  {
+   "id": "end",
+   "from": 574,
+   "to": 750
+  }
+ ],
+ "events": {
+  "hook.turn1": 100,
+  "hook.turn2": 122,
+  "hook.cadeau": 70,
+  "hook.out": 169,
+  "p.iphone": 177,
+  "p.macbook": 194,
+  "p.ipad": 216,
+  "p.airpods": 237,
+  "p.watch": 259,
+  "p.samsung": 283,
+  "p.gaming": 307,
+  "gift.in": 342,
+  "gift.first": 358,
+  "gift.shake": 375,
+  "gift.open": 406,
+  "gift.q": 418,
+  "trust.orig": 449,
+  "trust.gar": 486,
+  "trust.liv": 518,
+  "trust.maroc": 544,
+  "end.logo": 575,
+  "end.tag": 601,
+  "end.cta": 639,
+  "end.url": 710
+ },
+ "eventsSec": {
+  "hook.turn1": 3.33,
+  "hook.turn2": 4.05,
+  "hook.cadeau": 2.33,
+  "hook.out": 5.62,
+  "p.iphone": 5.9,
+  "p.macbook": 6.48,
+  "p.ipad": 7.2,
+  "p.airpods": 7.89,
+  "p.watch": 8.63,
+  "p.samsung": 9.42,
+  "p.gaming": 10.23,
+  "gift.in": 11.4,
+  "gift.first": 11.95,
+  "gift.shake": 12.5,
+  "gift.open": 13.55,
+  "gift.q": 13.95,
+  "trust.orig": 14.98,
+  "trust.gar": 16.2,
+  "trust.liv": 17.26,
+  "trust.maroc": 18.14,
+  "end.logo": 19.18,
+  "end.tag": 20.04,
+  "end.cta": 21.29,
+  "end.url": 23.65
+ },
+ "sfx": [
+  {
+   "name": "whoosh",
+   "t": 1.45,
+   "gainDb": -12
+  },
+  {
+   "name": "pop_big",
+   "t": 2.33,
+   "gainDb": -10
+  },
+  {
+   "name": "shine",
+   "t": 2.43,
+   "gainDb": -13
+  },
+  {
+   "name": "whoosh",
+   "t": 3.28,
+   "gainDb": -14
+  },
+  {
+   "name": "hit_small",
+   "t": 3.33,
+   "gainDb": -11
+  },
+  {
+   "name": "hit",
+   "t": 4.05,
+   "gainDb": -10
+  },
+  {
+   "name": "riser_short",
+   "t": 4.9,
+   "gainDb": -14
+  },
+  {
+   "name": "impact",
+   "t": 5.62,
+   "gainDb": -8
+  },
+  {
+   "name": "hit_small",
+   "t": 5.9,
+   "gainDb": -11
+  },
+  {
+   "name": "hit_small",
+   "t": 6.48,
+   "gainDb": -11
+  },
+  {
+   "name": "hit_small",
+   "t": 7.2,
+   "gainDb": -11
+  },
+  {
+   "name": "hit_small",
+   "t": 7.89,
+   "gainDb": -11
+  },
+  {
+   "name": "hit_small",
+   "t": 8.63,
+   "gainDb": -11
+  },
+  {
+   "name": "hit_small",
+   "t": 9.42,
+   "gainDb": -11
+  },
+  {
+   "name": "hit",
+   "t": 10.23,
+   "gainDb": -9
+  },
+  {
+   "name": "whoosh",
+   "t": 11.3,
+   "gainDb": -10
+  },
+  {
+   "name": "tick",
+   "t": 12.5,
+   "gainDb": -13
+  },
+  {
+   "name": "tick",
+   "t": 12.65,
+   "gainDb": -13
+  },
+  {
+   "name": "tick",
+   "t": 12.8,
+   "gainDb": -13
+  },
+  {
+   "name": "impact",
+   "t": 13.55,
+   "gainDb": -8
+  },
+  {
+   "name": "shine",
+   "t": 13.65,
+   "gainDb": -11
+  },
+  {
+   "name": "pop",
+   "t": 13.95,
+   "gainDb": -12
+  },
+  {
+   "name": "whoosh",
+   "t": 14.8,
+   "gainDb": -10
+  },
+  {
+   "name": "stamp",
+   "t": 14.98,
+   "gainDb": -9
+  },
+  {
+   "name": "stamp",
+   "t": 16.2,
+   "gainDb": -9
+  },
+  {
+   "name": "whoosh",
+   "t": 17.26,
+   "gainDb": -11
+  },
+  {
+   "name": "ding",
+   "t": 18.14,
+   "gainDb": -12
+  },
+  {
+   "name": "whoosh",
+   "t": 19.05,
+   "gainDb": -9
+  },
+  {
+   "name": "impact",
+   "t": 19.18,
+   "gainDb": -6
+  },
+  {
+   "name": "shine",
+   "t": 20.04,
+   "gainDb": -12
+  },
+  {
+   "name": "pop_big",
+   "t": 21.29,
+   "gainDb": -11
+  },
+  {
+   "name": "tick",
+   "t": 23.65,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 23.685,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 23.72,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 23.755,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 23.79,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 23.825,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 23.86,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 23.895,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 23.93,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 23.965,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 24.0,
+   "gainDb": -14
+  },
+  {
+   "name": "tick",
+   "t": 24.035,
+   "gainDb": -14
+  }
+ ],
+ "subtitles": [
+  {
+   "text": "MacBook Air M4…",
+   "start": 0.13,
+   "end": 1.76,
+   "from": 4,
+   "to": 53,
+   "words": [
+    {
+     "word": "MacBook",
+     "start": 0.13,
+     "frame": 4
+    },
+    {
+     "word": "Air",
+     "start": 0.84,
+     "frame": 25
+    },
+    {
+     "word": "M4…",
+     "start": 1.195,
+     "frame": 36
+    }
+   ]
+  },
+  {
+   "text": "ومعاه cadeau surprise!",
+   "start": 1.78,
+   "end": 3.33,
+   "from": 53,
+   "to": 100,
+   "words": [
+    {
+     "word": "ومعاه",
+     "start": 1.78,
+     "frame": 53
+    },
+    {
+     "word": "cadeau",
+     "start": 2.233,
+     "frame": 67
+    },
+    {
+     "word": "surprise!",
+     "start": 2.687,
+     "frame": 81
+    }
+   ]
+  },
+  {
+   "text": "وماشي غير هادي،",
+   "start": 3.35,
+   "end": 4.49,
+   "from": 100,
+   "to": 135,
+   "words": [
+    {
+     "word": "وماشي",
+     "start": 3.35,
+     "frame": 100
+    },
+    {
+     "word": "غير",
+     "start": 3.722,
+     "frame": 112
+    },
+    {
+     "word": "هادي،",
+     "start": 3.908,
+     "frame": 117
+    }
+   ]
+  },
+  {
+   "text": "عندنا كلشي!",
+   "start": 4.51,
+   "end": 5.88,
+   "from": 135,
+   "to": 176,
+   "words": [
+    {
+     "word": "عندنا",
+     "start": 4.51,
+     "frame": 135
+    },
+    {
+     "word": "كلشي!",
+     "start": 4.96,
+     "frame": 149
+    }
+   ]
+  },
+  {
+   "text": "iPhone،",
+   "start": 5.9,
+   "end": 6.46,
+   "from": 177,
+   "to": 194,
+   "words": [
+    {
+     "word": "iPhone،",
+     "start": 5.9,
+     "frame": 177
+    }
+   ]
+  },
+  {
+   "text": "MacBook،",
+   "start": 6.48,
+   "end": 7.18,
+   "from": 194,
+   "to": 215,
+   "words": [
+    {
+     "word": "MacBook،",
+     "start": 6.48,
+     "frame": 194
+    }
+   ]
+  },
+  {
+   "text": "iPad،",
+   "start": 7.2,
+   "end": 7.87,
+   "from": 216,
+   "to": 236,
+   "words": [
+    {
+     "word": "iPad،",
+     "start": 7.2,
+     "frame": 216
+    }
+   ]
+  },
+  {
+   "text": "AirPods،",
+   "start": 7.89,
+   "end": 8.61,
+   "from": 237,
+   "to": 258,
+   "words": [
+    {
+     "word": "AirPods،",
+     "start": 7.89,
+     "frame": 237
+    }
+   ]
+  },
+  {
+   "text": "Apple Watch،",
+   "start": 8.63,
+   "end": 9.4,
+   "from": 259,
+   "to": 282,
+   "words": [
+    {
+     "word": "Apple",
+     "start": 8.63,
+     "frame": 259
+    },
+    {
+     "word": "Watch،",
+     "start": 9.037,
+     "frame": 271
+    }
+   ]
+  },
+  {
+   "text": "Samsung،",
+   "start": 9.42,
+   "end": 10.21,
+   "from": 283,
+   "to": 306,
+   "words": [
+    {
+     "word": "Samsung،",
+     "start": 9.42,
+     "frame": 283
+    }
+   ]
+  },
+  {
+   "text": "وحتى le gaming.",
+   "start": 10.23,
+   "end": 11.53,
+   "from": 307,
+   "to": 346,
+   "words": [
+    {
+     "word": "وحتى",
+     "start": 10.23,
+     "frame": 307
+    },
+    {
+     "word": "le",
+     "start": 10.695,
+     "frame": 321
+    },
+    {
+     "word": "gaming.",
+     "start": 10.928,
+     "frame": 328
+    }
+   ]
+  },
+  {
+   "text": "ومع أول commande ديالك،",
+   "start": 11.55,
+   "end": 13.17,
+   "from": 346,
+   "to": 395,
+   "words": [
+    {
+     "word": "ومع",
+     "start": 11.55,
+     "frame": 346
+    },
+    {
+     "word": "أول",
+     "start": 11.77,
+     "frame": 353
+    },
+    {
+     "word": "commande",
+     "start": 11.99,
+     "frame": 360
+    },
+    {
+     "word": "ديالك،",
+     "start": 12.43,
+     "frame": 373
+    }
+   ]
+  },
+  {
+   "text": "كاينة هدية surprise ليك!",
+   "start": 13.19,
+   "end": 14.96,
+   "from": 396,
+   "to": 449,
+   "words": [
+    {
+     "word": "كاينة",
+     "start": 13.19,
+     "frame": 396
+    },
+    {
+     "word": "هدية",
+     "start": 13.59,
+     "frame": 408
+    },
+    {
+     "word": "surprise",
+     "start": 13.99,
+     "frame": 420
+    },
+    {
+     "word": "ليك!",
+     "start": 14.39,
+     "frame": 432
+    }
+   ]
+  },
+  {
+   "text": "Produits originaux",
+   "start": 14.98,
+   "end": 16.18,
+   "from": 449,
+   "to": 485,
+   "words": [
+    {
+     "word": "Produits",
+     "start": 14.98,
+     "frame": 449
+    },
+    {
+     "word": "originaux",
+     "start": 15.337,
+     "frame": 460
+    }
+   ]
+  },
+  {
+   "text": "avec garantie،",
+   "start": 16.2,
+   "end": 17.24,
+   "from": 486,
+   "to": 517,
+   "words": [
+    {
+     "word": "avec",
+     "start": 16.2,
+     "frame": 486
+    },
+    {
+     "word": "garantie،",
+     "start": 16.528,
+     "frame": 496
+    }
+   ]
+  },
+  {
+   "text": "و livraison",
+   "start": 17.26,
+   "end": 18.12,
+   "from": 518,
+   "to": 544,
+   "words": [
+    {
+     "word": "و",
+     "start": 17.26,
+     "frame": 518
+    },
+    {
+     "word": "livraison",
+     "start": 17.422,
+     "frame": 523
+    }
+   ]
+  },
+  {
+   "text": "partout au Maroc.",
+   "start": 18.14,
+   "end": 19.16,
+   "from": 544,
+   "to": 575,
+   "words": [
+    {
+     "word": "partout",
+     "start": 18.14,
+     "frame": 544
+    },
+    {
+     "word": "au",
+     "start": 18.504,
+     "frame": 555
+    },
+    {
+     "word": "Maroc.",
+     "start": 18.686,
+     "frame": 561
+    }
+   ]
+  },
+  {
+   "text": "City Store،",
+   "start": 19.18,
+   "end": 20.02,
+   "from": 575,
+   "to": 601,
+   "words": [
+    {
+     "word": "City",
+     "start": 19.18,
+     "frame": 575
+    },
+    {
+     "word": "Store،",
+     "start": 19.64,
+     "frame": 589
+    }
+   ]
+  },
+  {
+   "text": "الأصلي ديما.",
+   "start": 20.04,
+   "end": 21.27,
+   "from": 601,
+   "to": 638,
+   "words": [
+    {
+     "word": "الأصلي",
+     "start": 20.04,
+     "frame": 601
+    },
+    {
+     "word": "ديما.",
+     "start": 20.634,
+     "frame": 619
+    }
+   ]
+  },
+  {
+   "text": "صيفط لينا ميساج،",
+   "start": 21.29,
+   "end": 22.36,
+   "from": 639,
+   "to": 671,
+   "words": [
+    {
+     "word": "صيفط",
+     "start": 21.29,
+     "frame": 639
+    },
+    {
+     "word": "لينا",
+     "start": 21.6,
+     "frame": 648
+    },
+    {
+     "word": "ميساج،",
+     "start": 21.91,
+     "frame": 657
+    }
+   ]
+  },
+  {
+   "text": "ولا دخل لـ",
+   "start": 22.38,
+   "end": 23.63,
+   "from": 671,
+   "to": 709,
+   "words": [
+    {
+     "word": "ولا",
+     "start": 22.38,
+     "frame": 671
+    },
+    {
+     "word": "دخل",
+     "start": 22.77,
+     "frame": 683
+    },
+    {
+     "word": "لـ",
+     "start": 23.16,
+     "frame": 695
+    }
+   ]
+  },
+  {
+   "text": "citystore.ma",
+   "start": 23.65,
+   "end": 24.5,
+   "from": 710,
+   "to": 735,
+   "words": [
+    {
+     "word": "citystore.ma",
+     "start": 23.65,
+     "frame": 710
+    }
+   ]
+  }
+ ],
+ "vo": [
+  {
+   "id": "line_01",
+   "from": 4,
+   "start": 0.13,
+   "duration": 5.53,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.03,
+     "value": "B"
+    },
+    {
+     "start": 0.03,
+     "end": 0.15,
+     "value": "A"
+    },
+    {
+     "start": 0.15,
+     "end": 0.23,
+     "value": "C"
+    },
+    {
+     "start": 0.23,
+     "end": 0.31,
+     "value": "A"
+    },
+    {
+     "start": 0.31,
+     "end": 0.38,
+     "value": "F"
+    },
+    {
+     "start": 0.38,
+     "end": 0.44,
+     "value": "B"
+    },
+    {
+     "start": 0.44,
+     "end": 0.65,
+     "value": "C"
+    },
+    {
+     "start": 0.65,
+     "end": 0.79,
+     "value": "B"
+    },
+    {
+     "start": 0.79,
+     "end": 0.93,
+     "value": "C"
+    },
+    {
+     "start": 0.93,
+     "end": 1.01,
+     "value": "A"
+    },
+    {
+     "start": 1.01,
+     "end": 1.15,
+     "value": "D"
+    },
+    {
+     "start": 1.15,
+     "end": 1.22,
+     "value": "C"
+    },
+    {
+     "start": 1.22,
+     "end": 1.34,
+     "value": "A"
+    },
+    {
+     "start": 1.34,
+     "end": 1.48,
+     "value": "B"
+    },
+    {
+     "start": 1.48,
+     "end": 1.62,
+     "value": "X"
+    },
+    {
+     "start": 1.62,
+     "end": 1.67,
+     "value": "B"
+    },
+    {
+     "start": 1.67,
+     "end": 1.72,
+     "value": "F"
+    },
+    {
+     "start": 1.72,
+     "end": 1.81,
+     "value": "A"
+    },
+    {
+     "start": 1.81,
+     "end": 1.96,
+     "value": "C"
+    },
+    {
+     "start": 1.96,
+     "end": 2.04,
+     "value": "A"
+    },
+    {
+     "start": 2.04,
+     "end": 2.33,
+     "value": "F"
+    },
+    {
+     "start": 2.33,
+     "end": 2.54,
+     "value": "B"
+    },
+    {
+     "start": 2.54,
+     "end": 2.62,
+     "value": "A"
+    },
+    {
+     "start": 2.62,
+     "end": 3.05,
+     "value": "B"
+    },
+    {
+     "start": 3.05,
+     "end": 3.19,
+     "value": "X"
+    },
+    {
+     "start": 3.19,
+     "end": 3.25,
+     "value": "B"
+    },
+    {
+     "start": 3.25,
+     "end": 3.3,
+     "value": "F"
+    },
+    {
+     "start": 3.3,
+     "end": 3.4,
+     "value": "A"
+    },
+    {
+     "start": 3.4,
+     "end": 3.46,
+     "value": "C"
+    },
+    {
+     "start": 3.46,
+     "end": 3.65,
+     "value": "B"
+    },
+    {
+     "start": 3.65,
+     "end": 3.72,
+     "value": "G"
+    },
+    {
+     "start": 3.72,
+     "end": 3.79,
+     "value": "B"
+    },
+    {
+     "start": 3.79,
+     "end": 3.93,
+     "value": "C"
+    },
+    {
+     "start": 3.93,
+     "end": 4.14,
+     "value": "B"
+    },
+    {
+     "start": 4.14,
+     "end": 4.7,
+     "value": "C"
+    },
+    {
+     "start": 4.7,
+     "end": 4.77,
+     "value": "B"
+    },
+    {
+     "start": 4.77,
+     "end": 5.05,
+     "value": "F"
+    },
+    {
+     "start": 5.05,
+     "end": 5.33,
+     "value": "B"
+    },
+    {
+     "start": 5.33,
+     "end": 5.53,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_02",
+   "from": 170,
+   "start": 5.66,
+   "duration": 5.48,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.13,
+     "value": "X"
+    },
+    {
+     "start": 0.13,
+     "end": 0.18,
+     "value": "B"
+    },
+    {
+     "start": 0.18,
+     "end": 0.29,
+     "value": "D"
+    },
+    {
+     "start": 0.29,
+     "end": 0.43,
+     "value": "B"
+    },
+    {
+     "start": 0.43,
+     "end": 0.5,
+     "value": "G"
+    },
+    {
+     "start": 0.5,
+     "end": 0.57,
+     "value": "E"
+    },
+    {
+     "start": 0.57,
+     "end": 0.81,
+     "value": "B"
+    },
+    {
+     "start": 0.81,
+     "end": 0.94,
+     "value": "A"
+    },
+    {
+     "start": 0.94,
+     "end": 1.01,
+     "value": "C"
+    },
+    {
+     "start": 1.01,
+     "end": 1.08,
+     "value": "B"
+    },
+    {
+     "start": 1.08,
+     "end": 1.19,
+     "value": "A"
+    },
+    {
+     "start": 1.19,
+     "end": 1.54,
+     "value": "B"
+    },
+    {
+     "start": 1.54,
+     "end": 1.58,
+     "value": "C"
+    },
+    {
+     "start": 1.58,
+     "end": 1.66,
+     "value": "A"
+    },
+    {
+     "start": 1.66,
+     "end": 1.82,
+     "value": "C"
+    },
+    {
+     "start": 1.82,
+     "end": 2.19,
+     "value": "B"
+    },
+    {
+     "start": 2.19,
+     "end": 2.26,
+     "value": "C"
+    },
+    {
+     "start": 2.26,
+     "end": 2.32,
+     "value": "B"
+    },
+    {
+     "start": 2.32,
+     "end": 2.4,
+     "value": "A"
+    },
+    {
+     "start": 2.4,
+     "end": 2.6,
+     "value": "F"
+    },
+    {
+     "start": 2.6,
+     "end": 2.81,
+     "value": "B"
+    },
+    {
+     "start": 2.81,
+     "end": 2.94,
+     "value": "X"
+    },
+    {
+     "start": 2.94,
+     "end": 2.98,
+     "value": "B"
+    },
+    {
+     "start": 2.98,
+     "end": 3.02,
+     "value": "C"
+    },
+    {
+     "start": 3.02,
+     "end": 3.23,
+     "value": "A"
+    },
+    {
+     "start": 3.23,
+     "end": 3.42,
+     "value": "F"
+    },
+    {
+     "start": 3.42,
+     "end": 3.86,
+     "value": "B"
+    },
+    {
+     "start": 3.86,
+     "end": 3.93,
+     "value": "D"
+    },
+    {
+     "start": 3.93,
+     "end": 4.02,
+     "value": "A"
+    },
+    {
+     "start": 4.02,
+     "end": 4.11,
+     "value": "B"
+    },
+    {
+     "start": 4.11,
+     "end": 4.18,
+     "value": "E"
+    },
+    {
+     "start": 4.18,
+     "end": 4.25,
+     "value": "F"
+    },
+    {
+     "start": 4.25,
+     "end": 4.39,
+     "value": "B"
+    },
+    {
+     "start": 4.39,
+     "end": 4.54,
+     "value": "C"
+    },
+    {
+     "start": 4.54,
+     "end": 4.73,
+     "value": "B"
+    },
+    {
+     "start": 4.73,
+     "end": 4.94,
+     "value": "C"
+    },
+    {
+     "start": 4.94,
+     "end": 5.22,
+     "value": "B"
+    },
+    {
+     "start": 5.22,
+     "end": 5.3,
+     "value": "A"
+    },
+    {
+     "start": 5.3,
+     "end": 5.47,
+     "value": "B"
+    },
+    {
+     "start": 5.47,
+     "end": 5.48,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_03",
+   "from": 334,
+   "start": 11.14,
+   "duration": 3.495,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.06,
+     "value": "X"
+    },
+    {
+     "start": 0.06,
+     "end": 0.22,
+     "value": "B"
+    },
+    {
+     "start": 0.22,
+     "end": 0.37,
+     "value": "X"
+    },
+    {
+     "start": 0.37,
+     "end": 0.42,
+     "value": "B"
+    },
+    {
+     "start": 0.42,
+     "end": 0.47,
+     "value": "F"
+    },
+    {
+     "start": 0.47,
+     "end": 0.57,
+     "value": "A"
+    },
+    {
+     "start": 0.57,
+     "end": 0.62,
+     "value": "C"
+    },
+    {
+     "start": 0.62,
+     "end": 0.87,
+     "value": "E"
+    },
+    {
+     "start": 0.87,
+     "end": 0.94,
+     "value": "F"
+    },
+    {
+     "start": 0.94,
+     "end": 1.15,
+     "value": "E"
+    },
+    {
+     "start": 1.15,
+     "end": 1.22,
+     "value": "F"
+    },
+    {
+     "start": 1.22,
+     "end": 1.29,
+     "value": "E"
+    },
+    {
+     "start": 1.29,
+     "end": 1.78,
+     "value": "B"
+    },
+    {
+     "start": 1.78,
+     "end": 1.85,
+     "value": "C"
+    },
+    {
+     "start": 1.85,
+     "end": 1.99,
+     "value": "B"
+    },
+    {
+     "start": 1.99,
+     "end": 2.13,
+     "value": "C"
+    },
+    {
+     "start": 2.13,
+     "end": 2.2,
+     "value": "B"
+    },
+    {
+     "start": 2.2,
+     "end": 2.41,
+     "value": "C"
+    },
+    {
+     "start": 2.41,
+     "end": 2.9,
+     "value": "B"
+    },
+    {
+     "start": 2.9,
+     "end": 2.98,
+     "value": "A"
+    },
+    {
+     "start": 2.98,
+     "end": 3.48,
+     "value": "B"
+    },
+    {
+     "start": 3.48,
+     "end": 3.49,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_04",
+   "from": 439,
+   "start": 14.635,
+   "duration": 4.385,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.31,
+     "value": "X"
+    },
+    {
+     "start": 0.31,
+     "end": 0.68,
+     "value": "B"
+    },
+    {
+     "start": 0.68,
+     "end": 0.89,
+     "value": "E"
+    },
+    {
+     "start": 0.89,
+     "end": 1.17,
+     "value": "B"
+    },
+    {
+     "start": 1.17,
+     "end": 1.38,
+     "value": "C"
+    },
+    {
+     "start": 1.38,
+     "end": 1.45,
+     "value": "B"
+    },
+    {
+     "start": 1.45,
+     "end": 1.51,
+     "value": "A"
+    },
+    {
+     "start": 1.51,
+     "end": 1.57,
+     "value": "D"
+    },
+    {
+     "start": 1.57,
+     "end": 1.65,
+     "value": "A"
+    },
+    {
+     "start": 1.65,
+     "end": 1.72,
+     "value": "C"
+    },
+    {
+     "start": 1.72,
+     "end": 2.0,
+     "value": "E"
+    },
+    {
+     "start": 2.0,
+     "end": 2.14,
+     "value": "F"
+    },
+    {
+     "start": 2.14,
+     "end": 2.42,
+     "value": "B"
+    },
+    {
+     "start": 2.42,
+     "end": 2.59,
+     "value": "X"
+    },
+    {
+     "start": 2.59,
+     "end": 2.65,
+     "value": "B"
+    },
+    {
+     "start": 2.65,
+     "end": 2.84,
+     "value": "F"
+    },
+    {
+     "start": 2.84,
+     "end": 2.91,
+     "value": "G"
+    },
+    {
+     "start": 2.91,
+     "end": 3.12,
+     "value": "B"
+    },
+    {
+     "start": 3.12,
+     "end": 3.19,
+     "value": "E"
+    },
+    {
+     "start": 3.19,
+     "end": 3.33,
+     "value": "F"
+    },
+    {
+     "start": 3.33,
+     "end": 3.52,
+     "value": "B"
+    },
+    {
+     "start": 3.52,
+     "end": 3.57,
+     "value": "C"
+    },
+    {
+     "start": 3.57,
+     "end": 3.78,
+     "value": "F"
+    },
+    {
+     "start": 3.78,
+     "end": 3.86,
+     "value": "A"
+    },
+    {
+     "start": 3.86,
+     "end": 3.94,
+     "value": "E"
+    },
+    {
+     "start": 3.94,
+     "end": 4.01,
+     "value": "F"
+    },
+    {
+     "start": 4.01,
+     "end": 4.22,
+     "value": "C"
+    },
+    {
+     "start": 4.22,
+     "end": 4.29,
+     "value": "E"
+    },
+    {
+     "start": 4.29,
+     "end": 4.37,
+     "value": "A"
+    },
+    {
+     "start": 4.37,
+     "end": 4.38,
+     "value": "X"
+    }
+   ]
+  },
+  {
+   "id": "line_05",
+   "from": 571,
+   "start": 19.02,
+   "duration": 5.07,
+   "mouthCues": [
+    {
+     "start": 0.0,
+     "end": 0.64,
+     "value": "B"
+    },
+    {
+     "start": 0.64,
+     "end": 0.71,
+     "value": "E"
+    },
+    {
+     "start": 0.71,
+     "end": 0.99,
+     "value": "F"
+    },
+    {
+     "start": 0.99,
+     "end": 1.06,
+     "value": "B"
+    },
+    {
+     "start": 1.06,
+     "end": 1.12,
+     "value": "F"
+    },
+    {
+     "start": 1.12,
+     "end": 1.26,
+     "value": "C"
+    },
+    {
+     "start": 1.26,
+     "end": 1.82,
+     "value": "B"
+    },
+    {
+     "start": 1.82,
+     "end": 1.91,
+     "value": "A"
+    },
+    {
+     "start": 1.91,
+     "end": 1.98,
+     "value": "D"
+    },
+    {
+     "start": 1.98,
+     "end": 2.04,
+     "value": "H"
+    },
+    {
+     "start": 2.04,
+     "end": 2.25,
+     "value": "C"
+    },
+    {
+     "start": 2.25,
+     "end": 2.39,
+     "value": "F"
+    },
+    {
+     "start": 2.39,
+     "end": 2.6,
+     "value": "B"
+    },
+    {
+     "start": 2.6,
+     "end": 2.74,
+     "value": "C"
+    },
+    {
+     "start": 2.74,
+     "end": 2.82,
+     "value": "A"
+    },
+    {
+     "start": 2.82,
+     "end": 2.97,
+     "value": "B"
+    },
+    {
+     "start": 2.97,
+     "end": 3.04,
+     "value": "C"
+    },
+    {
+     "start": 3.04,
+     "end": 3.11,
+     "value": "E"
+    },
+    {
+     "start": 3.11,
+     "end": 3.37,
+     "value": "B"
+    },
+    {
+     "start": 3.37,
+     "end": 3.77,
+     "value": "F"
+    },
+    {
+     "start": 3.77,
+     "end": 3.98,
+     "value": "B"
+    },
+    {
+     "start": 3.98,
+     "end": 4.06,
+     "value": "A"
+    },
+    {
+     "start": 4.06,
+     "end": 4.2,
+     "value": "B"
+    },
+    {
+     "start": 4.2,
+     "end": 4.28,
+     "value": "A"
+    },
+    {
+     "start": 4.28,
+     "end": 4.38,
+     "value": "D"
+    },
+    {
+     "start": 4.38,
+     "end": 4.43,
+     "value": "C"
+    },
+    {
+     "start": 4.43,
+     "end": 4.51,
+     "value": "A"
+    },
+    {
+     "start": 4.51,
+     "end": 4.72,
+     "value": "E"
+    },
+    {
+     "start": 4.72,
+     "end": 4.86,
+     "value": "C"
+    },
+    {
+     "start": 4.86,
+     "end": 4.96,
+     "value": "A"
+    },
+    {
+     "start": 4.96,
+     "end": 5.01,
+     "value": "C"
+    },
+    {
+     "start": 5.01,
+     "end": 5.06,
+     "value": "E"
+    },
+    {
+     "start": 5.06,
+     "end": 5.07,
+     "value": "X"
+    }
+   ]
+  }
+ ]
+}

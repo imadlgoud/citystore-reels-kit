@@ -150,6 +150,8 @@ import { OATL } from "./reels/oa5pro/timeline";
 import { Hamza2Reel } from "./reels/hamza2/Hamza2Reel";
 import { Hamza2Thumb } from "./reels/hamza2/Hamza2Thumb";
 import { H2TL } from "./reels/hamza2/timeline";
+import { AdAir } from "./reels/adair/AdAir";
+import { AdAirCover } from "./reels/adair/AdAirCover";
 
 // Hard length limit: never more than 900 frames (30.0 s).
 const DURATION = Math.min(TL.totalFrames, MAX_FRAMES);
@@ -301,6 +303,8 @@ export const RemotionRoot: React.FC = () => (
     <Still id="Oa5proCover" component={Oa5proCover} width={1080} height={1920} />
     <Composition id="Hamza2Reel9x16" component={Hamza2Reel} durationInFrames={Math.min(H2TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Hamza2Thumb" component={Hamza2Thumb} width={1080} height={1920} />
+    <Composition id="AdAir9x16" component={AdAir} durationInFrames={750} fps={FPS} width={1080} height={1920} />
+    <Still id="AdAirCover" component={AdAirCover} width={1080} height={1920} />
     <Still id="OccIphoneCover" component={OccIphoneCover} width={1080} height={1920} />
     <Still id="OccSamsungCover" component={OccSamsungCover} width={1080} height={1920} />
     <Still id="OccTabletsCover" component={OccTabletsCover} width={1080} height={1920} />

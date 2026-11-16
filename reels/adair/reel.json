@@ -1,0 +1,12 @@
+{
+ "id": "adair",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [5.65, 11.35, 14.84, 19.12],
+ "lead": 0.13,
+ "voEndBy": 25.0,
+ "maxPause": 0.7,
+ "sentPause": 0.7,
+ "silenceDb": -40,
+ "note": "MacBook Air M4 + cadeau surprise AD (store robot hook clip, ad-style edit). VO kept at its own pacing (no trims, no speed-up), -14 LUFS. 9:16 + cover."
+}
