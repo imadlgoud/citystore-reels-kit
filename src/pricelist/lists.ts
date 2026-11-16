@@ -112,6 +112,15 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: "DJI Mic Mini 2", spec: "1 TX + 1 RX", img: "pricelist/djimic/mic_mini2_1tx_1rx.png", stock: [""] },
     ].map((p) => ({ ...p, condition: "neuf" as const })),
   },
+  pencils: {
+    photoCenter: true,
+    items: [
+      { name: "Apple Pencil Pro", img: "pricelist/pencils/pencil_pro.png", stock: [""] },
+      { name: "Apple Pencil", spec: "USB-C", img: "pricelist/pencils/pencil_usbc.png", stock: [""] },
+      { name: "Apple Pencil", spec: "2e génération", img: "pricelist/pencils/pencil_2nd_gen.png", stock: [""] },
+      { name: "Apple Pencil", spec: "1re génération · USB-C", img: "pricelist/pencils/pencil_1st_gen_usbc.png", stock: [""] },
+    ].map((p) => ({ ...p, condition: "neuf" as const })),
+  },
 };
 
 /*
@@ -130,5 +139,6 @@ export const SQUARE_LISTS: Record<string, PriceListProps> = {
   rayban: pick("rayban", [0, 1, 2, 3]), // all four
   readers: pick("readers", [0, 1, 2, 3]), // all four
   djimic: pick("djimic", [0, 1, 2, 3]), // all four
+  pencils: pick("pencils", [0, 1, 2, 3]), // all four
   garmin2: pick("garmin", [4, 5, 6, 7]), // Vivoactive 6, Forerunner 165, Fēnix 8, Forerunner 55
 };
