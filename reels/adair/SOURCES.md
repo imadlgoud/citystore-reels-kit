@@ -12,7 +12,7 @@
   - gaming is a drawn controller (no game art)
 - **Music:** original (`scripts/make_music.py`, style "adair"); SFX from the kit.
 - **Edit style (ad, not the reel template):** real footage, punch zooms, hard colour-block cuts with giant outlined
-  names, word-by-word captions with the current word highlighted, gift reveal with confetti, trust stamps over the
-  blurred shop, CTA over the robot freeze frame, small logo bug, film grain.
+  names, word-by-word captions with the current word highlighted, gift reveal with confetti, trust cards (three straight, aligned, equal-width cards with green checks) on a dark navy background with a
+  soft glow and faint grid (the blurred shop background was replaced on request), CTA over the robot freeze frame, small logo bug, film grain.
 - **Offer:** "cadeau surprise" (content not revealed) for everyone's first order, as stated by City Store; on-screen
   note "Cadeau surprise offert pour toute première commande". Warranty length not stated (not confirmed).

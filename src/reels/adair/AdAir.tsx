@@ -223,25 +223,32 @@ const Trust: React.FC = () => {
   const frame = useCurrentFrame();
   const o = ev("trust.orig"), g = ev("trust.gar"), l = ev("trust.liv"), m = ev("trust.maroc");
   const truck = interpolate(frame, [l, l + 40], [-260, 1180], clamp);
-  const card = (at: number, text: string, icon: React.ReactNode, top: number, rot: number) =>
-    frame < at - 1 ? null : (
-      <div style={{ position: "absolute", left: 0, right: 0, top, display: "flex", justifyContent: "center" }}>
-        <div style={{ ...slam(frame, at, 2.4), display: "flex", alignItems: "center", gap: 20, background: WHITE, color: INK, fontFamily: FONT, fontWeight: 900, fontSize: 62, padding: "18px 40px 18px 22px", borderRadius: 26, boxShadow: "0 20px 50px rgba(0,0,0,0.45)", transform: `rotate(${rot}deg)`, whiteSpace: "nowrap" }}>
-          {icon}{text}
+  // three aligned cards of the same width, straight, each with a green check; they slide in from the left
+  const CARD_W = 860;
+  const card = (at: number, text: string, top: number, bg = WHITE, size = 56) => {
+    if (frame < at - 1) return null;
+    const p = sp(frame, at, { damping: 15, stiffness: 220, mass: 0.6 });
+    return (
+      <div style={{ position: "absolute", left: (1080 - CARD_W) / 2, top, width: CARD_W, transform: `translateX(${(1 - p) * -260}px)`, opacity: Math.min(1, p * 1.5) }}>
+        <div style={{ display: "flex", alignItems: "center", gap: 24, background: bg, color: INK, fontFamily: FONT, fontWeight: 900, fontSize: size, height: 128, padding: "0 30px", borderRadius: 26, boxShadow: "0 20px 50px rgba(0,0,0,0.45)", whiteSpace: "nowrap" }}>
+          <svg width={74} height={74} viewBox="0 0 70 70" style={{ flexShrink: 0 }}>
+            <circle cx={35} cy={35} r={33} fill="#22C55E" />
+            <path d="M19 36 L30 47 L52 24" fill="none" stroke={WHITE} strokeWidth={8} strokeLinecap="round" strokeLinejoin="round" strokeDasharray={50} strokeDashoffset={50 * (1 - ramp(frame, at + 3, at + 11))} />
+          </svg>
+          {text}
         </div>
       </div>
     );
-  const check = <svg width={70} height={70} viewBox="0 0 70 70"><circle cx={35} cy={35} r={33} fill="#22C55E" /><path d="M19 36 L30 47 L52 24" fill="none" stroke={WHITE} strokeWidth={8} strokeLinecap="round" strokeLinejoin="round" /></svg>;
+  };
   return (
-    <AbsoluteFill style={{ background: INK, overflow: "hidden" }}>
-      <Img src={staticFile("adair/clip/store_bg.jpg")} style={{ position: "absolute", inset: -40, width: 1160, height: 2000, filter: "blur(16px) brightness(0.45)", transform: `scale(${1.05 + (frame - o) * 0.0008})` }} />
-      {card(o, "PRODUITS ORIGINAUX", check, 420, -2)}
-      {card(g, "AVEC GARANTIE", <LineIcon name="seal" size={70} stroke={9} color="#22C55E" />, 620, 1.5)}
+    <AbsoluteFill style={{ background: `radial-gradient(circle at 50% 38%, #26306A 0%, ${INK} 65%)`, overflow: "hidden" }}>
+      {/* soft brand glow + faint grid */}
+      <AbsoluteFill style={{ backgroundImage: "linear-gradient(rgba(255,255,255,0.05) 2px, transparent 2px), linear-gradient(90deg, rgba(255,255,255,0.05) 2px, transparent 2px)", backgroundSize: "60px 60px" }} />
+      {card(o, "PRODUITS ORIGINAUX", 480)}
+      {card(g, "AVEC GARANTIE", 648)}
       {frame >= l - 1 && (
         <>
-          <div style={{ position: "absolute", left: 0, right: 0, top: 880, display: "flex", justifyContent: "center" }}>
-            <div style={{ ...slam(frame, l, 2), background: YELLOW, color: INK, fontFamily: FONT, fontWeight: 900, fontSize: 50, padding: "12px 30px", borderRadius: 22, whiteSpace: "nowrap" }}>LIVRAISON PARTOUT AU MAROC</div>
-          </div>
+          {card(l, "LIVRAISON PARTOUT AU MAROC", 816, YELLOW, 36)}
           {/* road + truck */}
           <div style={{ position: "absolute", left: 0, right: 0, top: 1130, height: 10, background: "repeating-linear-gradient(90deg, #fff 0 60px, transparent 60px 100px)", opacity: 0.6 }} />
           <svg width={240} height={130} viewBox="0 0 240 130" style={{ position: "absolute", left: truck, top: 1010 }}>
@@ -253,7 +260,7 @@ const Trust: React.FC = () => {
         </>
       )}
       {frame >= m - 1 && (
-        <div style={{ position: "absolute", left: 80, right: 80, top: 1200, display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 16 }}>
+        <div style={{ position: "absolute", left: 80, right: 80, top: 1190, display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 16 }}>
           {CITIES.map((c, i) => frame < m + i * 2 ? null : (
             <div key={c} style={{ transform: `scale(${pop(frame, m + i * 2)})`, display: "flex", alignItems: "center", gap: 8, background: "rgba(255,255,255,0.14)", border: "3px solid rgba(255,255,255,0.8)", color: WHITE, fontFamily: FONT, fontWeight: 800, fontSize: 34, padding: "6px 20px 6px 12px", borderRadius: 999 }}>
               <LineIcon name="pin" size={36} stroke={9} color={YELLOW} />{c}
