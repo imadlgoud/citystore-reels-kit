@@ -95,6 +95,14 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: "Ray-Ban Meta Wayfarer", spec: "Gen 3 · Matte Black · Transitions", img: "pricelist/rayban/gen3_wayfarer_matte_black_transitions.png", stock: [""] },
     ].map((p) => ({ ...p, condition: "neuf" as const })),
   },
+  readers: {
+    items: [
+      { name: "Kindle Scribe", spec: "Avec stylet", img: "pricelist/readers/kindle_scribe_pen.png", stock: ["16 GB"] },
+      { name: "Kindle Colorsoft", img: "pricelist/readers/kindle_colorsoft.png", stock: ["16 GB"] },
+      { name: "Kindle 11e génération", img: "pricelist/readers/kindle11.png", stock: ["16 GB"] },
+      { name: "Kobo Libra Colour", spec: "Noir", img: "pricelist/readers/kobo_libra_colour_black.png", stock: [""] },
+    ].map((p) => ({ ...p, condition: "neuf" as const })),
+  },
 };
 
 /*
@@ -111,5 +119,6 @@ export const SQUARE_LISTS: Record<string, PriceListProps> = {
   samsung: pick("samsung", [0, 2, 3, 4]), // S26 Ultra, S26, A57, A56 (S25 Ultra and A36 left out)
   garmin: pick("garmin", [0, 1, 2, 3]), // Venu 4, Venu 3, Venu 3S, Vivoactive 5
   rayban: pick("rayban", [0, 1, 2, 3]), // all four
+  readers: pick("readers", [0, 1, 2, 3]), // all four
   garmin2: pick("garmin", [4, 5, 6, 7]), // Vivoactive 6, Forerunner 165, Fēnix 8, Forerunner 55
 };
