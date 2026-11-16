@@ -114,7 +114,7 @@ const ITEMS: Item[] = [
   { at: "p.airpods", name: "AirPods", img: "pricelist/airpods/pro3.png", bg: "#F2F1EC", fg: INK, w: 430 },
   { at: "p.watch", name: "Apple Watch", img: "pricelist/watches/ultra4.png", bg: "#FF5A36", fg: WHITE, w: 600 },
   { at: "p.samsung", name: "Samsung", img: "pricelist/samsung/s26ultra.png", bg: INK, fg: WHITE, w: 980 },
-  { at: "p.gaming", name: "Gaming", bg: COLORS.blue, fg: WHITE, w: 560 },
+  { at: "p.gaming", name: "Gaming", img: "adair/ps5.png", bg: COLORS.blue, fg: WHITE, w: 640 },
 ];
 const List: React.FC = () => {
   const frame = useCurrentFrame();

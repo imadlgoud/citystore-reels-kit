@@ -9,7 +9,7 @@
   silencedetect; the product cuts land on each spoken name.
 - **Product images:** official renders already in the repo from the price-list stories:
   - iPhone 18 Pro Max, MacBook Pro 14, iPad Pro 13, AirPods Pro 3, Apple Watch Ultra 4, Galaxy S26 Ultra
-  - gaming is a drawn controller (no game art)
+  - gaming: PS5 Pro + DualSense (official render supplied by City Store, `assets/adair/products/ps5pro_dualsense.webp` -> `public/adair/ps5.png`)
 - **Music:** original (`scripts/make_music.py`, style "adair"); SFX from the kit.
 - **Edit style (ad, not the reel template):** real footage, punch zooms, hard colour-block cuts with giant outlined
   names, word-by-word captions with the current word highlighted, gift reveal with confetti, trust cards (three straight, aligned, equal-width cards with green checks) on a dark navy background with a
