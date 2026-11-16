@@ -86,6 +86,15 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: "Garmin Forerunner 55", img: "pricelist/garmin/forerunner55.png", stock: [""] },
     ].map((p) => ({ ...p, condition: "neuf" as const })),
   },
+  rayban: {
+    photoCenter: true,
+    items: [
+      { name: "Ray-Ban Meta Wayfarer", spec: "Gen 2 · Matte Black", img: "pricelist/rayban/gen2_wayfarer_matte_black.png", stock: [""] },
+      { name: "Ray-Ban Meta Headliner", spec: "Gen 2 · Shiny Black", img: "pricelist/rayban/gen2_headliner_shiny_black.png", stock: [""] },
+      { name: "Ray-Ban Meta Aviator", spec: "Gen 3 · Shiny Black", img: "pricelist/rayban/gen3_aviator_shiny_black.png", stock: [""] },
+      { name: "Ray-Ban Meta Wayfarer", spec: "Gen 3 · Matte Black · Transitions", img: "pricelist/rayban/gen3_wayfarer_matte_black_transitions.png", stock: [""] },
+    ].map((p) => ({ ...p, condition: "neuf" as const })),
+  },
 };
 
 /*
@@ -101,5 +110,6 @@ export const SQUARE_LISTS: Record<string, PriceListProps> = {
   macbooks: pick("macbooks", [0, 1, 2, 3]), // Pro M5 14, Pro M4 14, Air M4 13.6, Air M4 15 (Air M3 and Neo left out)
   samsung: pick("samsung", [0, 2, 3, 4]), // S26 Ultra, S26, A57, A56 (S25 Ultra and A36 left out)
   garmin: pick("garmin", [0, 1, 2, 3]), // Venu 4, Venu 3, Venu 3S, Vivoactive 5
+  rayban: pick("rayban", [0, 1, 2, 3]), // all four
   garmin2: pick("garmin", [4, 5, 6, 7]), // Vivoactive 6, Forerunner 165, Fēnix 8, Forerunner 55
 };
