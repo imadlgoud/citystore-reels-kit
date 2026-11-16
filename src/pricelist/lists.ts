@@ -80,6 +80,10 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: "Garmin Venu 3", img: "pricelist/garmin/venu3.png", stock: [""] },
       { name: "Garmin Venu 3S", img: "pricelist/garmin/venu3s.png", stock: [""] },
       { name: "Garmin Vivoactive 5", img: "pricelist/garmin/vivoactive5.png", stock: [""] },
+      { name: "Garmin Vivoactive 6", img: "pricelist/garmin/vivoactive6.png", stock: [""] },
+      { name: "Garmin Forerunner 165", img: "pricelist/garmin/forerunner165.png", stock: [""] },
+      { name: "Garmin Fēnix 8", img: "pricelist/garmin/fenix8.png", stock: ["47 mm"] },
+      { name: "Garmin Forerunner 55", img: "pricelist/garmin/forerunner55.png", stock: [""] },
     ].map((p) => ({ ...p, condition: "neuf" as const })),
   },
 };
@@ -96,5 +100,6 @@ export const SQUARE_LISTS: Record<string, PriceListProps> = {
   watches: pick("watches", [0, 3, 1, 5]), // Ultra 4, Series 11, Ultra 3, SE 3 (Ultra 2 and Series 10 left out)
   macbooks: pick("macbooks", [0, 1, 2, 3]), // Pro M5 14, Pro M4 14, Air M4 13.6, Air M4 15 (Air M3 and Neo left out)
   samsung: pick("samsung", [0, 2, 3, 4]), // S26 Ultra, S26, A57, A56 (S25 Ultra and A36 left out)
-  garmin: pick("garmin", [0, 1, 2, 3]), // all four
+  garmin: pick("garmin", [0, 1, 2, 3]), // Venu 4, Venu 3, Venu 3S, Vivoactive 5
+  garmin2: pick("garmin", [4, 5, 6, 7]), // Vivoactive 6, Forerunner 165, Fēnix 8, Forerunner 55
 };
