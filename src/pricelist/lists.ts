@@ -142,3 +142,9 @@ export const SQUARE_LISTS: Record<string, PriceListProps> = {
   pencils: pick("pencils", [0, 1, 2, 3]), // all four
   garmin2: pick("garmin", [4, 5, 6, 7]), // Forerunner 255, Forerunner 165, Fēnix 8, Forerunner 55
 };
+
+/* 9:16 stories split into 4-product parts (Stills `PriceList-<id>`, 1080x1920) */
+export const STORY_SPLITS: Record<string, PriceListProps> = {
+  "garmin-1": SQUARE_LISTS.garmin, // Venu 4, Venu 3, Vivoactive 6, Vivoactive 5
+  "garmin-2": SQUARE_LISTS.garmin2, // Forerunner 255, Forerunner 165, Fēnix 8, Forerunner 55
+};
