@@ -80,8 +80,7 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: "Garmin Venu 3", img: "pricelist/garmin/venu3.png", stock: [""] },
       { name: "Garmin Vivoactive 6", img: "pricelist/garmin/vivoactive6.png", stock: [""] },
       { name: "Garmin Vivoactive 5", img: "pricelist/garmin/vivoactive5.png", stock: [""] },
-      // empty slot (Venu 3S removed; product to come)
-      { name: "", img: "", empty: true },
+      { name: "Garmin Forerunner 255", img: "pricelist/garmin/forerunner255.png", stock: [""] },
       { name: "Garmin Forerunner 165", img: "pricelist/garmin/forerunner165.png", stock: [""] },
       { name: "Garmin Fēnix 8", img: "pricelist/garmin/fenix8.png", stock: ["47 mm"] },
       { name: "Garmin Forerunner 55", img: "pricelist/garmin/forerunner55.png", stock: [""] },
@@ -141,5 +140,5 @@ export const SQUARE_LISTS: Record<string, PriceListProps> = {
   readers: pick("readers", [0, 1, 2, 3]), // all four
   djimic: pick("djimic", [0, 1, 2, 3]), // all four
   pencils: pick("pencils", [0, 1, 2, 3]), // all four
-  garmin2: pick("garmin", [4, 5, 6, 7]), // (empty slot), Forerunner 165, Fēnix 8, Forerunner 55
+  garmin2: pick("garmin", [4, 5, 6, 7]), // Forerunner 255, Forerunner 165, Fēnix 8, Forerunner 55
 };

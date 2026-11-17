@@ -12,3 +12,4 @@ Only the Venu 4 has a size (45 mm, as given); the others show "DISPONIBLE" only.
 - Garmin Forerunner 55: `garmin_forerunner55.png` (black) -> `forerunner55.png`
 Story = all 8; 1:1 posts: `garmin` (Venu 4, Venu 3, Venu 3S, Vivoactive 5) and `garmin2` (Vivoactive 6, Forerunner 165,
 Fēnix 8, Forerunner 55).
+- Garmin Forerunner 255: `garmin_forerunner255.png` (black) -> `forerunner255.png` (upscaled 2x). Fills the slot left by the Venu 3S move.
