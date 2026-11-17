@@ -22,6 +22,8 @@ export type PriceItem = {
   spec?: string; // e.g. "256 Go · Batterie 87 %"
   /** availability list (e.g. storage sizes): switches to the side-by-side card, one "DISPONIBLE" chip per entry */
   stock?: string[];
+  /** empty slot: keeps its place in the grid, nothing drawn (product to come) */
+  empty?: boolean;
   /** image scale tweak inside its slot (1 = fit) */
   scale?: number;
   rotate?: number;
@@ -170,7 +172,7 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, ph
       {/* products */}
       <div style={{ position: "absolute", top: gridTop, left: 0, right: 0, display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: gapX, rowGap: gapY }}>
         {items.slice(0, 8).map((it, i) => (
-          it.stock ? <StockCard key={i} it={it} w={w} h={h} maxRows={maxRows} center={photoCenter} specRow={specRow} /> : <Card key={i} it={it} w={w} h={h} />
+          it.empty ? <div key={i} style={{ width: w, height: h }} /> : it.stock ? <StockCard key={i} it={it} w={w} h={h} maxRows={maxRows} center={photoCenter} specRow={specRow} /> : <Card key={i} it={it} w={w} h={h} />
         ))}
       </div>
       {/* how to order */}
@@ -221,7 +223,7 @@ export const PriceListSquare: React.FC<PriceListProps> = ({ items, photoCenter, 
         <Citybot id="pricelistsq" width={92} expression="happy" mouth="smile" tilt={6} rightArm={{ rot: 72, hand: "thumb" }} leftArm={{ rot: 30, hand: "open" }} hover={4} />
       </div>
       <div style={{ position: "absolute", top, left: 34, right: 34, display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: gapX, rowGap: gapY }}>
-        {four.map((it, i) => <StockCard key={i} it={it} w={w} h={h} maxRows={maxRows} center={photoCenter} specRow={specRow} compact />)}
+        {four.map((it, i) => it.empty ? <div key={i} style={{ width: w, height: h }} /> : <StockCard key={i} it={it} w={w} h={h} maxRows={maxRows} center={photoCenter} specRow={specRow} compact />)}
       </div>
       <div style={{ position: "absolute", bottom: 0, left: 0, right: 0, height: 82, background: "#fff", display: "flex", alignItems: "center", justifyContent: "center", gap: 26 }}>
         <div style={{ display: "flex", alignItems: "center", gap: 12 }}>
