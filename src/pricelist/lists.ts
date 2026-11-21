@@ -124,7 +124,7 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
   ps5: {
     photoCenter: true,
     items: [
-      { name: "PS5 Slim Digital Edition", img: "pricelist/ps5/slim_digital_box.png", condition: "neuf" as const, stock: ["1 To"] },
+      { name: "PS5 Slim Digital Edition", img: "pricelist/ps5/slim_digital_box_angle.png", condition: "neuf" as const, stock: ["1 To"] },
     ],
   },
 };
