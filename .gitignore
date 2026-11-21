@@ -9,3 +9,4 @@ __pycache__/
 assets/sfx/
 public/*/audio/
 out/*/*.mp4
+tools/models/
