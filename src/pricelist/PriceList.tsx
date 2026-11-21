@@ -68,7 +68,7 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number
   const padTop = 12, padBottom = it.price ? tagSize * 1.1 : 16;
   const nameMax = hero ? 58 : compact ? 28 : 30;
   const nameSize = Math.min(nameMax, (w - 40) / (it.name.length * 0.68));
-  const rowH = hero ? 60 : compact ? 27 : 36, rowGap = compact ? 4 : 5; // maxRows: the longest list in the story, so every card keeps the same rows
+  const rowH = hero ? 96 : compact ? 27 : 36, rowGap = compact ? 4 : 5; // maxRows: the longest list in the story, so every card keeps the same rows
   const sizesH = rowH * maxRows + rowGap * (maxRows - 1); // same height whatever the number of sizes
   const specH = it.spec || specRow ? (compact ? 24 : 30) : 0; // optional line under the name (e.g. "Wi-Fi + 5G"); kept empty when another card has one
   const slotH = h - padTop - padBottom - nameMax * 1.15 - 4 - specH - sizesH - 8;
@@ -93,10 +93,10 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number
             </span>
           </div>
         ) : (
-          <div key={r} style={{ height: rowH, width: Math.min(w - 30, Math.max(compact ? 300 : 360, Math.max(...(it.stock ?? [r]).map((x) => x.length)) * (compact ? 13 : 17) + (compact ? 150 : 190)) * (hero ? 1.55 : 1)), gap: 12, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
-            <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: hero ? 40 : compact ? 19 : 25, color: INK, whiteSpace: "nowrap" }}>{r}</span>
-            <span style={{ display: "inline-flex", alignItems: "center", gap: 5, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: hero ? 28 : compact ? 14 : 18, letterSpacing: 0.5, padding: "3px 14px 4px 8px", borderRadius: 999 }}>
-              <LineIcon name="check" size={hero ? 32 : compact ? 15 : 20} stroke={12} color="#fff" />DISPONIBLE
+          <div key={r} style={{ height: rowH, width: Math.min(w - 30, Math.max(compact ? 300 : 360, Math.max(...(it.stock ?? [r]).map((x) => x.length)) * (compact ? 13 : 17) + (compact ? 150 : 190)) * (hero ? 2.15 : 1)), gap: 12, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
+            <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: hero ? 54 : compact ? 19 : 25, color: INK, whiteSpace: "nowrap" }}>{r}</span>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: hero ? 10 : 5, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: hero ? 50 : compact ? 14 : 18, letterSpacing: 0.5, padding: hero ? "8px 30px 10px 18px" : "3px 14px 4px 8px", borderRadius: 999 }}>
+              <LineIcon name="check" size={hero ? 56 : compact ? 15 : 20} stroke={12} color="#fff" />DISPONIBLE
             </span>
           </div>
         ))}
