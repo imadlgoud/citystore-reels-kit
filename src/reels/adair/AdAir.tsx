@@ -7,11 +7,11 @@ import { LineIcon } from "../../components/Icons";
 import { Timeline } from "../../timeline";
 
 /*
- * MacBook Air M4 + cadeau surprise: performance AD (25 s, 9:16). A different edit from the Citybot reels:
+ * MacBook Air M4: performance AD (20 s, 9:16; gift offer removed). A different edit from the Citybot reels:
  *  - real store footage (the robot hook clip), punch zooms on the robot's head turns
  *  - hard cuts on every product name, full-bleed colour blocks, giant outlined names behind the product
  *  - word-by-word captions (current word highlighted), a small City Store bug, film grain
- *  - gift reveal, trust stamps over the blurred store, CTA over the robot freeze frame
+ *  - trust cards, CTA over the robot freeze frame
  */
 const TL = timelineJson as unknown as Timeline & { eventsSec: Record<string, number> };
 const ev = (k: string) => TL.events[k] as number;
@@ -74,7 +74,7 @@ const CutFlash: React.FC<{ at: number; color?: string }> = ({ at, color = WHITE 
 const HEAD = { x: 545, y: 600 };
 const Hook: React.FC = () => {
   const frame = useCurrentFrame();
-  const t1 = ev("hook.turn1"), t2 = ev("hook.turn2"), cad = ev("hook.cadeau");
+  const t1 = ev("hook.turn1"), t2 = ev("hook.turn2");
   const z1 = sp(frame, t1, { damping: 18, stiffness: 260 }), z2 = sp(frame, t2, { damping: 20, stiffness: 120 });
   const zoom = interpolate(frame, [0, t1], [1, 1.06], clamp) * (1 + 0.5 * z1) * (1 + 0.42 * z2);
   const shake = (at: number) => {
@@ -82,8 +82,6 @@ const Hook: React.FC = () => {
     return k >= 0 && k < 8 ? (random(`sh${at}-${k}`) - 0.5) * 22 * (1 - k / 8) : 0;
   };
   const sx = shake(t1) + shake(t2), sy = shake(t1 + 1) + shake(t2 + 1);
-  const tagIn = sp(frame, cad, { damping: 10, stiffness: 200, mass: 0.6 });
-  const tagOut = 1 - ramp(frame, t1 - 4, t1);
   return (
     <AbsoluteFill style={{ overflow: "hidden", background: INK }}>
       <AbsoluteFill style={{ transform: `translate(${sx}px, ${sy}px) scale(${zoom})`, transformOrigin: `${HEAD.x}px ${HEAD.y}px` }}>
@@ -95,12 +93,6 @@ const Hook: React.FC = () => {
       <div style={{ position: "absolute", left: 0, right: 0, top: 250, display: "flex", justifyContent: "center", opacity: 1 - ramp(frame, t1 - 6, t1) }}>
         <div style={{ ...slam(frame, 6, 2), fontFamily: FONT, fontWeight: 900, fontSize: 96, color: WHITE, textShadow: outline(5), whiteSpace: "nowrap" }}>MacBook Air M4</div>
       </div>
-      {/* CADEAU SURPRISE sticker slaps on as the box comes up */}
-      {frame >= cad - 1 && tagOut > 0 && (
-        <div style={{ position: "absolute", left: 600, top: 760, transform: `scale(${tagIn}) rotate(-8deg)`, opacity: tagOut, display: "flex", alignItems: "center", gap: 12, background: YELLOW, color: INK, fontFamily: FONT, fontWeight: 900, fontSize: 44, padding: "12px 24px", borderRadius: 18, border: `5px solid ${INK}`, boxShadow: "0 16px 40px rgba(0,0,0,0.45)" }}>
-          <GiftIcon size={58} /> CADEAU SURPRISE
-        </div>
-      )}
     </AbsoluteFill>
   );
 };
@@ -153,65 +145,6 @@ const List: React.FC = () => {
       {/* item counter dots */}
       <div style={{ position: "absolute", left: 0, right: 0, top: 1490, display: "flex", justifyContent: "center", gap: 14 }}>
         {ITEMS.map((_, i) => <div key={i} style={{ width: i === idx ? 44 : 14, height: 14, borderRadius: 7, background: it.fg, opacity: i <= idx ? 0.9 : 0.25 }} />)}
-      </div>
-    </AbsoluteFill>
-  );
-};
-
-/* ---------------- GIFT: surprise box reveal ---------------- */
-const GiftIcon: React.FC<{ size: number; lid?: number }> = ({ size, lid = 0 }) => (
-  <svg viewBox="0 0 100 100" width={size} height={size} style={{ overflow: "visible" }}>
-    <rect x={14} y={42} width={72} height={52} rx={6} fill={RED} stroke={INK} strokeWidth={5} />
-    <rect x={44} y={42} width={12} height={52} fill={YELLOW} stroke={INK} strokeWidth={3} />
-    <g transform={`translate(0 ${-lid * 60}) rotate(${-lid * 18} 50 36)`}>
-      <rect x={8} y={28} width={84} height={18} rx={5} fill={RED} stroke={INK} strokeWidth={5} />
-      <rect x={44} y={28} width={12} height={18} fill={YELLOW} stroke={INK} strokeWidth={3} />
-      <path d="M50 28 C38 8 18 14 30 26 Z M50 28 C62 8 82 14 70 26 Z" fill={YELLOW} stroke={INK} strokeWidth={4} />
-    </g>
-  </svg>
-);
-const Gift: React.FC = () => {
-  const frame = useCurrentFrame();
-  const inAt = ev("gift.in"), fAt = ev("gift.first"), sAt = ev("gift.shake"), oAt = ev("gift.open"), qAt = ev("gift.q");
-  const drop = sp(frame, inAt, { damping: 10, stiffness: 160, mass: 0.8 });
-  const shake = frame >= sAt && frame < oAt ? Math.sin((frame - sAt) * 1.6) * 7 * (1 + (frame - sAt) / 20) : 0;
-  const lid = sp(frame, oAt, { damping: 12, stiffness: 140 });
-  const q = sp(frame, qAt, { damping: 9, stiffness: 160 });
-  const t = frame / 30;
-  return (
-    <AbsoluteFill style={{ background: `radial-gradient(circle at 50% 46%, #2A2F55 0%, ${INK} 62%)`, overflow: "hidden" }}>
-      {frame >= oAt && (
-        <svg width={1080} height={1920} style={{ position: "absolute", inset: 0, opacity: ramp(frame, oAt, oAt + 6) }}>
-          <g transform={`translate(540 900) rotate(${t * 20})`}>
-            {Array.from({ length: 16 }).map((_, i) => <path key={i} d="M0 0 L-40 -900 L40 -900 Z" fill={YELLOW} opacity={0.12} transform={`rotate(${i * 22.5})`} />)}
-          </g>
-          {Array.from({ length: 40 }).map((_, i) => {
-            const k = frame - oAt, a = random(`cf${i}`) * Math.PI * 2, v = 14 + random(`cv${i}`) * 22;
-            const x = 540 + Math.cos(a) * v * k, y = 900 + Math.sin(a) * v * k + 0.6 * k * k;
-            return <rect key={i} x={x} y={y} width={16} height={10} fill={[YELLOW, RED, WHITE, COLORS.cyan][i % 4]} transform={`rotate(${k * 20 + i * 30} ${x} ${y})`} />;
-          })}
-        </svg>
-      )}
-      <div style={{ position: "absolute", left: 540 - 260, top: 640 - (1 - drop) * 1200, transform: `rotate(${shake}deg)`, transformOrigin: "50% 90%" }}>
-        <GiftIcon size={520} lid={lid} />
-      </div>
-      {frame >= qAt - 1 && (
-        <div style={{ position: "absolute", left: 0, right: 0, top: 560 - q * 220, display: "flex", justifyContent: "center", transform: `scale(${q})` }}>
-          <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: 300, color: YELLOW, textShadow: outline(8) }}>?</span>
-        </div>
-      )}
-      {frame >= fAt - 1 && (
-        <div style={{ position: "absolute", left: 0, right: 0, top: 300, display: "flex", justifyContent: "center" }}>
-          <div style={{ ...slam(frame, fAt, 1.8), background: WHITE, color: INK, fontFamily: FONT, fontWeight: 900, fontSize: 54, padding: "10px 34px", borderRadius: 999, transform: "rotate(-3deg)" }}>1ÈRE COMMANDE</div>
-        </div>
-      )}
-      {frame >= oAt - 1 && (
-        <div style={{ position: "absolute", left: 0, right: 0, top: 1120, display: "flex", justifyContent: "center" }}>
-          <div style={{ ...slam(frame, oAt, 2.2), fontFamily: FONT, fontWeight: 900, fontSize: 92, color: YELLOW, textShadow: outline(6), whiteSpace: "nowrap" }}>CADEAU SURPRISE</div>
-        </div>
-      )}
-      <div style={{ position: "absolute", left: 0, right: 0, top: 1600, textAlign: "center", fontFamily: FONT, fontWeight: 700, fontSize: 28, color: WHITE, opacity: 0.8 * ramp(frame, fAt, fAt + 8) }}>
-        Cadeau surprise offert pour toute première commande
       </div>
     </AbsoluteFill>
   );
@@ -312,7 +245,7 @@ const End: React.FC = () => {
   );
 };
 
-const SCENES: [string, React.FC][] = [["hook", Hook], ["list", List], ["gift", Gift], ["trust", Trust], ["end", End]];
+const SCENES: [string, React.FC][] = [["hook", Hook], ["list", List], ["trust", Trust], ["end", End]];
 
 export const AdAir: React.FC = () => {
   const frame = useCurrentFrame();
@@ -330,8 +263,8 @@ export const AdAir: React.FC = () => {
             );
           })}
           {frame >= list.from && frame < endS.from && <Bug />}
-          <Captions hideIn={[[list.from, sc("gift").from], [ev("gift.open"), TL.totalFrames]]} />
-          {[list.from, sc("gift").from, sc("trust").from, endS.from].map((a) => <CutFlash key={a} at={a} />)}
+          <Captions hideIn={[[list.from, TL.totalFrames]]} />
+          {[list.from, sc("trust").from, endS.from].map((a) => <CutFlash key={a} at={a} />)}
           <Grain />
         </AbsoluteFill>
       </Freeze>

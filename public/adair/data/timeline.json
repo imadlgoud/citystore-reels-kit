@@ -2,302 +2,243 @@
  "fps": 30,
  "bpm": 120,
  "beatFrames": 15,
- "totalFrames": 750,
- "holdFrom": 735,
+ "totalFrames": 600,
+ "holdFrom": 585,
  "musicFirstDownbeat": 0.0,
  "scenes": [
   {
    "id": "hook",
    "from": 0,
-   "to": 169
+   "to": 126
   },
   {
    "id": "list",
-   "from": 169,
-   "to": 342
-  },
-  {
-   "id": "gift",
-   "from": 342,
-   "to": 446
+   "from": 126,
+   "to": 292
   },
   {
    "id": "trust",
-   "from": 446,
-   "to": 574
+   "from": 292,
+   "to": 421
   },
   {
    "id": "end",
-   "from": 574,
-   "to": 750
+   "from": 421,
+   "to": 600
   }
  ],
  "events": {
-  "hook.turn1": 100,
-  "hook.turn2": 122,
-  "hook.cadeau": 70,
-  "hook.out": 169,
-  "p.iphone": 177,
-  "p.macbook": 194,
-  "p.ipad": 216,
-  "p.airpods": 237,
-  "p.watch": 259,
-  "p.samsung": 283,
-  "p.gaming": 307,
-  "gift.in": 342,
-  "gift.first": 358,
-  "gift.shake": 375,
-  "gift.open": 406,
-  "gift.q": 418,
-  "trust.orig": 449,
-  "trust.gar": 486,
-  "trust.liv": 518,
-  "trust.maroc": 544,
-  "end.logo": 575,
-  "end.tag": 601,
-  "end.cta": 639,
-  "end.url": 710
+  "hook.turn1": 60,
+  "hook.turn2": 102,
+  "p.iphone": 129,
+  "p.macbook": 147,
+  "p.ipad": 168,
+  "p.airpods": 189,
+  "p.watch": 211,
+  "p.samsung": 235,
+  "p.gaming": 259,
+  "trust.orig": 297,
+  "trust.gar": 333,
+  "trust.liv": 365,
+  "trust.maroc": 392,
+  "end.logo": 423,
+  "end.tag": 448,
+  "end.cta": 486,
+  "end.url": 557
  },
  "eventsSec": {
-  "hook.turn1": 3.33,
-  "hook.turn2": 4.05,
-  "hook.cadeau": 2.33,
-  "hook.out": 5.62,
-  "p.iphone": 5.9,
-  "p.macbook": 6.48,
-  "p.ipad": 7.2,
-  "p.airpods": 7.89,
-  "p.watch": 8.63,
-  "p.samsung": 9.42,
-  "p.gaming": 10.23,
-  "gift.in": 11.4,
-  "gift.first": 11.95,
-  "gift.shake": 12.5,
-  "gift.open": 13.55,
-  "gift.q": 13.95,
-  "trust.orig": 14.98,
-  "trust.gar": 16.2,
-  "trust.liv": 17.26,
-  "trust.maroc": 18.14,
-  "end.logo": 19.18,
-  "end.tag": 20.04,
-  "end.cta": 21.29,
-  "end.url": 23.65
+  "hook.turn1": 1.99,
+  "hook.turn2": 3.4,
+  "p.iphone": 4.3100000000000005,
+  "p.macbook": 4.890000000000001,
+  "p.ipad": 5.61,
+  "p.airpods": 6.3,
+  "p.watch": 7.040000000000001,
+  "p.samsung": 7.83,
+  "p.gaming": 8.64,
+  "trust.orig": 9.89,
+  "trust.gar": 11.11,
+  "trust.liv": 12.170000000000002,
+  "trust.maroc": 13.05,
+  "end.logo": 14.09,
+  "end.tag": 14.95,
+  "end.cta": 16.2,
+  "end.url": 18.56
  },
  "sfx": [
   {
    "name": "whoosh",
-   "t": 1.45,
+   "t": 0.45,
    "gainDb": -12
   },
   {
-   "name": "pop_big",
-   "t": 2.33,
-   "gainDb": -10
-  },
-  {
    "name": "shine",
-   "t": 2.43,
+   "t": 0.9,
    "gainDb": -13
   },
   {
    "name": "whoosh",
-   "t": 3.28,
+   "t": 1.94,
    "gainDb": -14
   },
   {
    "name": "hit_small",
-   "t": 3.33,
+   "t": 1.99,
    "gainDb": -11
   },
   {
    "name": "hit",
-   "t": 4.05,
+   "t": 3.4,
    "gainDb": -10
   },
   {
    "name": "riser_short",
-   "t": 4.9,
+   "t": 3.6,
    "gainDb": -14
   },
   {
    "name": "impact",
-   "t": 5.62,
+   "t": 4.2,
    "gainDb": -8
   },
   {
    "name": "hit_small",
-   "t": 5.9,
+   "t": 4.31,
    "gainDb": -11
   },
   {
    "name": "hit_small",
-   "t": 6.48,
+   "t": 4.89,
    "gainDb": -11
   },
   {
    "name": "hit_small",
-   "t": 7.2,
+   "t": 5.61,
    "gainDb": -11
   },
   {
    "name": "hit_small",
-   "t": 7.89,
+   "t": 6.3,
    "gainDb": -11
   },
   {
    "name": "hit_small",
-   "t": 8.63,
+   "t": 7.04,
    "gainDb": -11
   },
   {
    "name": "hit_small",
-   "t": 9.42,
+   "t": 7.83,
    "gainDb": -11
   },
   {
    "name": "hit",
-   "t": 10.23,
+   "t": 8.64,
    "gainDb": -9
   },
   {
    "name": "whoosh",
-   "t": 11.3,
-   "gainDb": -10
-  },
-  {
-   "name": "tick",
-   "t": 12.5,
-   "gainDb": -13
-  },
-  {
-   "name": "tick",
-   "t": 12.65,
-   "gainDb": -13
-  },
-  {
-   "name": "tick",
-   "t": 12.8,
-   "gainDb": -13
-  },
-  {
-   "name": "impact",
-   "t": 13.55,
-   "gainDb": -8
-  },
-  {
-   "name": "shine",
-   "t": 13.65,
-   "gainDb": -11
-  },
-  {
-   "name": "pop",
-   "t": 13.95,
-   "gainDb": -12
-  },
-  {
-   "name": "whoosh",
-   "t": 14.8,
+   "t": 9.65,
    "gainDb": -10
   },
   {
    "name": "stamp",
-   "t": 14.98,
+   "t": 9.89,
    "gainDb": -9
   },
   {
    "name": "stamp",
-   "t": 16.2,
+   "t": 11.11,
    "gainDb": -9
   },
   {
    "name": "whoosh",
-   "t": 17.26,
+   "t": 12.17,
    "gainDb": -11
   },
   {
    "name": "ding",
-   "t": 18.14,
+   "t": 13.05,
    "gainDb": -12
   },
   {
    "name": "whoosh",
-   "t": 19.05,
+   "t": 13.95,
    "gainDb": -9
   },
   {
    "name": "impact",
-   "t": 19.18,
+   "t": 14.09,
    "gainDb": -6
   },
   {
    "name": "shine",
-   "t": 20.04,
+   "t": 14.95,
    "gainDb": -12
   },
   {
    "name": "pop_big",
-   "t": 21.29,
+   "t": 16.2,
    "gainDb": -11
   },
   {
    "name": "tick",
-   "t": 23.65,
+   "t": 18.56,
    "gainDb": -14
   },
   {
    "name": "tick",
-   "t": 23.685,
+   "t": 18.595,
    "gainDb": -14
   },
   {
    "name": "tick",
-   "t": 23.72,
+   "t": 18.63,
    "gainDb": -14
   },
   {
    "name": "tick",
-   "t": 23.755,
+   "t": 18.665,
    "gainDb": -14
   },
   {
    "name": "tick",
-   "t": 23.79,
+   "t": 18.7,
    "gainDb": -14
   },
   {
    "name": "tick",
-   "t": 23.825,
+   "t": 18.735,
    "gainDb": -14
   },
   {
    "name": "tick",
-   "t": 23.86,
+   "t": 18.77,
    "gainDb": -14
   },
   {
    "name": "tick",
-   "t": 23.895,
+   "t": 18.805,
    "gainDb": -14
   },
   {
    "name": "tick",
-   "t": 23.93,
+   "t": 18.84,
    "gainDb": -14
   },
   {
    "name": "tick",
-   "t": 23.965,
+   "t": 18.875,
    "gainDb": -14
   },
   {
    "name": "tick",
-   "t": 24.0,
+   "t": 18.91,
    "gainDb": -14
   },
   {
    "name": "tick",
-   "t": 24.035,
+   "t": 18.945,
    "gainDb": -14
   }
  ],
@@ -305,9 +246,9 @@
   {
    "text": "MacBook Air M4…",
    "start": 0.13,
-   "end": 1.76,
+   "end": 1.74,
    "from": 4,
-   "to": 53,
+   "to": 52,
    "words": [
     {
      "word": "MacBook",
@@ -327,421 +268,339 @@
    ]
   },
   {
-   "text": "ومعاه cadeau surprise!",
-   "start": 1.78,
-   "end": 3.33,
-   "from": 53,
-   "to": 100,
-   "words": [
-    {
-     "word": "ومعاه",
-     "start": 1.78,
-     "frame": 53
-    },
-    {
-     "word": "cadeau",
-     "start": 2.233,
-     "frame": 67
-    },
-    {
-     "word": "surprise!",
-     "start": 2.687,
-     "frame": 81
-    }
-   ]
-  },
-  {
    "text": "وماشي غير هادي،",
-   "start": 3.35,
-   "end": 4.49,
-   "from": 100,
-   "to": 135,
+   "start": 1.76,
+   "end": 2.9,
+   "from": 53,
+   "to": 87,
    "words": [
     {
      "word": "وماشي",
-     "start": 3.35,
-     "frame": 100
+     "start": 1.76,
+     "frame": 53
     },
     {
      "word": "غير",
-     "start": 3.722,
-     "frame": 112
+     "start": 2.132,
+     "frame": 64
     },
     {
      "word": "هادي،",
-     "start": 3.908,
-     "frame": 117
+     "start": 2.318,
+     "frame": 70
     }
    ]
   },
   {
    "text": "عندنا كلشي!",
-   "start": 4.51,
-   "end": 5.88,
-   "from": 135,
-   "to": 176,
+   "start": 2.92,
+   "end": 4.29,
+   "from": 88,
+   "to": 129,
    "words": [
     {
      "word": "عندنا",
-     "start": 4.51,
-     "frame": 135
+     "start": 2.92,
+     "frame": 88
     },
     {
      "word": "كلشي!",
-     "start": 4.96,
-     "frame": 149
+     "start": 3.37,
+     "frame": 101
     }
    ]
   },
   {
    "text": "iPhone،",
-   "start": 5.9,
-   "end": 6.46,
-   "from": 177,
-   "to": 194,
+   "start": 4.31,
+   "end": 4.87,
+   "from": 129,
+   "to": 146,
    "words": [
     {
      "word": "iPhone،",
-     "start": 5.9,
-     "frame": 177
+     "start": 4.31,
+     "frame": 129
     }
    ]
   },
   {
    "text": "MacBook،",
-   "start": 6.48,
-   "end": 7.18,
-   "from": 194,
-   "to": 215,
+   "start": 4.89,
+   "end": 5.59,
+   "from": 147,
+   "to": 168,
    "words": [
     {
      "word": "MacBook،",
-     "start": 6.48,
-     "frame": 194
+     "start": 4.89,
+     "frame": 147
     }
    ]
   },
   {
    "text": "iPad،",
-   "start": 7.2,
-   "end": 7.87,
-   "from": 216,
-   "to": 236,
+   "start": 5.61,
+   "end": 6.28,
+   "from": 168,
+   "to": 188,
    "words": [
     {
      "word": "iPad،",
-     "start": 7.2,
-     "frame": 216
+     "start": 5.61,
+     "frame": 168
     }
    ]
   },
   {
    "text": "AirPods،",
-   "start": 7.89,
-   "end": 8.61,
-   "from": 237,
-   "to": 258,
+   "start": 6.3,
+   "end": 7.02,
+   "from": 189,
+   "to": 211,
    "words": [
     {
      "word": "AirPods،",
-     "start": 7.89,
-     "frame": 237
+     "start": 6.3,
+     "frame": 189
     }
    ]
   },
   {
    "text": "Apple Watch،",
-   "start": 8.63,
-   "end": 9.4,
-   "from": 259,
-   "to": 282,
+   "start": 7.04,
+   "end": 7.81,
+   "from": 211,
+   "to": 234,
    "words": [
     {
      "word": "Apple",
-     "start": 8.63,
-     "frame": 259
+     "start": 7.04,
+     "frame": 211
     },
     {
      "word": "Watch،",
-     "start": 9.037,
-     "frame": 271
+     "start": 7.447,
+     "frame": 223
     }
    ]
   },
   {
    "text": "Samsung،",
-   "start": 9.42,
-   "end": 10.21,
-   "from": 283,
-   "to": 306,
+   "start": 7.83,
+   "end": 8.62,
+   "from": 235,
+   "to": 259,
    "words": [
     {
      "word": "Samsung،",
-     "start": 9.42,
-     "frame": 283
+     "start": 7.83,
+     "frame": 235
     }
    ]
   },
   {
    "text": "وحتى le gaming.",
-   "start": 10.23,
-   "end": 11.53,
-   "from": 307,
-   "to": 346,
+   "start": 8.64,
+   "end": 9.87,
+   "from": 259,
+   "to": 296,
    "words": [
     {
      "word": "وحتى",
-     "start": 10.23,
-     "frame": 307
+     "start": 8.64,
+     "frame": 259
     },
     {
      "word": "le",
-     "start": 10.695,
-     "frame": 321
+     "start": 9.105,
+     "frame": 273
     },
     {
      "word": "gaming.",
-     "start": 10.928,
-     "frame": 328
-    }
-   ]
-  },
-  {
-   "text": "ومع أول commande ديالك،",
-   "start": 11.55,
-   "end": 13.17,
-   "from": 346,
-   "to": 395,
-   "words": [
-    {
-     "word": "ومع",
-     "start": 11.55,
-     "frame": 346
-    },
-    {
-     "word": "أول",
-     "start": 11.77,
-     "frame": 353
-    },
-    {
-     "word": "commande",
-     "start": 11.99,
-     "frame": 360
-    },
-    {
-     "word": "ديالك،",
-     "start": 12.43,
-     "frame": 373
-    }
-   ]
-  },
-  {
-   "text": "كاينة هدية surprise ليك!",
-   "start": 13.19,
-   "end": 14.96,
-   "from": 396,
-   "to": 449,
-   "words": [
-    {
-     "word": "كاينة",
-     "start": 13.19,
-     "frame": 396
-    },
-    {
-     "word": "هدية",
-     "start": 13.59,
-     "frame": 408
-    },
-    {
-     "word": "surprise",
-     "start": 13.99,
-     "frame": 420
-    },
-    {
-     "word": "ليك!",
-     "start": 14.39,
-     "frame": 432
+     "start": 9.338,
+     "frame": 280
     }
    ]
   },
   {
    "text": "Produits originaux",
-   "start": 14.98,
-   "end": 16.18,
-   "from": 449,
-   "to": 485,
+   "start": 9.89,
+   "end": 11.09,
+   "from": 297,
+   "to": 333,
    "words": [
     {
      "word": "Produits",
-     "start": 14.98,
-     "frame": 449
+     "start": 9.89,
+     "frame": 297
     },
     {
      "word": "originaux",
-     "start": 15.337,
-     "frame": 460
+     "start": 10.247,
+     "frame": 307
     }
    ]
   },
   {
    "text": "avec garantie،",
-   "start": 16.2,
-   "end": 17.24,
-   "from": 486,
-   "to": 517,
+   "start": 11.11,
+   "end": 12.15,
+   "from": 333,
+   "to": 364,
    "words": [
     {
      "word": "avec",
-     "start": 16.2,
-     "frame": 486
+     "start": 11.11,
+     "frame": 333
     },
     {
      "word": "garantie،",
-     "start": 16.528,
-     "frame": 496
+     "start": 11.438,
+     "frame": 343
     }
    ]
   },
   {
    "text": "و livraison",
-   "start": 17.26,
-   "end": 18.12,
-   "from": 518,
-   "to": 544,
+   "start": 12.17,
+   "end": 13.03,
+   "from": 365,
+   "to": 391,
    "words": [
     {
      "word": "و",
-     "start": 17.26,
-     "frame": 518
+     "start": 12.17,
+     "frame": 365
     },
     {
      "word": "livraison",
-     "start": 17.422,
-     "frame": 523
+     "start": 12.332,
+     "frame": 370
     }
    ]
   },
   {
    "text": "partout au Maroc.",
-   "start": 18.14,
-   "end": 19.16,
-   "from": 544,
-   "to": 575,
+   "start": 13.05,
+   "end": 14.07,
+   "from": 392,
+   "to": 422,
    "words": [
     {
      "word": "partout",
-     "start": 18.14,
-     "frame": 544
+     "start": 13.05,
+     "frame": 392
     },
     {
      "word": "au",
-     "start": 18.504,
-     "frame": 555
+     "start": 13.414,
+     "frame": 402
     },
     {
      "word": "Maroc.",
-     "start": 18.686,
-     "frame": 561
+     "start": 13.596,
+     "frame": 408
     }
    ]
   },
   {
    "text": "City Store،",
-   "start": 19.18,
-   "end": 20.02,
-   "from": 575,
-   "to": 601,
+   "start": 14.09,
+   "end": 14.93,
+   "from": 423,
+   "to": 448,
    "words": [
     {
      "word": "City",
-     "start": 19.18,
-     "frame": 575
+     "start": 14.09,
+     "frame": 423
     },
     {
      "word": "Store،",
-     "start": 19.64,
-     "frame": 589
+     "start": 14.55,
+     "frame": 436
     }
    ]
   },
   {
    "text": "الأصلي ديما.",
-   "start": 20.04,
-   "end": 21.27,
-   "from": 601,
-   "to": 638,
+   "start": 14.95,
+   "end": 16.18,
+   "from": 448,
+   "to": 485,
    "words": [
     {
      "word": "الأصلي",
-     "start": 20.04,
-     "frame": 601
+     "start": 14.95,
+     "frame": 448
     },
     {
      "word": "ديما.",
-     "start": 20.634,
-     "frame": 619
+     "start": 15.544,
+     "frame": 466
     }
    ]
   },
   {
    "text": "صيفط لينا ميساج،",
-   "start": 21.29,
-   "end": 22.36,
-   "from": 639,
-   "to": 671,
+   "start": 16.2,
+   "end": 17.27,
+   "from": 486,
+   "to": 518,
    "words": [
     {
      "word": "صيفط",
-     "start": 21.29,
-     "frame": 639
+     "start": 16.2,
+     "frame": 486
     },
     {
      "word": "لينا",
-     "start": 21.6,
-     "frame": 648
+     "start": 16.51,
+     "frame": 495
     },
     {
      "word": "ميساج،",
-     "start": 21.91,
-     "frame": 657
+     "start": 16.82,
+     "frame": 505
     }
    ]
   },
   {
    "text": "ولا دخل لـ",
-   "start": 22.38,
-   "end": 23.63,
-   "from": 671,
-   "to": 709,
+   "start": 17.29,
+   "end": 18.54,
+   "from": 519,
+   "to": 556,
    "words": [
     {
      "word": "ولا",
-     "start": 22.38,
-     "frame": 671
+     "start": 17.29,
+     "frame": 519
     },
     {
      "word": "دخل",
-     "start": 22.77,
-     "frame": 683
+     "start": 17.68,
+     "frame": 530
     },
     {
      "word": "لـ",
-     "start": 23.16,
-     "frame": 695
+     "start": 18.07,
+     "frame": 542
     }
    ]
   },
   {
    "text": "citystore.ma",
-   "start": 23.65,
-   "end": 24.5,
-   "from": 710,
-   "to": 735,
+   "start": 18.56,
+   "end": 19.5,
+   "from": 557,
+   "to": 585,
    "words": [
     {
      "word": "citystore.ma",
-     "start": 23.65,
-     "frame": 710
+     "start": 18.56,
+     "frame": 557
     }
    ]
   }
@@ -751,7 +610,7 @@
    "id": "line_01",
    "from": 4,
    "start": 0.13,
-   "duration": 5.53,
+   "duration": 3.94,
    "mouthCues": [
     {
      "start": 0.0,
@@ -825,135 +684,85 @@
     },
     {
      "start": 1.48,
-     "end": 1.62,
+     "end": 1.6,
      "value": "X"
     },
     {
-     "start": 1.62,
-     "end": 1.67,
+     "start": 1.6,
+     "end": 1.66,
      "value": "B"
     },
     {
-     "start": 1.67,
-     "end": 1.72,
+     "start": 1.66,
+     "end": 1.71,
      "value": "F"
     },
     {
-     "start": 1.72,
+     "start": 1.71,
      "end": 1.81,
      "value": "A"
     },
     {
      "start": 1.81,
-     "end": 1.96,
+     "end": 1.87,
      "value": "C"
     },
     {
-     "start": 1.96,
-     "end": 2.04,
-     "value": "A"
-    },
-    {
-     "start": 2.04,
-     "end": 2.33,
-     "value": "F"
-    },
-    {
-     "start": 2.33,
-     "end": 2.54,
+     "start": 1.87,
+     "end": 2.06,
      "value": "B"
     },
     {
-     "start": 2.54,
-     "end": 2.62,
-     "value": "A"
-    },
-    {
-     "start": 2.62,
-     "end": 3.05,
-     "value": "B"
-    },
-    {
-     "start": 3.05,
-     "end": 3.19,
-     "value": "X"
-    },
-    {
-     "start": 3.19,
-     "end": 3.25,
-     "value": "B"
-    },
-    {
-     "start": 3.25,
-     "end": 3.3,
-     "value": "F"
-    },
-    {
-     "start": 3.3,
-     "end": 3.4,
-     "value": "A"
-    },
-    {
-     "start": 3.4,
-     "end": 3.46,
-     "value": "C"
-    },
-    {
-     "start": 3.46,
-     "end": 3.65,
-     "value": "B"
-    },
-    {
-     "start": 3.65,
-     "end": 3.72,
+     "start": 2.06,
+     "end": 2.13,
      "value": "G"
     },
     {
-     "start": 3.72,
-     "end": 3.79,
+     "start": 2.13,
+     "end": 2.2,
      "value": "B"
     },
     {
-     "start": 3.79,
-     "end": 3.93,
+     "start": 2.2,
+     "end": 2.34,
      "value": "C"
     },
     {
-     "start": 3.93,
-     "end": 4.14,
+     "start": 2.34,
+     "end": 2.55,
      "value": "B"
     },
     {
-     "start": 4.14,
-     "end": 4.7,
+     "start": 2.55,
+     "end": 3.11,
      "value": "C"
     },
     {
-     "start": 4.7,
-     "end": 4.77,
+     "start": 3.11,
+     "end": 3.18,
      "value": "B"
     },
     {
-     "start": 4.77,
-     "end": 5.05,
+     "start": 3.18,
+     "end": 3.46,
      "value": "F"
     },
     {
-     "start": 5.05,
-     "end": 5.33,
+     "start": 3.46,
+     "end": 3.74,
      "value": "B"
     },
     {
-     "start": 5.33,
-     "end": 5.53,
+     "start": 3.74,
+     "end": 3.94,
      "value": "X"
     }
    ]
   },
   {
    "id": "line_02",
-   "from": 170,
-   "start": 5.66,
+   "from": 122,
+   "start": 4.07,
    "duration": 5.48,
    "mouthCues": [
     {
@@ -1160,9 +969,9 @@
   },
   {
    "id": "line_03",
-   "from": 334,
-   "start": 11.14,
-   "duration": 3.495,
+   "from": 286,
+   "start": 9.55,
+   "duration": 4.38,
    "mouthCues": [
     {
      "start": 0.0,
@@ -1171,166 +980,63 @@
     },
     {
      "start": 0.06,
-     "end": 0.22,
+     "end": 0.21,
      "value": "B"
     },
     {
-     "start": 0.22,
-     "end": 0.37,
+     "start": 0.21,
+     "end": 0.3,
      "value": "X"
     },
     {
-     "start": 0.37,
-     "end": 0.42,
+     "start": 0.3,
+     "end": 0.45,
+     "value": "H"
+    },
+    {
+     "start": 0.45,
+     "end": 0.66,
      "value": "B"
     },
     {
-     "start": 0.42,
-     "end": 0.47,
-     "value": "F"
-    },
-    {
-     "start": 0.47,
-     "end": 0.57,
-     "value": "A"
-    },
-    {
-     "start": 0.57,
-     "end": 0.62,
-     "value": "C"
-    },
-    {
-     "start": 0.62,
+     "start": 0.66,
      "end": 0.87,
      "value": "E"
     },
     {
      "start": 0.87,
-     "end": 0.94,
-     "value": "F"
-    },
-    {
-     "start": 0.94,
      "end": 1.15,
-     "value": "E"
+     "value": "B"
     },
     {
      "start": 1.15,
-     "end": 1.22,
-     "value": "F"
-    },
-    {
-     "start": 1.22,
-     "end": 1.29,
-     "value": "E"
-    },
-    {
-     "start": 1.29,
-     "end": 1.78,
-     "value": "B"
-    },
-    {
-     "start": 1.78,
-     "end": 1.85,
+     "end": 1.36,
      "value": "C"
     },
     {
-     "start": 1.85,
-     "end": 1.99,
+     "start": 1.36,
+     "end": 1.43,
      "value": "B"
     },
     {
-     "start": 1.99,
-     "end": 2.13,
-     "value": "C"
-    },
-    {
-     "start": 2.13,
-     "end": 2.2,
-     "value": "B"
-    },
-    {
-     "start": 2.2,
-     "end": 2.41,
-     "value": "C"
-    },
-    {
-     "start": 2.41,
-     "end": 2.9,
-     "value": "B"
-    },
-    {
-     "start": 2.9,
-     "end": 2.98,
-     "value": "A"
-    },
-    {
-     "start": 2.98,
-     "end": 3.48,
-     "value": "B"
-    },
-    {
-     "start": 3.48,
-     "end": 3.49,
-     "value": "X"
-    }
-   ]
-  },
-  {
-   "id": "line_04",
-   "from": 439,
-   "start": 14.635,
-   "duration": 4.385,
-   "mouthCues": [
-    {
-     "start": 0.0,
-     "end": 0.31,
-     "value": "X"
-    },
-    {
-     "start": 0.31,
-     "end": 0.68,
-     "value": "B"
-    },
-    {
-     "start": 0.68,
-     "end": 0.89,
-     "value": "E"
-    },
-    {
-     "start": 0.89,
-     "end": 1.17,
-     "value": "B"
-    },
-    {
-     "start": 1.17,
-     "end": 1.38,
-     "value": "C"
-    },
-    {
-     "start": 1.38,
-     "end": 1.45,
-     "value": "B"
-    },
-    {
-     "start": 1.45,
+     "start": 1.43,
      "end": 1.51,
      "value": "A"
     },
     {
      "start": 1.51,
-     "end": 1.57,
+     "end": 1.61,
      "value": "D"
     },
     {
-     "start": 1.57,
+     "start": 1.61,
      "end": 1.65,
-     "value": "A"
+     "value": "C"
     },
     {
      "start": 1.65,
      "end": 1.72,
-     "value": "C"
+     "value": "G"
     },
     {
      "start": 1.72,
@@ -1339,11 +1045,11 @@
     },
     {
      "start": 2.0,
-     "end": 2.14,
+     "end": 2.07,
      "value": "F"
     },
     {
-     "start": 2.14,
+     "start": 2.07,
      "end": 2.42,
      "value": "B"
     },
@@ -1354,46 +1060,56 @@
     },
     {
      "start": 2.59,
-     "end": 2.65,
+     "end": 2.64,
      "value": "B"
     },
     {
-     "start": 2.65,
-     "end": 2.84,
+     "start": 2.64,
+     "end": 2.69,
      "value": "F"
     },
     {
-     "start": 2.84,
-     "end": 2.91,
+     "start": 2.69,
+     "end": 2.83,
+     "value": "B"
+    },
+    {
+     "start": 2.83,
+     "end": 2.9,
      "value": "G"
     },
     {
-     "start": 2.91,
-     "end": 3.12,
+     "start": 2.9,
+     "end": 3.11,
      "value": "B"
     },
     {
-     "start": 3.12,
-     "end": 3.19,
+     "start": 3.11,
+     "end": 3.18,
      "value": "E"
     },
     {
-     "start": 3.19,
-     "end": 3.33,
+     "start": 3.18,
+     "end": 3.32,
      "value": "F"
     },
     {
-     "start": 3.33,
+     "start": 3.32,
+     "end": 3.46,
+     "value": "X"
+    },
+    {
+     "start": 3.46,
      "end": 3.52,
      "value": "B"
     },
     {
      "start": 3.52,
-     "end": 3.57,
+     "end": 3.64,
      "value": "C"
     },
     {
-     "start": 3.57,
+     "start": 3.64,
      "end": 3.78,
      "value": "F"
     },
@@ -1420,7 +1136,7 @@
     {
      "start": 4.22,
      "end": 4.29,
-     "value": "E"
+     "value": "F"
     },
     {
      "start": 4.29,
@@ -1435,9 +1151,9 @@
    ]
   },
   {
-   "id": "line_05",
-   "from": 571,
-   "start": 19.02,
+   "id": "line_04",
+   "from": 418,
+   "start": 13.93,
    "duration": 5.07,
    "mouthCues": [
     {

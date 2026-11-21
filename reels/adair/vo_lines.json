@@ -1,7 +1,37 @@
 [
- {"id": "line_01", "subtitle": "MacBook Air M4… ومعاه cadeau surprise! وماشي غير هادي، عندنا كلشي!", "chunks": ["MacBook Air M4…", "ومعاه cadeau surprise!", "وماشي غير هادي،", "عندنا كلشي!"]},
- {"id": "line_02", "subtitle": "iPhone، MacBook، iPad، AirPods، Apple Watch، Samsung، وحتى le gaming.", "chunks": ["iPhone، MacBook، iPad،", "AirPods، Apple Watch،", "Samsung، وحتى le gaming."]},
- {"id": "line_03", "subtitle": "ومع أول commande ديالك، كاينة هدية surprise ليك!", "chunks": ["ومع أول commande ديالك،", "كاينة هدية surprise ليك!"]},
- {"id": "line_04", "subtitle": "Produits originaux avec garantie، و livraison partout au Maroc.", "chunks": ["Produits originaux avec garantie،", "و livraison partout au Maroc."]},
- {"id": "line_05", "subtitle": "City Store، الأصلي ديما. صيفط لينا ميساج، ولا دخل لـ citystore.ma.", "chunks": ["City Store، الأصلي ديما.", "صيفط لينا ميساج،", "ولا دخل لـ citystore.ma."]}
+ {
+  "id": "line_01",
+  "subtitle": "MacBook Air M4… وماشي غير هادي، عندنا كلشي!",
+  "chunks": [
+   "MacBook Air M4…",
+   "وماشي غير هادي،",
+   "عندنا كلشي!"
+  ]
+ },
+ {
+  "id": "line_02",
+  "subtitle": "iPhone، MacBook، iPad، AirPods، Apple Watch، Samsung، وحتى le gaming.",
+  "chunks": [
+   "iPhone، MacBook، iPad،",
+   "AirPods، Apple Watch،",
+   "Samsung، وحتى le gaming."
+  ]
+ },
+ {
+  "id": "line_03",
+  "subtitle": "Produits originaux avec garantie، و livraison partout au Maroc.",
+  "chunks": [
+   "Produits originaux avec garantie،",
+   "و livraison partout au Maroc."
+  ]
+ },
+ {
+  "id": "line_04",
+  "subtitle": "City Store، الأصلي ديما. صيفط لينا ميساج، ولا دخل لـ citystore.ma.",
+  "chunks": [
+   "City Store، الأصلي ديما.",
+   "صيفط لينا ميساج،",
+   "ولا دخل لـ citystore.ma."
+  ]
+ }
 ]

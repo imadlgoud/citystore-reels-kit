@@ -102,8 +102,8 @@ STYLES = {
     "tx3000e": dict(seed=433, phase=1.0, drop=4.0, end_lift=27.75, stop=28.25,
                     chords=[[64, 67, 71], [60, 64, 67], [62, 67, 71], [62, 66, 69]], roots=[40, 36, 43, 38],
                     final=[64, 67, 71, 76], final_bass=40, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
-    # MacBook Air M4 + cadeau surprise AD (25 s): driving, modern G-minor pulse; drop as the robot lifts the box
-    "adair": dict(seed=481, dur=25.0, phase=0.0, drop=1.5, end_lift=19.18, stop=24.4,
+    # MacBook Air M4 AD (20 s, gift offer removed): driving, modern G-minor pulse; drop as the robot lifts the box
+    "adair": dict(seed=481, dur=20.0, phase=0.0, drop=0.5, end_lift=14.09, stop=19.4,
                   chords=[[55, 58, 62], [51, 55, 58], [58, 62, 65], [53, 57, 60]], roots=[43, 39, 46, 41],
                   final=[55, 58, 62, 67], final_bass=43, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
     # Hamza & Citybot episode 2 sketch (26.5 s): light, playful F-major bounce; drop when Citybot bursts out (L2)

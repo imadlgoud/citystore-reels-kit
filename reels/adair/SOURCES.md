@@ -14,5 +14,7 @@
 - **Edit style (ad, not the reel template):** real footage, punch zooms, hard colour-block cuts with giant outlined
   names, word-by-word captions with the current word highlighted, gift reveal with confetti, trust cards (three straight, aligned, equal-width cards with green checks) on a dark navy background with a
   soft glow and faint grid (the blurred shop background was replaced on request), CTA over the robot freeze frame, small logo bug, film grain.
-- **Offer:** "cadeau surprise" (content not revealed) for everyone's first order, as stated by City Store; on-screen
-  note "Cadeau surprise offert pour toute première commande". Warranty length not stated (not confirmed).
+- **Offer removed (on request):** the "cadeau surprise" lines were cut out of the supplied take (`assets/adair/vo/vo_nogift.wav`
+  = take 0-1.66 s + 3.25-11.35 s + 14.85 s-end), the gift scene and the CADEAU SURPRISE sticker were dropped, the hook
+  clip was re-timed (box lifted on "MacBook Air M4", head turns on "وماشي غير هادي" / "عندنا كلشي"); the ad is now 20 s.
+  Warranty length not stated (not confirmed).

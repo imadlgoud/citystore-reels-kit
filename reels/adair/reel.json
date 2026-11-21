@@ -1,12 +1,16 @@
 {
  "id": "adair",
  "vo_mode": "take",
- "take": "vo/vo_full_take.wav",
- "takeBoundaries": [5.65, 11.35, 14.84, 19.12],
+ "take": "vo/vo_nogift.wav",
+ "takeBoundaries": [
+  4.05,
+  9.7,
+  14.03
+ ],
  "lead": 0.13,
- "voEndBy": 25.0,
+ "voEndBy": 19.5,
  "maxPause": 0.7,
  "sentPause": 0.7,
  "silenceDb": -40,
- "note": "MacBook Air M4 + cadeau surprise AD (store robot hook clip, ad-style edit). VO kept at its own pacing (no trims, no speed-up), -14 LUFS. 9:16 + cover."
+ "note": "MacBook Air M4 AD (store robot hook clip, ad-style edit). Gift offer removed on request: the two gift lines were cut out of the supplied take (vo_nogift.wav). VO at its own pacing, -14 LUFS. 9:16 + cover."
 }
