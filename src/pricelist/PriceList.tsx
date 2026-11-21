@@ -63,11 +63,12 @@ const PhotoSlot: React.FC = () => (
    "✓ DISPONIBLE"), tag at the bottom. Fixed rows so cards in the same row line up. */
 /** compact: smaller rows/text for the 1:1 square posts */
 const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number; center?: boolean; specRow?: boolean; compact?: boolean }> = ({ it, w, h, maxRows, center, specRow, compact }) => {
+  const hero = w > 800;
   const tagSize = 40;
   const padTop = 12, padBottom = it.price ? tagSize * 1.1 : 16;
-  const nameMax = compact ? 28 : 30;
+  const nameMax = hero ? 58 : compact ? 28 : 30;
   const nameSize = Math.min(nameMax, (w - 40) / (it.name.length * 0.68));
-  const rowH = compact ? 27 : 36, rowGap = compact ? 4 : 5; // maxRows: the longest list in the story, so every card keeps the same rows
+  const rowH = hero ? 60 : compact ? 27 : 36, rowGap = compact ? 4 : 5; // maxRows: the longest list in the story, so every card keeps the same rows
   const sizesH = rowH * maxRows + rowGap * (maxRows - 1); // same height whatever the number of sizes
   const specH = it.spec || specRow ? (compact ? 24 : 30) : 0; // optional line under the name (e.g. "Wi-Fi + 5G"); kept empty when another card has one
   const slotH = h - padTop - padBottom - nameMax * 1.15 - 4 - specH - sizesH - 8;
@@ -92,15 +93,15 @@ const StockCard: React.FC<{ it: PriceItem; w: number; h: number; maxRows: number
             </span>
           </div>
         ) : (
-          <div key={r} style={{ height: rowH, width: Math.min(w - 30, Math.max(compact ? 300 : 360, Math.max(...(it.stock ?? [r]).map((x) => x.length)) * (compact ? 13 : 17) + (compact ? 150 : 190))), gap: 12, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
-            <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: compact ? 19 : 25, color: INK, whiteSpace: "nowrap" }}>{r}</span>
-            <span style={{ display: "inline-flex", alignItems: "center", gap: 5, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: compact ? 14 : 18, letterSpacing: 0.5, padding: "3px 14px 4px 8px", borderRadius: 999 }}>
-              <LineIcon name="check" size={compact ? 15 : 20} stroke={12} color="#fff" />DISPONIBLE
+          <div key={r} style={{ height: rowH, width: Math.min(w - 30, Math.max(compact ? 300 : 360, Math.max(...(it.stock ?? [r]).map((x) => x.length)) * (compact ? 13 : 17) + (compact ? 150 : 190)) * (hero ? 1.55 : 1)), gap: 12, display: "flex", alignItems: "center", justifyContent: "space-between", background: "#EEF2FF", borderRadius: 999, padding: "0 4px 0 18px" }}>
+            <span style={{ fontFamily: FONT, fontWeight: 900, fontSize: hero ? 40 : compact ? 19 : 25, color: INK, whiteSpace: "nowrap" }}>{r}</span>
+            <span style={{ display: "inline-flex", alignItems: "center", gap: 5, background: GREEN, color: "#fff", fontFamily: FONT, fontWeight: 900, fontSize: hero ? 28 : compact ? 14 : 18, letterSpacing: 0.5, padding: "3px 14px 4px 8px", borderRadius: 999 }}>
+              <LineIcon name="check" size={hero ? 32 : compact ? 15 : 20} stroke={12} color="#fff" />DISPONIBLE
             </span>
           </div>
         ))}
       </div>
-      {it.condition && <div style={{ position: "absolute", top: -16, left: -10, transform: "rotate(-6deg)", boxShadow: "0 8px 18px rgba(6,14,90,0.3)", borderRadius: 999 }}><Condition c={it.condition} size={22} /></div>}
+      {it.condition && <div style={{ position: "absolute", top: -16, left: -10, transform: "rotate(-6deg)", boxShadow: "0 8px 18px rgba(6,14,90,0.3)", borderRadius: 999 }}><Condition c={it.condition} size={hero ? 36 : 22} /></div>}
       {it.price && (
         <div style={{ position: "absolute", bottom: -tagSize * 0.55, background: `linear-gradient(90deg, ${COLORS.blue}, ${COLORS.cyan})`, color: "#fff", fontFamily: FONT_DISPLAY, fontWeight: 900, fontSize: tagSize, lineHeight: 1, letterSpacing: 2, padding: "8px 30px 6px", borderRadius: 999, border: "5px solid #fff", boxShadow: "0 14px 30px rgba(6,14,90,0.4)", whiteSpace: "nowrap" }}>
           {it.price}
@@ -150,8 +151,9 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, ph
   const specRow = items.some((it) => it.spec);
   const gridTop = header ? 545 : stockList ? 245 : 345, gridBottom = stockList ? 1598 : 1500, gapX = stockList ? 30 : 40, gapY = stockList ? 34 : 84;
   const footTop = stockList ? 1628 : 1590;
-  const w = cols === 1 ? 640 : stockList ? 485 : 475;
-  const h = Math.min(stockList ? 700 : 600, (gridBottom - gridTop - gapY * (rows - 1)) / rows);
+  const solo = n === 1 && stockList; // one product: big hero card filling the story
+  const w = solo ? 920 : cols === 1 ? 640 : stockList ? 485 : 475;
+  const h = solo ? 1250 : Math.min(stockList ? 700 : 600, (gridBottom - gridTop - gapY * (rows - 1)) / rows);
   const heavy: React.CSSProperties = { fontFamily: FONT, fontWeight: 900, color: "#fff", lineHeight: 1, textShadow: "0 10px 30px rgba(8,20,110,0.4)", whiteSpace: "nowrap" };
   return (
     <AbsoluteFill>
@@ -170,7 +172,7 @@ export const PriceList: React.FC<PriceListProps> = ({ title, subtitle, items, ph
         )}
       </div>}
       {/* products */}
-      <div style={{ position: "absolute", top: gridTop, left: 0, right: 0, display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: gapX, rowGap: gapY }}>
+      <div style={{ position: "absolute", top: solo ? 300 : gridTop, left: 0, right: 0, display: "flex", flexWrap: "wrap", justifyContent: "center", columnGap: gapX, rowGap: gapY }}>
         {items.slice(0, 8).map((it, i) => (
           it.empty ? <div key={i} style={{ width: w, height: h }} /> : it.stock ? <StockCard key={i} it={it} w={w} h={h} maxRows={maxRows} center={photoCenter} specRow={specRow} /> : <Card key={i} it={it} w={w} h={h} />
         ))}

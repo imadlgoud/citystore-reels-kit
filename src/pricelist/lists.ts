@@ -121,6 +121,12 @@ export const PRICE_LISTS: Record<string, PriceListProps> = {
       { name: "Apple Pencil", spec: "1re génération · USB-C", img: "pricelist/pencils/pencil_1st_gen_usbc.png", stock: [""] },
     ].map((p) => ({ ...p, condition: "neuf" as const })),
   },
+  ps5: {
+    photoCenter: true,
+    items: [
+      { name: "PS5 Slim Digital Edition", img: "pricelist/ps5/slim_digital_box.png", condition: "neuf" as const, stock: ["1 To"] },
+    ],
+  },
 };
 
 /*
