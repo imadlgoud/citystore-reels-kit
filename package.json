@@ -206,7 +206,11 @@
     "oa5pro:cutout": "python3 reels/oa5pro/cutout.py",
     "oa5pro:audio": "REEL=oa5pro python3 scripts/process_vo_take.py && python3 reels/oa5pro/build_timeline.py && REEL=oa5pro python3 scripts/make_music.py && REEL=oa5pro python3 scripts/mix_audio.py",
     "oa5pro:render": "remotion render Oa5proReel9x16 out/oa5pro/reel_9x16_raw.mp4 --codec=h264 --crf=16 --concurrency=2 && remotion still Oa5proCover out/oa5pro/cover_1080x1920.png",
-    "oa5pro:build": "npm run oa5pro:cutout && npm run oa5pro:audio && REEL=oa5pro node scripts/make_srt.mjs && npm run oa5pro:render && REEL=oa5pro bash scripts/finalize.sh && REEL=oa5pro bash scripts/verify.sh"
+    "oa5pro:build": "npm run oa5pro:cutout && npm run oa5pro:audio && REEL=oa5pro node scripts/make_srt.mjs && npm run oa5pro:render && REEL=oa5pro bash scripts/finalize.sh && REEL=oa5pro bash scripts/verify.sh",
+    "note15:cutout": "python3 reels/note15/cutout.py",
+    "note15:audio": "REEL=note15 python3 scripts/process_vo_take.py && python3 reels/note15/build_timeline.py && REEL=note15 python3 scripts/make_music.py && REEL=note15 python3 scripts/mix_audio.py",
+    "note15:render": "remotion render Note15Reel9x16 out/note15/reel_9x16_raw.mp4 --codec=h264 --crf=16 --concurrency=2 && remotion still Note15Cover out/note15/cover_1080x1920.png",
+    "note15:build": "npm run note15:cutout && npm run note15:audio && REEL=note15 node scripts/make_srt.mjs && npm run note15:render && REEL=note15 bash scripts/finalize.sh && REEL=note15 bash scripts/verify.sh"
   },
   "dependencies": {
     "@remotion/cli": "4.0.532",

@@ -1,0 +1,12 @@
+{
+ "id": "note15",
+ "vo_mode": "take",
+ "take": "vo/vo_full_take.wav",
+ "takeBoundaries": [5.1, 10.06, 15.35, 18.97, 24.58],
+ "lead": 0.06,
+ "voEndBy": 27.6,
+ "maxPause": 0.1,
+ "sentPause": 0.16,
+ "silenceDb": -34,
+ "note": "Redmi Note 15 5G (no storage, no offer). Aim 30 s: pause trimming, then <=1.1x pitch-kept speed-up. 9:16 + cover + caption."
+}

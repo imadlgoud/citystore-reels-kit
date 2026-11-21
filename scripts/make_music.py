@@ -94,6 +94,10 @@ STYLES = {
     "oa5pro": dict(seed=457, phase=1.0, drop=4.0, end_lift=27.75, stop=28.25,
                    chords=[[62, 66, 69], [59, 62, 66], [55, 59, 62], [57, 61, 64]], roots=[38, 35, 43, 45],
                    final=[62, 66, 69, 74], final_bass=38, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
+    # Redmi Note 15 5G reel (30 s): bright, modern C-sharp minor pulse; drop when the phones land on "Redmi"
+    "note15": dict(seed=493, phase=1.0, drop=4.0, end_lift=27.75, stop=28.25,
+                   chords=[[61, 64, 68], [57, 61, 64], [64, 68, 71], [59, 63, 66]], roots=[37, 33, 40, 35],
+                   final=[61, 64, 68, 73], final_bass=37, arp=[0, 2, 1, 2, 0, 1, 2, 1]),
     # Galaxy Tab A7 Lite reel (26.5 s): light, friendly A-major family groove; drop when the tablet lands on "Samsung"
     "taba7lite": dict(seed=445, dur=26.5, phase=1.0, drop=3.0, end_lift=24.25, stop=24.75,
                       chords=[[57, 61, 64], [54, 57, 61], [50, 54, 57], [52, 56, 59]], roots=[45, 42, 38, 40],

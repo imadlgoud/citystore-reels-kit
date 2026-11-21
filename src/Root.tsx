@@ -147,6 +147,9 @@ import { TBTL } from "./reels/taba7lite/timeline";
 import { Oa5proReel } from "./reels/oa5pro/Oa5proReel";
 import { Oa5proCover } from "./reels/oa5pro/Oa5proCover";
 import { OATL } from "./reels/oa5pro/timeline";
+import { Note15Reel } from "./reels/note15/Note15Reel";
+import { Note15Cover } from "./reels/note15/Note15Cover";
+import { N15TL } from "./reels/note15/timeline";
 import { Hamza2Reel } from "./reels/hamza2/Hamza2Reel";
 import { Hamza2Thumb } from "./reels/hamza2/Hamza2Thumb";
 import { H2TL } from "./reels/hamza2/timeline";
@@ -301,6 +304,8 @@ export const RemotionRoot: React.FC = () => (
     <Still id="TabA7LiteCover" component={TabA7LiteCover} width={1080} height={1920} />
     <Composition id="Oa5proReel9x16" component={Oa5proReel} durationInFrames={Math.min(OATL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Oa5proCover" component={Oa5proCover} width={1080} height={1920} />
+    <Composition id="Note15Reel9x16" component={Note15Reel} durationInFrames={Math.min(N15TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
+    <Still id="Note15Cover" component={Note15Cover} width={1080} height={1920} />
     <Composition id="Hamza2Reel9x16" component={Hamza2Reel} durationInFrames={Math.min(H2TL.totalFrames, MAX_FRAMES)} fps={FPS} width={1080} height={1920} defaultProps={{ layout: LAYOUT_9x16 }} />
     <Still id="Hamza2Thumb" component={Hamza2Thumb} width={1080} height={1920} />
     <Composition id="AdAir9x16" component={AdAir} durationInFrames={600} fps={FPS} width={1080} height={1920} />

@@ -1,0 +1,1344 @@
+[
+ {
+  "id": "line_01",
+  "subtitle": "التيليفون ديالك ولّى كيتقال وكيتبلوكا؟ ماشي الغلط ديالك… وقت تبدال!",
+  "source": "human-take",
+  "start": 0.06,
+  "duration": 3.99,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "التيليفون",
+    "start": 0.0,
+    "end": 0.58
+   },
+   {
+    "word": "ديالك",
+    "start": 0.58,
+    "end": 0.94
+   },
+   {
+    "word": "ولّى",
+    "start": 0.94,
+    "end": 1.16
+   },
+   {
+    "word": "كيتقال",
+    "start": 1.16,
+    "end": 1.66
+   },
+   {
+    "word": "وكيتبلوكا؟",
+    "start": 1.66,
+    "end": 2.36
+   },
+   {
+    "word": "ماشي",
+    "start": 2.36,
+    "end": 2.66
+   },
+   {
+    "word": "الغلط",
+    "start": 2.66,
+    "end": 2.98
+   },
+   {
+    "word": "ديالك…",
+    "start": 2.98,
+    "end": 3.36
+   },
+   {
+    "word": "وقت",
+    "start": 3.36,
+    "end": 3.6
+   },
+   {
+    "word": "تبدال!",
+    "start": 3.6,
+    "end": 3.9
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.18,
+    "value": "B"
+   },
+   {
+    "start": 0.18,
+    "end": 0.25,
+    "value": "G"
+   },
+   {
+    "start": 0.25,
+    "end": 0.32,
+    "value": "E"
+   },
+   {
+    "start": 0.32,
+    "end": 0.53,
+    "value": "B"
+   },
+   {
+    "start": 0.53,
+    "end": 0.6,
+    "value": "F"
+   },
+   {
+    "start": 0.6,
+    "end": 1.02,
+    "value": "B"
+   },
+   {
+    "start": 1.02,
+    "end": 1.09,
+    "value": "C"
+   },
+   {
+    "start": 1.09,
+    "end": 1.23,
+    "value": "D"
+   },
+   {
+    "start": 1.23,
+    "end": 1.37,
+    "value": "F"
+   },
+   {
+    "start": 1.37,
+    "end": 1.58,
+    "value": "B"
+   },
+   {
+    "start": 1.58,
+    "end": 1.66,
+    "value": "A"
+   },
+   {
+    "start": 1.66,
+    "end": 1.83,
+    "value": "E"
+   },
+   {
+    "start": 1.83,
+    "end": 2.04,
+    "value": "C"
+   },
+   {
+    "start": 2.04,
+    "end": 2.11,
+    "value": "E"
+   },
+   {
+    "start": 2.11,
+    "end": 2.26,
+    "value": "A"
+   },
+   {
+    "start": 2.26,
+    "end": 2.32,
+    "value": "C"
+   },
+   {
+    "start": 2.32,
+    "end": 2.58,
+    "value": "F"
+   },
+   {
+    "start": 2.58,
+    "end": 2.65,
+    "value": "C"
+   },
+   {
+    "start": 2.65,
+    "end": 2.72,
+    "value": "E"
+   },
+   {
+    "start": 2.72,
+    "end": 2.79,
+    "value": "C"
+   },
+   {
+    "start": 2.79,
+    "end": 3.14,
+    "value": "B"
+   },
+   {
+    "start": 3.14,
+    "end": 3.21,
+    "value": "F"
+   },
+   {
+    "start": 3.21,
+    "end": 3.63,
+    "value": "B"
+   },
+   {
+    "start": 3.63,
+    "end": 3.77,
+    "value": "C"
+   },
+   {
+    "start": 3.77,
+    "end": 3.98,
+    "value": "B"
+   },
+   {
+    "start": 3.98,
+    "end": 3.99,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_02",
+  "subtitle": "Redmi Note 15 5G، الجديد ديال Redmi، disponible دابا عندنا.",
+  "source": "human-take",
+  "start": 4.05,
+  "duration": 4.365,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Redmi",
+    "start": 0.04,
+    "end": 0.44
+   },
+   {
+    "word": "Note",
+    "start": 0.44,
+    "end": 0.64
+   },
+   {
+    "word": "15",
+    "start": 0.64,
+    "end": 0.94
+   },
+   {
+    "word": "5G،",
+    "start": 0.94,
+    "end": 1.34
+   },
+   {
+    "word": "الجديد",
+    "start": 1.34,
+    "end": 2.04
+   },
+   {
+    "word": "ديال",
+    "start": 2.04,
+    "end": 2.44
+   },
+   {
+    "word": "Redmi،",
+    "start": 2.44,
+    "end": 2.84
+   },
+   {
+    "word": "disponible",
+    "start": 2.84,
+    "end": 3.54
+   },
+   {
+    "word": "دابا",
+    "start": 3.54,
+    "end": 3.94
+   },
+   {
+    "word": "عندنا.",
+    "start": 3.94,
+    "end": 4.36
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.04,
+    "value": "B"
+   },
+   {
+    "start": 0.04,
+    "end": 0.22,
+    "value": "F"
+   },
+   {
+    "start": 0.22,
+    "end": 0.36,
+    "value": "B"
+   },
+   {
+    "start": 0.36,
+    "end": 0.44,
+    "value": "A"
+   },
+   {
+    "start": 0.44,
+    "end": 0.51,
+    "value": "B"
+   },
+   {
+    "start": 0.51,
+    "end": 0.58,
+    "value": "C"
+   },
+   {
+    "start": 0.58,
+    "end": 0.65,
+    "value": "E"
+   },
+   {
+    "start": 0.65,
+    "end": 0.72,
+    "value": "F"
+   },
+   {
+    "start": 0.72,
+    "end": 1.07,
+    "value": "C"
+   },
+   {
+    "start": 1.07,
+    "end": 1.28,
+    "value": "B"
+   },
+   {
+    "start": 1.28,
+    "end": 1.35,
+    "value": "C"
+   },
+   {
+    "start": 1.35,
+    "end": 1.7,
+    "value": "B"
+   },
+   {
+    "start": 1.7,
+    "end": 1.77,
+    "value": "C"
+   },
+   {
+    "start": 1.77,
+    "end": 2.47,
+    "value": "B"
+   },
+   {
+    "start": 2.47,
+    "end": 2.54,
+    "value": "E"
+   },
+   {
+    "start": 2.54,
+    "end": 2.75,
+    "value": "B"
+   },
+   {
+    "start": 2.75,
+    "end": 2.83,
+    "value": "A"
+   },
+   {
+    "start": 2.83,
+    "end": 3.12,
+    "value": "B"
+   },
+   {
+    "start": 3.12,
+    "end": 3.2,
+    "value": "A"
+   },
+   {
+    "start": 3.2,
+    "end": 3.34,
+    "value": "E"
+   },
+   {
+    "start": 3.34,
+    "end": 3.41,
+    "value": "C"
+   },
+   {
+    "start": 3.41,
+    "end": 3.49,
+    "value": "A"
+   },
+   {
+    "start": 3.49,
+    "end": 3.63,
+    "value": "F"
+   },
+   {
+    "start": 3.63,
+    "end": 3.67,
+    "value": "E"
+   },
+   {
+    "start": 3.67,
+    "end": 3.93,
+    "value": "C"
+   },
+   {
+    "start": 3.93,
+    "end": 4.0,
+    "value": "B"
+   },
+   {
+    "start": 4.0,
+    "end": 4.07,
+    "value": "C"
+   },
+   {
+    "start": 4.07,
+    "end": 4.21,
+    "value": "B"
+   },
+   {
+    "start": 4.21,
+    "end": 4.28,
+    "value": "C"
+   },
+   {
+    "start": 4.28,
+    "end": 4.35,
+    "value": "D"
+   },
+   {
+    "start": 4.35,
+    "end": 4.36,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_03",
+  "subtitle": "8 Go de RAM: التطبيقات كيتحلو بالزربة، وكتدوز من وحدة لوحدة بلا ما يبلوكي.",
+  "source": "human-take",
+  "start": 8.415,
+  "duration": 4.76,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "8",
+    "start": 0.0,
+    "end": 0.22
+   },
+   {
+    "word": "Go",
+    "start": 0.22,
+    "end": 0.38
+   },
+   {
+    "word": "de",
+    "start": 0.38,
+    "end": 0.54
+   },
+   {
+    "word": "RAM:",
+    "start": 0.54,
+    "end": 0.7
+   },
+   {
+    "word": "التطبيقات",
+    "start": 0.7,
+    "end": 1.46
+   },
+   {
+    "word": "كيتحلو",
+    "start": 1.46,
+    "end": 2.02
+   },
+   {
+    "word": "بالزربة،",
+    "start": 2.02,
+    "end": 2.5
+   },
+   {
+    "word": "وكتدوز",
+    "start": 2.5,
+    "end": 3.04
+   },
+   {
+    "word": "من",
+    "start": 3.04,
+    "end": 3.22
+   },
+   {
+    "word": "وحدة",
+    "start": 3.22,
+    "end": 3.54
+   },
+   {
+    "word": "لوحدة",
+    "start": 3.54,
+    "end": 3.86
+   },
+   {
+    "word": "بلا",
+    "start": 3.86,
+    "end": 4.08
+   },
+   {
+    "word": "ما",
+    "start": 4.08,
+    "end": 4.24
+   },
+   {
+    "word": "يبلوكي.",
+    "start": 4.24,
+    "end": 4.74
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.69,
+    "value": "B"
+   },
+   {
+    "start": 0.69,
+    "end": 0.76,
+    "value": "G"
+   },
+   {
+    "start": 0.76,
+    "end": 0.83,
+    "value": "B"
+   },
+   {
+    "start": 0.83,
+    "end": 0.97,
+    "value": "D"
+   },
+   {
+    "start": 0.97,
+    "end": 1.04,
+    "value": "C"
+   },
+   {
+    "start": 1.04,
+    "end": 1.21,
+    "value": "A"
+   },
+   {
+    "start": 1.21,
+    "end": 1.29,
+    "value": "B"
+   },
+   {
+    "start": 1.29,
+    "end": 1.41,
+    "value": "A"
+   },
+   {
+    "start": 1.41,
+    "end": 1.54,
+    "value": "B"
+   },
+   {
+    "start": 1.54,
+    "end": 1.75,
+    "value": "C"
+   },
+   {
+    "start": 1.75,
+    "end": 1.89,
+    "value": "B"
+   },
+   {
+    "start": 1.89,
+    "end": 2.24,
+    "value": "F"
+   },
+   {
+    "start": 2.24,
+    "end": 2.52,
+    "value": "B"
+   },
+   {
+    "start": 2.52,
+    "end": 2.6,
+    "value": "A"
+   },
+   {
+    "start": 2.6,
+    "end": 2.72,
+    "value": "E"
+   },
+   {
+    "start": 2.72,
+    "end": 2.86,
+    "value": "C"
+   },
+   {
+    "start": 2.86,
+    "end": 3.42,
+    "value": "F"
+   },
+   {
+    "start": 3.42,
+    "end": 3.63,
+    "value": "B"
+   },
+   {
+    "start": 3.63,
+    "end": 3.77,
+    "value": "F"
+   },
+   {
+    "start": 3.77,
+    "end": 3.91,
+    "value": "C"
+   },
+   {
+    "start": 3.91,
+    "end": 3.98,
+    "value": "E"
+   },
+   {
+    "start": 3.98,
+    "end": 4.06,
+    "value": "A"
+   },
+   {
+    "start": 4.06,
+    "end": 4.34,
+    "value": "B"
+   },
+   {
+    "start": 4.34,
+    "end": 4.38,
+    "value": "A"
+   },
+   {
+    "start": 4.38,
+    "end": 4.46,
+    "value": "C"
+   },
+   {
+    "start": 4.46,
+    "end": 4.56,
+    "value": "A"
+   },
+   {
+    "start": 4.56,
+    "end": 4.62,
+    "value": "C"
+   },
+   {
+    "start": 4.62,
+    "end": 4.68,
+    "value": "E"
+   },
+   {
+    "start": 4.68,
+    "end": 4.75,
+    "value": "F"
+   },
+   {
+    "start": 4.75,
+    "end": 4.76,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_04",
+  "subtitle": "5G: الأنترنيت سريع، الفيديو ما كيتقطعش.",
+  "source": "human-take",
+  "start": 13.175,
+  "duration": 3.105,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "5G:",
+    "start": 0.0,
+    "end": 0.4
+   },
+   {
+    "word": "الأنترنيت",
+    "start": 0.4,
+    "end": 1.2
+   },
+   {
+    "word": "سريع،",
+    "start": 1.2,
+    "end": 1.58
+   },
+   {
+    "word": "الفيديو",
+    "start": 1.58,
+    "end": 2.16
+   },
+   {
+    "word": "ما",
+    "start": 2.16,
+    "end": 2.42
+   },
+   {
+    "word": "كيتقطعش.",
+    "start": 2.42,
+    "end": 3.08
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.29,
+    "value": "B"
+   },
+   {
+    "start": 0.29,
+    "end": 0.36,
+    "value": "C"
+   },
+   {
+    "start": 0.36,
+    "end": 0.71,
+    "value": "B"
+   },
+   {
+    "start": 0.71,
+    "end": 0.85,
+    "value": "H"
+   },
+   {
+    "start": 0.85,
+    "end": 0.92,
+    "value": "C"
+   },
+   {
+    "start": 0.92,
+    "end": 1.0,
+    "value": "A"
+   },
+   {
+    "start": 1.0,
+    "end": 1.12,
+    "value": "C"
+   },
+   {
+    "start": 1.12,
+    "end": 1.54,
+    "value": "B"
+   },
+   {
+    "start": 1.54,
+    "end": 1.68,
+    "value": "C"
+   },
+   {
+    "start": 1.68,
+    "end": 1.76,
+    "value": "A"
+   },
+   {
+    "start": 1.76,
+    "end": 1.87,
+    "value": "F"
+   },
+   {
+    "start": 1.87,
+    "end": 1.94,
+    "value": "G"
+   },
+   {
+    "start": 1.94,
+    "end": 2.08,
+    "value": "B"
+   },
+   {
+    "start": 2.08,
+    "end": 2.36,
+    "value": "F"
+   },
+   {
+    "start": 2.36,
+    "end": 2.49,
+    "value": "A"
+   },
+   {
+    "start": 2.49,
+    "end": 2.79,
+    "value": "B"
+   },
+   {
+    "start": 2.79,
+    "end": 2.87,
+    "value": "A"
+   },
+   {
+    "start": 2.87,
+    "end": 3.02,
+    "value": "C"
+   },
+   {
+    "start": 3.02,
+    "end": 3.09,
+    "value": "B"
+   },
+   {
+    "start": 3.09,
+    "end": 3.1,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_05",
+  "subtitle": "و caméra 108 mégapixels: تصاور واضحين، حتى الديتاي الصغير كيبان.",
+  "source": "human-take",
+  "start": 16.28,
+  "duration": 5.27,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "و",
+    "start": 0.0,
+    "end": 0.28
+   },
+   {
+    "word": "caméra",
+    "start": 0.28,
+    "end": 0.72
+   },
+   {
+    "word": "108",
+    "start": 0.72,
+    "end": 1.14
+   },
+   {
+    "word": "mégapixels:",
+    "start": 1.14,
+    "end": 1.78
+   },
+   {
+    "word": "تصاور",
+    "start": 1.78,
+    "end": 2.36
+   },
+   {
+    "word": "واضحين،",
+    "start": 2.36,
+    "end": 3.06
+   },
+   {
+    "word": "حتى",
+    "start": 3.06,
+    "end": 3.28
+   },
+   {
+    "word": "الديتاي",
+    "start": 3.28,
+    "end": 4.04
+   },
+   {
+    "word": "الصغير",
+    "start": 4.04,
+    "end": 4.7
+   },
+   {
+    "word": "كيبان.",
+    "start": 4.7,
+    "end": 5.22
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.17,
+    "value": "X"
+   },
+   {
+    "start": 0.17,
+    "end": 0.24,
+    "value": "F"
+   },
+   {
+    "start": 0.24,
+    "end": 0.38,
+    "value": "D"
+   },
+   {
+    "start": 0.38,
+    "end": 0.45,
+    "value": "C"
+   },
+   {
+    "start": 0.45,
+    "end": 0.54,
+    "value": "A"
+   },
+   {
+    "start": 0.54,
+    "end": 0.59,
+    "value": "C"
+   },
+   {
+    "start": 0.59,
+    "end": 0.63,
+    "value": "B"
+   },
+   {
+    "start": 0.63,
+    "end": 0.7,
+    "value": "C"
+   },
+   {
+    "start": 0.7,
+    "end": 0.77,
+    "value": "E"
+   },
+   {
+    "start": 0.77,
+    "end": 0.95,
+    "value": "A"
+   },
+   {
+    "start": 0.95,
+    "end": 1.03,
+    "value": "B"
+   },
+   {
+    "start": 1.03,
+    "end": 1.17,
+    "value": "F"
+   },
+   {
+    "start": 1.17,
+    "end": 1.24,
+    "value": "B"
+   },
+   {
+    "start": 1.24,
+    "end": 1.32,
+    "value": "A"
+   },
+   {
+    "start": 1.32,
+    "end": 1.37,
+    "value": "B"
+   },
+   {
+    "start": 1.37,
+    "end": 1.56,
+    "value": "C"
+   },
+   {
+    "start": 1.56,
+    "end": 1.63,
+    "value": "B"
+   },
+   {
+    "start": 1.63,
+    "end": 1.77,
+    "value": "C"
+   },
+   {
+    "start": 1.77,
+    "end": 2.12,
+    "value": "B"
+   },
+   {
+    "start": 2.12,
+    "end": 2.2,
+    "value": "A"
+   },
+   {
+    "start": 2.2,
+    "end": 2.47,
+    "value": "B"
+   },
+   {
+    "start": 2.47,
+    "end": 2.54,
+    "value": "E"
+   },
+   {
+    "start": 2.54,
+    "end": 2.68,
+    "value": "F"
+   },
+   {
+    "start": 2.68,
+    "end": 2.89,
+    "value": "E"
+   },
+   {
+    "start": 2.89,
+    "end": 2.96,
+    "value": "F"
+   },
+   {
+    "start": 2.96,
+    "end": 3.1,
+    "value": "D"
+   },
+   {
+    "start": 3.1,
+    "end": 3.17,
+    "value": "B"
+   },
+   {
+    "start": 3.17,
+    "end": 3.31,
+    "value": "C"
+   },
+   {
+    "start": 3.31,
+    "end": 3.73,
+    "value": "B"
+   },
+   {
+    "start": 3.73,
+    "end": 3.8,
+    "value": "C"
+   },
+   {
+    "start": 3.8,
+    "end": 3.88,
+    "value": "A"
+   },
+   {
+    "start": 3.88,
+    "end": 4.04,
+    "value": "F"
+   },
+   {
+    "start": 4.04,
+    "end": 4.12,
+    "value": "A"
+   },
+   {
+    "start": 4.12,
+    "end": 4.25,
+    "value": "C"
+   },
+   {
+    "start": 4.25,
+    "end": 4.46,
+    "value": "B"
+   },
+   {
+    "start": 4.46,
+    "end": 4.53,
+    "value": "H"
+   },
+   {
+    "start": 4.53,
+    "end": 4.67,
+    "value": "C"
+   },
+   {
+    "start": 4.67,
+    "end": 4.75,
+    "value": "A"
+   },
+   {
+    "start": 4.75,
+    "end": 4.9,
+    "value": "B"
+   },
+   {
+    "start": 4.9,
+    "end": 4.98,
+    "value": "A"
+   },
+   {
+    "start": 4.98,
+    "end": 5.26,
+    "value": "C"
+   },
+   {
+    "start": 5.26,
+    "end": 5.27,
+    "value": "X"
+   }
+  ]
+ },
+ {
+  "id": "line_06",
+  "subtitle": "Produit original, boîte fermée, jamais ouvert, jamais activé. إلا بغيتي تكوموندي، صيفط لينا ميساج.",
+  "source": "human-take",
+  "start": 21.55,
+  "duration": 5.84,
+  "speed": 1.0,
+  "words": [
+   {
+    "word": "Produit",
+    "start": 0.08,
+    "end": 0.46
+   },
+   {
+    "word": "original,",
+    "start": 0.46,
+    "end": 1.34
+   },
+   {
+    "word": "boîte",
+    "start": 1.34,
+    "end": 1.52
+   },
+   {
+    "word": "fermée,",
+    "start": 1.52,
+    "end": 1.72
+   },
+   {
+    "word": "jamais",
+    "start": 1.72,
+    "end": 2.14
+   },
+   {
+    "word": "ouvert,",
+    "start": 2.14,
+    "end": 2.5
+   },
+   {
+    "word": "jamais",
+    "start": 2.5,
+    "end": 2.88
+   },
+   {
+    "word": "activé.",
+    "start": 2.88,
+    "end": 3.32
+   },
+   {
+    "word": "إلا",
+    "start": 3.32,
+    "end": 3.5
+   },
+   {
+    "word": "بغيتي",
+    "start": 3.5,
+    "end": 3.9
+   },
+   {
+    "word": "تكوموندي،",
+    "start": 3.9,
+    "end": 4.64
+   },
+   {
+    "word": "صيفط",
+    "start": 4.64,
+    "end": 5.0
+   },
+   {
+    "word": "لينا",
+    "start": 5.0,
+    "end": 5.46
+   },
+   {
+    "word": "ميساج.",
+    "start": 5.46,
+    "end": 5.82
+   }
+  ],
+  "mouthCues": [
+   {
+    "start": 0.0,
+    "end": 0.02,
+    "value": "B"
+   },
+   {
+    "start": 0.02,
+    "end": 0.16,
+    "value": "A"
+   },
+   {
+    "start": 0.16,
+    "end": 0.24,
+    "value": "B"
+   },
+   {
+    "start": 0.24,
+    "end": 0.36,
+    "value": "A"
+   },
+   {
+    "start": 0.36,
+    "end": 0.43,
+    "value": "F"
+   },
+   {
+    "start": 0.43,
+    "end": 0.57,
+    "value": "B"
+   },
+   {
+    "start": 0.57,
+    "end": 0.64,
+    "value": "E"
+   },
+   {
+    "start": 0.64,
+    "end": 1.27,
+    "value": "B"
+   },
+   {
+    "start": 1.27,
+    "end": 1.35,
+    "value": "A"
+   },
+   {
+    "start": 1.35,
+    "end": 1.47,
+    "value": "E"
+   },
+   {
+    "start": 1.47,
+    "end": 1.61,
+    "value": "B"
+   },
+   {
+    "start": 1.61,
+    "end": 1.68,
+    "value": "G"
+   },
+   {
+    "start": 1.68,
+    "end": 1.82,
+    "value": "C"
+   },
+   {
+    "start": 1.82,
+    "end": 1.9,
+    "value": "A"
+   },
+   {
+    "start": 1.9,
+    "end": 1.99,
+    "value": "C"
+   },
+   {
+    "start": 1.99,
+    "end": 2.27,
+    "value": "B"
+   },
+   {
+    "start": 2.27,
+    "end": 2.41,
+    "value": "C"
+   },
+   {
+    "start": 2.41,
+    "end": 2.49,
+    "value": "A"
+   },
+   {
+    "start": 2.49,
+    "end": 2.55,
+    "value": "B"
+   },
+   {
+    "start": 2.55,
+    "end": 2.74,
+    "value": "E"
+   },
+   {
+    "start": 2.74,
+    "end": 2.81,
+    "value": "G"
+   },
+   {
+    "start": 2.81,
+    "end": 2.95,
+    "value": "C"
+   },
+   {
+    "start": 2.95,
+    "end": 3.02,
+    "value": "G"
+   },
+   {
+    "start": 3.02,
+    "end": 3.3,
+    "value": "B"
+   },
+   {
+    "start": 3.3,
+    "end": 3.37,
+    "value": "C"
+   },
+   {
+    "start": 3.37,
+    "end": 3.45,
+    "value": "A"
+   },
+   {
+    "start": 3.45,
+    "end": 3.6,
+    "value": "C"
+   },
+   {
+    "start": 3.6,
+    "end": 4.16,
+    "value": "B"
+   },
+   {
+    "start": 4.16,
+    "end": 4.24,
+    "value": "A"
+   },
+   {
+    "start": 4.24,
+    "end": 4.31,
+    "value": "E"
+   },
+   {
+    "start": 4.31,
+    "end": 4.51,
+    "value": "B"
+   },
+   {
+    "start": 4.51,
+    "end": 4.65,
+    "value": "E"
+   },
+   {
+    "start": 4.65,
+    "end": 4.73,
+    "value": "A"
+   },
+   {
+    "start": 4.73,
+    "end": 4.8,
+    "value": "E"
+   },
+   {
+    "start": 4.8,
+    "end": 5.08,
+    "value": "B"
+   },
+   {
+    "start": 5.08,
+    "end": 5.27,
+    "value": "F"
+   },
+   {
+    "start": 5.27,
+    "end": 5.32,
+    "value": "E"
+   },
+   {
+    "start": 5.32,
+    "end": 5.57,
+    "value": "C"
+   },
+   {
+    "start": 5.57,
+    "end": 5.65,
+    "value": "A"
+   },
+   {
+    "start": 5.65,
+    "end": 5.83,
+    "value": "B"
+   },
+   {
+    "start": 5.83,
+    "end": 5.84,
+    "value": "X"
+   }
+  ]
+ }
+]

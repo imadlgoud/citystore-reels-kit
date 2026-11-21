@@ -1,0 +1,17 @@
+{
+ "full": {
+  "src": "note15/products/full.png",
+  "w": 1290,
+  "h": 1044
+ },
+ "front": {
+  "src": "note15/products/front.png",
+  "w": 372,
+  "h": 1044
+ },
+ "back": {
+  "src": "note15/products/back.png",
+  "w": 309,
+  "h": 1041
+ }
+}
