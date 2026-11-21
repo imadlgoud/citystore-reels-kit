@@ -2,8 +2,9 @@
 
 Official Xiaomi render supplied by City Store (transparent). Originals in `assets/note15/products/src/`.
 - USED `note15_colours_back_front.webp` (860 x 696: Black, Mint, Purple backs + front) -> `full`, plus two crops:
-  `front` (the front phone) and `back` (the black back with the camera module). Enhanced 1.5x. The "108MP" print on
+  `front` (the front phone). Enhanced 1.5x. The "108MP" print on
   the camera modules and the REDMI 5G marks are hardware (kept).
+- USED `note15_black_back.png` (1024 px, black back, supplied separately): the camera scene (replaces the earlier crop).
 - SKIPPED `note15_black_pair_SKIPPED_text_on_screen.webp`: its screen carries a large "REDMI Note 15 5G" overlay and a
   Mi logo (added marketing graphics).
 Frozen phone with loader, app tiles, app switcher, 5G rings, video player, viewfinder are drawn.

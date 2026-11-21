@@ -2,7 +2,7 @@
 Store, 860 x 696, transparent: Black, Mint, Purple backs + front). Cropped to alpha, enhanced 1.5x, defringe.
 - full: the four phones as supplied (the "108MP" print on the camera modules is hardware, kept).
 - front: the front phone alone (x >= 612; it sits on top of the others).
-- back: the black back alone (x <= 205, camera module with the 108MP print).
+- back: the black back, from `note15_black_back.png` (supplied separately; replaces the crop of the four-phone render).
 The second image (black back + front) is NOT used: its screen carries a large "REDMI Note 15 5G" overlay and a Mi logo.
 """
 import json, pathlib
@@ -55,6 +55,18 @@ for key, keep in PARTS.items():
     im = defringe(im)
     im.save(dst / f"{key}.png"); im.save(pub / f"{key}.png")
     manifest[key] = {"src": f"note15/products/{key}.png", "w": im.width, "h": im.height}
+# camera scene: the full black back (supplied separately, 1024 px) replaces the "back" crop of the four-phone render
+im = Image.open(src / "note15_black_back.png").convert("RGBA")
+im = im.crop(im.getchannel("A").point(lambda v: 255 if v > 8 else 0).getbbox())
+im = defringe(im)
+im.save(dst / "back.png"); im.save(pub / "back.png")
+manifest["back"] = {"src": "note15/products/back.png", "w": im.width, "h": im.height}
+# camera scene: the full black back (supplied separately, 1024 px) replaces the "back" crop of the four-phone render
+im = Image.open(src / "note15_black_back.png").convert("RGBA")
+im = im.crop(im.getchannel("A").point(lambda v: 255 if v > 8 else 0).getbbox())
+im = defringe(im)
+im.save(dst / "back.png"); im.save(pub / "back.png")
+manifest["back"] = {"src": "note15/products/back.png", "w": im.width, "h": im.height}
 (ROOT / "public" / "note15" / "data").mkdir(parents=True, exist_ok=True)
 (ROOT / "public" / "note15" / "data" / "products.json").write_text(json.dumps(manifest, indent=1) + "\n")
 print(json.dumps(manifest))

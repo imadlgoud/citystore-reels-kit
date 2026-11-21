@@ -224,7 +224,7 @@ export const NCam: React.FC = () => {
   const nAt = nev("cam.name"), mAt = nev("cam.mp"), cAt = nev("cam.clear"), dAt = nev("cam.detail");
   const enter = sp(frame, nscene("cam").from, { damping: 13, stiffness: 120 });
   const count = Math.round(108 * easeOut(ramp(frame, mAt, mAt + 18)));
-  const w = 230, x = 270, y = 360;
+  const w = 320, x = 215, y = 350;
   const zoom = 1 + 0.18 * easeOut(ramp(frame, dAt, dAt + 20));
   return (
     <SceneShell id="cam">
@@ -235,15 +235,15 @@ export const NCam: React.FC = () => {
         <Img k="back" w={w} />
       </div>
       {frame >= cAt - 1 && (
-        <div style={{ position: "absolute", left: x + 10, top: y + 30, width: w - 20, height: 240, border: "6px solid #fff", borderRadius: 20, opacity: ramp(frame, cAt, cAt + 6) * (1 - ramp(frame, dAt, dAt + 10)), boxShadow: `0 0 30px ${CYAN}` }} />
+        <div style={{ position: "absolute", left: x + w * 0.2, top: y + 10, width: w * 0.6, height: w * 0.6, border: "6px solid #fff", borderRadius: 20, opacity: ramp(frame, cAt, cAt + 6) * (1 - ramp(frame, dAt, dAt + 10)), boxShadow: `0 0 30px ${CYAN}` }} />
       )}
       {frame >= mAt - 1 && (
-        <div style={{ position: "absolute", left: 560, top: 460, display: "flex", flexDirection: "column", alignItems: "flex-start", transform: `scale(${pop(frame, mAt)})` }}>
+        <div style={{ position: "absolute", left: 610, top: 460, display: "flex", flexDirection: "column", alignItems: "flex-start", transform: `scale(${pop(frame, mAt)})` }}>
           <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 170, color: "#fff", textShadow, lineHeight: 1 }}>{count}</div>
           <div style={{ fontFamily: FONT, fontWeight: 900, fontSize: 70, color: "#fff", textShadow, marginTop: -6 }}>MP</div>
         </div>
       )}
-      <Row top={800} left={540} right={60}>
+      <Row top={800} left={590} right={40}>
         <Chip frame={frame} at={cAt} text="Photos nettes" icon="check" size={32} solid />
         <Chip frame={frame} at={dAt} text="Chaque détail" icon="eye" size={32} solid />
       </Row>
